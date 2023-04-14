@@ -8,6 +8,6 @@ Some of the key topics covered in the AWS Cloud Practitioner  includes:
 +   Cloud computing concepts,       
 +   AWS core services such as EC2, S3, RDS, and Lambda,     
 +   AWS Global Infrastructure,      
-+   Security, compliance, and shared responsibility model,      
++   Security, Compliance, and Shared responsibility model,      
 +   AWS pricing and billing models, and         
 +   AWS support plans.
