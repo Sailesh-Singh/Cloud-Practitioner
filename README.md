@@ -1,5 +1,5 @@
-#Cloud Practitioner
-##This is my journey to learn the Cloud Practitioner.
+#   Cloud Practitioner
+##  This is my journey to learn the Cloud Practitioner.
 This repository guide you through the pathway to become <b>AWS Cloud Practitioner <i>(CLF-C01)</i></b>
 
 <strong><u>Overview of (CLF-C01)</u></strong>
