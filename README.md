@@ -4,7 +4,7 @@ This repository guide you through the pathway to become <b>AWS Cloud Practitione
 
 <strong><u>Overview of (CLF-C01)</u></strong>
 
-Some of the key topics covered in the AWS Cloud Practitioner  includes:     
+Some of the key topics covered in the AWS Cloud Practitioner includes:     
 +   Cloud computing concepts,       
 +   AWS core services such as EC2, S3, RDS, and Lambda,     
 +   AWS Global Infrastructure,      
