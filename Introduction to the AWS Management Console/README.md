@@ -7,3 +7,13 @@ This course intends to make the learner familiar with <b>AWS Management Console 
 
 The main objective of this course is to make learners comfortable with <b><i>Navigation of AWS Management Console, Understanding billing considerations and gain hands-on experience</i></b>.
 <img src="aws_management_console-objective.png" alt="AWS Management Console Objectives" style="height: 70%; width:70%; position:relative; padding-left:15%;"/>
+
+The aws console provides the list of all the services which are grouped by category.
+
+Some commonly used categories are:
+
+#####  1.  Storage
+#####  2.  Compute
+#####  3.  Database
+#####  4.  Networking & Content Delivery
+#####  5.  Security, Identity & Compliance
