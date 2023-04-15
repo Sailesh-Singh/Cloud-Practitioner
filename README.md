@@ -11,3 +11,8 @@ Some of the key topics covered in the AWS Cloud Practitioner includes:
 +   Security, Compliance, and Shared responsibility model,      
 +   AWS pricing and billing models, and         
 +   AWS support plans.
+
+## <u>This is the begining of Cloud Practitioner Journey.</u>
+
+##  <a href="./Getting Started with Cloud Operations/README.md">Getting Started with Cloud  Operations</a>
+We begin our journey from AWS Educate course. Click [Getting Started with Cloud Operations](https://awseducate.instructure.com/courses/889) to begin learning. In this course we learn about Fundamental operations of AWS <a href="./Getting Started with Cloud Operations/README.md"><i>learn more..</i></a>
