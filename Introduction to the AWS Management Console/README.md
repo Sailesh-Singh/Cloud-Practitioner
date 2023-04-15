@@ -15,11 +15,11 @@ The aws console provides the list of all the services which are grouped by categ
 
 Some commonly used categories are:
 
-#####  [1.  Compute](#compute)
-#####  [2.  Storage](#Storage)
-#####  [3.  Database](#database)
-#####  [4.  Networking & Content Delivery](#networking--content-delivery)
-#####  [5.  Security, Identity & Compliance](#security-identity--compliance)
+####  [1.  Compute](#compute)
+####  [2.  Storage](#Storage)
+####  [3.  Database](#database)
+####  [4.  Networking & Content Delivery](#networking--content-delivery)
+####  [5.  Security, Identity & Compliance](#security-identity--compliance)
 
 ### Compute
 In the Compute section, Amazon Elastic Compute Cloud (or Amazon EC2) and AWS Lambda are computing services that we might need to access frquently.
