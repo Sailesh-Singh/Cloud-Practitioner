@@ -14,8 +14,11 @@ The aws console provides the list of all the services which are grouped by categ
 
 Some commonly used categories are:
 
-#####  1.  Storage
-#####  2.  Compute
-#####  3.  Database
-#####  4.  Networking & Content Delivery
-#####  5.  Security, Identity & Compliance
+#####  [1.  Compute](#compute)
+#####  [2.  Storage](#Storage)
+#####  [3.  Database](#database)
+#####  [4.  Networking & Content Delivery](#networking--content-delivery)
+#####  [5.  Security, Identity & Compliance](#security-identity--compliance)
+
+### Compute
+
