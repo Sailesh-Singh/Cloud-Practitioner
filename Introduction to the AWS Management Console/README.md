@@ -10,6 +10,8 @@ The main objective of this course is to make learners comfortable with <b><i>Nav
 
 The aws console provides the list of all the services which are grouped by category.
 
+<img src="aws_management_console_category.png" alt="AWS Management Console Category" style="height: 70%; width:70%; position:relative; padding-left:15%;"/>
+
 Some commonly used categories are:
 
 #####  1.  Storage
