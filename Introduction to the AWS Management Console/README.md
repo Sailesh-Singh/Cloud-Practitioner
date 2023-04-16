@@ -130,3 +130,9 @@ Best practices to minimize costs when using the below services.
 </tr>
 </table>
 
+### 3.  Additional Resources
+
+[<img src="additional_resources_pricing.png" alt="AWS resource pricing" align="left" width="100%" height="100%" ><small>**_AWS Resource Pricing_**</small>](https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
+
+AWS provides detail on pricing for every by category.
+
