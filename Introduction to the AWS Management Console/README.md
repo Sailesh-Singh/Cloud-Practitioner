@@ -100,7 +100,7 @@ When choosing an AWS resource, it is important to understand the factors that af
 
 ####    B.  Price Varriance Per Region
 <p align="center">
-    <img src="price_varriance_per_region.png" alt="Price Varriance per Region" style="height: 60%; width:60%; position:relative;"/>
+    <img src="price_varriance_per_region.png" alt="Price Varriance per Region" style="height: 60%; width:60%; position:relative;"/> 
 </p>
 
 In this exapmle, the costs for <b>_Amazon S3_</b> are slightly more expensive in South America Region than they are in Northern Virginia Region.
@@ -132,7 +132,60 @@ Best practices to minimize costs when using the below services.
 
 ### 3.  Additional Resources
 
-[<img src="additional_resources_pricing.png" alt="AWS resource pricing" align="left" width="100%" height="100%" ><small>**_AWS Resource Pricing_**</small>](https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
+[<img src="additional_resources_pricing.png" alt="AWS resource pricing" width="100%" height="100%" ><small>**_AWS Resource Pricing_**</small>](https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
 
 AWS provides detail on pricing for every by category.
 
+##  Hands on Practice
+### Objectives
+[<img src="hand_on_practice-objectives.png" alt="Hands of Practice Objectives"  width="100%" height="100%" ><small>**_Objectives of Hand on Practice_**</small>](https://aws.amazon.com/pricing/?aws-products-pricing.sort-by=item.additionalFields.productNameLowercase&aws-products-pricing.sort-order=asc&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
+
+
+#### A. Setting up an EC2 instance
+
+<img src="Setting_up_ec2_instance1.png" alt="Setting up EC2 Instance1" width="50%" height="80%" ><img src="Setting_up_ec2_instance2.png" alt="Setting up EC2 Instance2" width="50%" height="80%" >
+<small><b>*_Visit and Launch EC2 Instance_*</b></small>
+
+<img src="Setting_up_ec2_instance3.png" alt="Setting up EC2 Instance3" width="50%" height="80%" ><img src="Setting_up_ec2_instance4.png" alt="Setting up EC2 Instance4" width="50%" height="80%" >
+<small><b>*_Choose Instance Machine Image and Instance type of EC2_*</b></small>
+
+<img src="Setting_up_ec2_instance5.png" alt="Setting up EC2 Instance5" width="100%" height="100%" >
+
+<small><b>*_Review Instance Launch_*</b></small>
+
+
+<img src="Setting_up_ec2_instance6.png" alt="Setting up EC2 Instance6" width="100%" height="100%" >
+
+<small><b><i>Select and Create key pair and Launch EC2 instance</i></b></small>
+
+  <b>_Keypair_</b>, is a set of password that you can use to connect securely to your instance.
+
+#### B. Stopping an EC2 instance
+
+<p align="center">
+    <img src="Stopping_ec2_instance.png" alt="Stopping an EC2 Instance1" width="537px" height="293px">
+</p>
+
++   Stopping does not cost charge for instance but however it will still charge for volume.
+
+#### C. Terminate an EC2 instance
+
+<p align="center">
+    <img src="Terminate_ec2_instance.png" alt="Terminate an EC2 Instance1" width="537px" height="293px">
+</p>
+
++   Terminate does not cost charge for instance as it will delete volume.
+
+#### D. Working in one Region
+
+<p align="center">
+    <img src="Terminate_ec2_instance.png" alt="Terminate an EC2 Instance1" width="537px" height="293px">
+</p>
+
++   The best practice is to choose instances running in one region.
+
+Here we come to the end of **_Introduction to the AWS Management Console_**. Here we sucessfully gain the knowledge of following things.
+
+<img src="End.png" alt="Terminate an EC2 Instance1" width="100%" height="100%">
+
+##  End of Course
