@@ -74,11 +74,9 @@ AWS has various transparent pricing model that you can use to your advantage. Mo
 ### 1.  Pay as you go
 
 Using this pricing model:
-<img src="pay-as-you-go.png" alt="Pay as you go" align="left" width="100px" height="100px" >
+<img src="pay-as-you-go.png" alt="Pay as you go" align="left" width="150px" height="150px" >
 
 +   Pay only for the time that you use the service
 +   No contracts
 +   No minimum use
-
-
 
