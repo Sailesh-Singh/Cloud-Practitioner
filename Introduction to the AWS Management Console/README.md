@@ -4,6 +4,7 @@
 We build our foundation journey from AWS educate course. Click [Introduction to the AWS Management Console](https://awseducate.instructure.com/courses/744) to start learning.
 
 ##  AWS Management Console Interface
+---
 
 This course intends to make the learner familiar with <b>AWS Management Console Interface</b>.
 <img src="aws_management_console_interface.png" alt="AWS Management Console Interface" style="height: 70%; width:70%;"/>
@@ -65,3 +66,19 @@ In the Security, Identity & Compliance, Amazon gives you various services that y
     <b><i>AWS Identity and Access Management (AWS IAM)</i></b>, enables you to manage access to AWS services and resources securely. With IAM, you can create users on AWS account, configure password policies, grant users access to services, and much more.
 
 <strong>_Note:  We learn more about these services as we dive deeper into learning AWS._</strong>
+
+##  Billing Considerations
+---
+AWS has various transparent pricing model that you can use to your advantage. Most flexible is pay-as-you-go model.
+
+### 1.  Pay as you go
+
+Using this pricing model:
+<img src="pay-as-you-go.png" alt="Pay as you go" align="left" width="100px" height="100px" >
+
++   Pay only for the time that you use the service
++   No contracts
++   No minimum use
+
+
+
