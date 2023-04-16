@@ -104,3 +104,29 @@ When choosing an AWS resource, it is important to understand the factors that af
 </p>
 
 In this exapmle, the costs for <b>_Amazon S3_</b> are slightly more expensive in South America Region than they are in Northern Virginia Region.
+
+### 2.  Minimize Costs
+
+Best practices to minimize costs when using the below services.
+
+<table>
+<tr>
+    <th> Amazon S3 </th>
+    <th> Amazon EC2 </th>
+</tr>
+<tr>
+<td>
+     <img src="amazon_s3-bucket.png" alt="Amazon S3" align="right" width="100px" height="100px" >
+
++   Delete files from your bucket
+>   _Note: Empty buckets don't cost anything and don't need to be deleted_
+</td>
+<td>
+    <img src="amazon_ec2.png" alt="Amazon EC2" align="right" width="100px" height="100px" >
+
++   Terminate the instance
+>   _Note: A <b>Stopped</b> instance will charge you for the provisioned EBS volume_
+</td>
+</tr>
+</table>
+
