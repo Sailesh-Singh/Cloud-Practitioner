@@ -3,15 +3,16 @@
 ### This is the foundation for Cloud Practitioner Journey
 We build our foundation journey from AWS educate course. Click [Introduction to the AWS Management Console](https://awseducate.instructure.com/courses/744) to start learning.
 
+##  AWS Management Console Interface
+
 This course intends to make the learner familiar with <b>AWS Management Console Interface</b>.
-<img src="aws_management_console_interface.png" alt="AWS Management Console Interface" style="height: 70%; width:70%; padding-left:15%;"/>
+<img src="aws_management_console_interface.png" alt="AWS Management Console Interface" style="height: 70%; width:70%;"/>
 
 The main objective of this course is to make learners comfortable with <b><i>Navigation of AWS Management Console, Understanding billing considerations and gain hands-on experience</i></b>.
-<img src="aws_management_console-objective.png" alt="AWS Management Console Objectives" style="height: 70%; width:70%; position:relative; padding-left:15%;"/>
+<img src="aws_management_console-objective.png" alt="AWS Management Console Objectives" style="height: 70%; width:70%; position:relative;"/>
 
 The aws console provides the list of all the services which are grouped by category.
-
-<img src="aws_management_console_category.png" alt="AWS Management Console Category" style="height: 70%; width:70%; position:relative; padding-left:15%;"/>
+<img src="aws_management_console_category.png" alt="AWS Management Console Category" style="height: 70%; width:70%; position:relative;"/>
 
 Some commonly used categories are:
 
@@ -63,4 +64,4 @@ In the Security, Identity & Compliance, Amazon gives you various services that y
 +   ####    AWS IAM
     <b><i>AWS Identity and Access Management (AWS IAM)</i></b>, enables you to manage access to AWS services and resources securely. With IAM, you can create users on AWS account, configure password policies, grant users access to services, and much more.
 
-<b><i><u>Note: We learn more about these services as we dive deeper into learning AWS.</u></i></b>
+<strong>_Note:  We learn more about these services as we dive deeper into learning AWS._</strong>
