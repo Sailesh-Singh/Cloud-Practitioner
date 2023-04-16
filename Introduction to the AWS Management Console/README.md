@@ -84,7 +84,7 @@ When choosing an AWS resource, it is important to understand the factors that af
 
 +   #####    Amazon S3
 
-    <img src="amazon_s3-bucket.png" alt="Pay as you go" align="right" width="130px" height="130px" >
+    <img src="amazon_s3-bucket.png" alt="Amazon S3" align="right" width="130px" height="130px" >
     For example, when you create an S3 bucket for storage you are not charged for the bucket. However, you are charged for the following:
 
     +   Amount of storage that you use
@@ -92,10 +92,15 @@ When choosing an AWS resource, it is important to understand the factors that af
 
 +   #####    Amazon EC2
 
-    <img src="amazon_ec2.png" alt="Pay as you go" align="right" width="130px" height="130px" >
+    <img src="amazon_ec2.png" alt="Amazon EC2" align="right" width="130px" height="130px" >
     When you provison an EC2 instance for computing charges are based on the following:
 
     +   Computing options that you select
     +   Volume (hard drive) size that you choose
 
+####    B.  Price Varriance Per Region
+<p align="center">
+    <img src="price_varriance_per_region.png" alt="Price Varriance per Region" style="height: 60%; width:60%; position:relative;"/>
+</p>
 
+In this exapmle, the costs for <b>_Amazon S3_</b> are slightly more expensive in South America Region than they are in Northern Virginia Region.
