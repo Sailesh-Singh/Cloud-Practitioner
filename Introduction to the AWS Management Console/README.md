@@ -72,11 +72,30 @@ AWS has various transparent pricing model that you can use to your advantage. Mo
 
 ### 1.  Pay as you go
 
-
-<img src="pay-as-you-go.png" alt="Pay as you go" align="left" width="150px" height="150px" >
+<img src="pay-as-you-go.png" alt="Pay as you go" align="left" width="150px" height="138px" >
 
 Using this pricing model:
 +   Pay only for the time that you use the service
 +   No contracts
 +   No minimum use
+
+####    A.  Service Cost Factors
+When choosing an AWS resource, it is important to understand the factors that affects service pricing. Some of the more common services we will use include <b>_Storage_</b> and <b>_Compute_</b>.
+
++   #####    Amazon S3
+
+    <img src="amazon_s3-bucket.png" alt="Pay as you go" align="right" width="130px" height="130px" >
+    For example, when you create an S3 bucket for storage you are not charged for the bucket. However, you are charged for the following:
+
+    +   Amount of storage that you use
+    +   The storage class of the upload files
+
++   #####    Amazon EC2
+
+    <img src="amazon_ec2.png" alt="Pay as you go" align="right" width="130px" height="130px" >
+    When you provison an EC2 instance for computing charges are based on the following:
+
+    +   Computing options that you select
+    +   Volume (hard drive) size that you choose
+
 
