@@ -64,7 +64,82 @@ Cloud Computing is the on demand delivery of IT resources over the internet with
 </tr>
 </table>
 
-  
+### Who uses Amazon Web Services (AWS) cloud computing?
+
+[<img src="who_uses_AWS-Computing.png" alt="Who uses AWS Computing" width="100%" height="100%" >]()
+
+### Brief history of cloud computing
+
+[<img src="Brief-history-of-cloud-computing.png" alt="Brief history of cloud computing" width="100%" height="100%" >]()
 
 
-
+<table>
+<tr>
+    <th> Date </th>
+    <th> Description </th>
+</tr>
+<tr>
+<td>
+    <b>1961</b>
+</td>
+<td>
+    Computer scientist John McCarthy suggested that computing would one day be sold as utility.
+</td>
+</tr>
+<tr>
+<td>
+    <b>1969</b>
+</td>
+<td>
+    The US Department of Defense used TCP/IP protocol to launch Advanced Research  Projects Agency Network <i>(ARPANET)</i>
+</td>
+</tr>
+<tr>
+<td>
+    <b>1985</b>
+</td>
+<td>
+    100,000 computers were connected to the Internet.
+</td>
+</tr>
+<tr>
+<td>
+    <b>1991</b>
+</td>
+<td>
+    The World Wide Web launched.
+</td>
+</tr>
+<tr>
+<td>
+    <b>1997</b>
+</td>
+<td>
+    The term <i>cloud</i> was mentioned in an article by Professor Ramnath Chellappa from Emory University.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2002</b>
+</td>
+<td>
+    AWS launches  public cloud.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2006</b>
+</td>
+<td>
+    AWS launches Amazon Elastic Compute Cloud (Amazon EC2) to the public.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2008</b>
+</td>
+<td>
+    Multiple region cloud provider data centers are established.
+</td>
+</tr>
+</table>
