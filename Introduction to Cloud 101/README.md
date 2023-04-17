@@ -65,8 +65,10 @@ Cloud Computing is the on demand delivery of IT resources over the internet with
 </table>
 
 ### Who uses Amazon Web Services (AWS) cloud computing?
-
+---
 [<img src="who_uses_AWS-Computing.png" alt="Who uses AWS Computing" width="100%" height="100%" >]()
+
+---
 
 ### Brief history of cloud computing
 
