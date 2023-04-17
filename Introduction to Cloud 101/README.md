@@ -27,8 +27,3 @@ We should learn about the cloud because of following reasons:
 
 [<img src="why_cloud_computing.png" alt="Introduction to Cloud Computing" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-computing?module_item_id=13189)
 
-    
-    
-
-
-
