@@ -191,4 +191,24 @@ align="left" width="50px" height="50px" >
 </p>
 </p>
 
+#####   1.  Trade upfront expense for variable expense  
+
+[<img src="benefits_1.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Trade upfront expense for variable expense_**</small>]()
+
+#####   2.  Stop spending money to run and maintain data centers
+[<img src="benefits_2.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop spending money to run and maintain data centers_**</small>]()
+
+#####   3.  Stop guessing capacity
+[<img src="benefits_3.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop guessing capacity_**</small>]()
+
+#####   4.  Benefit from massive economics of scale
+[<img src="benefits_4.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Benefit from massive economics of scale_**</small>]()
+
+#####   5.  Increase speed and agility
+[<img src="benefits_5.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Increase speed and agility_**</small>]()
+
+#####   6.  Go global in minutes
+[<img src="benefits_6.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Go global in minutes_**</small>]()
+
+
 
