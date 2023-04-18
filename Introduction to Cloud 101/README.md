@@ -211,4 +211,7 @@ align="left" width="50px" height="50px" >
 [<img src="benefits_6.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Go global in minutes_**</small>]()
 
 
+### Deploying to the cloud
+
+As cloud computing has grown in popularity, several different models and deployment strategies have emerged to help meet specific needs of different users. Each type of cloud service and deployment method provides you with different levels of control, flexiblity and management. 
 
