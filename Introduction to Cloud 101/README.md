@@ -257,3 +257,8 @@ Aws has an extensive, reliable, and secure global cloud infrastructure with over
 ### AWS offerings
 
 [<img src="AWS_offerings.png" alt="AWS offerings" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+
+
+### AWS benefits
+
+[<img src="AWS_benefits.png" alt="AWS benefits" width="100%" height="100%" >]()
