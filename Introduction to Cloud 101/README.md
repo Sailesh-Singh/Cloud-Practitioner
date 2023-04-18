@@ -240,3 +240,7 @@ Choice of deployment model depends on your desired infrastructure, data storage 
     In this, cloud-based resources are conneced to on-premises infrastructure. You can integrate cloud-based resources wih legacy IT application. You migh want to use this approach in a number of situations. For example, you have legacy appliacations that are better maintained on premises, or goverment regulations require your bussiness o keep certain records on premises.
 +   #### On-Premises
     It is also known as private cloud deployment. In this model, resources are deployed on premises by using virualization and resource management tools, Increase resource utilization by using application management and virtualizatuon technologies.
+
+## Module 3: Introduction to AWS
+
+[<img src="Introduction_to_AWS.png" alt="Introduction to AWS" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
