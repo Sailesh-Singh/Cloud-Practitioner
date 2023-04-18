@@ -231,3 +231,12 @@ Cloud computing is offered in three different service models and each one satisf
 +   #### Software as a service(Saas)
     It is a completed software product that the service provider runs and manages. With a SaaS offering, you donot have to think about how the service is maintained or how the underlying infrastructure is managed. Yu only must think about how you wil use that particular piece of software.
 
+### Cloud Computing deployment models
+Choice of deployment model depends on your desired infrastructure, data storage needs, and access requirements. Your unique business requirement will help guide the type of cloud deployment model that you choose.
+
++   #### Cloud
+    You can migrate existing applications to the cloud, or you can design and build new application in the cloud. You can build hose application on low-level infrastructure that requires your IT staff to manage them. Alternatively, you can build them by using higher-level services tha reduce the management, architecting, and scaling requirements of the core infrastructure.
++   #### Hybrid
+    In this, cloud-based resources are conneced to on-premises infrastructure. You can integrate cloud-based resources wih legacy IT application. You migh want to use this approach in a number of situations. For example, you have legacy appliacations that are better maintained on premises, or goverment regulations require your bussiness o keep certain records on premises.
++   #### On-Premises
+    It is also known as private cloud deployment. In this model, resources are deployed on premises by using virualization and resource management tools, Increase resource utilization by using application management and virtualizatuon technologies.
