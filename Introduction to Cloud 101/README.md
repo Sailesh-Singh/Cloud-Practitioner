@@ -178,3 +178,17 @@ align="left" width="50px" height="50px" >
 </td>
 </tr>
 </table>
+
+### Six benefits of cloud computing
+
+<p align="center">
+<img src="sixbenefits.PNG" alt="IT resource over the internet"  width="50%" height="50%" >
+
+<p style="text-align: center;">
+    <small>
+      <b><i>Benefits of cloud computing</i></b>
+    </small>
+</p>
+</p>
+
+
