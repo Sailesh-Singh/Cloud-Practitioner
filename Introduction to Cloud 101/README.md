@@ -145,3 +145,37 @@ Cloud Computing is the on demand delivery of IT resources over the internet with
 </td>
 </tr>
 </table>
+
+### Client-Server Model
+Modern computing is based on the client-server model.
+
+<table>
+
+<tr>
+<td>
+
+A __client__ can be a web browser or desktop application that a person interacts with to make requests to computer servers.
+</td>
+<td>
+     <p align="center">
+        <img src="client_server-model.png" alt="IT resource over the internet"  width="100%" height="100%" >
+     </p>
+
+>   _Client-Server model_
+</td>
+<td>
+
+A __server__ can be services such as Amazon Elastic Compute Cloud (Amazon EC2), a type of virtual server.
+</td>
+</tr>
+<tr>
+<td colspan=3>
+    
+<img src="bulb.png" alt="IT resource over the internet" 
+align="left" width="100px" height="100px" >
+
+
+>   For Example, suppose that a client makes a request for a news article, the score in an online game, or a funny video. The <b>server</b> evaluates the details of this request and fulfills it  by returning the information to the client.
+</td>
+</tr>
+</table>
