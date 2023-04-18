@@ -244,3 +244,13 @@ Choice of deployment model depends on your desired infrastructure, data storage 
 ## Module 3: Introduction to AWS
 
 [<img src="Introduction_to_AWS.png" alt="Introduction to AWS" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+
+### Objectives
+Aws has an extensive, reliable, and secure global cloud infrastructure with over 175 services for a wide range of use cases. These services are built on a robust infrastructure where the customer and AWS share the responsiblities for programming and security.
+
++       Discuss the history of AWS cloud computing
++       Describe the AWS global infrastructure
++       Discuss the customer and AWS parts of the shared responsibility model
++       Describe the Well-Architected Framework and discuss how to apply the pillars
++       Define the total cost of ownership and billing considerations
+
