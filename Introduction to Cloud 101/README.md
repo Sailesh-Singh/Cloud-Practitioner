@@ -169,10 +169,9 @@ A __server__ can be services such as Amazon Elastic Compute Cloud (Amazon EC2), 
 </td>
 </tr>
 <tr>
-<td colspan=3>
-    
-<img src="bulb.png" alt="IT resource over the internet" 
-align="left" width="100px" height="100px" >
+<td colspan=3> 
+<img src="bulb.png" alt="Bulb" 
+align="left" width="50px" height="50px" >
 
 
 >   For Example, suppose that a client makes a request for a news article, the score in an online game, or a funny video. The <b>server</b> evaluates the details of this request and fulfills it  by returning the information to the client.
