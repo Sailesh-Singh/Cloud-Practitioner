@@ -215,3 +215,7 @@ align="left" width="50px" height="50px" >
 
 As cloud computing has grown in popularity, several different models and deployment strategies have emerged to help meet specific needs of different users. Each type of cloud service and deployment method provides you with different levels of control, flexiblity and management. 
 
+
+[<img src="Deploying_to_the_cloud.png" alt="Deploying to the cloud" width="100%" height="100%" >]()
+
+Understanding the differences between deployment models, and which deployment strategies you can use helps you decide which set of services is right for your needs.
