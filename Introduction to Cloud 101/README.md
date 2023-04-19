@@ -371,6 +371,12 @@ Customers are increasingly choosing AWS to host their cloud-based infrastructure
 
  AWS has consistently been the leader in cloud infrastructure. Since 2010, AWS has been evaluated as the leader in the 2020 Gartner Magic Quadrant for cloud Infrastructure and platform services. Among the top cloud vendors. AWS has placed highest in both axes of measurement: <i><b>Ability to Execute and Completeness of vison</b></i>
 
+ <!-- blank line -->
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_jImg3vsAJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</figure>
+<!-- blank line -->
+
 ### AWS Global Infrastructure
 
 [<img src="AWS_Global_infrastructure.png" alt="AWS Global Infrastructure" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
@@ -389,4 +395,5 @@ The main components of the AWS Global Infrastructure are <b>_Regions, Availabili
     +   Availability Zones are interconnected with high bandwidth, low-latency networking, to provide low-latency networking between zones that is sufficient to accomplish synchronous replication (same time replication)
 +   <b>Edge Location</b>
     +    Edge locations are connected are connected to the AWS Regions through the AWS network across the globe. They link with tens of thousands of networks for improved origin fetches and dynamic content acceleration.
-    +   AWS has over 200 edge locations that are placed in 90 cities, across 47 countries.
+    +   AWS has over 200 edge locations that are placed in 90 cities, across 47 countries.  
+
