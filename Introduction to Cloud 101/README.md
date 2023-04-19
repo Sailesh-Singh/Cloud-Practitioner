@@ -380,5 +380,13 @@ Customers are increasingly choosing AWS to host their cloud-based infrastructure
 
 The main components of the AWS Global Infrastructure are <b>_Regions, Availability zones, and edge locations_</b> that are available in North America.
 +   <b>Region</b>
+    +   AWS has the concept of a Region, which is a physical location around the world where data centers are clustered together.
+    +   Each AWS Region consists of multiple, isolated, and physically seprate Availability Zones within a geographic area.
 +   <b>Availability Zone</b>
+    +   A group of logical data centers is called an Availability Zone.
+    +   An Availabilty Zone is a zoned area within a Region that can harbor one or more data centers. Availability Zones house all the hardware devices that AWS offers.
+    +   With their own power infrastructure, the Availability Zones are physically seperated by ameaningful distance (up to 100km or 60 miles) fromany other Availability Zone in the Region.
+    +   Availability Zones are interconnected with high bandwidth, low-latency networking, to provide low-latency networking between zones that is sufficient to accomplish synchronous replication (same time replication)
 +   <b>Edge Location</b>
+    +    Edge locations are connected are connected to the AWS Regions through the AWS network across the globe. They link with tens of thousands of networks for improved origin fetches and dynamic content acceleration.
+    +   AWS has over 200 edge locations that are placed in 90 cities, across 47 countries.
