@@ -262,3 +262,7 @@ Aws has an extensive, reliable, and secure global cloud infrastructure with over
 ### AWS benefits
 
 [<img src="AWS_benefits.png" alt="AWS benefits" width="100%" height="100%" >]()
+
+### Brief History of of AWS
+
+Customers are increasingly choosing AWS to host their cloud-based infrastructure, and they realize increased performance, Security Reliability, and scale wherever they go. Now, we'll review a brief history of Amazon Web Services to learn how it all began.
