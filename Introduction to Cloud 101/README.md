@@ -395,3 +395,5 @@ The main components of the AWS Global Infrastructure are <b>_Regions, Availabili
     +    Edge locations are connected are connected to the AWS Regions through the AWS network across the globe. They link with tens of thousands of networks for improved origin fetches and dynamic content acceleration.
     +   AWS has over 200 edge locations that are placed in 90 cities, across 47 countries.  
 
+
+### Map of AWS Region
