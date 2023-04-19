@@ -361,3 +361,13 @@ Customers are increasingly choosing AWS to host their cloud-based infrastructure
 </td>
 </tr>
 </table>
+
+### AWS is the leader in cloud computing
+
+<p align="center">
+ <img src="AWS_leader_in _cloud-computing.png" alt="Introduction to AWS" width="500px" height="500px" >
+  <p align="center"><b><i>Leader board of cloud computing</i></b></p>
+ </p>
+
+ AWS has consistently been the leader in cloud infrastructure. Since 2010, AWS has been evaluated as the leader in the 2020 Gartner Magic Quadrant for cloud Infrastructure and platform services. Among the top cloud vendors. AWS has placed highest in both axes of measurement: <i><b>Ability to Execute and Completeness of vison</b></i>
+
