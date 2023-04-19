@@ -266,3 +266,98 @@ Aws has an extensive, reliable, and secure global cloud infrastructure with over
 ### Brief History of of AWS
 
 Customers are increasingly choosing AWS to host their cloud-based infrastructure, and they realize increased performance, Security Reliability, and scale wherever they go. Now, we'll review a brief history of Amazon Web Services to learn how it all began.
+
+<table>
+<tr>
+    <th> Date </th>
+    <th> Description </th>
+</tr>
+<tr>
+<td>
+    <b>1994</b>
+</td>
+<td>
+    Amazon is established as an online retailer.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2003</b>
+</td>
+<td>
+    Chiris Pinham and Benjamin Black suggest selling IT as a service.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2004</b>
+</td>
+<td>
+    Amazon Simple Queue Service is released as Amazon's first IT service.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2006</b>
+</td>
+<td>
+    Amazon is established and launches its first Region in N. Virginia.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2007</b>
+</td>
+<td>
+    AWS is supporting infrastructure for more than 180,000 developers.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2010</b>
+</td>
+<td>
+    Amazon.com is fully supported on AWS services.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2012</b>
+</td>
+<td>
+    AWS lholds its first re:invent conference.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2013</b>
+</td>
+<td>
+    Amazon launches its certification program.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2017</b>
+</td>
+<td>
+    AWS releases a host of artificial intelligence services.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2020</b>
+</td>
+<td>
+    AWS launches a Region in Cape Town, South Africa. AWS now provides Regions on every continent except Antartica.
+</td>
+</tr>
+<tr>
+<td>
+    <b>2008</b>
+</td>
+<td>
+    Multiple region cloud provider data centers are established.
+</td>
+</tr>
+</table>
