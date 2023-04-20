@@ -399,3 +399,8 @@ The main components of the AWS Global Infrastructure are <b>_Regions, Availabili
 ### Map of AWS Region
 
 [<img src="Map_of_AWS-Region.png" alt="Map of AWS Region" width="100%" height="100%" >]()
+<small>**_Map of AWS Region_**</small>
+
+### Planning for failure
+When building the architecture in the cloud. It is important to plan for the failure. When you build your architecture, you want to have a plan in place to resolve any failures that might occur.
+
