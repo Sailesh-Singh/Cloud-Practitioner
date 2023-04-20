@@ -404,3 +404,22 @@ The main components of the AWS Global Infrastructure are <b>_Regions, Availabili
 ### Planning for failure
 When building the architecture in the cloud. It is important to plan for the failure. When you build your architecture, you want to have a plan in place to resolve any failures that might occur.
 
+
++   #####   Storage
+
+    <img src="Planning_for_failure-1.png" alt="Planning_for_failure-1"  border="2px" width="300px" height="80px" >
+
+    When a file is stored in Amazon S3,the file is redundantly copied into every Availability Zone in that Region. If one Availability Zone goes down, you still have two copies of that file available for you to use.
+
++   #####   Compute
+
+    <img src="Planning_for_failure-2.png" alt="Planning_for_failure-2"  border="2px" width="300px" height="80px" >
+
+    It is a best practice to spread out your computing resources across multiple Availability Zones to gurantee high availability. So, if one Availability Zone goes down, your architecture is still up and running.
+
++   #####   Database
+
+    <img src="Planning_for_failure-3.png" alt="Planning_for_failure-3"  border="2px" width="300px" height="80px" >
+
+    You can configure your database for Multi-AZ deployment. If your Availability Zone with your primary database fails, one of the standby databases in a healthy Availability Zone automatically becomes your new primary database. Therefore, your architecture is still functioning.
+
