@@ -426,3 +426,14 @@ When building the architecture in the cloud. It is important to plan for the fai
 ### AWS Regions
 
 [<img src="AWS_Regions.png" alt="AWS Regions" width="100%" height="100%" >]()
+
+In addition to planning for failure at a Regional level with the AWS global infrastructure. You can plan for failure at global level.
+
+<p>
+<img src="bulb.png" alt="Bulb" 
+align="left" width="50px" height="50px" >
+
+>   For Example, suppose that your production architecture is located in the Northern Virginia Region. You can have a backup that mirrors your production architecture at a lower scale in the Oregon Region or any Region around the world.
+</p>
+
+All that you would have to do is scale up your resources in the backup Region. We will learn more about disaster recovery as you dive deeper into AWS.
