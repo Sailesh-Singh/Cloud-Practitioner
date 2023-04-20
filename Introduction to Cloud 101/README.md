@@ -423,3 +423,6 @@ When building the architecture in the cloud. It is important to plan for the fai
 
     You can configure your database for Multi-AZ deployment. If your Availability Zone with your primary database fails, one of the standby databases in a healthy Availability Zone automatically becomes your new primary database. Therefore, your architecture is still functioning.
 
+### AWS Regions
+
+[<img src="AWS_Regions.png" alt="AWS Regions" width="100%" height="100%" >]()
