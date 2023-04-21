@@ -440,4 +440,59 @@ All that you would have to do is scale up your resources in the backup Region. W
 
 ### Global Infrastructure benefits
 
-[<img src="AWS_Global_infrastructure.png" alt="AWS Global Infrastructure" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+[<img src="Global_infrastructure_benefits.png" alt="Global_infrastructure_benefits.png" width="100%" height="100%" >]()
+
+<table>
+<tr>
+    <th> Topic </th>
+    <th> Description </th>
+</tr>
+<tr>
+<td>
+    <b>Performance</b>
+</td>
+<td>
+    The AWS Global Infrastructure offers high-performing, low-latency cloud infrastructure with virtually unlimited capacity, which provides high availability.
+</td>
+</tr>
+<tr>
+<td>
+    <b>Availability</b>
+</td>
+<td>
+    Availability Zones are designed for physical redundancy and to provide resilience. They provide uninterrupted performance, even in the event of power outages, internet downtime, floods, and other natural disasters.
+</td>
+</tr>
+<tr>
+<td>
+    <b>Security</b>
+</td>
+<td>
+    The infrastructure is monitored 24/7 to help ensure the confidentiality, integrity, and availability of AWS customers' data. Customers can build on the most secure global infrastrusture and know that they always own their data. They can encrypt their data, move it, and manage retention.
+</td>
+</tr>
+<tr>
+<td>
+    <b>Reliability</b>
+</td>
+<td>
+    The AWS Global Infrastructure is designed and built for redundancy and reliability, from regions to networking links to load blancers to routers to frimware.
+</td>
+</tr>
+<tr>
+<td>
+    <b>Scalability</b>
+</td>
+<td>
+    With the AWS Global Infrastructure, companies can be flexible and take advantage of the conceptuality infinite scalability of the cloud. Companies can quickly get resources as they need them, deploying hundreds or even thousands of servers in minutes.
+</td>
+</tr>
+<tr>
+<td>
+    <b>Low Cost</b>
+</td>
+<td>
+    The AWS Global Infrastructure provide the  industry's most extensive data center footprint. As a result, more customers can benefit from cloud economics and reduce the <small><b><i>Total Cost of Ownership (TCO)</i></b></small> of their overall IT infrastructure.
+</td>
+</tr>
+</table>
