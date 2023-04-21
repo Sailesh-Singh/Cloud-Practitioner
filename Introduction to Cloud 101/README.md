@@ -440,3 +440,4 @@ All that you would have to do is scale up your resources in the backup Region. W
 
 ### Global Infrastructure benefits
 
+[<img src="AWS_Global_infrastructure.png" alt="AWS Global Infrastructure" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
