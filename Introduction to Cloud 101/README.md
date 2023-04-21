@@ -437,3 +437,6 @@ align="left" width="50px" height="50px" >
 </p>
 
 All that you would have to do is scale up your resources in the backup Region. We will learn more about disaster recovery as you dive deeper into AWS.
+
+### Global Infrastructure benefits
+
