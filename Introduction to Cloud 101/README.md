@@ -501,8 +501,26 @@ All that you would have to do is scale up your resources in the backup Region. W
 
 The AWS Shared Responsiblity model is a security model that is used to protect cloud environments that use AWS services. It is divided into two parts:
 
-<b>1.   AWS is Responsible for the security of the cloud and <br> 
-2.  The customer is responsible for the security in the cloud.</b>
+<b> 1.  The customer is responsible for the security in the cloud.<br>2.   AWS is Responsible for the security of the cloud and </b>
 
 [<img src="Shared_Responsiblity.png" alt="Shared_Responsiblity.png" width="100%" height="100%" >]()
+
+#####  Customers 
+
+<img src="Compute_Storage_Networking.png" alt="Compute_Storage_Networking" align="right" width="110px" height="110px" >
+
+Customers are responsible for the security of everything that they create and put __IN__ the AWS Cloud.
+
++   When uing AWS services, you, the customer, maintain complete control over your content. You are responsible for managing security requirements for your content. These requirements include which content you choosw to store on AWS, which AWS services you use, and who has access to that content. You also control how access rights are granted, managed, and revoked.
+
+#####  AWS Cloud
+
+<img src="AWS_Cloud.png" alt="AWS_Cloud.png" align="right" width="120px" height="110px" >
+
+AWS manages the security __OF__ the cloud, specifically the physical infrastructure that hosts your resources, which include:
+
++   Physical security of data centers
++   Hardware and software infrastructure
++   Network infrastructure
++   Virtualization infrastructure
 
