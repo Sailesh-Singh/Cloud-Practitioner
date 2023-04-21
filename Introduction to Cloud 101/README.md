@@ -505,7 +505,7 @@ The AWS Shared Responsiblity model is a security model that is used to protect c
 
 [<img src="Shared_Responsiblity.png" alt="Shared_Responsiblity.png" width="100%" height="100%" >]()
 
-#####  Customers 
+####  Customers 
 
 <img src="Compute_Storage_Networking.png" alt="Compute_Storage_Networking" align="right" width="110px" height="110px" >
 
@@ -513,7 +513,7 @@ Customers are responsible for the security of everything that they create and pu
 
 +   When uing AWS services, you, the customer, maintain complete control over your content. You are responsible for managing security requirements for your content. These requirements include which content you choosw to store on AWS, which AWS services you use, and who has access to that content. You also control how access rights are granted, managed, and revoked.
 
-#####  AWS Cloud
+####  AWS Cloud
 
 <img src="AWS_Cloud.png" alt="AWS_Cloud.png" align="right" width="120px" height="110px" >
 
