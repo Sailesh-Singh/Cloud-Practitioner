@@ -529,7 +529,7 @@ AWS manages the security __OF__ the cloud, specifically the physical infrastruct
 
 As an example, suppose that you create a bucket by using __Amazon S3__ to store files in. Then we, *the customer are responsible for security in the cloud*.
 
-+   We are responsibe for granting access permissions to users and 
++   We are responsible for granting access permissions to users and 
 +   Applying any encryption requirement to the buckets and files.
 
 *Aws is responsible for security OF the cloud*. This responsiblity includes:
