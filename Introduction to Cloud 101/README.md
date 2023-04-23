@@ -547,3 +547,6 @@ AWS offers a broad set of global cloud-based products including compute, storage
 +   Define the different types of services
 +   Identify the main categories of services as part of an architecture
 +   Describe each service, its use, features, and benefits
+
+### Monolithic architecture
+Applications are made up of multiple components. The components communicate with each other to transmit data, fulfill requests, and keep the application running.
