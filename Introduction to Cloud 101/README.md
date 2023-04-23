@@ -222,13 +222,13 @@ Understanding the differences between deployment models, and which deployment st
 
 ### Cloud Computing models
 Cloud computing is offered in three different service models and each one satisfies a unique set of bussiness requirements. Those three models known as:
-+   #### Infrastructure as a service (IaaS)
++   #### Infrastructure as a Service (IaaS)
     IaaS contains the basic building blocks for cloud IT. It typically provides access to networking features, computers(Virtual or on dedicated hardware), and data storage space. Infrastructure as a servive provides the highest levl of flexibility and management cinrol over your IT resources.
 
-+   #### Platform as a service (Paas)
++   #### Platform as a Service (PaaS)
     It removes the need for organizations to manage the underlying infrastructure. They can focus on the deployment and management of applications. These tools give developers the ability to be more efficient because they dont need to worry about resource procurement, capacity planing, software maintenance, and patching.
 
-+   #### Software as a service(Saas)
++   #### Software as a Service(SaaS)
     It is a completed software product that the service provider runs and manages. With a SaaS offering, you donot have to think about how the service is maintained or how the underlying infrastructure is managed. Yu only must think about how you wil use that particular piece of software.
 
 ### Cloud Computing deployment models
