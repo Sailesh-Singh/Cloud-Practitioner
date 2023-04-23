@@ -549,4 +549,37 @@ AWS offers a broad set of global cloud-based products including compute, storage
 +   Describe each service, its use, features, and benefits
 
 ### Monolithic architecture
+
+<img src="Monolithic_architecture.png" alt="Monolithic_architecture"  width="200px" height="110px" >
+
 Applications are made up of multiple components. The components communicate with each other to transmit data, fulfill requests, and keep the application running.
+
+<img src="Monolithic_architecture_instance.png" alt="Monolithic_architecture_instance"  width="200px" height="110px" >
+
+Suppose that you have an application with tightly coupled components. These components might include servers, databases, the user interface, business logic, and others. This type of architecture can be considered a __monolithic application__.
+
+<table>
+<tr>
+<td>
+
+<p align="center">
+<img src="Monolithic_architecture_instance_fails.png" alt="Monolithic_architecture_instance_fails"  width="200px" height="110px" >
+</p>
+
+In this approach to application architecture, if a single component fails, then other component likely fail.
+
+</td>
+<td>
+
+<p align="center">
+<img src="Monolithic_architecture_instance_stopped.png" alt="Monolithic_architecture_instance_stopped"  width="200px" height="120px" >
+</p>
+
+In this event, it is even possible that the entire applucation will fail.
+
+</td>
+</tr>
+</table>
+
+
+
