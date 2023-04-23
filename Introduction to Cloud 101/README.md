@@ -532,6 +532,6 @@ As an example, suppose that you create a bucket by using __Amazon S3__ to store 
 +   We are responsible for granting access permissions to users and 
 +   Applying any encryption requirement to the buckets and files.
 
-*Aws is responsible for security OF the cloud*. This responsibility includes:
+*AWS is responsible for security OF the cloud*. This responsibility includes:
 +   Maintaining the storage hardware that the file is hosted on and
 +   The physical security of the data centers where the hardware is located.
