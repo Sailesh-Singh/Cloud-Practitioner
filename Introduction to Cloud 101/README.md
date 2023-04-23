@@ -539,3 +539,11 @@ As an example, suppose that you create a bucket by using __Amazon S3__ to store 
 ## Module 4: AWS Core Services 
 
 [<img src="AWS Core Services.png" alt="AWS Core Services" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/aws-core-services?module_item_id=13191)
+
+### Objectives
+
+AWS offers a broad set of global cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, security and enterprise applications. These services help you build elastic, agile, resilient architectures. You will be able to:
+
++   Define the different types of services
++   Identify the main categories of services as part of an architecture
++   Describe each service, its use, features, and benefits
