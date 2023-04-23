@@ -581,5 +581,9 @@ In this event, it is even possible that the entire applucation will fail.
 </tr>
 </table>
 
+### Microservices architecture
 
+<img src="Microservices_architecture.png" alt="Microservices_architecture"  align="right" width="30%" height="40%" >
+
+To help maintain application availability when a single components fails, you can design your application through a microservices approach. The loose compiling prevents the entire application from failing. When designing application on AWS. You can take a microservices approach with services and components that fulfill different functions.
 
