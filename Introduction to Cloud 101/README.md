@@ -535,3 +535,4 @@ As an example, suppose that you create a bucket by using __Amazon S3__ to store 
 *AWS is responsible for security OF the cloud*. This responsibility includes:
 +   Maintaining the storage hardware that the file is hosted on and
 +   The physical security of the data centers where the hardware is located.
+
