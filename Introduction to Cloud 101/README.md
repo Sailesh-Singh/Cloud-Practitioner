@@ -575,7 +575,7 @@ In this approach to application architecture, if a single component fails, then 
 <img src="Monolithic_architecture_instance_stopped.png" alt="Monolithic_architecture_instance_stopped"  width="200px" height="120px" >
 </p>
 
-In this event, it is even possible that the entire applucation will fail.
+In this event, it is even possible that the entire application will fail.
 
 </td>
 </tr>
