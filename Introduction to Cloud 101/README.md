@@ -596,3 +596,9 @@ There are three types of services provided by AWS:
 <img src="AWS_Types_of_services-Managed-services.png " alt="AWS_Types_of_services-Managed-services"  width="200px" height="110px">
 
 A managed service is a way to describe the services that require you to manage infrastructure management tasks like patching, backup, and repair. These services grant you virtual access to the underlying operating system and servers. With managed services, you are responsible for scaling and building for high availability.
+
+#####   1.  Fully Managed Services
+
+<img src="AWS_Types_of_services-Fully-Managed-services.png " alt="AWS_Types_of_services-Fully-Managed-services"  width="200px" height="110px">
+
+A Full managed service is a way to describe the services that automate infrastructure management tasks that AWS handles, like patching, backup, and repair. These services do not grant you any virtual access to the underlying operating system or servers. With a fully managed service, you are still responsible for scaling and building for high availability.
