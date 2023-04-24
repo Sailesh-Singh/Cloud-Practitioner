@@ -587,3 +587,12 @@ In this event, it is even possible that the entire application will fail.
 
 To help maintain application availability when a single components fails, you can design your application through a microservices approach. The loose compiling prevents the entire application from failing. When designing application on AWS. You can take a microservices approach with services and components that fulfill different functions.
 
+### Types of Services
+
+There are three types of services provided by AWS:
+
+#####   1.  Managed Services
+
+<img src="AWS_Types_of_services-Managed-services.png " alt="AWS_Types_of_services-Managed-services"  width="200px" height="110px">
+
+A managed service is a way to describe the services that require you to manage infrastructure management tasks like patching, backup, and repair. These services grant you virtual access to the underlying operating system and servers. With managed services, you are responsible for scaling and building for high availability.
