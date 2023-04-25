@@ -626,3 +626,9 @@ The detailed description of Core Service Architecture are as follws:
     An IAM user group is a collection of IAM users. You can use user groups to specify permissions for a collection of users, which can make those permissions easier to manage for those users.<br>
     <b>Role</b>
     An IAM role is an identity with permission policies that are attached to it. An IAM user or service can assume these policies to temporarily take on different permissions for a specific task.
+
++   #####   What problem does IAM solve?
+
+IAM solves the problem of users having more access than they should. IAM is built by using the principle of least privilege. This principle states that an identity will not have access to any AWS services until you grant the identity access.
+By this method, no one should be able to provison or access resources that you have not explicitly granted them access to.
+For example, if you create a new user, then that user cannot access the EC2 Dashboard by default. You must attach an IAM policy to that user to grant them access to the EC2 Dashboard.
