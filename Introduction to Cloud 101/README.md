@@ -651,3 +651,10 @@ The detailed description of Core Service Architecture are as follws:
     +   Multi-factor authentication
     +   Analyze access
     +   Integrate with your corporate directory
+
++   #####   What else should I keep in mind when using IAM?
+    AWS evaluates policies depends on the types of policies that apply.
+    +   Implicit deny
+    +   Explicit allow
+    +   Explicit deny
+
