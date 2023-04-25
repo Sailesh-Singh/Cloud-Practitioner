@@ -629,6 +629,10 @@ The detailed description of Core Service Architecture are as follws:
 
 +   #####   What problem does IAM solve?
 
-IAM solves the problem of users having more access than they should. IAM is built by using the principle of least privilege. This principle states that an identity will not have access to any AWS services until you grant the identity access.
-By this method, no one should be able to provison or access resources that you have not explicitly granted them access to.
-For example, if you create a new user, then that user cannot access the EC2 Dashboard by default. You must attach an IAM policy to that user to grant them access to the EC2 Dashboard.
+    IAM solves the problem of users having more access than they should. IAM is built by using the principle of least privilege. This principle states that an identity will not have access to any AWS services until you grant the identity access. By this method, no one should be able to provison or access resources that you have not explicitly granted them access to.<br>
+    For example, if you create a new user, then that user cannot access the EC2 Dashboard by default. You must attach an IAM policy to that user to grant them access to the EC2 Dashboard.
+
++   #####   What are the benefits of IAM?
+
+    +   IAM has a simple user interface that makes it easy to gran and control user access to AWS services.
+    +   IAM has many system-generated policies that you can use, and you create additional custom policies that meet the needs of your specific requirements.
