@@ -613,3 +613,16 @@ Serverless is a way to describe the services, practices, and strategies that you
 
 [<img src="AWS_Core_Services_Arcitecture-Diagram.png" alt="AWS Core Services Architecture" width="100%" height="100%" >]()
 
+The detailed description of Core Service Architecture are as follws:
+####    Identity and Access Management (IAM)
+
++   #####   What does IAM do?
+    IAM is a centralized security management system that is included in every AWS account to control identity access to AWS services. By attaching IAM permission policies to identities, you can manage which services each identity can access and the kinf of actions the identity can perform.
+    Identities in IAM are users, groups and roles.
+
+    <br><b>User</b>
+    An IAM user is an entity that you create in AWS. The IAM user represents the person or services who uses the IAM user to interact with AWS.<br>
+    <b>Group</b>
+    An IAM user group is a collection of IAM users. You can use user groups to specify permissions for a collection of users, which can make those permissions easier to manage for those users.<br>
+    <b>Role</b>
+    An IAM role is an identity with permission policies that are attached to it. An IAM user or service can assume these policies to temporarily take on different permissions for a specific task.
