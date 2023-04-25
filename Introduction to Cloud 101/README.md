@@ -636,3 +636,12 @@ The detailed description of Core Service Architecture are as follws:
 
     +   IAM has a simple user interface that makes it easy to gran and control user access to AWS services.
     +   IAM has many system-generated policies that you can use, and you create additional custom policies that meet the needs of your specific requirements.
+
++   #####   How can I architect a cloud solution using IAM ?
+    Using IAM roles, you can grant someone from a different AWS account access to your account to perform a specific task.
+
+    <p align="center">
+    <img src="Architect_cloud_solution_using-IAM .png" alt="Architect_cloud_solution_using-IAM" width="250px" height="150px" >
+    </p>
+
+    In the diagram, a user in the Dev account is assuming a role in the production account. The role returns a temproary security credential. It grants the user temproary access to the AWS service based on the policy that is attached to the role.
