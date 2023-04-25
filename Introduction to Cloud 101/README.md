@@ -645,3 +645,9 @@ The detailed description of Core Service Architecture are as follws:
     </p>
 
     In the diagram, a user in the Dev account is assuming a role in the production account. The role returns a temproary security credential. It grants the user temproary access to the AWS service based on the policy that is attached to the role.
+
++   #####   How can I use IAM ?
+    +   Fine-grained access control
+    +   Multi-factor authentication
+    +   Analyze access
+    +   Integrate with your corporate directory
