@@ -660,3 +660,8 @@ The detailed description of Core Service Architecture are as follws:
 
 +   #####   How much does IAM cost?
     IAM is a service in your AWS accoun that is offereed at no additional charge. You are charged only when you access other AWS Services by using your IAM users credentials.
+
+####    Amazon Simple Storage Service - S3
+
++   #####   What does Amazon S3 do?
+
