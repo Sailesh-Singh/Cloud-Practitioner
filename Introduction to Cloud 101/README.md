@@ -711,7 +711,14 @@ The detailed description of Core Service Architecture are as follws:
 
         Accelerate innovation by building a data lake on Amazon S3, and extract valuable insights by using query-in-place, analytics, and machine learning tools. As your data lake grows, use S3 Access Points to easily configure access to your data, with specific permissions for each application or set of applications.
 
++   #####   What else should I keep in mind when using Amazon S3?
 
+    Amazon S3 is designed for object storage, not block storage.
+
+    __Object storage__ is a storage option that is meant for read-intensive files that are not written to. If the file needs a change, then the file can be overwritten. Examples of object storage are pictures, videos, documents, and static websites.
+    <br>
+
+    __Block storage__ is a more structured set of data hosting that is often written to. Examples of object storage are pictures, videos, documents, and static websites. Amazon S3 is not designed for these uses. Amazon offers Amazon Elastic Block Store to meet these needs.
 
 
 
