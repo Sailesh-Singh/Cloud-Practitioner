@@ -665,4 +665,12 @@ The detailed description of Core Service Architecture are as follws:
 
 +   #####   What does Amazon S3 do?
 
-Amazon S3 is object storage that is built to store and retrieve any amount  of data from any where at any time. It's a simple storage service that offers industry-leading durability, availability, performance, security, and virtually unlimited scalability at low costs.
+    Amazon S3 is object storage that is built to store and retrieve any amount  of data from any where at any time. It's a simple storage service that offers industry-leading durability, availability, performance, security, and virtually unlimited scalability at low costs.
+
++   ##### What problem does Amazon S3 solve?
+
+    Amazon S3 solves two main problems:
+    1.  You don't need to estimate how much storage space you will need. You create your bucket and add as many files as you need to. Amazon S3 is elastic and scales automatically to meet your storage requirements.
+
+    2.  Files that are uploaded to Amazon S3 are automatically replicated across multiple Availability Zones in the Region. Thus, your files are always highly available and highly durable, so that you can access them when you need them.
+     
