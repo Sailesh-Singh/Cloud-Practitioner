@@ -673,4 +673,17 @@ The detailed description of Core Service Architecture are as follws:
     1.  You don't need to estimate how much storage space you will need. You create your bucket and add as many files as you need to. Amazon S3 is elastic and scales automatically to meet your storage requirements.
 
     2.  Files that are uploaded to Amazon S3 are automatically replicated across multiple Availability Zones in the Region. Thus, your files are always highly available and highly durable, so that you can access them when you need them.
+
++   #####   What are the benefits of Amazon S3?
+
+    The following list describes a few of the benefits that Amazon S3 offers.
+
+    +   Amazon S3 offers you industry-leading performance, scalability, availability, and durability that you can use to easily build applications that use cloud native storage. As a result, you consistently have your data when you need it.<br>
+
+    +   Because Amazon S3 is serverless, it is highly scalable. Therefore, you can start small and grow your application as you want, with no compromise on performance or reliability. <br>
+
+    +   Amazon S3 also has unmatched security, compilance, and audit capabilities in the cloud.
+
+
+
      
