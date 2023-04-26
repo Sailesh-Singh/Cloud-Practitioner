@@ -687,13 +687,32 @@ The detailed description of Core Service Architecture are as follws:
 +   #####   How can I architect a cloud solution by using Amazon S3?
 
     You can architect a solution by using Amazon S3 to host a static website anywhere in the world.
+    <br>
+
+     <p align="center">
+    <img src="Static_website_using_Amazon-S3.png" alt="Static_website_using_Amazon-S3" height="90px" >
+    </p>
+    <br>
 
     In this example, Amazon S3 is being used to host static website. The website content is uploaded to Amazon S3 and directed to Amazon CloudFront (a content delivery service) to deliver the content to the internet. Users can then access the website on their browser.
 
++   #####   How can I use Amazon S3?
 
- <p align="center">
-    <img src="Static_website_using_Amazon-S3.png" alt="Static_website_using_Amazon-S3" height="90px" >
-    </p>
+    +   ######  Backup and restore
+        Amazon S3 can be used to build scalable, durable, and secure backup and restore solutions to augument or replace existing on-premise capabilities.
+
+    +   ######  Disaster recovery
+        You can protect critical data, applications, and IT systems with Amazon S3 that are running in the AWS Cloud or in your on-premises environment. You can avoid the expense of a second physical site.
+
+    +   ######  Archive
+        Retire physical infrastructure, and archive data with Amazon Simple Storage Service Glacier and S3 Glacier Deep Archive. These S3 storage classes retain objects long-term at the lowest rates. You create an S3 Lifecycyle policy to archive objects throughout their lifecycles, or upload objects directly to the archival storage classes.
+
+    +   ######  Data lakes and big data analytics
+
+        Accelerate innovation by building a data lake on Amazon S3, and extract valuable insights by using query-in-place, analytics, and machine learning tools. As your data lake grows, use S3 Access Points to easily configure access to your data, with specific permissions for each application or set of applications.
+
+
+
 
 
 
