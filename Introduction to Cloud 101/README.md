@@ -720,8 +720,6 @@ The detailed description of Core Service Architecture are as follws:
 
     __Block storage__ is a more structured set of data hosting that is often written to. Examples of object storage are pictures, videos, documents, and static websites. Amazon S3 is not designed for these uses. Amazon offers Amazon Elastic Block Store to meet these needs.
 
++   #####   How much does Amazon S3 cost?
 
-
-
-    
-     
+With Amazon S3, you pay only for what you use. It has no minimum fee. Some prices vary across Amazon S3 Regions. Billing prices are based on the location of your S3 bucket.
