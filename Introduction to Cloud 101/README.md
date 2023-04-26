@@ -684,6 +684,18 @@ The detailed description of Core Service Architecture are as follws:
 
     +   Amazon S3 also has unmatched security, compilance, and audit capabilities in the cloud.
 
++   #####   How can I architect a cloud solution by using Amazon S3?
+
+    You can architect a solution by using Amazon S3 to host a static website anywhere in the world.
+
+    In this example, Amazon S3 is being used to host static website. The website content is uploaded to Amazon S3 and directed to Amazon CloudFront (a content delivery service) to deliver the content to the internet. Users can then access the website on their browser.
 
 
+ <p align="center">
+    <img src="Static_website_using_Amazon-S3.png" alt="Static_website_using_Amazon-S3" height="90px" >
+    </p>
+
+
+
+    
      
