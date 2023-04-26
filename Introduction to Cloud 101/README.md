@@ -665,3 +665,4 @@ The detailed description of Core Service Architecture are as follws:
 
 +   #####   What does Amazon S3 do?
 
+Amazon S3 is object storage that is built to store and retrieve any amount  of data from any where at any time. It's a simple storage service that offers industry-leading durability, availability, performance, security, and virtually unlimited scalability at low costs.
