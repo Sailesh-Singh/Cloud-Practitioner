@@ -775,4 +775,8 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   How much does AWS Lambda cost?
 
-    
+    With AWS Lambda, you pay only for what you use. You are charged based on the number of requests for your Lambda functions and the duration, the time it takes for you code to run.
+    The AWS Lambda always free usage tier includes 1 M free requests per month and 400,000 GB-seconds of compute time per month.
+
+    No charge is incurred when your code is not running.
+
