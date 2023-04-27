@@ -756,3 +756,9 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     +   #####   How can I use AWS Lambda?
 
+    +   ######  Web applications
+        By combining AWS Lambda with other AWS services, developers can build powerful web applications that automatically scale up and down. These applications run in a highly available configuration across multiple data centers - with zero administrative effort required for scalability, backups, or multi-data redundancy.
+
+    +   ######  Data processing
+        You can use AWS Lambda to execute code in response to triggers such as changes in data, shifts in system state, or action by users. Lambda can be directly triggered by AWS services such as Amazon S3, DynamoDB, Kinesis, Amazon SNS, and CloudWatch, or it can be orchestrated into workflows by AWS Step Functions. Thus, you can build a variettty of real-time serverless data processing systems.
+
