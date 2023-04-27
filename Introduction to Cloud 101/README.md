@@ -732,4 +732,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   What problem does AWS Lambda solve?
     AWS lambda removes all administration for application or backend services that can be processed in snippets of code. You upload your code as a `.zip` file or container image. Then, Lambda automatically and precisely allocates compute power to run your code based on the incoming request or event, for any scale of traffic, You can set up your code to automatically trigger from over 200 services and software as a service (SaaS) applications or call it directly from any web or mobile app.
-    
+
+
++   #####   What are the benefits of AWS Lambda?
