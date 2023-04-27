@@ -731,3 +731,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     AWS Lambda is a serverless compute service that you can use to run function code without provisoning or managing servers. You can use Lambda torun function code  for virtually any type of application or backend service. You upload your code, and Lambda takes care of everything that is required to run and scale your code with high availability.
 
 +   #####   What problem does AWS Lambda solve?
+    AWS lambda removes all administration for application or backend services that can be processed in snippets of code. You upload your code as a `.zip` file or container image. Then, Lambda automatically and precisely allocates compute power to run your code based on the incoming request or event, for any scale of traffic, You can set up your code to automatically trigger from over 200 services and software as a service (SaaS) applications or call it directly from any web or mobile app.
+    
