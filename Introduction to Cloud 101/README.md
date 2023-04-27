@@ -754,4 +754,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     In this example, a user uploads a photo into Amazon S3 - Bucket A. This action triggers the Lambda code to run and resize the photo and place the photo in Amazon S3 - Bucket B. From Bucket B, the user can download the resized photo. Lambda then sends an email or a text message to the appropriate users to alert them that the photo is ready to download.
 
-    
+    +   #####   How can I use AWS Lambda?
+
