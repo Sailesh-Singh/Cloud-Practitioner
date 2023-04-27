@@ -769,3 +769,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +   ######  Real-time stream processing
         You can use AWS Lambda and Amazon Kinesis to process real-time streaming data for application activity tracking, transaction order processing, and click stream  analysis. You can also use it for data cleansing, metrics generation, log filtering, indexing, social media analysis, and Internet of Things (IoT) device data telemetry and metering.
 
++   #####   What else should I keep in mind when using AWS Lambda?
+
+
