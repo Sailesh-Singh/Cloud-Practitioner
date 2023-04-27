@@ -742,3 +742,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     +   AWS Lambda has built in continuous scaling that scales your applicatio by running  code in response to each event. It scales precisely with the size of the workload, from a few requests per day to hundreds of thousands per second.
 
++   #####   How can I architect a cloud solution using AWS Lambda?
+
+    
