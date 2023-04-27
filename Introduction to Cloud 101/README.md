@@ -723,3 +723,6 @@ The detailed description of Core Service Architecture are as follws:
 +   #####   How much does Amazon S3 cost?
 
 With Amazon S3, you pay only for what you use. It has no minimum fee. Some prices vary across Amazon S3 Regions. Billing prices are based on the location of your S3 bucket.
+
+####    AWS Lambda
+
