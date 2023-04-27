@@ -744,4 +744,12 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   How can I architect a cloud solution using AWS Lambda?
 
+    You can architect with Lambda by configuring Lambda to perform an action when an event occurs in a triggering service.
+
+    <br>
+     <p align="center">
+    <img src="Architect_with_Lambda_by_configuring_Lambda.png " alt="Architect_with_Lambda_by_configuring_Lambda">
+    </p>
+    <br>
+
     
