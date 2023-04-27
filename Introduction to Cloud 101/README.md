@@ -771,4 +771,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   What else should I keep in mind when using AWS Lambda?
 
+    AWS Lambda has a 15-minute limit on its runtime for each invocation. If your computing needs require more than 15 minutes for runtime, then you would need to use an EC2 instance instead of Lambda.
+
 
