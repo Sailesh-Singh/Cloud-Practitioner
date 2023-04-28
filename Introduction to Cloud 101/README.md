@@ -835,3 +835,14 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 
 +   #####   What else should I keep in mind when using DynamoDB ?
+
+    DynamoDB is a non-relational database. If you need a relational database, you would use Amazon RDS.
+
+    +   ######  Relational Database
+        __Relational databases__ store data in rows and columns. Rows contain all the information about one entry, and columns are the attributes that seperate the data points. A relational database schema is fixed: columns must be locked before data entry. You can amend schemas if the database is altered entirely and taken offline. Data in relational databases is queried by using structured query language (SQL), which can have complex queries.
+        Relational databases scale vertically by increasing hardware power. Relational databases are commonly used for traditional applications, enterprise resource planning (ERP), customer releationship management (CRM), and e-commerce.
+
+    +   ######  Non-Relational database
+        __Non-relational databases__ store data by using one of many storage models, including key-value pairs, documents, and graphs. Non-relational schemas are dynamic, and information can be added rapidly. Each <i>row</i> doesn't have to contain data for each <i>column</i>. Data in non-releational databases is queried by focousing on collections of documents. Non-releational databases scale horizontally by increasing servers. Key-value databases are commonly used for internet-scale applications, real-time bidding, shopping carts, and customer preferences.
+
+        
