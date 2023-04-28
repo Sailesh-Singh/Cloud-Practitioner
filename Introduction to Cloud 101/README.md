@@ -782,3 +782,9 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 
 #### Amazon DynamoDB
+
++   #####   What does Amazon DynamoDB do?
+
+    Amazon DynamoDB is a serverless non-relational database that can store and retrieve any amount of data and serve any level of request traffic. You can scaleyour database tables' throughput capacity up or down without downtime. You can use the AWS Management Console to monitor resource utilization and performance metrics.
+
+    
