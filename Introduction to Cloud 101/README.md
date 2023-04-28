@@ -791,3 +791,17 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     You can use it to offload the administrative burdens of operating and scaling a distributed database. Therefore, you dont need to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.
 
 +   #####   What are the benefits of DynamoDB?
+
+    The following list describes a few of the benefits that DynamoDB offers.
+    <br>
+
+    +   DynamoDB supports some of the world's largest scale applications by providing consistent, single-digit millisecond response times at any scale.
+    <br>
+
+    +   DynamoDB is serverless with no servers to provision, patch, or manage and no software to install, maintain, or operate.
+    <br>
+
+    +   DyanamoDB supports ACID transactions so that you can build business-critical applications at scale. DynamoDB encrypts all data by default and provides fine-grained identify and access control on all your tables.
+    <br>
+
+
