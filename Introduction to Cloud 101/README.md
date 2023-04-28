@@ -804,4 +804,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +   DynamoDB supports ACID transactions so that you can build business-critical applications at scale. DynamoDB encrypts all data by default and provides fine-grained identify and access control on all your tables.
     <br>
 
-
++   #####   How can I architect a cloud solution using DynamoDB?
