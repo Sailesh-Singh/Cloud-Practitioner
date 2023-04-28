@@ -846,6 +846,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
         __Non-relational databases__ store data by using one of many storage models, including key-value pairs, documents, and graphs. Non-relational schemas are dynamic, and information can be added rapidly. Each <i>row</i> doesn't have to contain data for each <i>column</i>. Data in non-releational databases is queried by focousing on collections of documents. Non-releational databases scale horizontally by increasing servers. Key-value databases are commonly used for internet-scale applications, real-time bidding, shopping carts, and customer preferences.
 
 +   #####   How much does DynamoDB cost ?
-    
 
+    DynammoDB charges for reading, writing, and storing data in your DynamoDB tables, along with any optional features you choose to enable. DynamoDB has two capacity modes (on-demand and provisoned), both of which come with specific billing options for processing reads and writes on your tables.
         
