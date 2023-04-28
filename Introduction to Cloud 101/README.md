@@ -801,7 +801,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +   DynamoDB is serverless with no servers to provision, patch, or manage and no software to install, maintain, or operate.
     <br>
 
-    +   DyanamoDB supports ACID transactions so that you can build business-critical applications at scale. DynamoDB encrypts all data by default and provides fine-grained identify and access control on all your tables.
+    +   DynamoDB supports ACID transactions so that you can build business-critical applications at scale. DynamoDB encrypts all data by default and provides fine-grained identify and access control on all your tables.
     <br>
 
 
