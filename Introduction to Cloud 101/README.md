@@ -789,3 +789,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   What problem does Amazon DynamoDB solve?
     You can use it to offload the administrative burdens of operating and scaling a distributed database. Therefore, you dont need to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.
+
++   #####   What are the benefits of DynamoDB?
