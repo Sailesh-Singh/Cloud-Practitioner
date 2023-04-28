@@ -805,3 +805,15 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     <br>
 
 +   #####   How can I architect a cloud solution using DynamoDB?
+
+    You can use Amazon DynamoDB store an application's stores data.
+
+    <br>
+    <p align="center">
+    <img src="Amazon_DynamoDB_to_store_an_application.png" alt="Amazon_DynamoDB_to_store_an_application">
+    </p>
+    <br>
+
+
+
+    
