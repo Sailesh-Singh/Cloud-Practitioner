@@ -834,3 +834,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
         Companies in the advertising technology (ad tech) use DynamoDB as a key-value store for storing various kinds of marketing data. Examples of such data would include user profiles, user events, clicks, and visited links.
 
 
++   #####   What else should I keep in mind when using DynamoDB ?
