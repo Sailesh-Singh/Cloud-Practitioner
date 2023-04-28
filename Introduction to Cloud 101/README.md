@@ -780,3 +780,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     No charge is incurred when your code is not running.
 
+
+#### Amazon DynamoDB
