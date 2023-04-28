@@ -816,4 +816,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     In this example, a user accesses an application that is  stored in Amazon S3. The user chooses an option to receive data. Amazon API Gateway will then trigger Lambda to retrieve data from DynamoDB and send it back to the user's interface.
 
-    
++   #####   How can I use DynamoDB ? 
