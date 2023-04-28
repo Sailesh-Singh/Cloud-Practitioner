@@ -817,3 +817,20 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     In this example, a user accesses an application that is  stored in Amazon S3. The user chooses an option to receive data. Amazon API Gateway will then trigger Lambda to retrieve data from DynamoDB and send it back to the user's interface.
 
 +   #####   How can I use DynamoDB ? 
+
+    +   ######  Retail
+        Many companies in the retail space use common DynamoDB design patterns to deliver consistently low latency for mission-critical use cases. Being free from scaling concerns and operational burden is a key competitive advantage. It provides for high-velocity, extreme-scaled events such as Amazon Prime Day, whose magnitudes are difficult to forecast. By scaling up and down, these cutomers pay only for the capacity that they need. They can keep precious technical resources focoused on innovations rather than operations.
+        <br>
+    
+    +   ######  Gaming
+        Companies in the gaming vertical use DynamoDB in all capabilities of game platforms, including game state, player data, session history, and leaderboards. The main benefit that these companies get from DynamoDB is its ability to scale reliably to millions of concurrent users and requests while ensuring consistently low latency. This latency can be measured in single-digit milliseconds.
+        <br>
+
+    +   ######  Banking
+        Banking and finance companies use DynamoDB to build more cloud-native applications to increase agility, reduce time to market, and minimize operational overhead. These companies also use DynamoDB to ensure the security, reliability, and continued high availability of their applications.
+        <br>
+
+    +   ######  Ad Tech
+        Companies in the advertising technology (ad tech) use DynamoDB as a key-value store for storing various kinds of marketing data. Examples of such data would include user profiles, user events, clicks, and visited links.
+
+
