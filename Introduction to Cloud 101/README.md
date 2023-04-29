@@ -848,4 +848,8 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 +   #####   How much does DynamoDB cost ?
 
     DynammoDB charges for reading, writing, and storing data in your DynamoDB tables, along with any optional features you choose to enable. DynamoDB has two capacity modes (on-demand and provisoned), both of which come with specific billing options for processing reads and writes on your tables.
+
+####    Amazon Virtual Private Cloud - VPC
+
+
         
