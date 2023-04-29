@@ -861,3 +861,10 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   What are the benefits of Amazon VPC ?
 
+    The following list describes a few of the benefits that Amazon VPC offers.
+
+    +   Amazon VPC provides advanced security features that you can use to perform inbound and outbound filtering at the instance and subnet levels.
+
+    +   With simple setup of Amazon VPC, you spend less time setting up, managing, and validating. Therefore, you can concenrate on building applications that run in your VPCs.
+
+    +  Amazon VPC helps you control your virtual networking environment. By using Amazon VPC, you can choose your own IP Address range, create your own subnets, and configure route tables to any available gateways. 
