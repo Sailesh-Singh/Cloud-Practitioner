@@ -902,4 +902,11 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
 
 +   #####   How much does Amazon VPC cost?
-    
+    An Amazon VPC doesn't cost you anything at a basic level. In fact, when you set up your AWS account, you are given a default VPC. A VPC consists of many components that do not cost you anything, such as subnets, route tables, network ACLs, security groups, and an internet gateway.
+    <br>
+
+    However, you can also add features toyour Amazon VPC such as a NAT gateway and elastic IPs that do have associated charges.
+    <br>
+
+    Also, any service that you place in your Amazon VPC, such as Amazon EC2, will carry with it the associated cost for that service.
+    <br>
