@@ -892,3 +892,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     +   ######  Extend your corporate network
         You can use a VPC to move corporate applications to the cloud or launch additional web servers. You can also use a VPC to add more compute capacity to your network by connecting your VPC can be hosted behind your corporate firewall, you can seamlessly move your IT resources into the cloud. You don't need to change how your users access these applications.
+
++   #####   What else should I keep in mind when using Amazon VPC?
