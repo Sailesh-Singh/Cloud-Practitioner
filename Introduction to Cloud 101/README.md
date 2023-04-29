@@ -868,3 +868,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +   With simple setup of Amazon VPC, you spend less time setting up, managing, and validating. Therefore, you can concenrate on building applications that run in your VPCs.
 
     +  Amazon VPC helps you control your virtual networking environment. By using Amazon VPC, you can choose your own IP Address range, create your own subnets, and configure route tables to any available gateways. 
+
++   #####   How can I Architect a cloud solution using Amazon VPC ?
