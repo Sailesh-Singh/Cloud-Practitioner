@@ -870,3 +870,12 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +  Amazon VPC helps you control your virtual networking environment. By using Amazon VPC, you can choose your own IP Address range, create your own subnets, and configure route tables to any available gateways. 
 
 +   #####   How can I Architect a cloud solution using Amazon VPC ?
+
+    The diagram shows how you can use a VPC to build a solution that has both public subnet and a private subnet. The public subnet has an EC2 instance that hosts a web application that has access to the internet. The private subnet has an RDS instance that is protected from direct access to the internet.
+
+    <br>
+    <p align="center">
+    <img src="Architect_cloud_solution _using_Amazon_VPC.png" alt="Architect_cloud_solution _using_Amazon_VPC">
+    </p>
+    <br>
+
