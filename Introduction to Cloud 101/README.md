@@ -858,3 +858,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 +   #####   What problem does Amazon VPC solve ?
 
     Amazon VPC provides features that you can use to increase and monitor the security for your virtual private clou (VPC) on demand. Therefore, you can create a data center as you need it and terminate it when you no longer need it.
+
++   #####   What are the benefits of Amazon VPC ?
+
