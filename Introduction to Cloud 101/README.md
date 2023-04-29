@@ -880,3 +880,15 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     <br>
 
 +   #####   How can I use Amazon VPC ?
+
+    +   ######  Host a simple website
+        You can use Amazon VPC to host a basic web application, such as a blog or simple website. You'll gain the additional layers of privacy and security that the VPC configuration options provide.
+
+    +   ######  Host multi-tier web applications
+        You can use a VPC to host multi-tier web application and strictly enforce access and security restrictions between your web servers, application servers, and databases. To achieve this result, you launch web servers in a publicly accessible subnet while running your application servers and databases in private subnets. This technique will ensure that appliacation servers and databases cannot be directly accessed from the internet.
+
+    +   ######  Back up and recover
+        By using Amazon VPC for disaster recovery, you receive all the benfits of a disaster recovery site at a fraction of the cost. You can preodically back up critical data from your data center to a small number of Amazon EC2 instances. Alternatively, you can import your virtual machine images to Amazon EC2. To ensure business continuity, you can use Amazon VPC to quickly launch replacement compute capacity in AWS. When the disaster is over, you can send your mission-critical data back to your data center.
+
+    +   ######  Extend your corporate network
+        You can use a VPC to move corporate applications to the cloud or launch additional web servers. You can also use a VPC to add more compute capacity to your network by connecting your VPC can be hosted behind your corporate firewall, you can seamlessly move your IT resources into the cloud. You don't need to change how your users access these applications.
