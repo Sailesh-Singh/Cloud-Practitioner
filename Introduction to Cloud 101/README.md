@@ -852,3 +852,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 ####    Amazon Virtual Private Cloud - VPC
 
 +   #####   What does Amazon VPC do ?
+
+    Amazon VPC is a service that you use to launch AWS resources in a logically isolated virtual nework that you define. As a foundational AWS services, Amazon VPC makes it easy to customize your VPC's network configuration. You can create a public-facing subnet for your web servers that have access to the internet. You can also use Amazon VPC to place your backend systems, such as daabases or applicatuon servers, in a private-facing subnet with no internet access. With Amazon VPC, you can use multiple layers of security to help control access to Amazon EC2 instances in each subnet. These layers include security groups and nework access control lists(network ACLs).
