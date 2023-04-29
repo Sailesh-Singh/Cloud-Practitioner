@@ -900,3 +900,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     When you create one from scratch, auomatically it will create a route table, a network ACL, and a security group. Then you configure them according to your needs.
     
     If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
+
++   #####   How much does Amazon VPC cost?
+    
