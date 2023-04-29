@@ -894,3 +894,9 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
         You can use a VPC to move corporate applications to the cloud or launch additional web servers. You can also use a VPC to add more compute capacity to your network by connecting your VPC can be hosted behind your corporate firewall, you can seamlessly move your IT resources into the cloud. You don't need to change how your users access these applications.
 
 +   #####   What else should I keep in mind when using Amazon VPC?
+
+    When you creae a new Amazon VPC, you can have the option to create one by using a template or create one from scratch.
+    
+    When you create one from scratch, auomatically it will create a route table, a network ACL, and a security group. Then you configure them according to your needs.
+    
+    If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
