@@ -921,7 +921,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
  Amazon EC2 solves the problem of predicting upfront needs. Therefore, you don't need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can scale up and down as you need to.
 
- +  #####   What are the benefits of Amazon EC2?
+ +  #####   What are the benefits of Amazon EC2 ?
 
     The following list describes a few of the benefits that Amazon EC2 offers.
 
