@@ -942,3 +942,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     <img src="Architect_cloud_solution_using_Amazon_EC2.PNG" alt="Architect_cloud_solution_using_Amazon_EC2">
     </p>
     <br>
+
++   #####   How can I use Amazon EC2 ?
