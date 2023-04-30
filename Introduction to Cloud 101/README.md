@@ -934,3 +934,11 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +   You can use Amazon EC2 to scale up and scale down to meet seasonal needs. You dont need to have extra servers on hand that are used for only a few months out of the year.
 
 +   #####   How can I architect a cloud solution using Amazon EC2 ?
+
+    With Amazon EC2, you can architect a solution to build a multi-tier application. To construct this solution, you create an instance in a public subnet that hosts a website with a security group that allows internet traffic in and out. Then, you can create another instance that hosts a database in a private subnet with a hardened security group. This security group restricts internet traffic, but allows the website instance to access the database instance.
+
+    <br>
+    <p align="center">
+    <img src="Architect_cloud_solution_using_Amazon_EC2.PNG" alt="Architect_cloud_solution_using_Amazon_EC2">
+    </p>
+    <br>
