@@ -613,7 +613,7 @@ Serverless is a way to describe the services, practices, and strategies that you
 
 [<img src="AWS_Core_Services_Arcitecture-Diagram.png" alt="AWS Core Services Architecture" width="100%" height="100%" >]()
 
-The detailed description of Core Service Architecture are as follws:
+The detailed description of Core Service Architecture are as follows:
 ####    Identity and Access Management (IAM)
 
 +   #####   What does IAM do?
@@ -754,7 +754,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     In this example, a user uploads a photo into Amazon S3 - Bucket A. This action triggers the Lambda code to run and resize the photo and place the photo in Amazon S3 - Bucket B. From Bucket B, the user can download the resized photo. Lambda then sends an email or a text message to the appropriate users to alert them that the photo is ready to download.
 
-    +   #####   How can I use AWS Lambda?
++   #####   How can I use AWS Lambda?
 
     +   ######  Web applications
         By combining AWS Lambda with other AWS services, developers can build powerful web applications that automatically scale up and down. These applications run in a highly available configuration across multiple data centers - with zero administrative effort required for scalability, backups, or multi-data redundancy.
@@ -910,3 +910,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     Also, any service that you place in your Amazon VPC, such as Amazon EC2, will carry with it the associated cost for that service.
     <br>
+
