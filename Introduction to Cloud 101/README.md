@@ -961,3 +961,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
          AWS offers fully managed and serverless database services that you can provision for all your database needs. However, with both fully managed services and serverless services, you don't have access to the operating system of the database. But you can host your own database on an EC2 instance, if your company requires you to have that access.
 
++   #####   What else should I keep in mind when using Amazon EC2 ?
+
+
