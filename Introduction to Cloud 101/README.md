@@ -963,4 +963,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   What else should I keep in mind when using Amazon EC2 ?
 
-
+    If you stop an instance, the Amazon Elastic Block Store (Amazon EBS) volume that is attached will retain your data. You will still be charged for the use of the volume. However, if you terminate the instance, then all your data on the volume will be permanently deleted. The volume will return to AWS for available use to other customers.
