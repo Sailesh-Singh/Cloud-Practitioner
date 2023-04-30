@@ -944,3 +944,20 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     <br>
 
 +   #####   How can I use Amazon EC2 ?
+
+    +   ###### Host multi-tier applications
+
+        Amazon EC2 can be used to create multi-tier web applications. With security groups, you control the kind of port traffic that can reach your instances. You configure your security group and attach it to your instances, and you control the traffic that can enter each layer of your architecture.
+
+    +   ######  Backup and disaster recovery
+
+        With Amazon EC2, you can create a backup instance if your main instances fail. In the event of a failure, you can scale up your backup instances until you get your main instances back online. Then, scale your backup instances back down when recovery of your main instances is complete. Amazon EC2 instances can act as a backup for cloud or on-premises instances.
+
+    +   ######  On-demand computing
+
+        Amazon EC2 lets you provison instances to perform computing jobs and terminate them when you are done. This arrangement can save you a lot of money. If you only need the computing resource for a few hours, days, or weeks.
+
+    +   ######  Host databases
+
+         AWS offers fully managed and serverless database services that you can provision for all your database needs. However, with both fully managed services and serverless services, you don't have access to the operating system of the database. But you can host your own database on an EC2 instance, if your company requires you to have that access.
+
