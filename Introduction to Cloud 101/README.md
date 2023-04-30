@@ -932,3 +932,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     <br>
 
     +   You can use Amazon EC2 to scale up and scale down to meet seasonal needs. You dont need to have extra servers on hand that are used for only a few months out of the year.
+
++   #####   How can I architect a cloud solution using Amazon EC2 ?
