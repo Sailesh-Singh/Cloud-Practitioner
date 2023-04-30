@@ -918,3 +918,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     Amazon Elastic Compute Cloud - EC2 (Amazon ) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud compuing easier for developers. You can use the simple web interface of Amzaon EC2 to obtain and configure capacity with minimal fricion. It provides you with complete contol of your computing resources, and you can run it on the proven computing environment of Amazon.
 
 +   #####   What problem does Amazon EC2 solve ?
+
+ Amazon EC2 solves the problem of predicting upfront needs. Therefore, you don't need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can scale up and down as you need to.
