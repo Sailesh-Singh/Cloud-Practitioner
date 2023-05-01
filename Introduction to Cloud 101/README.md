@@ -982,8 +982,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 +   #####   What are the benefits of Amazon RDS ?
 
     The following list describes a few of the benefits that Amazon RDS offers:
-
-   +    Amazon RDS is easy to administer with no need for infrastructure provisoning, and no need for installing and maintaining database software. With a few mouse clicks or an API call, you can scale your database's compute and storage resources as needed.
-   <br>
-
-   +    Amazon RDS is fast and supports the most demanding database applications. You can run your database instances in Amazon Virtual Private Cloud (Amazon VPC), which enables you to isolate your database instances. Alternatively, you can connect your database instances to your existing IT infrastructure through an industry-standard encrypted IPsec virtual private network (VPN). 
+        +    Amazon RDS is easy to administer with no need for infrastructure provisoning, and no need for installing and maintaining database software. With a few mouse clicks or an API call, you can scale your database's compute and storage resources as needed.
+        <br>
+        
+        +    Amazon RDS is fast and supports the most demanding database applications. You can run your database instances in Amazon Virtual Private Cloud (Amazon VPC), which enables you to isolate your database instances. Alternatively, you can connect your database instances to your existing IT infrastructure through an industry-standard encrypted IPsec virtual private network (VPN). 
