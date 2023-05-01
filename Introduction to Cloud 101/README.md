@@ -1010,3 +1010,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     <br>
 
     Suppose that you decide to host your own database on an EC2 instance. Then, you are responsible for many of the automated tasks that Amazon RDS would automatically perform for you.
+
++   #####   How much does Amazon RDS cost?
+
