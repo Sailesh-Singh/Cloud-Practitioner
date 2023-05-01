@@ -989,3 +989,11 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +    Amazon RDS is fast and supports the most demanding database applications. You can run your database instances in Amazon Virtual Private Cloud (Amazon VPC), which enables you to isolate your database instances. Alternatively, you can connect your database instances to your existing IT infrastructure through an industry-standard encrypted IPsec virtual private network (VPN). 
 
 +   #####   How can I architect a cloud solution using Amazon RDS ?
+
+    You can architect a solution to build for fault tolerance by configuring Amazon RDS for Multi-AZ deployment. To accomplish this task, you place your master RDS instance in one Availability Zone, and a standby replica of the master in another Availability Zone. If the primary fails, then the stand by automatically becomes the new master and your system remains active.
+
+    <br>
+    <p align="center">
+    <img src="Architect_cloud_solution_using_Amazon_RDS.PNG" alt="Architect_cloud_solution_using_Amazon_RDS">
+    </p>
+    <br>
