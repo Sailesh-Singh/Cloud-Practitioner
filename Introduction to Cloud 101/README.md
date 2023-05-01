@@ -1013,3 +1013,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   How much does Amazon RDS cost?
 
+    Amazon RDS pricing follows the pay-only-for -what-you-use model. It has no minimum fee. You can play for Amazon RDS by using On-Demand or Reserved Insances, similar to what you learned about the Amazon EC2 options. 
+    
+    Amazon RDS provides a selection of instance types that are optimized to fit different relational database use case.
+
