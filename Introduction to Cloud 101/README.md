@@ -1006,3 +1006,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     +   ######  Mobile and online games
 
 +   #####   What else should I keep in mind when using Amazon RDS ?
+    Amazon RDS is fully managed. "Fully managed" means that AWS automates the maintenance and security of the database instance without your doing anything. However, you might need access to manage the operating system and update security patches yourself. If so, then you can provision an EC2 instance and use it to host your own database.
+    <br>
+
+    Suppose that you decide to host your own database on an EC2 instance. Then, you are responsible for many of the automated tasks that Amazon RDS would automatically perform for you.
