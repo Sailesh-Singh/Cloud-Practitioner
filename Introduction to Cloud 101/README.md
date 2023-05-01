@@ -1005,3 +1005,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     
     +   ######  Mobile and online games
 
++   #####   What else should I keep in mind when using Amazon RDS ?
