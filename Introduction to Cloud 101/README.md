@@ -978,3 +978,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 +   #####   What problem does Amazon RDS solve ?
 
      Amazon RDS solves the problem of purchasing a database with a capacity that is either too large or too small for your use over time. With Amazon RDS, you can scale up and down based on your database capacity needs. As a result, you are never paying for more database capacity than you need.
+
++   #####   What are the benefits of Amazon RDS ?
