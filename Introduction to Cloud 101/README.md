@@ -911,7 +911,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     Also, any service that you place in your Amazon VPC, such as Amazon EC2, will carry with it the associated cost for that service.
     <br>
 
-####    Amazon Elastic Compute Cloud - EC2
+####    Amazon Elastic Compute Cloud - EC2 : Public Subnet
 
 +   #####   What does Amazon EC2 do ?
 
@@ -969,3 +969,6 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     + ######  On-demand Instances
     + ######  Spot Instances
     + ######  Reserved Instances
+
+####    Amazon Relational Database Service (Amazon RDS) : Private Subnet
+
