@@ -973,3 +973,5 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 ####    Amazon Relational Database Service (Amazon RDS) : Private Subnet
 
 +   #####   What does Amazon RDS do ?
+    Amazon Relational Database Service (Amazon RDS) is a distributed relational database managed service. It is cloud-based and designed to simplify the setup, operation, and scaling of relational databases. Administrative process like patching, backing up databases, and enabling point-in-time recovery are managed automatically.
+    
