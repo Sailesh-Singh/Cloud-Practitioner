@@ -1017,3 +1017,26 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     
     Amazon RDS provides a selection of instance types that are optimized to fit different relational database use case.
 
+####   Amazon CloudWatch
++   `What does Amazon CloudWatch do?`
+        : It is a monitoring and obsercation servicethat is built for Devols engineers, developers, security engineer, and IT managers. CloudWatch provides you with data and actionable insighrs to monitor your applications, respond to system-wide performance changes, and optimize resources utilization. You get a unified view of operational health.
+
++    ` What problem does CloudWatch Solve?`
+        <img src="alt" alt="" style="height::100%; width: =100%;"   >  
++  `What are the benefits of Cloudwatch?`
+          <img src="" alt="" style="height::100%; width: =100%;"   >      
+
++      ` How can I architect a cloud solution using Cloudwatch?`
+        <img src="" alt="" style="height::100%; width: =100%;"   >  
+
++   `  How can I use CloudWatch?`
+
+         +   Infrastructure monitoring and troubleshooting
+            +   Proacive resource optiization
+            +   Application monitoring
+
++     `What else should I keep in mind when using CloudWatch?`
+        <img src="" alt="" style="height::100%; width: =100%;"   >
+
++    `How much does CloudWatch cost?`
+        <img src="" alt="" style="height::100%; width: =100%;"   >  
