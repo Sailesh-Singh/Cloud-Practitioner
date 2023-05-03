@@ -1040,3 +1040,27 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +    `How much does CloudWatch cost?`
         <img src="" alt="" style="height::100%; width: =100%;"   >  
+
+####    Amazon SNS(Simple Notification Server)
++   `What does Amazon SNS do?`
+    <img src="" alt="" style="height::100%; width: =100%;"   >
+
++    `What problem does SNS solve?`
+    : It solves the problem of the appropriate subscribers not getting important information that they should be aware of, as events occur in their applicaions or infrastructure.
+
++  `What are the benefits of Amazon SNS?`
+
+    : <img src="" alt="" style="height::100%; width: =100%;"   >
+    
++  `How can I architect a cloud solution using Amazon SNS?`
+    : <img src="" alt="" style="height::100%; width: =100%;"   >
+
++    `How can I use Amazon SNS?`
+        +   Standard
+        +   FIFO
+
++    `What else should I keep in mind when using Amazon SNS?`
+     : It cannot automate messages by itself. It must work with a service such as Amazon CloudWatch or AWS Lambda that can monitor what is going on in your architecture. he service must also be able to trigger Amazon SNS to send a notification, based on your system's configurations. 
+
++    `How much does Amazon SNS costs?`
+     : It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
