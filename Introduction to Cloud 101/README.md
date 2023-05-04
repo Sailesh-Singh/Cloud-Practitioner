@@ -1064,3 +1064,34 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +    `How much does Amazon SNS costs?`
      : It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
+
+
++   ####    Identity and Access Management(IAM)
+
+    1.  `What does IAM do?`
+     : It is a centralized security management system that is included in every AWS account to control identity access to AWS services. By attaching IAM permission policies to identities, you can manage which services each identity can access and the kinf of actions the identity can perform.
+        Identities in IAM are (user, group, role)
+
+    2.  `What problem does IAM solve?`
+         <img src="" alt="" style="height::100%; width: =100%;"   >
+
+    3.  `Benefits of IAM?`
+     : It has a simple user interface that makes it easy to gran and control user access to AWS services.
+     : It has many system-generated policies that you can use, and you create additional custom policies that meet the needs of your specific requirements.
+
+    4.  `How can I architect a cloud soluion using IAM?`
+     :  <img src="" alt="" style="height::100%; width: =100%;"   >
+
+    5. ` How can I use IAM?` 
+      + Fine-grained access control
+      + Muli-factore authentication
+      + Analyze access
+      + Integrate with your corporate directory
+
+    6.  `What else should I keep in mind when using IAM?`
+        +   Implicity deny
+        +   Explici allow
+        +   Explicit deny 
+
+    7.    `How much does IAM cost?` 
+        : It is a service in your AWS accoun that is offereed at no additional charge. You are charged only when you access other AWS Services by using your IAM users credentials.
