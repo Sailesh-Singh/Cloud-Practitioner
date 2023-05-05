@@ -1095,3 +1095,56 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     7.    `How much does IAM cost?` 
         : It is a service in your AWS accoun that is offereed at no additional charge. You are charged only when you access other AWS Services by using your IAM users credentials.
+
+
+
+    +   #### Amazon Simple Storage Service - S3
+    1.  `What does Amazon S3 do ?`
+     :  It is a object storage that is built to store and retrieve any amount of data from anywhere at any time. It's a simple storage service that offers industry-leading durability, availability, performance, securiy and virtuality unlimited scalability at low costs.
+
+    2.  `What problem does Amazon S3 solve?`
+     :    <img src="S3_1.PNG" alt="" style="height::100%; width: =100%;"   >   
+
+    3.  `What are the benefits of Amazon S3?`
+     :  <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
+     
+    4.  `How can I architect a cloud solution by using Amazon S3?`
+        <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
+
+    5.  `How can I use Amazon S3?`
+        +   Backup and store 
+        +   Disaster recovery
+        +   Archieve
+        +   Data lakes and big data analytics
+
+    6.  `Wha else should I keep in mind when using Amazon S3?`
+     :   <img src="keep_S3.PNG" alt="" style="height::100%; width: =100%;"   >   
+
+    6.  `How much does Amazon S3 costs?`
+     : With Amazon S3, you pay only for what you use. It has no minimum fee. Some prices vary across Amazon S3 Regions. Biling prices are based on the location of your S3 bucket.  
+
++   ####    AWS Lambda
+    1.  `What does AWS Lambda do?`
+     : It is a serverless compute service that you can use to run function code withoit provisioning or managing servers. You can use Lambda to run function code for virtually any type of application or backend service. You upload your code, and Lambda takes care of everything that is required to run and scale your code with high availability.
+
+    2.  `What problem does AWS Lambda solve?`
+     : AWS lambda removes all administration for application or backend services that can be processed in snippets of code. You upload your code as a .zip file or container image. Then, Lambda automatically and precisely allocates compute power to run your code based on the incoming request or event, for any scale of traffic, You can set up your code to automatically trigger from over 200 services and software as a service (Saas) applications or call it directly from any web or mobile app.
+
+    3.  `What are the benefits of AWS Lambda?`
+     :   <img src="" alt="" style="height::100%; width: =100%;"   >  
+     
+    4.  `How can I architect a cloud solution using AWS Lambda?`
+      <img src="" alt="" style="height::100%; width: =100%;"   >   
+
+    5.  `How can I use Amazon Lambda?`
+     +  Web applications
+     +  Data processing
+     +  Real-time file processing
+     +  Real-time stream processing
+
+    6.    `What else should I keep in mind when using AWS Lambda?`
+     : It has a 15 minute limit on its runtime for each invocation. If your computing needs require more than 15 minutes for runtime, when you would need to use an EC2 instance instead of Lambda.
+
+    7.  `How much does AWS Lambda cost?`
+     : <img src="" alt="" style="height::100%; width: =100%;"   > 
+
