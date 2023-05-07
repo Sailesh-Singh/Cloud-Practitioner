@@ -672,10 +672,22 @@ The detailed description of Core Service Architecture are as follows:
     In the diagram, a user in the Dev account is assuming a role in the production account. The role returns a temproary security credential. It grants the user temproary access to the AWS service based on the policy that is attached to the role.
 
 +   #####   How can I use IAM ?
-    +   Fine-grained access control
-    +   Multi-factor authentication
-    +   Analyze access
-    +   Integrate with your corporate directory
+    +   ######  Fine-grained access control
+
+        Your users can use IAM to control access to AWS service APIs and to specific resources. You can use IAM to add specific conditions for how a user can use AWS resources or their originating IP address. These conditions might also determine whether they are using Secure Sockets Layer (SSL) or whether they  have authenticated with a multi-factor authentication device.
+
+    +   ###### Multi-factor authentication
+        
+        With IAM, you can protect your AWS environment by using AWS multi-factor authentication (MFA).  MFA is a security feature available at no extra cost that augments user name and password credentials. MFA requires users to prove physical possession of a hardware MFA token or MFA-enabled mobile device by providing a valid MFA code.
+
+    +   ###### Analyze access
+
+        IAM helps you analyze access across your AWS environment. Your security teams and administrators can quickly validate that your policies only provide the intended public and cross-account access to your resources. You can also easily identify and refine your policies to allow access to only the services that are being used. This practice helps you to better adhere to the principle of least privilege.
+
+    +   ###### Integrate with your corporate directory
+        
+        IAM can be used to grant your employees and applications federated access to the AWS Management Console and AWS service APIs. It uses your existing identity systems, such as Microsoft Active Directory. You can use any identity management solution that supports Security Assertion Markup Language (SAML) 2.0. You can also feel free to use one of the AWS federation samples, such as AWS Management Console single sign-on (SSO) or API federation.
+
 
 +   #####   What else should I keep in mind when using IAM?
     AWS evaluates policies depends on the types of policies that apply.
