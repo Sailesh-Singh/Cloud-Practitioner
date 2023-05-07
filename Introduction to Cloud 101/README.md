@@ -691,9 +691,19 @@ The detailed description of Core Service Architecture are as follows:
 
 +   #####   What else should I keep in mind when using IAM?
     AWS evaluates policies depends on the types of policies that apply.
-    +   Implicit deny
-    +   Explicit allow
-    +   Explicit deny
+    +   ######  Implicit deny
+        
+        An implict deny denies a user, group, or role access to a service. This policy is the default setting for all new identities when they are created. For the identity to gain access to a service, an explict allow IAM policy must be attached to the identity. The explict allow will then override the implict deny.
+        
+    +   ###### Explicit allow
+        
+        An explict allow will override an implict deny. The explict allow can grant full access or partial access, depending on the IAM policy that you attach.
+        For example, suppose that you attach an IAM policy to a user explicitly granting them access to read objects in Amazon S3. Then, the implicit deny will still restrict the user from editing or deleting the file. This restriction occurs because, in this example, the user has explicit permissions to only read the file.
+
+    +   ###### Explicit deny
+
+        An explict deny is an IAM policy that you attach to a user, group, or role. It restricts that identify from having access to the service or to specified actions within the service. An explict deny is similar to an implicit deny, with one important distinction: _an explict allow cannot override an explicit deny_ .
+        For example, suppose that a user has an explicit allow to full access to Amazon S3. The user is then put into a group that has an explicit deny to delete files from Amazon S3. The result is that has the user will have full access in everything Amazon S3, with the exception of the ability to delete files.
 
 +   #####   How much does IAM cost?
     IAM is a service in your AWS accoun that is offereed at no additional charge. You are charged only when you access other AWS Services by using your IAM users credentials.
