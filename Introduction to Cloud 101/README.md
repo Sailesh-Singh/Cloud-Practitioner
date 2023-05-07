@@ -1060,9 +1060,15 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 +   #####   How can I use Amazon RDS?
     +   ######  Web and mobile applications
 
+        Web and mobile applications that are built to operate at very large scale need a database with high throughput, massive storage scalability, and high availability. Amazon RDS fulfills the needs of such highly demanding applications with room for furture growth. Because Amazon RDS does not have any licensing constraints, it perfectly fits the variable usage pattern of these applications.
+
     +   ######  Ecommerce applications
+
+        Amazon RDS offers small and large ecommerce business a flexible, secured, highly scalable, and low-cost database solution for online sales and retailing. Amazon RDS provides a managed database offering to help e-commerce companies meet payment card industry (PCI) compliance and focus on building high quality customer experiences. They don't need to worry about managing the underlying database.
     
     +   ######  Mobile and online games
+
+        Mobile and online games need a database platform with high throughput and high availability. Amazon RDS manages the database infrastructure so game developers don't have to worry about provisoning, scaling, or monitoring database servers. Amazon RDS provides familiar database engines that can rapidly grow capacity to meet user demand.
 
 +   #####   What else should I keep in mind when using Amazon RDS ?
     Amazon RDS is fully managed. "Fully managed" means that AWS automates the maintenance and security of the database instance without your doing anything. However, you might need access to manage the operating system and update security patches yourself. If so, then you can provision an EC2 instance and use it to host your own database.
