@@ -195,7 +195,7 @@ align="left" width="50px" height="50px" >
 <!--- 
 [<img src="benefits_1.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Trade upfront expense for variable expense_**</small>]()-->
 
-Upfront expense refers to data centers, physical servers, and other resources that you would need to invest in before using them. Variable expense means that you pay only for computing resources that you consume. You don't need to invest heavily in data centers and servers before you know how you're going to use them.<br>
+Upfront expense refers to data centers, physical servers, and other resources that you would need to invest in before using them. Variable expense means that you pay only for computing resources that you consume. You don't need to invest heavily in data centers and servers before you know how you're going to use them.
 By taking a cloud computing approach that offers the benefit of variable expense, companies can implement innovative solutions while saving on costs.
 
 ####   2.  Stop spending money to run and maintain data centers
@@ -203,13 +203,16 @@ By taking a cloud computing approach that offers the benefit of variable expense
 <!--- 
 [<img src="benefits_2.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop spending money to run and maintain data centers_**</small>]()-->
 
-Computing in data centers often requires you to spend more money and time managing infrastructure and servers.<br>
+Computing in data centers often requires you to spend more money and time managing infrastructure and servers.
 A benefit of cloud computing is the ability to focus less on these tasks and more on your applications and customers.
 
 ####   3.  Stop guessing capacity
 
 <!--- 
 [<img src="benefits_3.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop guessing capacity_**</small>]()-->
+
+With cloud computing, you don't have to predict how much infrastructure capacity you will need before deploying an application.
+For example, you can launch Amazon EC2 instances when needed, and pay only for the compute time that you use. You can also scale in or scale out in response to demand.
 
 ####   4.  Benefit from massive economics of scale
 
