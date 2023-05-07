@@ -233,6 +233,8 @@ The flexiblity of cloud computing makes it easier for you to develop and deploy 
 <!--- 
 [<img src="benefits_6.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Go global in minutes_**</small>]()-->
 
+You can use the global footprint of the AWS Cloud to deploy applications to customers around the world quickly, while providing them with low latency. Therefore, even if you are located in a different part of the world from yours customers, the customers can access your applications with minimal delays.
+Later in this course, you will explore the AWS Global Infrastructure in greater detail.
 
 ### Deploying to the cloud
 
