@@ -192,7 +192,6 @@ align="left" width="50px" height="50px" >
 </p>
 
 ####   1.  Trade upfront expense for variable expense  
-<!--- -->
 <!--- 
 [<img src="benefits_1.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Trade upfront expense for variable expense_**</small>]()-->
 
@@ -203,6 +202,9 @@ By taking a cloud computing approach that offers the benefit of variable expense
 
 <!--- 
 [<img src="benefits_2.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop spending money to run and maintain data centers_**</small>]()-->
+
+Computing in data centers often requires you to spend more money and time managing infrastructure and servers.<br>
+A benefit of cloud computing is the ability to focus less on these tasks and more on your applications and customers.
 
 ####   3.  Stop guessing capacity
 
