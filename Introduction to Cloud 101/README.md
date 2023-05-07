@@ -1083,49 +1083,52 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     Amazon RDS provides a selection of instance types that are optimized to fit different relational database use case.
 
 ####   Amazon CloudWatch
-+   `What does Amazon CloudWatch do?`
-        : It is a monitoring and obsercation servicethat is built for Devols engineers, developers, security engineer, and IT managers. CloudWatch provides you with data and actionable insighrs to monitor your applications, respond to system-wide performance changes, and optimize resources utilization. You get a unified view of operational health.
++   #####   What does Amazon CloudWatch do?
+    Amazon CloudWatch is a monitoring and obsercation servicethat is built for Devols engineers, developers, security engineer, and IT managers. CloudWatch provides you with data and actionable insighrs to monitor your applications, respond to system-wide performance changes, and optimize resources utilization. You get a unified view of operational health.
 
-+    ` What problem does CloudWatch Solve?`
-        <img src="alt" alt="" style="height::100%; width: =100%;"   >  
-+  `What are the benefits of Cloudwatch?`
-          <img src="" alt="" style="height::100%; width: =100%;"   >      
++   #####   What problem does CloudWatch Solve?
+    <img src="alt" alt="" style="height::100%; width: =100%;"   >  
++   #####   What are the benefits of Cloudwatch?
+    <img src="" alt="" style="height::100%; width: =100%;"   >      
 
-+      ` How can I architect a cloud solution using Cloudwatch?`
-        <img src="" alt="" style="height::100%; width: =100%;"   >  
++   #####   How can I architect a cloud solution using Cloudwatch?
+    <img src="" alt="" style="height::100%; width: =100%;"   >  
 
-+   `  How can I use CloudWatch?`
++   #####   How can I use CloudWatch?
 
-         +   Infrastructure monitoring and troubleshooting
-            +   Proacive resource optiization
-            +   Application monitoring
+    +   Infrastructure monitoring and troubleshooting
+        +   Proactive resource optiization
+        +   Application monitoring
 
-+     `What else should I keep in mind when using CloudWatch?`
-        <img src="" alt="" style="height::100%; width: =100%;"   >
-
-+    `How much does CloudWatch cost?`
-        <img src="" alt="" style="height::100%; width: =100%;"   >  
-
-####    Amazon SNS(Simple Notification Server)
-+   `What does Amazon SNS do?`
++   #####   What else should I keep in mind when using CloudWatch?
     <img src="" alt="" style="height::100%; width: =100%;"   >
 
-+    `What problem does SNS solve?`
-    : It solves the problem of the appropriate subscribers not getting important information that they should be aware of, as events occur in their applicaions or infrastructure.
++   #####   How much does CloudWatch cost?
+    <img src="" alt="" style="height::100%; width: =100%;"   >  
 
-+  `What are the benefits of Amazon SNS?`
+####    Amazon SNS(Simple Notification Server)
 
-    : <img src="" alt="" style="height::100%; width: =100%;"   >
++   #####   What does Amazon SNS do?
+    <img src="" alt="" style="height::100%; width: =100%;"   >
+
++   #####   What problem does SNS solve?
+    SNS solves the problem of the appropriate subscribers not getting important information that they should be aware of, as events occur in their applicaions or infrastructure.
+
++   #####   What are the benefits of Amazon SNS?
+
+    <img src="" alt="" style="height::100%; width: =100%;"   >
     
-+  `How can I architect a cloud solution using Amazon SNS?`
-    : <img src="" alt="" style="height::100%; width: =100%;"   >
++   #####   How can I architect a cloud solution using Amazon SNS?
+    <img src="" alt="" style="height::100%; width: =100%;"   >
 
-+    `How can I use Amazon SNS?`
-        +   Standard
-        +   FIFO
++   #####   How can I use Amazon SNS?
+    +   Standard
+    +   FIFO
 
-+    `What else should I keep in mind when using Amazon SNS?`
-     : It cannot automate messages by itself. It must work with a service such as Amazon CloudWatch or AWS Lambda that can monitor what is going on in your architecture. he service must also be able to trigger Amazon SNS to send a notification, based on your system's configurations. 
++   #####   What else should I keep in mind when using Amazon SNS?
 
-+    `How much does Amazon SNS costs?`
-     : It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
+    It cannot automate messages by itself. It must work with a service such as Amazon CloudWatch or AWS Lambda that can monitor what is going on in your architecture. he service must also be able to trigger Amazon SNS to send a notification, based on your system's configurations. 
+
++   #####   How much does Amazon SNS costs?
+
+    It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
