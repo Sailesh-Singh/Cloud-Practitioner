@@ -966,7 +966,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   What problem does Amazon EC2 solve ?
 
- Amazon EC2 solves the problem of predicting upfront needs. Therefore, you don't need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can scale up and down as you need to.
+    Amazon EC2 solves the problem of predicting upfront needs. Therefore, you don't need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can scale up and down as you need to.
 
  +  #####   What are the benefits of Amazon EC2 ?
 
@@ -1014,8 +1014,20 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   How much does Amazon EC2 cost ?
     + ######  On-demand Instances
+        
+        With On-Demand instances, you pay for instances only for the amount of time that you use them. No long-term commitments or upfront payments are required. You can increase  or decrease your compute capacity depending on the demands of your application and pay only for the time that you use them.
+        <b>Use Case</b> : Short-term computing workloads that cannot be interrupted; and users that need low-cost computing without any upfront or long-term commitment.
+
     + ######  Spot Instances
+
+        You can use Amazon EC2 Spot Instances to take advantage of unused Amazon EC2 capacity in the AWS cloud for a discount. You can save up to 90 percent compared to On-Demand prices. To get a Spot instance, you submit a request with the instance specifications and the maximum price that you are willing to pay per hour. When a Spot Instance is available at your submitted price, you will have access to the instance.
+
+        <b>Use Case</b> : Workloads that can be paused and restarted when computing prices meet your budget for Spot Instances.
+
     + ######  Reserved Instances
+
+        Reserved Instances provide you with a significant discount (up to 75 percent) compared to On-Demand Instance pricing. With Reserved Instances, you commit to paying for the instance for 1 or 3 years, depending on the conditions you agree to when purchasing them.
+        <b>Use Case</b> : Computing needs with a steady amount usage of up to 1 year or more.
 
 ####    Amazon Relational Database Service (Amazon RDS) : Private Subnet
 
