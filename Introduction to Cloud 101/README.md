@@ -196,6 +196,9 @@ align="left" width="50px" height="50px" >
 <!--- 
 [<img src="benefits_1.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Trade upfront expense for variable expense_**</small>]()-->
 
+Upfront expense refers to data centers, physical servers, and other resources that you would need to invest in before using them. Variable expense means that you pay only for computing resources that you consume. You don't need to invest heavily in data centers and servers before you know how you're going to use them.<br>
+By taking a cloud computing approach that offers the benefit of variable expense, companies can implement innovative solutions while saving on costs.
+
 ####   2.  Stop spending money to run and maintain data centers
 
 <!--- 
