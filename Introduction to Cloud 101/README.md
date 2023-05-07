@@ -226,6 +226,8 @@ By using cloud computing, you can achieve a lower varuable cost than you can get
 <!--- 
 [<img src="benefits_5.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Increase speed and agility_**</small>]()-->
 
+The flexiblity of cloud computing makes it easier for you to develop and deploy applications. This flexibility provides you with more time to experiment and innovate. When computing in data centers, it might take weeks to obtain new resources that you need. By comparison, you can use cloud computing to access new resources within minutes.
+
 ####   6.  Go global in minutes
 
 <!--- 
