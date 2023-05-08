@@ -16,3 +16,6 @@ After completing this lab, you will know how to:
 This lab requires approximately **60** minutes to complete. You will have a total time of **240** minutes to complete this lab.
 
 
+####    Task 1: Creating a bucket 
+<img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Setting up EC2 Instance1" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_AWS_Management_Console-Services.png " alt="Setting up EC2 Instance2" width="50%" height="80%" >
+<small><b>*_Start and Launch AWS Management Console_*</b></small>
