@@ -6,15 +6,15 @@ We build our foundation journey from AWS educate course. Click [Introduction to 
 
 ## Module 1: Introduction to Cloud 101
 
-[<img src="Introduction_to_cloud.png" alt="Introduction to Cloud" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-101?module_item_id=13188)
+[<img src="assets/Introduction_to_cloud.png" alt="Introduction to Cloud" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-101?module_item_id=13188)
 
 We should learn about the cloud because of following reasons:
 
-[<img src="why_we_learn_about_cloud.png" alt="Why we learn about the Cloud" width="100%" height="100%" >]()
+[<img src="assets/why_we_learn_about_cloud.png" alt="Why we learn about the Cloud" width="100%" height="100%" >]()
 
 ## Module 2: Introduction to Cloud Computing
 
-[<img src="introduction_to_cloud_computing.png" alt="Introduction to Cloud Computing" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-computing?module_item_id=13189)
+[<img src="assets/introduction_to_cloud_computing.png" alt="Introduction to Cloud Computing" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-computing?module_item_id=13189)
 
 ### Objectives
 
@@ -25,7 +25,7 @@ We should learn about the cloud because of following reasons:
 
 ### Why Cloud Computing?
 
-[<img src="why_cloud_computing.png" alt="Introduction to Cloud Computing" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-computing?module_item_id=13189)
+[<img src="assets/why_cloud_computing.png" alt="Introduction to Cloud Computing" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-cloud-computing?module_item_id=13189)
 
 ### Definition Cloud Computing
 Cloud Computing is the on demand delivery of IT resources over the internet with pay-as-you-go pricing.
@@ -42,21 +42,21 @@ Cloud Computing is the on demand delivery of IT resources over the internet with
 <tr>
 <td>
      <p align="center">
-        <img src="On-demand-delivery.png" alt="On demand  delivery"  width="100px" height="100px" >
+        <img src="assets/On-demand-delivery.png" alt="On demand  delivery"  width="100px" height="100px" >
      </p>
 
 >   _On demand delivery means a cloud provider has the resources you need, when you need them._
 </td>
 <td>
      <p align="center">
-        <img src="IT-resource-over-the-internet.png" alt="IT resource over the internet"  width="100px" height="100px" >
+        <img src="assets/IT-resource-over-the-internet.png" alt="IT resource over the internet"  width="100px" height="100px" >
      </p>
 
 >   _Servers, networks, atorage, development tools, and applications._
 </td>
 <td>
      <p align="center">
-        <img src="Pay-as-you-go_pricing.png" alt="Pay-as-you-go pricing"  width="100px" height="100px" >
+        <img src="assets/Pay-as-you-go_pricing.png" alt="Pay-as-you-go pricing"  width="100px" height="100px" >
      </p>
 
 >   _Pay only for what you need when you use it._
@@ -66,13 +66,13 @@ Cloud Computing is the on demand delivery of IT resources over the internet with
 
 ### Who uses Amazon Web Services (AWS) cloud computing?
 ---
-[<img src="who_uses_AWS-Computing.png" alt="Who uses AWS Computing" width="100%" height="100%" >]()
+[<img src="assets/who_uses_AWS-Computing.png" alt="Who uses AWS Computing" width="100%" height="100%" >]()
 
 ---
 
 ### Brief history of cloud computing
 
-[<img src="Brief-history-of-cloud-computing.png" alt="Brief history of cloud computing" width="100%" height="100%" >]()
+[<img src="assets/Brief-history-of-cloud-computing.png" alt="Brief history of cloud computing" width="100%" height="100%" >]()
 
 
 <table>
@@ -158,7 +158,7 @@ A __client__ can be a web browser or desktop application that a person interacts
 </td>
 <td>
      <p align="center">
-        <img src="client_server-model.png" alt="IT resource over the internet"  width="100%" height="100%" >
+        <img src="assets/client_server-model.png" alt="IT resource over the internet"  width="100%" height="100%" >
      </p>
 
 >   _Client-Server model_
@@ -170,7 +170,7 @@ A __server__ can be services such as Amazon Elastic Compute Cloud (Amazon EC2), 
 </tr>
 <tr>
 <td colspan=3> 
-<img src="bulb.png" alt="Bulb" 
+<img src="assets/bulb.png" alt="Bulb" 
 align="left" width="50px" height="50px" >
 
 
@@ -182,7 +182,7 @@ align="left" width="50px" height="50px" >
 ### Six benefits of cloud computing
 
 <p align="center">
-<img src="sixbenefits.PNG" alt="IT resource over the internet"  width="50%" height="50%" >
+<img src="assets/sixbenefits.PNG" alt="IT resource over the internet"  width="50%" height="50%" >
 
 <p style="text-align: center;">
     <small>
@@ -193,7 +193,7 @@ align="left" width="50px" height="50px" >
 
 ####   1.  Trade upfront expense for variable expense  
 <!--- 
-[<img src="benefits_1.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Trade upfront expense for variable expense_**</small>]()-->
+[<img src="assets/benefits_1.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Trade upfront expense for variable expense_**</small>]()-->
 
 Upfront expense refers to data centers, physical servers, and other resources that you would need to invest in before using them. Variable expense means that you pay only for computing resources that you consume. You don't need to invest heavily in data centers and servers before you know how you're going to use them.
 By taking a cloud computing approach that offers the benefit of variable expense, companies can implement innovative solutions while saving on costs.
@@ -201,14 +201,14 @@ By taking a cloud computing approach that offers the benefit of variable expense
 ####   2.  Stop spending money to run and maintain data centers
 
 <!--- 
-[<img src="benefits_2.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop spending money to run and maintain data centers_**</small>]()-->
+[<img src="assets/benefits_2.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop spending money to run and maintain data centers_**</small>]()-->
 
 Computing in data centers often requires you to spend more money and time managing infrastructure and servers. A benefit of cloud computing is the ability to focus less on these tasks and more on your applications and customers.
 
 ####   3.  Stop guessing capacity
 
 <!--- 
-[<img src="benefits_3.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop guessing capacity_**</small>]()-->
+[<img src="assets/benefits_3.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Stop guessing capacity_**</small>]()-->
 
 With cloud computing, you don't have to predict how much infrastructure capacity you will need before deploying an application.
 For example, you can launch Amazon EC2 instances when needed, and pay only for the compute time that you use. You can also scale in or scale out in response to demand.
@@ -216,7 +216,7 @@ For example, you can launch Amazon EC2 instances when needed, and pay only for t
 ####   4.  Benefit from massive economics of scale
 
 <!--- 
-[<img src="benefits_4.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Benefit from massive economics of scale_**</small>]()-->
+[<img src="assets/benefits_4.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Benefit from massive economics of scale_**</small>]()-->
 
 By using cloud computing, you can achieve a lower varuable cost than you can get on your own. Because usage from hundreds of thousands of customers can aggregate in the cloud, providers such as AWS can achieve higher economics of scale.
 
@@ -224,14 +224,14 @@ By using cloud computing, you can achieve a lower varuable cost than you can get
 ####   5.  Increase speed and agility
 
 <!--- 
-[<img src="benefits_5.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Increase speed and agility_**</small>]()-->
+[<img src="assets/benefits_5.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Increase speed and agility_**</small>]()-->
 
 The flexiblity of cloud computing makes it easier for you to develop and deploy applications. This flexibility provides you with more time to experiment and innovate. When computing in data centers, it might take weeks to obtain new resources that you need. By comparison, you can use cloud computing to access new resources within minutes.
 
 ####   6.  Go global in minutes
 
 <!--- 
-[<img src="benefits_6.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Go global in minutes_**</small>]()-->
+[<img src="assets/benefits_6.png" alt="Benefits of cloud computing" width="100%" height="100%" ><small>**_Go global in minutes_**</small>]()-->
 
 You can use the global footprint of the AWS Cloud to deploy applications to customers around the world quickly, while providing them with low latency. Therefore, even if you are located in a different part of the world from yours customers, the customers can access your applications with minimal delays.
 Later in this course, you will explore the AWS Global Infrastructure in greater detail.
@@ -241,7 +241,7 @@ Later in this course, you will explore the AWS Global Infrastructure in greater 
 As cloud computing has grown in popularity, several different models and deployment strategies have emerged to help meet specific needs of different users. Each type of cloud service and deployment method provides you with different levels of control, flexiblity and management. 
 
 
-[<img src="Deploying_to_the_cloud.png" alt="Deploying to the cloud" width="100%" height="100%" >]()
+[<img src="assets/Deploying_to_the_cloud.png" alt="Deploying to the cloud" width="100%" height="100%" >]()
 
 Understanding the differences between deployment models, and which deployment strategies you can use helps you decide which set of services is right for your needs.
 
@@ -268,7 +268,7 @@ Choice of deployment model depends on your desired infrastructure, data storage 
 
 ## Module 3: Introduction to AWS
 
-[<img src="Introduction_to_AWS.png" alt="Introduction to AWS" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+[<img src="assets/Introduction_to_AWS.png" alt="Introduction to AWS" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
 
 ### Objectives
 Aws has an extensive, reliable, and secure global cloud infrastructure with over 175 services for a wide range of use cases. These services are built on a robust infrastructure where the customer and AWS share the responsiblities for programming and security.
@@ -281,12 +281,12 @@ Aws has an extensive, reliable, and secure global cloud infrastructure with over
 
 ### AWS offerings
 
-[<img src="AWS_offerings.png" alt="AWS offerings" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+[<img src="assets/AWS_offerings.png" alt="AWS offerings" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
 
 
 ### AWS benefits
 
-[<img src="AWS_benefits.png" alt="AWS benefits" width="100%" height="100%" >]()
+[<img src="assets/AWS_benefits.png" alt="AWS benefits" width="100%" height="100%" >]()
 
 ### Brief History of of AWS
 
@@ -390,7 +390,7 @@ Customers are increasingly choosing AWS to host their cloud-based infrastructure
 ### AWS is the leader in cloud computing
 
 <p align="center">
- <img src="AWS_leader_in _cloud-computing.png" alt="Introduction to AWS" width="500px" height="500px" >
+ <img src="assets/AWS_leader_in _cloud-computing.png" alt="Introduction to AWS" width="500px" height="500px" >
   <p align="center"><b><i>Leader board of cloud computing</i></b></p>
  </p>
 
@@ -402,9 +402,9 @@ https://user-images.githubusercontent.com/58818777/233159240-2c3ca444-3172-4473-
 
 ### AWS Global Infrastructure
 
-[<img src="AWS_Global_infrastructure.png" alt="AWS Global Infrastructure" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+[<img src="assets/AWS_Global_infrastructure.png" alt="AWS Global Infrastructure" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
 
-[<img src="AWS_Global_Infrastructure_Img.png" alt="AWS Global Infrastructure Image" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
+[<img src="assets/AWS_Global_Infrastructure_Img.png" alt="AWS Global Infrastructure Image" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/introduction-to-aws?module_item_id=13376)
 
 
 The main components of the AWS Global Infrastructure are <b>_Regions, Availability zones, and edge locations_</b> that are available in North America.
@@ -423,7 +423,7 @@ The main components of the AWS Global Infrastructure are <b>_Regions, Availabili
 
 ### Map of AWS Region
 
-[<img src="Map_of_AWS-Region.png" alt="Map of AWS Region" width="100%" height="100%" >]()
+[<img src="assets/Map_of_AWS-Region.png" alt="Map of AWS Region" width="100%" height="100%" >]()
 <small>**_Map of AWS Region_**</small>
 
 ### Planning for failure
@@ -432,30 +432,30 @@ When building the architecture in the cloud. It is important to plan for the fai
 
 +   #####   Storage
 
-    <img src="Planning_for_failure-1.png" alt="Planning_for_failure-1"  border="2px" width="300px" height="80px" >
+    <img src="assets/Planning_for_failure-1.png" alt="Planning_for_failure-1"  border="2px" width="300px" height="80px" >
 
     When a file is stored in Amazon S3,the file is redundantly copied into every Availability Zone in that Region. If one Availability Zone goes down, you still have two copies of that file available for you to use.
 
 +   #####   Compute
 
-    <img src="Planning_for_failure-2.png" alt="Planning_for_failure-2"  border="2px" width="300px" height="80px" >
+    <img src="assets/Planning_for_failure-2.png" alt="Planning_for_failure-2"  border="2px" width="300px" height="80px" >
 
     It is a best practice to spread out your computing resources across multiple Availability Zones to gurantee high availability. So, if one Availability Zone goes down, your architecture is still up and running.
 
 +   #####   Database
 
-    <img src="Planning_for_failure-3.png" alt="Planning_for_failure-3"  border="2px" width="300px" height="80px" >
+    <img src="assets/Planning_for_failure-3.png" alt="Planning_for_failure-3"  border="2px" width="300px" height="80px" >
 
     You can configure your database for Multi-AZ deployment. If your Availability Zone with your primary database fails, one of the standby databases in a healthy Availability Zone automatically becomes your new primary database. Therefore, your architecture is still functioning.
 
 ### AWS Regions
 
-[<img src="AWS_Regions.png" alt="AWS Regions" width="100%" height="100%" >]()
+[<img src="assets/AWS_Regions.png" alt="AWS Regions" width="100%" height="100%" >]()
 
 In addition to planning for failure at a Regional level with the AWS global infrastructure. You can plan for failure at global level.
 
 <p>
-<img src="bulb.png" alt="Bulb" 
+<img src="assets/bulb.png" alt="Bulb" 
 align="left" width="50px" height="50px" >
 
 >   For Example, suppose that your production architecture is located in the Northern Virginia Region. You can have a backup that mirrors your production architecture at a lower scale in the Oregon Region or any Region around the world.
@@ -465,7 +465,7 @@ All that you would have to do is scale up your resources in the backup Region. W
 
 ### Global Infrastructure benefits
 
-[<img src="Global_infrastructure_benefits.png" alt="Global_infrastructure_benefits.png" width="100%" height="100%" >]()
+[<img src="assets/Global_infrastructure_benefits.png" alt="Global_infrastructure_benefits.png" width="100%" height="100%" >]()
 
 <table>
 <tr>
@@ -528,11 +528,11 @@ The AWS Shared Responsiblity model is a security model that is used to protect c
 
 <b> 1.  The customer is responsible for the security in the cloud.<br>2.   AWS is Responsible for the security of the cloud and </b>
 
-[<img src="Shared_Responsiblity.png" alt="Shared_Responsiblity.png" width="100%" height="100%" >]()
+[<img src="assets/Shared_Responsiblity.png" alt="Shared_Responsiblity.png" width="100%" height="100%" >]()
 
 ####  Customers 
 
-<img src="Compute_Storage_Networking.png" alt="Compute_Storage_Networking" align="right" width="110px" height="110px" >
+<img src="assets/Compute_Storage_Networking.png" alt="Compute_Storage_Networking" align="right" width="110px" height="110px" >
 
 Customers are responsible for the security of everything that they create and put __IN__ the AWS Cloud.
 
@@ -540,7 +540,7 @@ Customers are responsible for the security of everything that they create and pu
 
 ####  AWS Cloud
 
-<img src="AWS_Cloud.png" alt="AWS_Cloud.png" align="right" width="120px" height="110px" >
+<img src="assets/AWS_Cloud.png" alt="AWS_Cloud.png" align="right" width="120px" height="110px" >
 
 AWS manages the security __OF__ the cloud, specifically the physical infrastructure that hosts your resources, which include:
 
@@ -550,7 +550,7 @@ AWS manages the security __OF__ the cloud, specifically the physical infrastruct
 +   Virtualization infrastructure
 
 
-[<img src="Shared_Responsiblity_instance.png" alt="Shared_Responsiblity_instance.png" width="100%" height="100%" >]()
+[<img src="assets/Shared_Responsiblity_instance.png" alt="Shared_Responsiblity_instance.png" width="100%" height="100%" >]()
 
 As an example, suppose that you create a bucket by using __Amazon S3__ to store files in. Then we, *the customer are responsible for security in the cloud*.
 
@@ -563,7 +563,7 @@ As an example, suppose that you create a bucket by using __Amazon S3__ to store 
 
 ## Module 4: AWS Core Services 
 
-[<img src="AWS Core Services.png" alt="AWS Core Services" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/aws-core-services?module_item_id=13191)
+[<img src="assets/AWS Core Services.png" alt="AWS Core Services" width="100%" height="100%" >](https://awseducate.instructure.com/courses/746/pages/aws-core-services?module_item_id=13191)
 
 ### Objectives
 
@@ -575,11 +575,11 @@ AWS offers a broad set of global cloud-based products including compute, storage
 
 ### Monolithic architecture
 
-<img src="Monolithic_architecture.png" alt="Monolithic_architecture"  width="200px" height="110px" >
+<img src="assets/Monolithic_architecture.png" alt="Monolithic_architecture"  width="200px" height="110px" >
 
 Applications are made up of multiple components. The components communicate with each other to transmit data, fulfill requests, and keep the application running.
 
-<img src="Monolithic_architecture_instance.png" alt="Monolithic_architecture_instance"  width="200px" height="110px" >
+<img src="assets/Monolithic_architecture_instance.png" alt="Monolithic_architecture_instance"  width="200px" height="110px" >
 
 Suppose that you have an application with tightly coupled components. These components might include servers, databases, the user interface, business logic, and others. This type of architecture can be considered a __monolithic application__.
 
@@ -588,7 +588,7 @@ Suppose that you have an application with tightly coupled components. These comp
 <td>
 
 <p align="center">
-<img src="Monolithic_architecture_instance_fails.png" alt="Monolithic_architecture_instance_fails"  width="200px" height="110px" >
+<img src="assets/Monolithic_architecture_instance_fails.png" alt="Monolithic_architecture_instance_fails"  width="200px" height="110px" >
 </p>
 
 In this approach to application architecture, if a single component fails, then other component likely fail.
@@ -597,7 +597,7 @@ In this approach to application architecture, if a single component fails, then 
 <td>
 
 <p align="center">
-<img src="Monolithic_architecture_instance_stopped.png" alt="Monolithic_architecture_instance_stopped"  width="200px" height="120px" >
+<img src="assets/Monolithic_architecture_instance_stopped.png" alt="Monolithic_architecture_instance_stopped"  width="200px" height="120px" >
 </p>
 
 In this event, it is even possible that the entire application will fail.
@@ -608,7 +608,7 @@ In this event, it is even possible that the entire application will fail.
 
 ### Microservices architecture
 
-<img src="Microservices_architecture.png" alt="Microservices_architecture"  align="right" width="30%" height="40%" >
+<img src="assets/Microservices_architecture.png" alt="Microservices_architecture"  align="right" width="30%" height="40%" >
 
 To help maintain application availability when a single components fails, you can design your application through a microservices approach. The loose compiling prevents the entire application from failing. When designing application on AWS. You can take a microservices approach with services and components that fulfill different functions.
 
@@ -618,25 +618,25 @@ There are three types of services provided by AWS:
 
 #####   1.  Managed Services
 
-<img src="AWS_Types_of_services-Managed-services.png " alt="AWS_Types_of_services-Managed-services"  width="200px" height="110px">
+<img src="assets/AWS_Types_of_services-Managed-services.png " alt="AWS_Types_of_services-Managed-services"  width="200px" height="110px">
 
 A managed service is a way to describe the services that require you to manage infrastructure management tasks like patching, backup, and repair. These services grant you virtual access to the underlying operating system and servers. With managed services, you are responsible for scaling and building for high availability.
 
 #####   2.  Fully Managed Services
 
-<img src="AWS_Types_of_services-Fully-Managed-services.png " alt="AWS_Types_of_services-Fully-Managed-services"  width="200px" height="110px">
+<img src="assets/AWS_Types_of_services-Fully-Managed-services.png " alt="AWS_Types_of_services-Fully-Managed-services"  width="200px" height="110px">
 
 A Full managed service is a way to describe the services that automate infrastructure management tasks that AWS handles, like patching, backup, and repair. These services do not grant you any virtual access to the underlying operating system or servers. With a fully managed service, you are still responsible for scaling and building for high availability.
 
 #####   3.  Serverless Services
 
-<img src="AWS_Types_of_services-Serverless-services.png" alt="AWS_Types_of_services-Serverless-services"  width="200px" height="110px">
+<img src="assets/AWS_Types_of_services-Serverless-services.png" alt="AWS_Types_of_services-Serverless-services"  width="200px" height="110px">
 
 Serverless is a way to describe the services, practices, and strategies that you can use to build more agile applications. In this way, you can innovate and respond to change faster. With serverless services, AWS handles infrastructure management tasks like capacity provisoning and patching so that you can focus on building applications that serve your customers. Serverless services come with automatic scaling, built-in high availability, and a pay-for-value billing model.
 
 ### AWS Core Service Architecture
 
-[<img src="AWS_Core_Services_Arcitecture-Diagram.png" alt="AWS Core Services Architecture" width="100%" height="100%" >]()
+[<img src="assets/AWS_Core_Services_Arcitecture-Diagram.png" alt="AWS Core Services Architecture" width="100%" height="100%" >]()
 
 The detailed description of Core Service Architecture are as follows:
 ####    Identity and Access Management (IAM)
@@ -666,7 +666,7 @@ The detailed description of Core Service Architecture are as follows:
     Using IAM roles, you can grant someone from a different AWS account access to your account to perform a specific task.
 
     <p align="center">
-    <img src="Architect_cloud_solution_using-IAM .png" alt="Architect_cloud_solution_using-IAM" width="250px" height="150px" >
+    <img src="assets/Architect_cloud_solution_using-IAM .png" alt="Architect_cloud_solution_using-IAM" width="250px" height="150px" >
     </p>
 
     In the diagram, a user in the Dev account is assuming a role in the production account. The role returns a temproary security credential. It grants the user temproary access to the AWS service based on the policy that is attached to the role.
@@ -737,7 +737,7 @@ The detailed description of Core Service Architecture are as follows:
     <br>
 
      <p align="center">
-    <img src="Static_website_using_Amazon-S3.png" alt="Static_website_using_Amazon-S3" height="90px" >
+    <img src="assets/Static_website_using_Amazon-S3.png" alt="Static_website_using_Amazon-S3" height="90px" >
     </p>
     <br>
 
@@ -795,7 +795,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     <br>
      <p align="center">
-    <img src="Architect_with_Lambda_by_configuring_Lambda.png " alt="Architect_with_Lambda_by_configuring_Lambda">
+    <img src="assets/Architect_with_Lambda_by_configuring_Lambda.png " alt="Architect_with_Lambda_by_configuring_Lambda">
     </p>
     <br>
 
@@ -857,7 +857,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     <br>
     <p align="center">
-    <img src="Amazon_DynamoDB_to_store_an_application.png" alt="Amazon_DynamoDB_to_store_an_application">
+    <img src="assets/Amazon_DynamoDB_to_store_an_application.png" alt="Amazon_DynamoDB_to_store_an_application">
     </p>
     <br>
 
@@ -922,7 +922,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     <br>
     <p align="center">
-    <img src="Architect_cloud_solution _using_Amazon_VPC.png" alt="Architect_cloud_solution _using_Amazon_VPC">
+    <img src="assets/Architect_cloud_solution _using_Amazon_VPC.png" alt="Architect_cloud_solution _using_Amazon_VPC">
     </p>
     <br>
 
@@ -986,7 +986,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     <br>
     <p align="center">
-    <img src="Architect_cloud_solution_using_Amazon_EC2.PNG" alt="Architect_cloud_solution_using_Amazon_EC2">
+    <img src="assets/Architect_cloud_solution_using_Amazon_EC2.PNG" alt="Architect_cloud_solution_using_Amazon_EC2">
     </p>
     <br>
 
@@ -1053,7 +1053,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
     <br>
     <p align="center">
-    <img src="Architect_cloud_solution_using_Amazon_RDS.PNG" alt="Architect_cloud_solution_using_Amazon_RDS">
+    <img src="assets/Architect_cloud_solution_using_Amazon_RDS.PNG" alt="Architect_cloud_solution_using_Amazon_RDS">
     </p>
     <br>
 
