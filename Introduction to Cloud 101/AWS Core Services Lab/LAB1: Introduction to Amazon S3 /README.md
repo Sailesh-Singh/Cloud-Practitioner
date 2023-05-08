@@ -19,3 +19,10 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 ####    Task 1: Creating a bucket 
 <img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Setting up EC2 Instance1" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_AWS_Management_Console-Services.png " alt="Setting up EC2 Instance2" width="50%" height="80%" >
 <small><b>*_Start and Launch AWS Management Console_*</b></small>
+
++   At the upper left of the AWS Management Console, on the <b>Services</b> menu, choose <b>S3</b>.
++   Choose <b>Create bucket</b>.
++   In the  <b>General configuration</b>  section, enter the following as the  <b>Bucket name</b>: `reportbucket(NUMBER)`
+    Example bucket name: `reportbucket789`
++   Leave <b>Region</b> at its default value.
++   Click  <b>Create bucket</b>. 
