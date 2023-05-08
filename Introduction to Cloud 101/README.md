@@ -1132,3 +1132,7 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 +   #####   How much does Amazon SNS costs?
 
     It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
+
+
+####  <a href="./AWS Core Services Lab/README.md">AWS Core Services Lab</a>
+We begin our journey of AWS Core Services Lab. Click [AWS Core Services Lab](https://awseducate.instructure.com/courses/768/pages/ateliers-sur-les-principaux-services-aws?module_item_id=13749) to begin learning. In this module, we practice hands-on labs learn about AWS Core Services Lab <a href="./AWS Core Services Lab/README.md"><i>learn more ...</i></a>
