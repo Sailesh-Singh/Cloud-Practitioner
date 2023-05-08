@@ -23,6 +23,7 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 +   At the upper left of the AWS Management Console, on the <b>Services</b> menu, choose <b>S3</b>.
 +   Choose <b>Create bucket</b>.
 +   In the  <b>General configuration</b>  section, enter the following as the  <b>Bucket name</b>: `reportbucket(NUMBER)`
+
     Example bucket name: `reportbucket789`
 +   Leave <b>Region</b> at its default value.
 +   Click  <b>Create bucket</b>.
