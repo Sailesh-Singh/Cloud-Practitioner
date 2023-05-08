@@ -28,4 +28,5 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 +   Click  <b>Create bucket</b>.
 
 <img src="./assets/Lab1_AmazonS3_T1_Configure-bucket.png" alt="Lab1_AmazonS3_T1_Configure-bucket.png" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_bucket-created.png" alt="Lab1_AmazonS3_T1_bucket-created" width="50%" height="80%" >
-<small><b>*_Start and Launch AWS Management Console_*</b></small>
+<small><b>*_Configure and Create bucket_*</b></small>
+
