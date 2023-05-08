@@ -17,7 +17,7 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 
 
 ####    Task 1: Creating a bucket 
-<img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Setting up EC2 Instance1" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_AWS_Management_Console-Services.png " alt="Setting up EC2 Instance2" width="50%" height="80%" >
+<img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Lab1_AmazonS3_T1_Start-Lab" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_AWS_Management_Console-Services.png " alt="Lab1_AmazonS3_T1_AWS_Management_Console-Services" width="50%" height="80%" >
 <small><b>*_Start and Launch AWS Management Console_*</b></small>
 
 +   At the upper left of the AWS Management Console, on the <b>Services</b> menu, choose <b>S3</b>.
@@ -27,5 +27,5 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 +   Leave <b>Region</b> at its default value.
 +   Click  <b>Create bucket</b>.
 
-<img src="./assets/Lab1_AmazonS3_T1_Configure-bucket.png" alt="Setting up EC2 Instance1" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_bucket-created.png " alt="Setting up EC2 Instance2" width="50%" height="80%" >
+<img src="./assets/Lab1_AmazonS3_T1_Configure-bucket.png" alt="Lab1_AmazonS3_T1_Configure-bucket.png" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_bucket-created.png" alt="Lab1_AmazonS3_T1_bucket-created" width="50%" height="80%" >
 <small><b>*_Start and Launch AWS Management Console_*</b></small>
