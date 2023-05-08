@@ -1135,4 +1135,4 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 
 ####  <a href="./AWS Core Services Lab/README.md">AWS Core Services Lab</a>
-We begin our journey of AWS Core Services Lab. Click [AWS Core Services Lab](https://awseducate.instructure.com/courses/768/pages/ateliers-sur-les-principaux-services-aws?module_item_id=13749) to begin learning. In this module, we practice hands-on labs learn about AWS Core Services Lab <a href="./AWS Core Services Lab/README.md"><i>learn more ...</i></a>
+We begin our journey of AWS Core Services Lab. Click [AWS Core Services Lab](https://awseducate.instructure.com/courses/768/pages/ateliers-sur-les-principaux-services-aws?module_item_id=13749) to begin learning. In this module, we practice hands-on labs and  learn about AWS Core Services Lab <a href="./AWS Core Services Lab/README.md"><i>learn more ...</i></a>
