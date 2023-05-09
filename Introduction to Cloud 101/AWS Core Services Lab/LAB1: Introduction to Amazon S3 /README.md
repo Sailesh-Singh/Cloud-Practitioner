@@ -51,3 +51,4 @@ Your file is successfully uploaded when the green bar indicating  <b>Upload succ
 [<img src="assets/Lab1_AmazonS3_T1_uploaded_new-report.png" alt="Lab1_AmazonS3_T1_uploaded_new-report" width="100%" height="100%" >]()
 <small><b>*_Upload Status_*</b></small>
 
+####    Task 3: Making an object public 
