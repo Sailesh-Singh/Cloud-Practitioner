@@ -70,3 +70,11 @@ In this lab, you do not log in to your instance, so you do not require a key pai
 You use this pane to configure networking settings. 
 
 The virtual private cloud (VPC) indicates which VPC you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production.
+
++   In the <b>Network settings</b> section, choose <b>Edit</b>. 
+
++   From the <b>VPC - required</b> dropdown list, choose <b>Lab VPC</b>.  
+
++   In the <b>Network settings</b> section, for  <b>Security group name - required</b>, enter  `Web Server security group`
+
++   To delete the existing SSH rule, next to  <b>Security group rule 1</b>, choose  <b>Remove</b>. 
