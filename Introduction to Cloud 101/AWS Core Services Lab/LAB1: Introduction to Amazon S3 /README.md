@@ -414,3 +414,107 @@ In this task, you created a bucket policy to allow specific access rights to you
 
 Versioning is a means of keeping multiple variants of an object in the same bucket. You can use versioning to preserve, retrieve, and restore every version of every object stored in your S3 bucket. With versioning, you can easily recover from both unintended user actions and application failures.
 
++   You should be on the S3 bucket  Permissions  tab from the previous task. If you are not, choose the link to the bucket at the upper left of the screen to return to the bucket overview page.
+
++   On the  reportbucket  overview page, choose the  Properties  tab. 
+
++   Under the  Bucket,  Versioning  section, click  Edit  select  Enable  then click  Save changes . 
+
+Versioning is enabled for an entire bucket and all objects within the bucket. It cannot be enabled for individual objects.
+
++   Right-click this link, and save the text file to your computer <b>using the same name as the text file in the previous task :  sample-file.txt</b> 
+
++   In the Amazon S3 Management Console, on the reportbucket, choose the Objects tab. 
+
+Under the Objects section, find Show versions . 
+
++   Choose  Upload  and use the same upload process that you used in tasks 2 and 5 to upload the new  sample-file.txt  file. 
+
++   Go to the browser tab that has the contents of the sample-file.txt file. 
+
++   Make a note of the contents on the page, and then refresh   the page.  
+
+If a version is not otherwise specified, Amazon S3 always returns the latest version of an object.  
+
++   Close the web browser tab with the contents of the text file.
+
++   In the Amazon S3 Management Console, choose the  sample-file.txt  file name. The  sample-file.txt  overview page opens. 
+    
++   Choose the  Versions  tab, and then select the check box for the bottom version, which reads  null . (This is not the latest version.)
+
++   Click  Open.
+
+You should now see the original version of the file using the Amazon S3 Management Console.
+
+However, if you try to access the older version of the sample-file.txt file using the object URL link, you will receive an access denied message. This message is expected because the bucket policy you created in the previous task allows permission to access only the latest version of the object. In order to access a previous version of the object, you need to update your bucket policy to include the <b>s3:GetObjectVersion</b> permission. The following bucket policy example includes the additional <b>s3:GetObjectVersion</b> action that allows you to access the older version using the link. You do not need to update your bucket policy with this example to complete this lab. You can try to do this on your own after you complete the task.
+
+```
+{ 
+    "Id" :  "Policy1557511288767" , 
+    "Version" :  "2012-10-17" , 
+    "Statement" : [ 
+    { 
+        "Sid" :  "Stmt1557511286634" ,
+        "Action" : [ 
+        "s3:GetObject" , 
+        "s3:GetObjectVersion"
+        ], 
+        "Effect" :  "Allow" , 
+        "Resource" :  "arn:aws:s3:::reportbucket987987/*" , 
+        "Principal" :  "*" 
+    } 
+    ] 
+} 
+```
+
++   Return to the  AWS Management Console  tab, and choose the link for the bucket name at the upper left to return to the bucket overview tab. 
++   Locate the   Show versions  option, and toggle the button to on   to show the versions. 
+
+Now you can view the available versions of each object and identify which version is the latest. Notice that the  new-report.png  object has only one version. The version ID is  null  because the object was uploaded before versioning was enabled on this bucket. 
+
+Also notice that you can now choose the version name link to navigate directly to that version of the object in the console. 
+
++   Next to Show versions, toggle the button to off   to return to the default object view. 
++   Select the check box to the left of the sample-file.txt. 
++   With the object selected, choose  Delete 
++   The  Delete objects  page appears. 
++   At the bottom, in the  Delete objects?  section, enter  delete and choose the  Delete objects  button to confirm deletion of the object. 
++   In the upper right of the page, choose  Close  to return to the bucket overview. 
+
+The  sample-file.txt  object is no longer displayed in the bucket. However, if the object is deleted by mistake, you can use versioning to recover it. 
+
++   Locate the   Show versions  option, and toggle the button to on   to show the versions. 
+
+Notice that the  sample-file.txt  object is displayed again, but the most recent version is a  Delete marker . The two previous versions are also listed. If versioning has been enabled on the bucket, objects are not immediately deleted. Instead, Amazon S3 inserts a delete marker, which becomes the current object version. The previous versions of the object are not removed.
+
++   Select the check box for the version of the  sample-file.txt  object with the  Delete marker . 
++   With the object selected, choose  Delete 
++   The  Delete objects  window appears. 
++   At the bottom in the  Permanently delete objects?  section, enter  `permanently delete` and choose the  Delete objects  button to confirm deletion of the object. 
++   On the upper right of the page, choose Close to return to the bucket overview. 
++   Next to Show versions, toggle the button to off   to return to the default object view. 
+
+Notice that the  sample-file.txt  object has been restored to the bucket. Removing the delete marker has effectively restored the object to its previous state.
+
+Next, you delete a specific version of the object. 
+
++   To delete a specific version of the object, locate the   Show versions  option, and toggle the button to on   to show the versions. 
+
+You should see two versions of the  sample-file.txt  object. 
+
++   Select the check box for the latest version of the  sample-file.txt  object. 
++   With the object selected, choose  Delete 
++   The  Delete objects  window appears. 
++   At the bottom in the  Permanently delete objects?  section, enter `permanently delete` and choose the  Delete objects  button. 
++   On the upper right of the page, choose  Close  to return to the bucket overview. 
+
+Notice that there is now only one version of the  sample-file.txt  file. When deleting a specific version of an object, no delete marker is created. The object is permanently deleted.
+
++   Next to  Show versions , toggle the button to off   to return to the default object view. 
++   Choose the  sample-file.txt  file name. The sample-file.txt overview page opens. 
++   Copy the  Object URL  link displayed at the bottom of the window. 
++   In a new browser tab, paste the link into the address field, and then press Enter. 
+
+The browser page displays the text of the original version of the  sample-file.txt  object.
+
+ 
