@@ -518,3 +518,7 @@ Notice that there is now only one version of the  sample-file.txt  file. When de
 The browser page displays the text of the original version of the  sample-file.txt  object.
 
  ####  Summary
+
+You have successfully created an S3 bucket for your company to use to store report data from your EC2 instance. You created a bucket policy so that the EC2 instance can PutObjects and GetObject from the reportbucket, and you successfully tested uploading and downloading files from the EC2 instance to test the bucket policy. You have enabled versioning on the S3 bucket to protect against accidental object deletion. You have successfully completed the configuration for your EC2 reportbucket.
+
+#### END Of LAB 1
