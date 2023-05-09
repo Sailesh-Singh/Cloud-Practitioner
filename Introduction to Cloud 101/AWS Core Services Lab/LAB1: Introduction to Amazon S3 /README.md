@@ -192,3 +192,5 @@ A new browser tab or window opens with a connection to the bastion host instance
     The output indicates an  upload failed  error. This error occurs because you have read-only rights to the bucket and do not have the permissions to perform the PutObject action.
 
 +   Leave this window open. and go back to browser tab with the AWS console.
+
+### Task 5: Creating a bucket policy 
