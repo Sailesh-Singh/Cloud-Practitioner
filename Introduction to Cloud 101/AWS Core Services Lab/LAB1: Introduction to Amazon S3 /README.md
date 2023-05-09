@@ -31,4 +31,4 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 <img src="./assets/Lab1_AmazonS3_T1_Configure-bucket.png" alt="Lab1_AmazonS3_T1_Configure-bucket.png" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_bucket-created.png" alt="Lab1_AmazonS3_T1_bucket-created" width="50%" height="80%" >
 <small><b>*_Configure and Create bucket_*</b></small>
 
-
+####    Task 2: Uploading an object to the bucket
