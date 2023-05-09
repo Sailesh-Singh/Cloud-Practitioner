@@ -36,4 +36,4 @@ This lab requires approximately **45** minutes to complete. You will have a tota
 +   From the Resource types dropdown list, ensure that both Instances and Volumes are selected.
 
 
-
+#####   Step 2: Choose an Amazon Machine Image (AMI)
