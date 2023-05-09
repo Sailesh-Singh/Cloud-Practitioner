@@ -129,4 +129,6 @@ Review the information displayed in the  <b>Details, Security</b> and <b>Network
     <b>Note:</b>  Refresh if needed.
 
     +   <b>Instance State:</b>   Running 
-    +   <b>Status Checks:</b>    2/2 checks passed 
+    +   <b>Status Checks:</b>    2/2 checks passed
+
+    ####    Task 2: Monitoring your instance  
