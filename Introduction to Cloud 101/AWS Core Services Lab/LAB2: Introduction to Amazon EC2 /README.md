@@ -48,3 +48,5 @@ The <b>Quick Start</b> list contains the most commonly used AMIs. You can also c
 
 +   Locate the <b>Application and OS Images (Amazon Machine Image)</b> section. It is just below the <b>Name and tags<b> section. 
 +   In the <b>AMI Machine Image (AMI)</b> box, notice that <b>Amazon Linux 2 AMI</b> is selected by default. Keep this setting.
+
+#####   Step 3: Choose an instance type 
