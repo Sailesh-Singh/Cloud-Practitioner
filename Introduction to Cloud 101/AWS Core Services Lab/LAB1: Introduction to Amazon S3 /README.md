@@ -409,3 +409,5 @@ If you had trouble generating the policy on your own, you can copy the policy be
 +   Leave the tab open with the sample-file.txt displayed. You return to this tab in the next task. 
 
 In this task, you created a bucket policy to allow specific access rights to your bucket. In the next section, you explore how to keep copies of files to prevent against accidental deletion.
+
+####    Task 6: Exploring versioning 
