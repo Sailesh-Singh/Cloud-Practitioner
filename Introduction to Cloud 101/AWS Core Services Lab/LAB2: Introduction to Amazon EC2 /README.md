@@ -63,4 +63,6 @@ Amazon EC2 uses public key cryptography to encrypt and decrypt login information
 
 In this lab, you do not log in to your instance, so you do not require a key pair.
 
-+   In the <b>Key pair (login)</b> section, from the <b>Key pair name - required</b> dropdown list, choose <b>Proceed without a key pair</b>. 
++   In the <b>Key pair (login)</b> section, from the <b>Key pair name - required</b> dropdown list, choose <b>Proceed without a key pair</b>.
+
+#####   Step 5: Configure the network settings
