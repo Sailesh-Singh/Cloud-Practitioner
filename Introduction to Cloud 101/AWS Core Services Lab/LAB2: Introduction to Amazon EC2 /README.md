@@ -131,6 +131,45 @@ Review the information displayed in the  <b>Details, Security</b> and <b>Network
     +   <b>Instance State:</b>   Running 
     +   <b>Status Checks:</b>    2/2 checks passed
 
-    ####    Task 2: Monitoring your instance
+####    Task 2: Monitoring your instance
 
-    Monitoring is an important part of maintaining the reliability, availability, and performance of your EC2 instances and your AWS solutions.  
+Monitoring is an important part of maintaining the reliability, availability, and performance of your EC2 instances and your AWS solutions.
+
++   Choose the <b>Status checks</b> tab.
++   Choose the <b>Monitoring</b> tab.
++   At the top of the page, choose the <b>Actions</b>▼ dropdown menu. Select <b>Monitor and troubleshoot ►Get system log</b>.
++   Scroll through the output, and note that the HTTP package was installed from the user data that you added when you created the instance. The entries in the system log should be similar to the following example: 
+
+    ```
+    [   26.760639] cloud-init[3280]: Installed: 
+
+    [   26.770051] cloud-init[3280]: httpd.x86_64 0:2.4.52-1.amzn2 
+
+    [   26.777748] cloud-init[3280]: Dependency Installed: 
+
+    [   26.781750] cloud-init[3280]: apr.x86_64 0:1.7.0-9.amzn2 
+
+    [   26.793739] cloud-init[3280]: apr-util.x86_64 0:1.6.1-5.amzn2.0.2 
+
+    [   26.796595] cloud-init[3280]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2 
+
+    [ 26.805964] cloud-init[3280]: generic-logos-httpd.noarch 0:18.0.0-4.amzn2 
+
+    [ 26.817765] cloud-init[3280]: httpd-filesystem.noarch 0:2.4.52-1.amzn2 
+
+    [   26.829760] cloud-init[3280]: httpd-tools.x86_64 0:2.4.52-1.amzn2 
+
+    [ 26.833753] cloud-init[3280]: mailcap.noarch 0:2.1.41-2.amzn2 
+
+    [   26.845761] cloud-init[3280]: mod_http2.x86_64 0:1.15.19-1.amzn2.0.1 
+
+    [   26.849762] cloud-init[3280]: Complete! 
+    ```
+
++   To return to the Amazon EC2 dashboard, choose <b>Cancel</b>.
+
++   With your <b>Web-Server</b> selected, choose the <b>Actions</b>▼dropdown menu, and select  <b>Monitor and troubleshoot</b>►<b>Get instance screenshot</b>.
+
+    This option shows you what your EC2 instance console would look like if a screen were attached to it. It is essentially a command line interface.
+
++   At the bottom of the page, choose <b>Cancel</b>. 
