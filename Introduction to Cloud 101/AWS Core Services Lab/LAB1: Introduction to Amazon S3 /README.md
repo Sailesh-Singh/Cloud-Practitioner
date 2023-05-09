@@ -107,3 +107,21 @@ Now that you've confirmed that the default security of Amazon S3 is private, you
 +   Under <b>Block public access (bucket settings)</b>, choose <b>Edit</b> to change the settings. 
 +   Clear the check box for the  <b>Block all public access</b> option, and then leave all other options cleared.
 
++   A dialogue box opens asking you to confirm your changes. Enter  `confirm` in the field, and then choose  <b>Confirm</b>
+
+A message that says <b>Successfully edited Block Public Access settings for this bucket</b>.  displays at the top of the window. 
+
++   Choose the <b>Objects</b>  tab. 
++   Choose the <b>new-report.png</b> file name. 
++   At the upper right on the <b>new-report.png</b> overview page, choose the <b>Object actions</b>  dropdown menu, and select <b>Make public</b>. 
+
+> <small>Notice the warning:  <b>When public read access is enabled and not blocked by Block Public Access settings, anyone in the world can access the specified objects.</b> This warning reminds you that if you make the object public, then everyone in the world will be able to read the object.</small>
+
++   Choose <b>Make public</b> and you should see the green banner <b>Successfully edited public access</b> at the top of the window. 
++   In the upper right, choose <b>Close</b> to return to the <b>new-report.png</b> object overview. 
++   Return to the browser tab that displayed  <b>Access Denied</b> for the new-report.png object, and refresh the page. 
+
+The new-report.png object now displays properly because it is publicly accessible. 
+
++   Close the web browser tab that displays your new-report.png image, and return to the tab with the Amazon S3 Management Console. 
+
