@@ -78,3 +78,5 @@ The virtual private cloud (VPC) indicates which VPC you want to launch the insta
 +   In the <b>Network settings</b> section, for  <b>Security group name - required</b>, enter  `Web Server security group`
 
 +   To delete the existing SSH rule, next to  <b>Security group rule 1</b>, choose  <b>Remove</b>. 
+
+#####   Step 6: Add storage
