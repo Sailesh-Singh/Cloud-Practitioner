@@ -410,4 +410,7 @@ If you had trouble generating the policy on your own, you can copy the policy be
 
 In this task, you created a bucket policy to allow specific access rights to your bucket. In the next section, you explore how to keep copies of files to prevent against accidental deletion.
 
-####    Task 6: Exploring versioning 
+####    Task 6: Exploring versioning
+
+Versioning is a means of keeping multiple variants of an object in the same bucket. You can use versioning to preserve, retrieve, and restore every version of every object stored in your S3 bucket. With versioning, you can easily recover from both unintended user actions and application failures.
+
