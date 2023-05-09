@@ -52,3 +52,38 @@ Your file is successfully uploaded when the green bar indicating  <b>Upload succ
 <small><b>*_Upload Status_*</b></small>
 
 ####    Task 3: Making an object public 
+
+In this task, you configure permissions on your bucket and your object to test accessibility.
+
+First, you attempt to access the object to confirm that it is private by default.
+
++   In the  <b>reportbucket</b>  overview page, on the  <b>Objects</b>  tab, locate the  <b>new-report.png</b>  object, and choose the  <b>new-report.png</b> file name.
+
+The  <b>new-report.png</b>  overview page opens. The navigation in the upper left updates with a link to return to the bucket overview page.
+
++   In the  <b>Object overview</b>  section, locate and copy the  <b>Object URL</b>  link.
+
+The link should look similar to the following:  https://reportbucket987987.s3-us-west-2.amazonaws.com/new-report.png
+
++   Open a new browser tab and paste the object URL link into the address field, and then press  <b>Enter</b>. 
+
+You receive an  <b>Access Denied</b>  error because objects in Amazon S3 are private by default. 
+
+Now that you've confirmed that the default security of Amazon S3 is private, you test how to make the object publicly accessible.
+
++   Keep the browser with the Access Denied error open, and return to the web browser tab with the <b>S3 Management Console</b>.
+
++   You should still be on the new-report.png  <b>Object overview</b> tab.
+
++   In the upper right, choose the  <b>Object actions</b> dropdown menu, you will notice that <b>Make public via ACL</b> is greyed out.
+
++   In the upper left of the page, choose the  <b>reportbucket</b> name in the navigation to go back to the main <b>reportbucket</b> overview page.
+
++   Choose the <b>Permissions</b> tab. 
++   We need to allow the use of ACLs first. Under <b>Object Ownership</b>  choose <b>Edit</b>. 
++   Choose <b>ACLs enabled</b>. 
++   Choose <b>Bucket owner preferred</b>. 
++   Choose the check box next to <b>I acknowledge that ACLs will be restored</b>. 
++   Choose <b>Save Changes</b> 
++   Under <b>Block public access (bucket settings)</b>, choose <b>Edit</b> to change the settings. 
++   Clear the check box for the  <b>Block all public access</b> option, and then leave all other options cleared.
