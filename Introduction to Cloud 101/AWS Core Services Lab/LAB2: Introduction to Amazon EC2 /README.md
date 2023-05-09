@@ -22,3 +22,18 @@ This lab requires approximately **45** minutes to complete. You will have a tota
 ####    Task 1: Launching your EC2 instance 
 <img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Lab1_AmazonS3_T1_Start-Lab.png" width="50%" height="80%" ><img src="./assets/Lab2_AmazonEC2_T1_AWS_Management_Console-Services.png" alt="Lab2_AmazonEC2_T1_AWS_Management_Console-Services.png" width="50%" height="80%" >
 <small><b>*_Start and Launch AWS Management Console_*</b></small>
+
+
++   In the AWS Management Console on the Services menu, choose EC2.
++   In the left navigation pane, choose EC2 Dashboard to ensure that you are on the dashboard page.
++   Choose Launch instance, and then select Launch instance.
+
+
+#####   Step 1: Name your EC2 instance 
+
++   In the Name and tags section, for Name, enter Web-Server
++   Choose the Add additional tags link.
++   From the Resource types dropdown list, ensure that both Instances and Volumes are selected.
+
+
+
