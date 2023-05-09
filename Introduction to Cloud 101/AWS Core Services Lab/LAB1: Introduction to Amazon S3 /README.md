@@ -90,9 +90,20 @@ Now that you've confirmed that the default security of Amazon S3 is private, you
 +   Choose the <b>Permissions</b> tab. 
 +   We need to allow the use of ACLs first. Under <b>Object Ownership</b>  choose <b>Edit</b>. 
 +   Choose <b>ACLs enabled</b>. 
+
+[<img src="assets/Lab1_AmazonS3_T1_ACL-enable.png" alt="Lab1_AmazonS3_T1_enable_Bucket-owner-prefered"
+ width="100%" height="100%" >]()
+<small><b>*_Enable ACL_*</b></small>
+
 +   Choose <b>Bucket owner preferred</b>. 
 +   Choose the check box next to <b>I acknowledge that ACLs will be restored</b>. 
 +   Choose <b>Save Changes</b> 
+
+
+[<img src="assets/Lab1_AmazonS3_T1_enable_Bucket-owner-prefered.png" alt="Lab1_AmazonS3_T1_ACL-enable"
+ width="100%" height="100%" >]()
+<small><b>*_Select Bucket owner prefered_*</b></small>
+
 +   Under <b>Block public access (bucket settings)</b>, choose <b>Edit</b> to change the settings. 
 +   Clear the check box for the  <b>Block all public access</b> option, and then leave all other options cleared.
 
