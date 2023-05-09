@@ -17,7 +17,7 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 
 
 ####    Task 1: Creating a bucket 
-<img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Lab1_AmazonS3_T1_Start-Lab" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_AWS_Management_Console-Services.png " alt="Lab1_AmazonS3_T1_AWS_Management_Console-Services" width="50%" height="80%" >
+<img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Lab1_AmazonS3_T1_Start-Lab" width="50%" height="80%" ><img src="./assets/Lab1_AmazonS3_T1_AWS_Management_Console-Services.png" alt="Lab1_AmazonS3_T1_AWS_Management_Console-Services" width="50%" height="80%" >
 <small><b>*_Start and Launch AWS Management Console_*</b></small>
 
 +   At the upper left of the AWS Management Console, on the <b>Services</b> menu, choose <b>S3</b>.
@@ -32,3 +32,5 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 <small><b>*_Configure and Create bucket_*</b></small>
 
 ####    Task 2: Uploading an object to the bucket
+Now that you have created a bucket for your report data, you are ready to work with objects.
++   Right-click the following link:  [new-report.png](./assets/new-report.png). Choose  <b>Save link as</b> , and save the file to your desktop. 
