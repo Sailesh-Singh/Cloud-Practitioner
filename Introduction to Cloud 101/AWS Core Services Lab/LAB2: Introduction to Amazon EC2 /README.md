@@ -66,3 +66,7 @@ In this lab, you do not log in to your instance, so you do not require a key pai
 +   In the <b>Key pair (login)</b> section, from the <b>Key pair name - required</b> dropdown list, choose <b>Proceed without a key pair</b>.
 
 #####   Step 5: Configure the network settings
+
+You use this pane to configure networking settings. 
+
+The virtual private cloud (VPC) indicates which VPC you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production.
