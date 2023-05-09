@@ -71,7 +71,11 @@ The link should look similar to the following:  https://reportbucket987987.s3-us
 
 +   Open a new browser tab and paste the object URL link into the address field, and then press  <b>Enter</b>. 
 
-You receive an  <b>Access Denied</b>  error because objects in Amazon S3 are private by default. 
+You receive an  <b>Access Denied</b>  error because objects in Amazon S3 are private by default.
+
+[<img src="assets/Lab1_AmazonS3_T1_Object-URL_Access-denied.png" alt="Lab1_AmazonS3_T1_Object-URL_Access-denied"
+ width="100%" height="100%" >]()
+<small><b>*_Object URL Access-denied_*</b></small>
 
 Now that you've confirmed that the default security of Amazon S3 is private, you test how to make the object publicly accessible.
 
