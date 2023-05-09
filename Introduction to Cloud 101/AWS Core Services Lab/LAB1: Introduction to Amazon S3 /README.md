@@ -193,4 +193,83 @@ A new browser tab or window opens with a connection to the bastion host instance
 
 +   Leave this window open. and go back to browser tab with the AWS console.
 
-### Task 5: Creating a bucket policy 
+### Task 5: Creating a bucket policy
+
+A bucket policy is a set of permissions associated with an S3 bucket. It is used to control access to an entire bucket or to specific directories within a bucket.
+
++   Right-click the following link: _sample-file.txt_. Choose <b>Save link as</b>, and save the file to your desktop.
+
++   Return to the AWS Management Console, go to the <b>Services</b> menu, and select <b>S3</b>.
+
++   In the  <b>S3 Management Console</b> tab, select the name of your bucket.
+
++   To upload the <b>sample-file.txt</b> file, choose <b>Upload</b> and use the same upload process that you used in task 2.
+
++   On the <b>reportbucket</b> overview page, choose the <b>sample-file.txt</b> file name. The <b>sample-file.txt</b> overview page opens.
+
++   Under the <b>Object overview</b> section, locate and copy the  <b>Object URL</b> link. 
+
++   In a new browser tab, paste the link into the address field, and then press Enter. 
+
+Once again, your browser displays an <b>Access Denied</b> message. You need to configure a bucket policy to grant access to all objects in the bucket without having to specify permissions on each object individually. 
+
++   Keep this browser tab open, but return to the tab with the <b>S3 Management Console</b>.
+
++   Select  <b>Services</b>  and select <b>IAM</b>. In the left navigation, choose <b>Roles</b>. 
+    
++   In the <b>Search</b> field, enter `EC2InstanceProfileRole`
+
+This is the role that the EC2 instance uses to connect to Amazon S3. 
+
++   Select <b>EC2InstanceProfileRole</b>. In the  <b>Summary</b> section, copy the <b>Role ARN</b> to a text file to use in a later step. 
+
+    It should look similar to the following:
+    <b>arn:aws:iam::446773805681:role/EC2InstanceProfileRole</b> 
+
++   Choose <b>Services</b> and <b>S3</b>, and return to the <b>S3 Management Console</b>.
+
++   Choose the <b>reportbucket</b>. 
++   Choose the  <b>Permissions</b> tab. 
++   In the <b>Permissions</b> tab, scroll to the  <b>Bucket policy</b> section, and choose <b>Edit</b> 
+
++   Below the <b>Policy examples</b> and <b>Policy generator</b> buttons, find the <b>Bucket ARN</b>. Copy the Bucket ARN to a text file to use in a later step.  
+
+    It looks like the following:
+
+        Bucket ARN 
+        arn:aws:s3:::reportbucket789
+
++   Choose Policy generator
++   For Select Type of Policy, select S3 Bucket Policy.
++   For Effect, select Allow.
++   For Principal, paste the EC2 Role ARN that you copied to a text file in a previous step.
++   For AWS Service, keep the default setting of Amazon S3.
++   For Actions, select GetObject and PutObject.
++   For Amazon Resource Name (ARN), enter *
++   Choose Add Statement. The details of the statement you configured are added to a table below the button. You can add multiple statements to a policy.
++   Choose Generate Policy.
+
+A new window displays the generated policy in JSON format. It should look similar to the following:
+
+```
+{
+  "Id": "Policy1683557035200",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1683557032361",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "*",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::446773805681:role/EC2InstanceProfileRole"
+        ]
+      }
+    }
+  ]
+}
+```
