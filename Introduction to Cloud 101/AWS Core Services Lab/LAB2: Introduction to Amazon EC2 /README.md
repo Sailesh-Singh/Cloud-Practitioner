@@ -44,4 +44,7 @@ An Amazon Machine Image (AMI) provides the information required to launch an ins
 +       Launch permissions that control which AWS accounts can use the AMI to launch instances
 +       A block device mapping that specifies the volumes to attach to the instance when it is launched
 
-The <b>Quick Start</b> list contains the most commonly used AMIs. You can also create your own AMI or select an AMI from the AWS Marketplace, an online store where you can sell or buy software that runs on AWS. 
+The <b>Quick Start</b> list contains the most commonly used AMIs. You can also create your own AMI or select an AMI from the AWS Marketplace, an online store where you can sell or buy software that runs on AWS.
+
++   Locate the <b>Application and OS Images (Amazon Machine Image)</b> section. It is just below the <b>Name and tags<b> section. 
++   In the <b>AMI Machine Image (AMI)</b> box, notice that <b>Amazon Linux 2 AMI</b> is selected by default. Keep this setting.
