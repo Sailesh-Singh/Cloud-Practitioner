@@ -125,3 +125,4 @@ The new-report.png object now displays properly because it is publicly accessibl
 
 +   Close the web browser tab that displays your new-report.png image, and return to the tab with the Amazon S3 Management Console. 
 
+####    Task 4: Testing connectivity from the EC2 instance
