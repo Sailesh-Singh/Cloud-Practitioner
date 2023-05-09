@@ -63,6 +63,10 @@ The  <b>new-report.png</b>  overview page opens. The navigation in the upper lef
 
 +   In the  <b>Object overview</b>  section, locate and copy the  <b>Object URL</b>  link.
 
+[<img src="assets/Lab1_AmazonS3_T1_Object-URL.png" alt="
+Lab1_AmazonS3_T1_Object-URL" width="100%" height="100%" >]()
+<small><b>*_Object overview and Object URL_*</b></small>
+
 The link should look similar to the following:  https://reportbucket987987.s3-us-west-2.amazonaws.com/new-report.png
 
 +   Open a new browser tab and paste the object URL link into the address field, and then press  <b>Enter</b>. 
@@ -87,3 +91,4 @@ Now that you've confirmed that the default security of Amazon S3 is private, you
 +   Choose <b>Save Changes</b> 
 +   Under <b>Block public access (bucket settings)</b>, choose <b>Edit</b> to change the settings. 
 +   Clear the check box for the  <b>Block all public access</b> option, and then leave all other options cleared.
+
