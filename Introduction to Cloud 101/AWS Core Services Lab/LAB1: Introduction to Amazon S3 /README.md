@@ -33,4 +33,19 @@ This lab requires approximately **60** minutes to complete. You will have a tota
 
 ####    Task 2: Uploading an object to the bucket
 Now that you have created a bucket for your report data, you are ready to work with objects.
-+   Right-click the following link:  [new-report.png](./assets/new-report.png). Choose  <b>Save link as</b> , and save the file to your desktop. 
+
++   Right-click the following link:  [new-report.png](./assets/new-report.png). Choose  <b>Save link as</b>, and save the file to your desktop.
+
++   In the  <b>S3 Management Console</b>, find and select the bucket name that starts with  <b>reportbucket</b>. 
++   Choose  <b>Upload</b>
++   Choose  <b>Add files</b>
++   Browse to and select the  <b>new-report.png</b>  file that you downloaded previously. 
++   At the bottom of the page, choose  <b>Upload</b>
+
+[<img src="assets/Lab1_AmazonS3_T1_upload_new-report.png" alt="Lab1_AmazonS3_T1_upload_new-report" width="100%" height="100%" >]()
+
+Your file is successfully uploaded when the green bar indicating  <b>Upload succeeded</b>  appears.
+
++   In the <b>Upload: status </b> section in the upper right, choose  <b>Close</b>
+
+[<img src="assets/Lab1_AmazonS3_T1_uploaded_new-report.png" alt="Lab1_AmazonS3_T1_uploaded_new-report" width="100%" height="100%" >]()
