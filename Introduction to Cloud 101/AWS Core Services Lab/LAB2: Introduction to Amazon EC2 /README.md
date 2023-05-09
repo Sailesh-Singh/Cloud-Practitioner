@@ -107,4 +107,6 @@ You launch the EC2 instance using a default 8 GiB disk volume. This is your root
     +   Install an Apache web server (httpd)
     +   Configure the web server to automatically start on boot 
     +   Activate the Web server 
-    +   Create a simple web page 
+    +   Create a simple web page
+
+    #####   Step 8: Launch an EC2 instance
