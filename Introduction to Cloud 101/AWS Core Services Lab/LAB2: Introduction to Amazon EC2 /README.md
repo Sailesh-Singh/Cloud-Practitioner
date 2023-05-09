@@ -18,3 +18,7 @@ After completing this lab, you will know how to:
 
 ####   Duration
 This lab requires approximately **45** minutes to complete. You will have a total time of **180** minutes to complete this lab.
+
+####    Task 1: Launching your EC2 instance 
+<img src="./assets/Lab1_AmazonS3_T1_Start-Lab.png" alt="Lab1_AmazonS3_T1_Start-Lab.png" width="50%" height="80%" ><img src="./assets/Lab2_AmazonEC2_T1_AWS_Management_Console-Services.png" alt="Lab2_AmazonEC2_T1_AWS_Management_Console-Services.png" width="50%" height="80%" >
+<small><b>*_Start and Launch AWS Management Console_*</b></small>
