@@ -80,3 +80,7 @@ The virtual private cloud (VPC) indicates which VPC you want to launch the insta
 +   To delete the existing SSH rule, next to  <b>Security group rule 1</b>, choose  <b>Remove</b>. 
 
 #####   Step 6: Add storage
+
+Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS). 
+
+You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume).
