@@ -131,4 +131,6 @@ Review the information displayed in the  <b>Details, Security</b> and <b>Network
     +   <b>Instance State:</b>   Running 
     +   <b>Status Checks:</b>    2/2 checks passed
 
-    ####    Task 2: Monitoring your instance  
+    ####    Task 2: Monitoring your instance
+
+    Monitoring is an important part of maintaining the reliability, availability, and performance of your EC2 instances and your AWS solutions.  
