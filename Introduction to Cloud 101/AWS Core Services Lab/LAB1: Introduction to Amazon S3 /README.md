@@ -158,3 +158,37 @@ A new browser tab or window opens with a connection to the bastion host instance
     The output should look similar to the following:
         
         2023-05-08 22:34:46 reportbucket789
+
++   In the following command, change (NUMBER)  at the end of the reportbucket name to the name of the bucket you created. Enter your adjusted command to list all the objects in your reportbucket.
+
+        aws s3  ls  s3://reportbucket(NUMBER)
+
+    The command looks similar to the following: <b>aws s3 ls s3://reportbucket789</b>
+
+    The output should look like the following:
+
+        2023-05-08 22:35:26      86065 new-report.png
+
++   Enter the following command to change directories into the reports directory.
+
+        cd ~
+        cd reports
+
++   Enter the following command to list the contents of the directory.
+
+        ls
+    
+    The output shows some files created in your reports directory to test the application. 
+
+        dolphins.jpg files.zip report-test.txt  report-test1.txt 
+        report-test2.txt report-test3.txt  whale.jpg
+
++   n the following command, change  (NUMBER)  at the end of the reportbucket name to the name of the bucket you created. Enter your adjusted command to see if you can copy a file to the S3 bucket.
+
+        aws s3  cp  report-test1.txt s3://reportbucket(NUMBER)
+
+    The command looks similar to this:  aws s3 cp report-test1.txt s3://reportbucket789
+
+    The output indicates an  upload failed  error. This error occurs because you have read-only rights to the bucket and do not have the permissions to perform the PutObject action.
+
++   Leave this window open. and go back to browser tab with the AWS console.
