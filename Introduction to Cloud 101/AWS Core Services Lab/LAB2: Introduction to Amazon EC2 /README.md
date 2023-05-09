@@ -110,3 +110,23 @@ You launch the EC2 instance using a default 8 GiB disk volume. This is your root
     +   Create a simple web page
 
     #####   Step 8: Launch an EC2 instance
+
++   In the <b>Summary</b> section, choose  <b>Launch instance</b>. 
++   Choose <b>View all instances</b> 
+
+The instance appears in a <b>Pending</b> state, which means that it is being launched. It then changes to <b>Running</b>, which indicates that the instance has started booting. There will be a short time before you can access the instance. 
+
+The instance receives a public Domain Name System (DNS) name that you can use to contact the instance from the Internet. 
+
+Next to your <b>Web-Server</b>, select the   check box. The <b>Details</b> tab displays detailed information about your instance. 
+
+To view more information in the <b>Details</b>  tab, drag the window divider upward. 
+
+Review the information displayed in the  <b>Details, Security</b> and <b>Networking</b> tabs. 
+
++   Wait for your instance to display the following: 
+
+    <b>Note:</b>  Refresh if needed.
+
+    +   <b>Instance State:</b>   Running 
+    +   <b>Status Checks:</b>    2/2 checks passed 
