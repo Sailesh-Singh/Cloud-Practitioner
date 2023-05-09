@@ -63,8 +63,7 @@ The  <b>new-report.png</b>  overview page opens. The navigation in the upper lef
 
 +   In the  <b>Object overview</b>  section, locate and copy the  <b>Object URL</b>  link.
 
-[<img src="assets/Lab1_AmazonS3_T1_Object-URL.png" alt="
-Lab1_AmazonS3_T1_Object-URL" width="100%" height="100%" >]()
+[<img src="assets/Lab1_AmazonS3_T1_Object-URL.png" alt="Lab1_AmazonS3_T1_Object-URL" width="100%" height="100%" >]()
 <small><b>*_Object overview and Object URL_*</b></small>
 
 The link should look similar to the following:  https://reportbucket987987.s3-us-west-2.amazonaws.com/new-report.png
@@ -73,8 +72,7 @@ The link should look similar to the following:  https://reportbucket987987.s3-us
 
 You receive an  <b>Access Denied</b>  error because objects in Amazon S3 are private by default.
 
-[<img src="assets/Lab1_AmazonS3_T1_Object-URL_Access-denied.png" alt="Lab1_AmazonS3_T1_Object-URL_Access-denied"
- width="100%" height="100%" >]()
+[<img src="assets/Lab1_AmazonS3_T1_Object-URL_Access-denied.png" alt="Lab1_AmazonS3_T1_Object-URL_Access-denied" width="100%" height="100%" >]()
 <small><b>*_Object URL Access-denied_*</b></small>
 
 Now that you've confirmed that the default security of Amazon S3 is private, you test how to make the object publicly accessible.
@@ -91,8 +89,7 @@ Now that you've confirmed that the default security of Amazon S3 is private, you
 +   We need to allow the use of ACLs first. Under <b>Object Ownership</b>  choose <b>Edit</b>. 
 +   Choose <b>ACLs enabled</b>. 
 
-[<img src="assets/Lab1_AmazonS3_T1_ACL-enable.png" alt="Lab1_AmazonS3_T1_enable_Bucket-owner-prefered"
- width="100%" height="100%" >]()
+[<img src="assets/Lab1_AmazonS3_T1_ACL-enable.png" alt="Lab1_AmazonS3_T1_enable_Bucket-owner-prefered" width="100%" height="100%" >]()
 <small><b>*_Enable ACL_*</b></small>
 
 +   Choose <b>Bucket owner preferred</b>. 
@@ -100,14 +97,16 @@ Now that you've confirmed that the default security of Amazon S3 is private, you
 +   Choose <b>Save Changes</b> 
 
 
-[<img src="assets/Lab1_AmazonS3_T1_enable_Bucket-owner-prefered.png" alt="Lab1_AmazonS3_T1_ACL-enable"
- width="100%" height="100%" >]()
+[<img src="assets/Lab1_AmazonS3_T1_enable_Bucket-owner-prefered.png" alt="Lab1_AmazonS3_T1_ACL-enable" width="100%" height="100%" >]()
 <small><b>*_Select Bucket owner prefered_*</b></small>
 
 +   Under <b>Block public access (bucket settings)</b>, choose <b>Edit</b> to change the settings. 
 +   Clear the check box for the  <b>Block all public access</b> option, and then leave all other options cleared.
 
 +   A dialogue box opens asking you to confirm your changes. Enter  `confirm` in the field, and then choose  <b>Confirm</b>
+
+[<img src="assets/Lab1_AmazonS3_T1_clear_Block-all-public-access.png" alt="Lab1_AmazonS3_T1_clear_Block-all-public-access" width="100%" height="100%" >]()
+<small><b>*_Confirm dialogue box_*</b></small>
 
 A message that says <b>Successfully edited Block Public Access settings for this bucket</b>.  displays at the top of the window. 
 
@@ -126,3 +125,36 @@ The new-report.png object now displays properly because it is publicly accessibl
 +   Close the web browser tab that displays your new-report.png image, and return to the tab with the Amazon S3 Management Console. 
 
 ####    Task 4: Testing connectivity from the EC2 instance
+
++   On the <b>Services</b> menu, choose <b>EC2</b>. 
++   On the <b>EC2 Dashboard</b>, under the  <b>Resources</b> section, choose <b>Instances (running)</b>. 
++   Select the check box for <b>Bastion Host</b> and choose  Connect 
++   In the <b>Connect to instance</b> window, select the <b>Session Manager</b> tab for the connection method. 
+
+> <small>With AWS Systems Manager Session Manager, you can connect to the bastion host instance without the need for specific ports to be open on your firewall or Amazon Virtual Private Cloud (Amazon VPC) security group. Refer to <b>AWS Systems Manager Session Manager</b> in the <b>Additional resources</b> section at the end of this lab for more information.</small> 
+
++   Choose <b>Connect</b> 
+
+A new browser tab or window opens with a connection to the bastion host instance.
+
++   In the bastion host session, enter the following command to change to the home directory (/home/ssm-user/):
+
+        cd  ~ 
+    The output returns you to the command prompt. 
+
++   Enter the following command to verify that you are in the home directory:
+
+        pwd
+    
+    The output should be as follows:
+    
+        /home/ssm-user
+    
+    You are now in the ssm-user's home directory where you will run all of the commands in this lab.
++   Enter the following command to list all of your S3 buckets.
+
+        aws s3  ls
+    
+    The output should look similar to the following:
+        
+        2023-05-08 22:34:46 reportbucket789
