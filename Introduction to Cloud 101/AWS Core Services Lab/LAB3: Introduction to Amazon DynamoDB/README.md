@@ -175,3 +175,29 @@ These are the only required attributes, but you can now add additional attribute
     The item is now updated
 
 ####    Task 4: Querying the Table
+
+There are two ways to query a DynamoDB table: query and scan.
+
+A query operation finds items based on the Primary Key and optionally based on the Sort Key. It is fully indexed, so it runs very fast.
+
++   Choose Explore items in the left navigation pane.
++   Select Music.
++   If Scan/Query items is not already expanded, choose the arrow  to expose the Scan and Query options.
++   Choose Query.
+    Fields for the Artist (which is the same as partition key) and Song (which is the same as sort key) are now displayed.
+
++   Enter the following details:
+    +   Artist (Partition key): `Psy`
+    +   Song (Sort key): Equal to `Gangnam Style`
++   Choose Run.
++   Choose the Scan option.
++   Choose the arrow  to expand Filters.
++   Enter values for the scan filter:
+
+    +   For Enter attribute name, enter `Year`
+    +   Change String to Number.
+    +   Condition: Select Equal to
+    +   For Enter value, enter 1971
+    +   Choose Run.
+    
+Only the song released in 1971 is displayed.
