@@ -11,3 +11,4 @@ After completing this lab, you will know how to:
 +   Query a DynamoDB table
 +   Delete a DynamoDB table
 
+####   Duration
