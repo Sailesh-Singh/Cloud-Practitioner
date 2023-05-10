@@ -212,3 +212,5 @@ In this task, you delete an item within the table.
 +   On the Delete item(s) screen, choose Delete.
 
     This item is now deleted.
+
+####    Submitting your work
