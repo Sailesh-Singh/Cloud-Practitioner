@@ -44,3 +44,121 @@ This lab requires approximately 30 minutes to complete.
     The table is created in less than 1 minute.
 
 ####    Task 2: Adding Data
+
+Each table contains multiple items. An item is a group of attributes that is uniquely identifiable among all of the other items. Items in DynamoDB are similar in many ways to rows in other database systems. In DynamoDB, there is no limit to the number of items that you can store in a table.
+Each item consists of one or more attributes. An attribute is a fundamental data element, something that does not need to be broken down any further. For example, an item in a Music table contains attributes such as song and artist. Attributes in DynamoDB are similar to columns in other database systems, but each item (row) can have different attributes (columns).
+
+When you write an item to a DynamoDB table, only the primary key and sort key (if used) are required.  Other than these fields, the table does not require a schema, which means that you can add attributes to one item that may be different than the attributes on other items.
++   Select Explore items on the left side navigation pane.
+
++   Click the radio button next to Music to select the table you created.
+
++   Click Create item.
+
++   Add in the following values.
+
+    +   Artist: Pink Floyd
+    +   Song: Money
+
+These are the only required attributes, but you can now add additional attributes.
++   To create an additional attribute, click the Add new attribute button.
+
++   In the dropdown list, choose String.
+
++   A new attribute row is added.
+
++   For the new attribute, replace NewValue withAlbum and in the Value column enter The Dark Side of the Moon.
+
++   Add another new attribute by choosing the Add new attribute button.
++   In the dropdown list, choose Number.
+
++   For the new attribute, replace NewValue with Year and in the Value column replace 0 with 1973.
++   Choose Create item to store the new item with its four attributes.
+
+
++   The item appears in the Items returned pane in the console.
++   Next, follow the previous steps and use the following attributes to create a second item:
+    <table>
+    <tr>
+    <th>Attribute name</td>
+    <th>Attribute type</td>
+    <th>Attribute value</td>
+    </tr>
+
+    <tr>
+    <td>Artist</td>
+    <td>String</td>
+    <td>John Lennon</td>
+    </tr>
+
+    <tr>
+    <td>Song</td>
+    <td>String</td>
+    <td>Imagine</td>
+    </tr>
+
+    <tr>
+    <td>Album</td>
+    <td>String</td>
+    <td>Imagine</td>
+    </tr>
+
+    <tr>
+    <td>Year</td>
+    <td>Number</td>
+    <td>1971</td>
+    </tr>
+
+    <tr>
+    <td>Genre</td>
+    <td>String</td>
+    <td>Soft rock</td>
+    </tr>
+
+    </table>
+
+
+    Note that this item has an additional attribute called Genre. Adding this attribute is an example of each item being capable of having different attributes without having to pre-define a table schema.
+
++   Follow the previous steps and use the following attributes to create a third item:
+    <table>
+    <tr>
+    <th>Artist name</td>
+    <th>Attribute type</td>
+    <th>Attribute value</td>
+    </tr>
+
+    <tr>
+    <td>Artist</td>
+    <td>String</td>
+    <td>Lennon</td>
+    </tr>
+
+    <tr>
+    <td>Song</td>
+    <td>String</td>
+    <td>Gnagam style</td>
+    </tr>
+
+    <tr>
+    <td>Album</td>
+    <td>String</td>
+    <td>Psy 6 (Six Rules), Part 1</td>
+    </tr>
+
+    <tr>
+    <td>Year</td>
+    <td>Number</td>
+    <td>2011</td>
+    </tr>
+
+    <tr>
+    <td>Length</td>
+    <td>Seconds</td>
+    <td>Number 219</td>
+    </tr>
+
+    </table>
+
+    Once again, this item has a new LengthSeconds attribute that identifies the length of the song. The ability to include this attribute demonstrates the flexibility of a NoSQL database.
+    There are also faster ways to load data into DynamoDB, such as using AWS Data Pipeline, programmatically loading data, or using one of the free tools available on the internet.
