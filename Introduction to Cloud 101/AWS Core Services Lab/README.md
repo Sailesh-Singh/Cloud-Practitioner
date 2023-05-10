@@ -20,3 +20,11 @@ We begin our journey of AWS Core Services Lab. Click <a href="./LAB2: Introducti
     5. Explore Amazon EC2 limits 
     6. Test termination protection 
     7. Terminate your EC2 instance 
+
+####  <a href="./LAB3: Introduction to Amazon DynamoDB/README.md">LAB3: Introduction to Amazon DynamoDB</a>
+We begin our journey of AWS Core Services Lab. Click <a href="./LAB3: Introduction to Amazon DynamoDB/README.md">LAB3: Introduction to Amazon DynamoDB</a> to begin learning. In this module, we practice hands-on labs and at the end of this sub-module we will know how to do following:
+
+    1.   Create a DynamoDB table
+    2.   Enter data into a DynamoDB table
+    3.   Query a DynamoDB table
+    4.   Delete a DynamoDB table 
