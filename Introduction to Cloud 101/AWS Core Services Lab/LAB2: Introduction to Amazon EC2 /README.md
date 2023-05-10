@@ -272,3 +272,14 @@ You now start the instance again, which now has less memory but more disk space.
 +   In left navigation pane, choose  Instances. Next to your <b>Web-Server</b>, select the check box.
 +   From the <b>Instance state</b> dropdown menu, choose <b>Start instance</b>.
 
+####    Task 5: Exploring EC2 limits
+
+Amazon EC2 provides different resources that you can use. These resources include images, instances, volumes, and snapshots. When you create an AWS account, there are default limits on these resources on a per-Region basis. 
+
++   In the left navigation pane, choose  <b>Limits</b>. 
+
+    ><b>Note:</b> There is a limit on the number of instances that you can launch in this Region. When launching an instance, the request must not cause your usage to exceed the current instance limit in that Region. 
+
+    You can request an increase for many of these limits. 
+
+####    Task 6: Testing termination protection 
