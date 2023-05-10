@@ -199,5 +199,7 @@ A query operation finds items based on the Primary Key and optionally based on t
     +   Condition: Select Equal to
     +   For Enter value, enter 1971
     +   Choose Run.
-    
+
 Only the song released in 1971 is displayed.
+
+####    Task 5: Deleting an Item
