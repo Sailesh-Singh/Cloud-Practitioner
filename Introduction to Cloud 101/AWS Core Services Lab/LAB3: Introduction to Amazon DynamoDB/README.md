@@ -42,3 +42,5 @@ This lab requires approximately 30 minutes to complete.
 +   Choose Create table.
             
     The table is created in less than 1 minute.
+
+####    Task 2: Adding Data
