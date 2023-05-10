@@ -163,4 +163,14 @@ These are the only required attributes, but you can now add additional attribute
     Once again, this item has a new LengthSeconds attribute that identifies the length of the song. The ability to include this attribute demonstrates the flexibility of a NoSQL database.
     There are also faster ways to load data into DynamoDB, such as using AWS Data Pipeline, programmatically loading data, or using one of the free tools available on the internet.
 
-    ####    Task 3: Modifying an Existing Item
+####    Task 3: Modifying an Existing Item
+
++   From the list of items, select the row where the Artist is Psy.
+
++   Choose the Actions menu, and select Edit item.
+
++   Change the Year Number from 2011 to 2012.
++   Choose Save changes.
+
+    The item is now updated
+
