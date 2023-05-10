@@ -295,5 +295,9 @@ In this task, you learn how to use termination protection.
     ><b>Note:</b> At the top of the page, a message says <b>Failed to terminate an instance: The instance 'i-xxxxxxxxxxxx' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again.</b> This message is a safeguard to prevent the accidental termination of an instance. If you really want to terminate the instance, you need to turn off the termination protection. 
 
 ####    Submitting your work
+    
++   At the top of these instructions, choose <b>Submit</b> to record your progress and when prompted, choose <b>Yes</b>. 
+     
++   If the results don't display after a couple of minutes, return to the top of these instructions and choose <b>Grades</b> 
 
-    At the top of these instructions, choose  Submit  to record your progress and when prompted, choose  Yes 
++   To find detailed feedback on your work, choose <b>Details</b> and then choose   <b>View Submission Report<b>. 
