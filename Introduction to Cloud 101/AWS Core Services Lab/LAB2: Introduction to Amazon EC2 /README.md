@@ -282,4 +282,14 @@ Amazon EC2 provides different resources that you can use. These resources includ
 
     You can request an increase for many of these limits. 
 
-####    Task 6: Testing termination protection 
+####    Task 6: Testing termination protection
+
+You can delete your instance when you no longer need it. This is referred to as terminating your instance. You cannot connect to or restart an instance after it has been terminated. 
+
+In this task, you learn how to use termination protection. 
+
++   In left navigation pane, choose  <b>Instances</b>. Select the check box for your  <b>Web-Server</b>. 
+
++   At the top of the page in the <b>Instance state</b> dropdown menu, choose <b>Terminate instance</b>. From the <b>Terminate instance?</b> pop-up window, choose <b>Terminate</b>.  
+
+    ><b>Note:</b> At the top of the page, a message says <b>Failed to terminate an instance: The instance 'i-xxxxxxxxxxxx' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again.</b> This message is a safeguard to prevent the accidental termination of an instance. If you really want to terminate the instance, you need to turn off the termination protection. 
