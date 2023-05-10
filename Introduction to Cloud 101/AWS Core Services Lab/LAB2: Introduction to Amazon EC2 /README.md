@@ -293,3 +293,7 @@ In this task, you learn how to use termination protection.
 +   At the top of the page in the <b>Instance state</b> dropdown menu, choose <b>Terminate instance</b>. From the <b>Terminate instance?</b> pop-up window, choose <b>Terminate</b>.  
 
     ><b>Note:</b> At the top of the page, a message says <b>Failed to terminate an instance: The instance 'i-xxxxxxxxxxxx' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again.</b> This message is a safeguard to prevent the accidental termination of an instance. If you really want to terminate the instance, you need to turn off the termination protection. 
+
+####    Submitting your work
+
+    At the top of these instructions, choose  Submit  to record your progress and when prompted, choose  Yes 
