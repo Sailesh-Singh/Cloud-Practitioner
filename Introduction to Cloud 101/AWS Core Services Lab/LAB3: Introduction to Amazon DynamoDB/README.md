@@ -203,3 +203,12 @@ A query operation finds items based on the Primary Key and optionally based on t
 Only the song released in 1971 is displayed.
 
 ####    Task 5: Deleting an Item
+
+In this task, you delete an item within the table.
+
++   Choose Reset then click Run. To load the full Music table.
++   Under Artist, select the check box for Psy to choose this item.
++   Choose the Actions dropdown list, and select Delete items.
++   On the Delete item(s) screen, choose Delete.
+
+    This item is now deleted.
