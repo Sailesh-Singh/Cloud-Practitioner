@@ -215,3 +215,5 @@ When you launched the EC2 instance, you provided a script that installed a web s
 +   Return to the web server browser tab with the public IPv4 address that you previously opened, and choose to refresh the page. 
 
     You should see the message <b>Hello From Your Web Server!</b>
+
+####    Task 4: Resizing your instance - instance type and EBS volume 
