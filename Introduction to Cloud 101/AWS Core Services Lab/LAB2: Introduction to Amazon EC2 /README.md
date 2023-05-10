@@ -173,3 +173,6 @@ Monitoring is an important part of maintaining the reliability, availability, an
     This option shows you what your EC2 instance console would look like if a screen were attached to it. It is essentially a command line interface.
 
 +   At the bottom of the page, choose <b>Cancel</b>. 
+
+
+####    Task 3: Updating your security group and accessing the web server 
