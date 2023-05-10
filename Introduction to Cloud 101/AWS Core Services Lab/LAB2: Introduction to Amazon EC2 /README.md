@@ -175,4 +175,43 @@ Monitoring is an important part of maintaining the reliability, availability, an
 +   At the bottom of the page, choose <b>Cancel</b>. 
 
 
-####    Task 3: Updating your security group and accessing the web server 
+####    Task 3: Updating your security group and accessing the web server
+
+When you launched the EC2 instance, you provided a script that installed a web server and created a simple web page. In this task, you access content from the web server. 
+
++   Select the check box next to the Amazon EC2 <b>Web-Server</b> that you created, and then choose the <b>Details</b> tab. 
+
++   Copy the <b>Public IPv4 address</b> of your instance to your clipboard. 
+
++   In your web browser, open a new tab, paste the IP address that you just copied, and then press Enter. 
+
+    <b>Question:</b> Are you able to access your web server? Why not? 
+
+    You are not currently able to access your web server because the security group is not permitting inbound traffic on port 80, which is used for HTTP web requests. This is a demonstration of how to use a security group as a firewall to restrict the network traffic that is allowed in and out of an instance. 
+
+    To correct this issue, you now update the security group to permit web traffic on port 80. 
+
++   Keep the browser tab open, but return to the <b>EC2 Management Console</b> tab. 
+
++   In the left navigation pane, choose  <b>Security Groups</b>. 
+
++   Next to <b>Web Server security group</b>, select the check box. 
+
++   Choose the <b>Inbound rules</b> tab. 
+
+    The security group currently has no rules. 
+
++   Choose <b>Edit inbound rules</b>, and then choose <b>Add rule</b> and configure the following options:
+
+    +   <b>Type:</b> Choose <b>HTTP</b>. 
+    +   <b>Source:</b> Choose  <b>Anywhere-IPv4</b>. 
+
+>    <b>Note:</b>  Notice the  _"Rules with source of 0.0.0.0/0 allow all IP addresses to access your instance. We recommend setting security group rules to allow access from known IP addresses only."_  While this is true and common best practice, this lab allows access from any IP address (Anywhere) to simplify both the security group configuration and testing of the website running on your EC2 instance. 
+
+     
+
++   Choose <b>Save rules</b> 
+
++   Return to the web server browser tab with the public IPv4 address that you previously opened, and choose to refresh the page. 
+
+    You should see the message <b>Hello From Your Web Server!</b>
