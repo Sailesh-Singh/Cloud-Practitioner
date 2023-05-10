@@ -174,3 +174,4 @@ These are the only required attributes, but you can now add additional attribute
 
     The item is now updated
 
+####    Task 4: Querying the Table
