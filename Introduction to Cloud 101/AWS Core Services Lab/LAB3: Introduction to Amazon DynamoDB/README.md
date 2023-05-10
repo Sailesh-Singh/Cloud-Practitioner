@@ -12,3 +12,4 @@ After completing this lab, you will know how to:
 +   Delete a DynamoDB table
 
 ####   Duration
+This lab requires approximately 30 minutes to complete.
