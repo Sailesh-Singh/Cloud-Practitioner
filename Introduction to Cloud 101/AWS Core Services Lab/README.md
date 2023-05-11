@@ -28,3 +28,9 @@ We begin our journey of AWS Core Services Lab. Click <a href="./LAB3: Introducti
     2.   Enter data into a DynamoDB table
     3.   Query a DynamoDB table
     4.   Delete a DynamoDB table 
+
+####  <a href="./LAB4: Creating an Amazon RDS Database/README.md">LAB4: Creating an Amazon RDS Database</a>
+We begin our journey of AWS Core Services Lab. Click <a href="./LAB4: Creating an Amazon RDS Database/README.md">LAB4: Creating an Amazon RDS Database</a> to begin learning. In this module, we practice hands-on labs and at the end of this sub-module we will know how to do following:
+
+    1.   Launch a database using Amazon RDS 
+    2.   Configure a web application to connect to the database instance 
