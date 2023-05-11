@@ -119,3 +119,4 @@ It should look similar to this example:  inventory-db.crwxbgqad61a.rds.amazonaws
 
 +   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report<b>.
 
+####    Lab complete 
