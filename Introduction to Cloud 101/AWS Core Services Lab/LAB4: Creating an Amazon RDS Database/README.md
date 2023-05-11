@@ -9,3 +9,4 @@ After completing this lab, you will know how to:
 +   Configure a web application to connect to the database instance
 
 ####   Duration
+This lab requires approximately  30 minutes  to complete. 
