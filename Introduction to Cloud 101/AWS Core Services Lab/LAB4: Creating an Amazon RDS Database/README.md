@@ -110,3 +110,5 @@ It should look similar to this example:  inventory-db.crwxbgqad61a.rds.amazonaws
  You have now successfully launched the application and connected it to the database. 
 
 >Optional:  To access the saved parameters, go to the AWS Management console. On the Services menu, choose Systems Manager. In the left navigation menu, choose Parameter Store.  
+
+####    Submitting your work
