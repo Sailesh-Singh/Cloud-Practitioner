@@ -7,3 +7,5 @@ After completing this lab, you will know how to:
 
 +   Launch a database using Amazon RDS 
 +   Configure a web application to connect to the database instance
+
+####   Duration
