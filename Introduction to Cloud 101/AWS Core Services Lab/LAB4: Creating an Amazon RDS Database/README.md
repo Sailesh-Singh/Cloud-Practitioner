@@ -60,4 +60,6 @@ This lab requires approximately  30 minutes  to complete.
 
     If you receive an error message that mentions  rds-monitoring-role ,  	confirm that you   have cleared the  Enable Enhanced monitoring  option in the previous step, and then try again. 
 
-	Before you continue to the next task, the database instance status must be  Available . This process could take several minutes.  
+	Before you continue to the next task, the database instance status must be  Available . This process could take several minutes.
+
+####    Task 2: Configuring web application communication with a database instance     
