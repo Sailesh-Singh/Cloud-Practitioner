@@ -62,4 +62,51 @@ This lab requires approximately  30 minutes  to complete.
 
 	Before you continue to the next task, the database instance status must be  Available . This process could take several minutes.
 
-####    Task 2: Configuring web application communication with a database instance     
+####    Task 2: Configuring web application communication with a database instance
+
+This lab automatically deployed an Amazon Elastic Compute Cloud (Amazon EC2) instance with a running web application. You must use the IP address of the instance to connect to the application. 
+
++   On the  Services   menu, choose  EC2 . 
++   In the left navigation pane, choose  Instances . 
+
+In the center pane, there should be a running instance that is named  App Server . 
+
++   Select the check box for the  App Server  instance. 
++   In the  Details  tab, copy the  Public IPv4 address  to your clipboard. 
+
+Tip:  If you hover over the IP address, a copy   icon appears. To copy the displayed value, choose the icon. 
+
++   Open a new web browser tab, paste the IP address into the address bar, and then press Enter. 
+
+The web application should appear. It does not display much information because the application is not yet connected to the database. 
+
++   Choose   Settings . 
+
+You can now configure the application to use the Amazon RDS database instance that you created earlier. You first retrieve the database endpoint so that the application knows how to connect to a database. 
+
++   Return to the AWS Management Console, but do not close the application tab. (You will return to it soon.) 
++   On the  Services   menu, choose  RDS . 
++   In the left navigation pane, choose  Databases . 
++   Choose  inventory-db . 
++   Scroll to the  Connectivity & security  section, and copy the  Endpoint  to your clipboard. 
+
+It should look similar to this example:  inventory-db.crwxbgqad61a.rds.amazonaws.com 
+
++   Return to the browser tab with the inventory application, and enter the following values: 
+    +   For  Endpoint , paste the endpoint you copied earlier. 
+    +   For  Database, enter `inventory`
+    +   For  Username, enter `admin`
+    +   For  Password, enter `lab-password`
+    +   Choose  Save. 
+
+		The application will now connect to the database, load some initial data, and display information. 
+
++   You can use the web application to Add inventory,   edit, and delete inventory information. 
+
+ >The inventory information is stored in the Amazon RDS MySQL database that you created earlier in the lab. This means that in the event of any failure in the application server, you will not lose any data. It also means that multiple application servers can access the  same data. 
+
++   Insert new records into the table. Ensure that the table has 5 or more inventory records before submitting your work. 
+
+ You have now successfully launched the application and connected it to the database. 
+
+>Optional:  To access the saved parameters, go to the AWS Management console. On the Services menu, choose Systems Manager. In the left navigation menu, choose Parameter Store.  
