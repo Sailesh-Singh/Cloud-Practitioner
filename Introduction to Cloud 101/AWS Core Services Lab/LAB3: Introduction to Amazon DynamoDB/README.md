@@ -118,7 +118,7 @@ These are the only required attributes, but you can now add additional attribute
     </table>
 
 
-    Note that this item has an additional attribute called Genre. Adding this attribute is an example of each item being capable of having different attributes without having to pre-define a table schema.
+    >Note that this item has an additional attribute called Genre. Adding this attribute is an example of each item being capable of having different attributes without having to pre-define a table schema.
 
 +   Follow the previous steps and use the following attributes to create a third item:
     <table>
