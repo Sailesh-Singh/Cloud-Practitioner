@@ -112,3 +112,10 @@ It should look similar to this example:  inventory-db.crwxbgqad61a.rds.amazonaws
 >Optional:  To access the saved parameters, go to the AWS Management console. On the Services menu, choose Systems Manager. In the left navigation menu, choose Parameter Store.  
 
 ####    Submitting your work
+
++   At the top of these instructions, choose <b>Submit</b> to record your progress and when prompted, choose <b>Yes</b>. 
+     
++   If the results don't display after a couple of minutes, return to the top of these instructions and choose <b>Grades</b> 
+
++   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report<b>.
+
