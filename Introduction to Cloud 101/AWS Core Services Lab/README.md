@@ -34,3 +34,11 @@ We begin our journey of AWS Core Services Lab. Click <a href="./LAB4: Creating a
 
     1.   Launch a database using Amazon RDS 
     2.   Configure a web application to connect to the database instance 
+
+####  <a href="./LAB5: Creating a Virtual Private Cloud /README.md">LAB5: Creating a Virtual Private Cloud</a>
+We begin our journey of AWS Core Services Lab. Click <a href="./LAB5: Creating a Virtual Private Cloud /README.md">LAB5: Creating a Virtual Private Cloud</a> to begin learning. In this module, we practice hands-on labs and at the end of this sub-module we will know how to do following:
+
+    1.  Create an internet gateway and attach it to the VPC 
+    2.  Create a public subnet 
+    3.  Create a private subnet 
+    4.  Create an application server to test the VPC  
