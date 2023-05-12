@@ -291,3 +291,9 @@ You use this  App-SG  in the next task.
 If you configured the VPC correctly, the Inventory application and this message should appear:  Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
 
 ####    Submitting your work
+
++   At the top of these instructions, choose <b>Submit</b> to record your progress and when prompted, choose <b>Yes</b>. 
+     
++   If the results don't display after a couple of minutes, return to the top of these instructions and choose <b>Grades</b> 
+
++   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report</b>.
