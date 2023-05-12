@@ -194,4 +194,6 @@ The last step associates this new route table with the public subnet.
     +   Create an internet gateway. 
     +   Create a route table. 
     +   Add a route to the route table that directs 0.0.0.0/0 traffic to the internet gateway. 
-    +   Associate the route table with a subnet, which then becomes a public subnet. 
+    +   Associate the route table with a subnet, which then becomes a public subnet.
+
+####    Task 5: Creating a security group for the application server
