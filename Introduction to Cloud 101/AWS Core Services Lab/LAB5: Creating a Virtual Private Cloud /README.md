@@ -139,4 +139,59 @@ You can now attach the internet gateway to your  Lab VPC .
 
 This action attaches the internet gateway to your  Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
 
-####    Task 4: Configuring route tables 
+####    Task 4: Configuring route tables
+
+A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Each subnet in a VPC must be associated with a route table because the table controls the routing for the subnet. A subnet can be associated with only one route table at a time, but you can associate multiple subnets with the same route table. 
+
+To use an internet gateway, a subnet's route table must contain a route that directs internet-bound traffic to the internet gateway. If a subnet is associated with a route table that has a route to an internet gateway, it is known as a public subnet. 
+
+In this task, you: 
+
++       Create a public route table for internet-bound traffic 
++       Add a route to the route table to direct internet-bound traffic to the internet gateway 
++       Associate the public subnet with the new route table 
+
++   In the left navigation pane, choose Route Tables . 
+
+    Several route tables are displayed, but there is only one route table associated with  Lab VPC . This route table routes traffic locally, so it is a private route table. 
+
++   In the VPC column, find the route table that shows Lab VPC, and select the check box for this route table. (You can expand the column to see the names.) 
+
++   In the Name column, choose and then enter the name `Private Route Table` and choose Save 
+
++   In the lower half of the page, choose the  Routes  tab. 
+
+There is only one route. It shows that all traffic that is destined for 10.0.0.0/16 (which is the range of the Lab VPC) will be routed locally. This route allows all subnets in a VPC to communicate with each other. 
+
+You now create a new public route table to send public traffic to the internet gateway. 
+
++   Choose  Create route table  and configure the following settings: 
+
+    +   For Name, enter Public Route Table
+    +   For VPC, choose Lab VPC . 
+    +   Choose Create route table 
+
++   In the  Routes  tab, choose  Edit routes 
+    You now add a route to direct internet-bound traffic (0.0.0.0/0) to the internet gateway. 
+
++   Choose  Add route  and then configure the following settings: 
+
+    +   For Destination, enter  0.0.0.0/0
+    +   For Target, select Internet Gateway, and then from the dropdown list select Lab IGW . 
+    +   Choose Save changes 
+
+The last step associates this new route table with the public subnet. 
+
++   Choose the  Subnet associations  tab. 
++   In the  Subnets without explicit associations  section, choose  Edit subnet associations 
++   Select the row with  Public Subnet . 
++   Choose  Save associations 
+
+    The public subnet is now public because it has a route table entry that sends traffic to the internet via the internet gateway. 
+
+    To summarize, you can create a public subnet by following these steps: 
+
+    +   Create an internet gateway. 
+    +   Create a route table. 
+    +   Add a route to the route table that directs 0.0.0.0/0 traffic to the internet gateway. 
+    +   Associate the route table with a subnet, which then becomes a public subnet. 
