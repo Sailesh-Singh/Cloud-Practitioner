@@ -137,4 +137,6 @@ You can now attach the internet gateway to your  Lab VPC .
     +   For Available VPCs, select Lab VPC . 
     +   Choose Attach internet gateway 
 
-This action attaches the internet gateway to your  Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway. 
+This action attaches the internet gateway to your  Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
+
+####    Task 4: Configuring route tables 
