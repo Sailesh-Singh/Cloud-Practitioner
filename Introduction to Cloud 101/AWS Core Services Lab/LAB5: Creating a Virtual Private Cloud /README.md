@@ -94,4 +94,6 @@ You now configure the subnet to automatically assign a public IP address for all
 
     +   Choose Save 
 
- Though this subnet is named  Public Subnet , it is not yet public. A public subnet must have an internet gateway, which you attach in the next task. 
+ Though this subnet is named  Public Subnet , it is not yet public. A public subnet must have an internet gateway, which you attach in the next task.
+
+ #####  Create a private subnet
