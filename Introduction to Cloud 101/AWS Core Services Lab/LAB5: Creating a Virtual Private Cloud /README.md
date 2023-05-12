@@ -112,4 +112,29 @@ The CIDR block of  10.0.2.0/23  includes all IP addresses that start with 10.0.2
 
 Your VPC now has two subnets. However, the public subnet is totally isolated and cannot communicate with resources outside the VPC. Next, you configure the public subnet to connect to the internet via an internet gateway.
 
-####    Task 3: Creating an internet gateway 
+####    Task 3: Creating an internet gateway
+
+An internet gateway is a horizontally scaled, redundant, and highly available VPC component. It allows communication between the instances in a VPC and the internet. It imposes no availability risks or bandwidth constraints on network traffic. 
+
+An internet gateway serves two purposes: 
++       To provide a target in route tables that connects to the internet 
+
++       To perform network address translation (NAT) for instances that were assigned public IPv4 addresses 
+
+In this task, you create an internet gateway so that internet traffic can access the public subnet. 
+
++   In the left navigation pane, choose  Internet Gateways . 
+
++   Choose  Create internet gateway  and configure the following settings: 
+
+    +   For  Name tag , enter  Lab IGW
+    +   Choose  Create internet gateway 
+
+You can now attach the internet gateway to your  Lab VPC . 
+
++   Choose  Actions   and then  Attach to VPC , and configure the following settings: 
+
+    +   For Available VPCs, select Lab VPC . 
+    +   Choose Attach internet gateway 
+
+This action attaches the internet gateway to your  Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway. 
