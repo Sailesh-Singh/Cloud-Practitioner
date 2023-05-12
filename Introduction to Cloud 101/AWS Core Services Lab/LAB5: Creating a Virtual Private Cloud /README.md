@@ -227,3 +227,66 @@ In this task, you create a security group that allows users to access your appli
 You use this  App-SG  in the next task.
 
 ####    Task 6: Launching an application server in the public subnet
+
++   On the  Services   menu, choose  EC2 . 
+
++   Choose  Launch instance  and then select  Launch instance  from the dropdown list. Configure the following options: 
+
+    +   In the  Name and tags  pane, in the  Name  text box, enter  `App Server`
+
+    +   In the  Application and OS Images (Amazon Machine Image)  section, keep default selection,  Amazon Linux 2 . 
+
+    +   In the  Instance type  section, keep the default instance type,  t2.micro .  
+
+    +   In the  Key pair (login)  section, from the  Key pair name -  required  dropdown list, choose  Proceed without a key pair (not recommended) . 
+
+    +   In the  Network settings  section, choose  Edit 
+
+        +   From the  VPC -  required  dropdown list, choose  Lab VPC . 
+
+        +   From the  Subnet  dropdown list, choose  Public Subnet . 
+
+        +   Ensure that  Auto-assign public IP  is  Enable . 
+
+    +   In the  Firewall (security groups)   section, choose  Select existing security group 
+
+        +   From the  Common security groups  dropdown list, choose  App-SG. 
+
+    +   In the  Configure storage  section, keep the default storage configuration. 
+
+    +   Expand the  Advanced details  section. 
+
+        +   For  IAM instance profile , choose the role  Inventory-App-Role . 
+
+        +   Scroll down to  User data  section, copy and paste the below code in the block.
+
+            ```
+            #!/bin/bash 
+            # Install Apache Web Server and PHP 
+            yum install  -y  httpd mysql 
+            amazon-linux-extras install  -y  php7.2 
+            # Download Lab files 
+            wget  https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-200-ACACAD-20-EN/mod6-guided/scripts/inventory-app.zip 
+            unzip inventory-app.zip  -d  /var/www/html/ 
+            # Download and install the AWS SDK for PHP 
+            wget  https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip 
+            unzip aws  -d  /var/www/html 
+            # Turn on web server 
+            chkconfig httpd on 
+            service  httpd  start
+            ``` 
+
+    +   From the  Summary  section, choose  Launch instance 
+
++   Choose  View all instances 
+
++   Wait for the application server to fully launch. It should display the following status: 
+
+    +   Instance State:   Running 
+
++   Select   App Server . 
++   From the  Details  tab, copy the  Public IPv4 address  address. 
++   Open a new browser tab, paste the IP address you just copied, and press Enter. 
+
+If you configured the VPC correctly, the Inventory application and this message should appear:  Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
+
