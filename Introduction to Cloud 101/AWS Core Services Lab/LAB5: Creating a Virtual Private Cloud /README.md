@@ -298,4 +298,4 @@ If you configured the VPC correctly, the Inventory application and this message 
 
 +   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report</b>.
 
-####    Lab complete 
+####    Lab complete
