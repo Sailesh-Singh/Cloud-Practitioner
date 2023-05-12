@@ -97,3 +97,17 @@ You now configure the subnet to automatically assign a public IP address for all
  Though this subnet is named  Public Subnet , it is not yet public. A public subnet must have an internet gateway, which you attach in the next task.
 
  #####  Create a private subnet
+
+ You use the private subnet for resources that must remain isolated from the internet. 
+
++   Use what you learned in the previous steps to create another subnet with the following settings: 
+
+    +   For VPC ID, choose Lab VPC . 
+    +   For Subnet name, enter Private Subnet
+    +   For Availability Zone, select the first Availability Zone in the list. Do not choose  No Preference . 
+    +   For IPv4 CIDR block, enter 10.0.2.0/23
+    +   Choose Create subnet 
+
+The CIDR block of  10.0.2.0/23  includes all IP addresses that start with 10.0.2.x and 10.0.3.x. This is twice as large as the public subnet because most resources should be kept private unless they specifically must be accessible from the internet. 
+
+Your VPC now has two subnets. However, the public subnet is totally isolated and cannot communicate with resources outside the VPC. Next, you configure the public subnet to connect to the internet via an internet gateway. 
