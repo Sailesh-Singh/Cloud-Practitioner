@@ -290,3 +290,4 @@ You use this  App-SG  in the next task.
 
 If you configured the VPC correctly, the Inventory application and this message should appear:  Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
 
+####    Submitting your work
