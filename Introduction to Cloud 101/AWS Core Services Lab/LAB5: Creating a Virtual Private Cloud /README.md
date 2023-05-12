@@ -14,3 +14,5 @@ After completing this lab, you will know how to:
 +   Create a public subnet 
 +   Create a private subnet 
 +   Create an application server to test the VPC 
+
+####   Duration
