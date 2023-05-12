@@ -224,4 +224,6 @@ In this task, you create a security group that allows users to access your appli
     +   For  Description , enter  Allow web access
     +   Choose  Save rules 
 
-You use this  App-SG  in the next task. 
+You use this  App-SG  in the next task.
+
+####    Task 6: Launching an application server in the public subnet
