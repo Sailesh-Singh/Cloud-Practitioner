@@ -60,4 +60,6 @@ ec2-52-42-133-255.us-west-2.compute.amazonaws.com
 
 +   Choose  Save . 
 
-Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53. 
+Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53.
+
+####    Task 2: Creating subnets 
