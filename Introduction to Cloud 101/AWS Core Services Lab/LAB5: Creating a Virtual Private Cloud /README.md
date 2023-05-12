@@ -16,3 +16,4 @@ After completing this lab, you will know how to:
 +   Create an application server to test the VPC 
 
 ####   Duration
+This lab requires approximately  45 minutes  to complete.
