@@ -18,4 +18,46 @@ After completing this lab, you will know how to:
 ####   Duration
 This lab requires approximately  45 minutes  to complete.
 
-####    Task 1: Creating a VPC 
+####    Task 1: Creating a VPC
+
+A VPC is a virtual network that is dedicated to your Amazon Web Services (AWS) account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch AWS resources, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, into the VPC. You can configure the VPC by modifying its IP address range and can create subnets. You can also configure route tables, network gateways, and security settings. 
+
++   In the AWS Management Console, on the  Services   menu, choose  VPC . 
+
+    The VPC console provides a wizard that can automatically create several VPC architectures. However, in this lab, you create the VPC components manually. 
+
++   In the left navigation pane, choose  Your VPCs . 
+
+    A default VPC is provided so that you can launch resources as soon as you start using AWS. There is also a shared VPC that you use later in the lab. However, you now create your own  Lab VPC . 
+
+    The VPC will have a Classless Inter-Domain Routing (CIDR) range of  10.0.0.0/16 , which includes all IP address that start with 10.0.x.x. It contains more than 65,000 addresses. You later divide the addresses into separate subnets. 
+
++   Choose Create VPC . 
+
++   Under Resources to create, choose VPC only . 
+
++   Configure the following settings: 
+
+    +   For Name tag  enter `Lab VPC`
+    +   For IPv4 CIDR block, enter  `10.0.0.0/16`
+    +   For Tenancy, `select` Default . 
+    +   For Tags, ensure that: 
+    Key:  `Name`
+    Value:  `Lab VPC`
+
++   Choose  Create VPC . 
++   From the  VPC Details  page, choose the  Tags  tab. 
+
+Tags are useful for identifying resources. For example, you can use a tag to identify cost centers or different environments (such as development, test, or production). 
+
++   Choose  Actions   and select  Edit VPC settings . 
+
++   In the  DNS settings  section, select   Enable DNS hostnames . 
+
+This option assigns a friendly Domain Name System (DNS) name to EC2 instances in the VPC, such as the following: 
+
+ec2-52-42-133-255.us-west-2.compute.amazonaws.com 
+
++   Choose  Save . 
+
+Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53. 
