@@ -297,3 +297,5 @@ If you configured the VPC correctly, the Inventory application and this message 
 +   If the results don't display after a couple of minutes, return to the top of these instructions and choose <b>Grades</b> 
 
 +   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report</b>.
+
+####    Lab complete 
