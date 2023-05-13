@@ -43,3 +43,14 @@ We begin our journey of AWS Core Services Lab. Click <a href="./LAB5: Creating a
     3.  Create a public subnet 
     4.  Create a private subnet 
     5.  Create an application server to test the VPC  
+
+
+####  <a href="./LAB6: Introduction to IAM/README.md">LAB6: Introduction to IAM</a>
+We begin our journey of AWS Core Services Lab. Click <a href="./LAB6: Introduction to IAM/README.md">LAB6: Introduction to IAM</a> to begin learning. In this module, we practice hands-on labs and at the end of this sub-module we will know how to do following:
+
+    1. Exploring pre-created  IAM Users and Groups 
+    2. Inspecting  IAM policies  as applied to the pre-created groups 
+    3. Following a  real-world scenario , adding users to groups with specific capabilities enabled 
+    4. Locating and using the  IAM sign-in URL 
+    5. Experimenting  with the effects of policies on service access 
+
