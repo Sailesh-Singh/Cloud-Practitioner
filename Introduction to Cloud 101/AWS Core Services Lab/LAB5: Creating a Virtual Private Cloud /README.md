@@ -16,51 +16,51 @@ After completing this lab, you will know how to:
 +   Create an application server to test the VPC 
 
 ####   Duration
-This lab requires approximately  45 minutes  to complete.
+This lab requires approximately <b>45 minutes</b> to complete.
 
 ####    Task 1: Creating a VPC
 
 A VPC is a virtual network that is dedicated to your Amazon Web Services (AWS) account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch AWS resources, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, into the VPC. You can configure the VPC by modifying its IP address range and can create subnets. You can also configure route tables, network gateways, and security settings. 
 
-+   In the AWS Management Console, on the  Services   menu, choose  VPC . 
++   In the AWS Management Console, on the  <b>Services</b> menu, choose <b>VPC</b>. 
 
     The VPC console provides a wizard that can automatically create several VPC architectures. However, in this lab, you create the VPC components manually. 
 
-+   In the left navigation pane, choose  Your VPCs . 
++   In the left navigation pane, choose  <b>Your VPCs</b>. 
 
-    A default VPC is provided so that you can launch resources as soon as you start using AWS. There is also a shared VPC that you use later in the lab. However, you now create your own  Lab VPC . 
+    A default VPC is provided so that you can launch resources as soon as you start using AWS. There is also a shared VPC that you use later in the lab. However, you now create your own  <b>Lab VPC</b>. 
 
-    The VPC will have a Classless Inter-Domain Routing (CIDR) range of  10.0.0.0/16 , which includes all IP address that start with 10.0.x.x. It contains more than 65,000 addresses. You later divide the addresses into separate subnets. 
+    The VPC will have a Classless Inter-Domain Routing (CIDR) range of  <b>10.0.0.0/16</b>, which includes all IP address that start with 10.0.x.x. It contains more than 65,000 addresses. You later divide the addresses into separate subnets. 
 
-+   Choose Create VPC . 
++   Choose <b>Create VPC</b>. 
 
-+   Under Resources to create, choose VPC only . 
++   Under <b>Resources to create</b>, choose <b>VPC only</b>. 
 
 +   Configure the following settings: 
 
-    +   For Name tag  enter `Lab VPC`
-    +   For IPv4 CIDR block, enter  `10.0.0.0/16`
-    +   For Tenancy, `select` Default . 
+    +   For <b>Name tag</b>  enter `Lab VPC`
+    +   For <b>IPv4 CIDR block</b>, enter  `10.0.0.0/16`
+    +   For <b>Tenancy</b>, `select` <b>Default</b>. 
     +   For Tags, ensure that: 
-    Key:  `Name`
-    Value:  `Lab VPC`
+    <b>Key:</b>  `Name`
+    <b>Value:</b>  `Lab VPC`
 
-+   Choose  Create VPC . 
-+   From the  VPC Details  page, choose the  Tags  tab. 
++   Choose  <b>Create VPC</b>. 
++   From the <b>VPC Details</b> page, choose the <b>Tags</b> tab. 
 
 Tags are useful for identifying resources. For example, you can use a tag to identify cost centers or different environments (such as development, test, or production). 
 
-+   Choose  Actions   and select  Edit VPC settings . 
++   Choose <b>Actions</b> and select <b>Edit VPC settings</b>. 
 
-+   In the  DNS settings  section, select   Enable DNS hostnames . 
++   In the <b>DNS settings</b> section, select <b>Enable DNS hostnames</b>. 
 
 This option assigns a friendly Domain Name System (DNS) name to EC2 instances in the VPC, such as the following: 
 
-ec2-52-42-133-255.us-west-2.compute.amazonaws.com 
+<b>ec2-52-42-133-255.us-west-2.compute.amazonaws.com</b>
 
-+   Choose  Save . 
++   Choose <b>Save</b>. 
 
-Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53.
+Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as <b>app.example.com</b>) later by using Amazon Route 53.
 
 ####    Task 2: Creating subnets
 
@@ -72,29 +72,29 @@ In this task, you create a public subnet and a private subnet:
 
 You use the public subnet for internet-facing resources. 
 
-+   In the left navigation pane, choose  Subnets . 
++   In the left navigation pane, choose  <b>Subnets</b>. 
 
-+   Choose  Create subnet  and configure the following settings: 
++   Choose <b>Create subnet</b> and configure the following settings: 
 
-    +   For  VPC ID , choose  Lab VPC . 
-    +   For  Subnet name , enter  Public Subnet
-    +   For  Availability zone , select the first Availability Zone in the list. Do not choose  No Preference . 
-    +   For  IPv4 CIDR block , enter  10.0.0.0/24
-    +   Choose  Create subnet 
+    +   For <b>VPC ID</b>, choose <b>Lab VPC</b>. 
+    +   For <b>Subnet name</b>, enter  `Public Subnet`
+    +   For <b>Availability zone</b>, select the first Availability Zone in the list. Do not choose <b>No Preference</b>. 
+    +   For <b>IPv4 CIDR block</b>, enter  `10.0.0.0/24`
+    +   Choose <b>Create subnet</b> 
 
- The VPC has a CIDR block of  10.0.0.0/16 , which includes all 10.0.x.x IP addresses. The subnet you just created has a CIDR block of  10.0.0.0/24 , which includes all 10.0.0.x IP addresses. They might look similar, but the subnet is smaller than the VPC because of the  /24  in the CIDR range. 
+ The VPC has a CIDR block of <b>10.0.0.0/16</b>, which includes all 10.0.x.x IP addresses. The subnet you just created has a CIDR block of <b>10.0.0.0/24</b>, which includes all 10.0.0.x IP addresses. They might look similar, but the subnet is smaller than the VPC because of the  <b>/24</b> in the CIDR range. 
 
 You now configure the subnet to automatically assign a public IP address for all instances that are launched in it. 
 
-+   Select the check box for Public Subnet . 
++   Select the check box for <b>Public Subnet</b>. 
 
-+   Choose Actions and select Edit subnet settings. Then configure the following option: 
++   Choose <b>Actions</b> and select <b>Edit subnet settings</b>. Then configure the following option: 
 
-    +   Under Auto-assign IP settings, select   Enable auto-assign public IPv4 address . 
+    +   Under <b>Auto-assign IP settings</b>, select <b>Enable auto-assign public IPv4 address</b>. 
 
-    +   Choose Save 
+    +   Choose <b>Save</b> 
 
- Though this subnet is named  Public Subnet , it is not yet public. A public subnet must have an internet gateway, which you attach in the next task.
+ Though this subnet is named <b>Public Subnet</b>, it is not yet public. A public subnet must have an internet gateway, which you attach in the next task.
 
  #####  Create a private subnet
 
@@ -102,11 +102,11 @@ You now configure the subnet to automatically assign a public IP address for all
 
 +   Use what you learned in the previous steps to create another subnet with the following settings: 
 
-    +   For VPC ID, choose Lab VPC . 
-    +   For Subnet name, enter Private Subnet
-    +   For Availability Zone, select the first Availability Zone in the list. Do not choose  No Preference . 
-    +   For IPv4 CIDR block, enter 10.0.2.0/23
-    +   Choose Create subnet 
+    +   For <b>VPC ID</b>, choose <b>Lab VPC</b>. 
+    +   For <b>Subnet name</b>, enter `Private Subnet`
+    +   For <b>Availability Zone</b>, select the first Availability Zone in the list. Do not choose <b>No Preference</b>. 
+    +   For <b>IPv4 CIDR block</b>, enter `10.0.2.0/23`
+    +   Choose <b>Create subnet</b> 
 
 The CIDR block of  10.0.2.0/23  includes all IP addresses that start with 10.0.2.x and 10.0.3.x. This is twice as large as the public subnet because most resources should be kept private unless they specifically must be accessible from the internet. 
 
@@ -123,21 +123,21 @@ An internet gateway serves two purposes:
 
 In this task, you create an internet gateway so that internet traffic can access the public subnet. 
 
-+   In the left navigation pane, choose  Internet Gateways . 
++   In the left navigation pane, choose <b>Internet Gateways</b>. 
 
-+   Choose  Create internet gateway  and configure the following settings: 
++   Choose <b>Create internet gateway</b>  and configure the following settings: 
 
-    +   For  Name tag , enter  Lab IGW
-    +   Choose  Create internet gateway 
+    +   For <b>Name tag</b>, enter  <b>Lab IGW</b>
+    +   Choose <b>Create internet gateway</b> 
 
-You can now attach the internet gateway to your  Lab VPC . 
+You can now attach the internet gateway to your <b>Lab VPC</b>. 
 
-+   Choose  Actions   and then  Attach to VPC , and configure the following settings: 
++   Choose <b>Actions</b> and then <b>Attach to VPC</b>, and configure the following settings: 
 
-    +   For Available VPCs, select Lab VPC . 
-    +   Choose Attach internet gateway 
+    +   For <b>Available VPCs</b>, select <b>Lab VPC</b>. 
+    +   Choose <b>Attach internet gateway</b> 
 
-This action attaches the internet gateway to your  Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
+This action attaches the internet gateway to your <b>Lab VPC</b>. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
 
 ####    Task 4: Configuring route tables
 
@@ -151,41 +151,41 @@ In this task, you:
 +       Add a route to the route table to direct internet-bound traffic to the internet gateway 
 +       Associate the public subnet with the new route table 
 
-+   In the left navigation pane, choose Route Tables . 
++   In the left navigation pane, choose <b>Route Tables</b>. 
 
-    Several route tables are displayed, but there is only one route table associated with  Lab VPC . This route table routes traffic locally, so it is a private route table. 
+    Several route tables are displayed, but there is only one route table associated with <b>Lab VPC</b>. This route table routes traffic locally, so it is a private route table. 
 
-+   In the VPC column, find the route table that shows Lab VPC, and select the check box for this route table. (You can expand the column to see the names.) 
++   In the <b>VPC</b> column, find the route table that shows <b>Lab VPC</b>, and select the check box for this route table. (You can expand the column to see the names.) 
 
-+   In the Name column, choose and then enter the name `Private Route Table` and choose Save 
++   In the <b>Name</b> column, choose and then enter the name `Private Route Table` and choose <b>Save</b> 
 
-+   In the lower half of the page, choose the  Routes  tab. 
++   In the lower half of the page, choose the <b>Routes</b> tab. 
 
-There is only one route. It shows that all traffic that is destined for 10.0.0.0/16 (which is the range of the Lab VPC) will be routed locally. This route allows all subnets in a VPC to communicate with each other. 
+There is only one route. It shows that all traffic that is destined for 10.0.0.0/16 (which is the range of the <b>Lab VPC</b>) will be routed locally. This route allows all subnets in a VPC to communicate with each other. 
 
 You now create a new public route table to send public traffic to the internet gateway. 
 
-+   Choose  Create route table  and configure the following settings: 
++   Choose <b>Create route table</b> and configure the following settings: 
 
-    +   For Name, enter Public Route Table
-    +   For VPC, choose Lab VPC . 
-    +   Choose Create route table 
+    +   For <b>Name</b>, enter `Public Route Table`
+    +   For <b>VPC</b>, choose <b>Lab VPC</b>. 
+    +   Choose <b>Create route table</b> 
 
-+   In the  Routes  tab, choose  Edit routes 
++   In the <b>Routes</b> tab, choose <b>Edit routes</b> 
     You now add a route to direct internet-bound traffic (0.0.0.0/0) to the internet gateway. 
 
-+   Choose  Add route  and then configure the following settings: 
++   Choose <b>Add route</b> and then configure the following settings: 
 
-    +   For Destination, enter  0.0.0.0/0
-    +   For Target, select Internet Gateway, and then from the dropdown list select Lab IGW . 
-    +   Choose Save changes 
+    +   For <b>Destination</b>, enter `0.0.0.0/0`
+    +   For <b>Target</b>, select <b>Internet Gateway</b>, and then from the dropdown list select <b>Lab IGW</b>. 
+    +   Choose <b>Save changes</b> 
 
 The last step associates this new route table with the public subnet. 
 
-+   Choose the  Subnet associations  tab. 
-+   In the  Subnets without explicit associations  section, choose  Edit subnet associations 
-+   Select the row with  Public Subnet . 
-+   Choose  Save associations 
++   Choose the <b>Subnet associations</b> tab. 
++   In the <b>Subnets without explicit associations</b>  section, choose <b>Edit subnet associations</b> 
++   Select the row with <b>Public Subnet</b>. 
++   Choose <b>Save associations</b> 
 
     The public subnet is now public because it has a route table entry that sends traffic to the internet via the internet gateway. 
 
@@ -198,67 +198,67 @@ The last step associates this new route table with the public subnet.
 
 ####    Task 5: Creating a security group for the application server
 
-A  security group  acts as a virtual firewall for instances to control inbound and outbound traffic. Security groups operate at the level of the elastic network interface for the instance. Security groups do not operate at the subnet level. Thus, each instance can have its own firewall that controls traffic. If you do not specify a particular security group at launch time, the instance is automatically assigned to the default security group for the VPC. 
+A _security_ group acts as a virtual firewall for instances to control inbound and outbound traffic. Security groups operate at the level of the elastic network interface for the instance. Security groups do not operate at the subnet level. Thus, each instance can have its own firewall that controls traffic. If you do not specify a particular security group at launch time, the instance is automatically assigned to the default security group for the VPC. 
 
 In this task, you create a security group that allows users to access your application server via HTTP. 
 
-+   In the left navigation pane, choose  Security Groups . 
++   In the left navigation pane, choose <b>Security Groups</b>. 
 
-+   Choose  Create security group  and configure the following settings: 
++   Choose <b>Create security group</b> and configure the following settings: 
 
-    +   For  Security group name , enter  App-SG
-    +   For  Description , enter  Allow HTTP traffic
-    +   For  VPC , choose  Lab VPC . 
-    +   Choose  Create security group 
+    +   For <b>Security group name</b>, enter `App-SG`
+    +   For <b>Description</b>, enter `Allow HTTP traffic`
+    +   For <b>VPC</b>, choose <b>Lab VPC</b>. 
+    +   Choose <b>Create security group</b> 
 
-+   Choose the  Inbound Rules  tab. 
++   Choose the <b>Inbound Rules</b> tab. 
 
-    The settings for  Inbound Rules  determine what traffic is permitted to reach the instance. You configure it to permit HTTP (port 80) traffic that comes from anywhere on the internet (0.0.0.0/0). 
+    The settings for <b>Inbound Rules</b> determine what traffic is permitted to reach the instance. You configure it to permit HTTP (port 80) traffic that comes from anywhere on the internet (0.0.0.0/0). 
 
-+   Choose Edit inbound rules 
++   Choose <b>Edit inbound rules</b> 
 
-+   Choose Add rule and then configure the following settings: 
++   Choose <b>Add rule</b> and then configure the following settings: 
 
-    +   For  Type , choose  HTTP . 
-    +   From the  Source type  dropdown list, choose  Anywhere IPv4 . 
-    +   For  Description , enter  Allow web access
-    +   Choose  Save rules 
+    +   For <b>Type</b>, choose <b>HTTP</b>. 
+    +   From the <b>Source type</b> dropdown list, choose <b>Anywhere IPv4</b>. 
+    +   For <b>Description</b>, enter `Allow web access`
+    +   Choose <b>Save rules</b> 
 
-You use this  App-SG  in the next task.
+You use this <b>App-SG</b> in the next task.
 
 ####    Task 6: Launching an application server in the public subnet
 
-+   On the  Services   menu, choose  EC2 . 
++   On the <b>Services</b> menu, choose <b>EC2</b>. 
 
-+   Choose  Launch instance  and then select  Launch instance  from the dropdown list. Configure the following options: 
++   Choose  <b>Launch instance</b> and then select  <b>Launch instance</b> from the dropdown list. Configure the following options: 
 
-    +   In the  Name and tags  pane, in the  Name  text box, enter  `App Server`
+    +   In the <b>Name and tags</b> pane, in the <b>Name</b> text box, enter `App Server`
 
-    +   In the  Application and OS Images (Amazon Machine Image)  section, keep default selection,  Amazon Linux 2 . 
+    +   In the <b>Application and OS Images (Amazon Machine Image)</b> section, keep default selection, <b>Amazon Linux 2</b>. 
 
-    +   In the  Instance type  section, keep the default instance type,  t2.micro .  
+    +   In the <b>Instance type</b> section, keep the default instance type, <b>t2.micro</b>.  
 
-    +   In the  Key pair (login)  section, from the  Key pair name -  required  dropdown list, choose  Proceed without a key pair (not recommended) . 
+    +   In the <b>Key pair (login)</b> section, from the <b>Key pair name -</b> *_required_* dropdown list, choose <b>Proceed without a key pair (not recommended)</b>. 
 
-    +   In the  Network settings  section, choose  Edit 
+    +   In the <b>Network settings</b> section, choose  <b>Edit</b> 
 
-        +   From the  VPC -  required  dropdown list, choose  Lab VPC . 
+        +   From the <b>VPC -</b> *_required_* dropdown list, choose <b>Lab VPC</b>. 
 
-        +   From the  Subnet  dropdown list, choose  Public Subnet . 
+        +   From the <b>Subnet</b> dropdown list, choose <b>Public Subnet</b>. 
 
-        +   Ensure that  Auto-assign public IP  is  Enable . 
+        +   Ensure that <b>Auto-assign public IP</b> is  <b>Enable</b>. 
 
-    +   In the  Firewall (security groups)   section, choose  Select existing security group 
+    +   In the <b>Firewall (security groups)</b> section, choose <b>Select existing security group</b> 
 
-        +   From the  Common security groups  dropdown list, choose  App-SG. 
+        +   From the <b>Common security groups</b>  dropdown list, choose `App-SG`. 
 
-    +   In the  Configure storage  section, keep the default storage configuration. 
+    +   In the <b>Configure storage</b> section, keep the default storage configuration. 
 
-    +   Expand the  Advanced details  section. 
+    +   Expand the <b>Advanced details</b> section. 
 
-        +   For  IAM instance profile , choose the role  Inventory-App-Role . 
+        +   For <b>IAM instance profile</b>, choose the role <b>Inventory-App-Role</b>. 
 
-        +   Scroll down to  User data  section, copy and paste the below code in the block.
+        +   Scroll down to <b>User data</b> section, copy and paste the below code in the block.
 
             ```
             #!/bin/bash 
@@ -276,19 +276,19 @@ You use this  App-SG  in the next task.
             service  httpd  start
             ``` 
 
-    +   From the  Summary  section, choose  Launch instance 
+    +   From the  <b>Summary</b> section, choose <b>Launch instance</b> 
 
-+   Choose  View all instances 
++   Choose <b>View all instances</b> 
 
 +   Wait for the application server to fully launch. It should display the following status: 
 
-    +   Instance State:   Running 
+    +   <b>Instance State:</b> Running 
 
-+   Select   App Server . 
-+   From the  Details  tab, copy the  Public IPv4 address  address. 
++   Select <b>App Server</b>. 
++   From the <b>Details</b> tab, copy the <b>Public IPv4 address</b> address. 
 +   Open a new browser tab, paste the IP address you just copied, and press Enter. 
 
-If you configured the VPC correctly, the Inventory application and this message should appear:  Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
+If you configured the VPC correctly, the Inventory application and this message should appear: <b>Please configure Settings to connect to database</b>. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
 
 ####    Submitting your work
 
