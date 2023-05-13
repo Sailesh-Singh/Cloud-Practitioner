@@ -11,3 +11,4 @@ After completing this lab, you will know how to:
 +   Locating and using the  IAM sign-in URL 
 +   Experimenting  with the effects of policies on service access
 
+####   Duration
