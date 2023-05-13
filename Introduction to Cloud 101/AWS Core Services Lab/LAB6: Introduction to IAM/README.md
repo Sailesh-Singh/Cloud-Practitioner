@@ -132,3 +132,37 @@ Your company is growing its use of AWS services, and is using many Amazon EC2 in
 </table>
 
 ####    Task 2: Add users to groups
+
+You have recently hired  user-1  into a role where they will provide support for Amazon S3. You will add them to the  S3-Support  group so that they inherit the necessary permissions via the attached  AmazonS3ReadOnlyAccess  policy. 
+
+Ignore any "not authorized" errors that appear during this task. They are caused by your lab account having limited permissions and will not impact your ability to complete the lab.
+
+#####   Add user-1 to the S3-Support group
+
++   In the left navigation pane, choose  User groups . 
++   Choose the name of the  S3-Support  group. 
++   On the  Users  tab, choose  Add users . 
++   Select   user-1 , and choose  Add users . 
+    On the  Users  tab, notice that  user-1  has been added to the group. 
+
+#####   Add user-2 to the EC2-Support group
+
+You have hired  user-2  into a role where they will provide support for Amazon EC2. You will add them to the  EC2-Support  group so that they inherit the necessary permissions via the attached  AmazonEC2ReadOnlyAccess  policy. 
+
++   Use what you learned from the previous steps to add  user-2  to the  EC2-Support  group. 
+
+    user-2  should now be part of the  EC2-Support  group. 
+
+#####   Add user-3 to the EC2-Admin group
+
+You have hired  user-3  as your Amazon EC2 administrator to manage your EC2 instances. You will add them to the  EC2-Admin  group so that they inherit the necessary permissions via the attached  EC2-Admin-Policy . 
+
++   Use what you learned from the previous steps to add  user-3  to the  EC2-Admin  group. 
+
+    user-3  should now be part of the  EC2-Admin  group. 
+
++   In the navigation pane on the left, choose  User groups . 
+
+    Each group should have a  1  in the  Users  column. This indicates the number of users in each group. 
+
+    If you do not have a  1  for the  Users  column for a group, revisit the previous steps to ensure that each user is assigned to a group, as shown in the table in the  Business scenario  section. 
