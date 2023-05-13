@@ -12,3 +12,4 @@ After completing this lab, you will know how to:
 +   Experimenting  with the effects of policies on service access
 
 ####   Duration
+This lab requires approximately  40 minutes  to complete.
