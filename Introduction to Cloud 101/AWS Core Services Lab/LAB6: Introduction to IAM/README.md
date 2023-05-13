@@ -268,3 +268,5 @@ In this task, you will test the permissions of each IAM user in the console.
     This time, the action is successful because  user-3  has permissions to stop EC2 instances. The  Instance state  changes to  Stopping  and starts to shut down. 
 
 +   Close your private browser window. 
+
+####    Submitting your work
