@@ -270,3 +270,9 @@ In this task, you will test the permissions of each IAM user in the console.
 +   Close your private browser window. 
 
 ####    Submitting your work
+
++   At the top of these instructions, choose <b>Submit</b> to record your progress and when prompted, choose <b>Yes</b>. 
+     
++   If the results don't display after a couple of minutes, return to the top of these instructions and choose <b>Grades</b> 
+
++   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report</b>.
