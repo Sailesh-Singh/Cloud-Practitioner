@@ -166,3 +166,5 @@ You have hired  user-3  as your Amazon EC2 administrator to manage your EC2 inst
     Each group should have a  1  in the  Users  column. This indicates the number of users in each group. 
 
     If you do not have a  1  for the  Users  column for a group, revisit the previous steps to ensure that each user is assigned to a group, as shown in the table in the  Business scenario  section. 
+
+####    Task 3: Sign in and test users 
