@@ -13,3 +13,5 @@ After completing this lab, you will know how to:
 
 ####   Duration
 This lab requires approximately  40 minutes  to complete.
+
+####    Task 1: Explore the users and groups
