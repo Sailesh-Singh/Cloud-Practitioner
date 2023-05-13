@@ -130,3 +130,5 @@ Your company is growing its use of AWS services, and is using many Amazon EC2 in
 </tr>
 
 </table>
+
+####    Task 2: Add users to groups
