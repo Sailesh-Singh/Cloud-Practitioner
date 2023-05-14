@@ -52,5 +52,19 @@ We begin our journey of AWS Core Services Lab. Click <a href="./LAB6: Introducti
     2. Inspecting  IAM policies  as applied to the pre-created groups 
     3. Following a  real-world scenario , adding users to groups with specific capabilities enabled 
     4. Locating and using the  IAM sign-in URL 
-    5. Experimenting  with the effects of policies on service access 
+    5. Experimenting  with the effects of policies on service 
+
+
+####  <a href="./LAB7: Hosting a Static Website /README.md">LAB7: Hosting a Static Website</a>
+We begin our journey of AWS Core Services Lab. Click <a href="./LAB7: Hosting a Static Website /README.md">LAB6: Introduction to IAM</a> to begin learning. In this module, we practice hands-on labs and at the end of this sub-module we will know how to do following:
+
+    1. Create a bucket in Amazon S3 
+    2. Upload content to your bucket 
+    3. Enable access to the bucket objects 
+    4. Update the website
+
+        
+    
+    
+     
 
