@@ -40,25 +40,25 @@ Public access to buckets is blocked by default. Because the files in your static
     You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.
 
 +   Choose Create bucket
-    <img src="Amazon S3 lab.PNG" alt=" " style="height: 100%; width:100%;"/>
+    <img src="assets/Amazon S3 lab.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 In the Buckets section, choose the name of your new bucket.
 
 +   Choose the Properties tab.
-<img src="properties.PNG" alt=" " style="height: 100%; width:100%;"/>
+<img src="assets/properties.PNG" alt=" " style="height: 100%; width:100%;"/>
 You will now configure the bucket for static website hosting.
 
 +   Scroll to the Static website hosting panel.
 
 +   Choose Edit
 
-    <img src="edit website hosting.PNG" alt=" " style="height: 100%; width:100%;"/>
+    <img src="assets/edit website hosting.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 +   Configure the following settings:
 
     +   Static web hosting: Choose Enable.
 
-    <img src="static web hosting.PNG" alt=" " style="height: 100%; width:100%;"/>
+    <img src="assets/static web hosting.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 +   Hosting type: Choose Host a static website.
 +   Index document: Enter index.html
@@ -93,7 +93,7 @@ Choose the three files that you downloaded.
 +   Choose Upload
 Your files are uploaded to the bucket.
 
-<img src="upload.PNG" alt=" " style="height: 100%; width:100%;"/>
+<img src="assets/upload.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 ####    Task 3: Enabling access to the objects
 Objects that are stored in Amazon S3 are private by default. This can help your organization's data remains secure.
@@ -122,7 +122,7 @@ A list of the three objects is displayed.
 
 +   Choose Make public
 Your static website is now publicly accessible.
-<img src="make public.PNG" alt=" " style="height: 100%; width:100%;"/>
+<img src="assets/make public.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 +   Return to the web browser tab that has the 403 Forbidden message.
 +   Refresh  the webpage.
@@ -140,7 +140,6 @@ Amazon S3 is an object storage service, so you must upload the whole file. This 
 +   Select  index.html, and in the Actions menu, choose the Make public option again.
 +   Return to the web browser tab with the static website, and refresh  the page.
 Your name should now be on the page.
-<img src="website.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
 
