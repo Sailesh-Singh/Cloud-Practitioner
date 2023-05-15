@@ -158,4 +158,6 @@ Your name should now be on the page.
 Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
 
 You can also use your own domain name to direct users to a static website that is hosted on Amazon S3. To accomplish this, you could use the Amazon Route 53 Domain Name System (DNS) service in combination with Amazon S3.
+
+####    Submitting your work
 ####    `End lab`
