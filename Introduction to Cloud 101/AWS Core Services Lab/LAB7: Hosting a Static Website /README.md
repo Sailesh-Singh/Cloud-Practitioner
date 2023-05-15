@@ -140,16 +140,19 @@ Your static website is now publicly accessible.
 You should now see the static website that is being hosted by Amazon S3.
 
 ####    Task 4: Updating the website
+
 You can change the website by editing the HTML file and uploading it again to the S3 bucket.
 
-Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object; instead, you must replace the whole object.
+Amazon S3 is an _object storage service_, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object; instead, you must replace the whole object.
 
-+   On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).
-+   Find the text Served from Amazon S3, and replace it with Created by <YOUR-NAME>, substituting your name for <YOUR-NAME> (for example, Created by Jane).
++   On your computer, load the <b>index.html</b> file into a text editor (for example, Notepad or TextEdit).
+
++   Find the text <b>Served from Amazon S3</b>, and replace it with `Created by <YOUR-NAME>`, substituting your name for <YOUR-NAME> (for example, _Created by Jane_).
 +   Save the file.
-+   Return to the Amazon S3 console, and upload the index.html file that you just edited.
-+   Select  index.html, and in the Actions menu, choose the Make public option again.
++   Return to the Amazon S3 console, and upload the <b>index.html</b> file that you just edited.
++   Select <b>index.html</b>, and in the <b>Actions</b> menu, choose the <b>Make public</b> option again.
 +   Return to the web browser tab with the static website, and refresh  the page.
+
 Your name should now be on the page.
 
 Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
