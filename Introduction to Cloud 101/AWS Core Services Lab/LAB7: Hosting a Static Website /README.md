@@ -79,22 +79,22 @@ You will now configure the bucket for static website hosting.
 
 
 ####    Task 2: Uploading content to your bucket
+
 In this task, you upload the static files to your bucket.
 
 +   Right-click each of the following links, and download the files to your computer:
-Ensure that each file keeps the same file name, including the extension.
+    Ensure that each file keeps the same file name, including the extension.
 
-  +   index.html
-    +   script.js
-    +   style.css
+    +   <a href="src/index.html">index.html</a>
+    +   <a href="src/script.js">script.js</a>
+    +   <a href="src/style.css">style.css</a>
 
-   
++   Return to the Amazon S3 console, and choose the <b>Objects</b> tab.
++   Choose <b>Upload</b>
++   Choose <b>Add files</b>
++   Choose the three files that you downloaded.
++   Choose <b>Upload</b>
 
-Return to the Amazon S3 console, and choose the Objects tab.
-Choose Upload
-Choose Add files
-Choose the three files that you downloaded.
-+   Choose Upload
 Your files are uploaded to the bucket.
 
 <img src="assets/upload.PNG" alt=" " style="height: 100%; width:100%;"/>
