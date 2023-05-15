@@ -14,64 +14,68 @@ After completing this lab, you will know how to:
 +   Update the website 
 
 ####    Task 1: Creating a bucket in Amazon S3
-+   In the AWS Management Console, on the Services menu, choose S3.
 
-+   Choose Create bucket
++   In the <b>AWS Management Console</b>, on the <b>Services</b> menu, choose <b>S3</b>.
++   Choose <b>Create bucket</b>
+    
+    An S3 bucket name is globally unique, and all AWS accounts share the namespace. After you create a bucket, no other AWS accountsin any AWS Regions can use the name of that bucket unless you delete the bucket.
+    
+    Thus, for this lab, you use a bucket name that includes a random number, such as _website-123_.
 
-An S3 bucket name is globally unique, and all AWS accounts share the namespace. After you create a bucket, no other AWS accountsin any AWS Regions can use the name of that bucket unless you delete the bucket.
++   For <b>Bucket name</b>, enter `website-<123>` and replace _<123>_ with a random number.
 
-Thus, for this lab, you use a bucket name that includes a random number, such as website-123.
-+   For Bucket name, enter website-<123> and replace <123> with a random number.
+    Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.
 
++   First Under <b>Object Ownership</b> choose <b>ACL enabled</b>.
 
++   Choose <b>Bucket owner preferred</b>.
 
-Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.
++   Under <b>Block Public Access settings for this bucket</b>. Clear the check box for <b>Block all public access</b>, and then select the box that states <b>I acknowledge that the current settings may result in this bucket and the objects within becoming public</b>.
 
-+   First Under Object Ownership choose ACL enabled.
++   Under <b>Tags</b> Select <b>Add tag</b> and enter the following:
 
-+   Choose Bucket owner preferred.
-
-+   Under Block Public Access settings for this bucket. Clear the check box for Block all public access, and then select the box that states I acknowledge that the current settings may result in this bucket and the objects within becoming public.
-
-+   Under Tags Select Add tag and enter the following:
-
-    +   Key: Department
-    +   Value: Marketing
+    +   <b>Key:</b> `Department`
+    +   <b>Value:</b> `Marketing`
+    
     You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.
 
-+   Choose Create bucket
++   Choose <b>Create bucket</b>
     <img src="assets/Amazon S3 lab.PNG" alt=" " style="height: 100%; width:100%;"/>
 
-In the Buckets section, choose the name of your new bucket.
++   In the <b>Buckets</b> section, choose the name of your new bucket.
 
-+   Choose the Properties tab.
-<img src="assets/properties.PNG" alt=" " style="height: 100%; width:100%;"/>
++   Choose the <b>Properties</b> tab.
+    
+    <img src="assets/properties.PNG" alt=" " style="height: 100%; width:100%;"/>
+
 You will now configure the bucket for static website hosting.
 
-+   Scroll to the Static website hosting panel.
++   Scroll to the <b>Static website hosting</b> panel.
 
-+   Choose Edit
++   Choose <b>Edit</b>
 
     <img src="assets/edit website hosting.PNG" alt=" " style="height: 100%; width:100%;"/>
 
 +   Configure the following settings:
 
-    +   Static web hosting: Choose Enable.
+    +   <b>Static web hosting:</b> Choose <b>Enable</b>.
 
     <img src="assets/static web hosting.PNG" alt=" " style="height: 100%; width:100%;"/>
 
-+   Hosting type: Choose Host a static website.
-+   Index document: Enter index.html
+    +   <b>Hosting type:</b> Choose <b>Host a static website</b>.
+    +   <b>Index document:</b> Enter `index.html`
 
-    Note: You must enter this value even though it is already displayed.
-    +   Error document: Enter error.html
-+   Choose Save changes
+        +   <b>Note:</b> You must enter this value even though it is already displayed.
 
-+   In the Static website hosting panel under Bucket website endpoint, choose the link.
+    +   <b>Error document:</b> Enter `error.html`
 
-You receive a 403 Forbidden message because you have not yet configured the bucket permissions. Keep this tab open in your web browser so that you can return to it later.
++   Choose <b>Save changes</b>
 
-You have configured your bucket to host a static website.
++   In the <b>Static website hosting</b> panel under <b>Bucket website endpoint</b>, choose the link.
+
+    You receive a 403 Forbidden message because you have not yet configured the bucket permissions. Keep this tab open in your web browser so that you can return to it later.
+
+    You have configured your bucket to host a static website.
 
 
 ####    Task 2: Uploading content to your bucket
