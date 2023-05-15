@@ -166,4 +166,5 @@ You can also use your own domain name to direct users to a static website that i
 +   If the results don't display after a couple of minutes, return to the top of these instructions and choose <b>Grades</b> 
 
 +   To find detailed feedback on your work, choose <b>Details</b> and then choose <b>View Submission Report</b>.
-####    `End lab`
+
+####    Lab complete
