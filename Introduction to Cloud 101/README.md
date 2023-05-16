@@ -1140,7 +1140,7 @@ We begin our journey of AWS Core Services Lab. Click [AWS Core Services Lab](htt
 
 ## Module 5: Cloud Careers 
 
-[<img src="assets/Cloud_Careers.png" alt="AWS Core Services" width="100%" height="100%" >](https://awseducate.instructure.com/courses/891/modules/items/15095)
+[<img src="assets/Cloud_Careers.png" alt="Cloud_Careers" width="100%" height="100%" >](https://awseducate.instructure.com/courses/891/modules/items/15095)
 
 
 ### Objectives
@@ -1155,8 +1155,14 @@ You might be asking yourself, Why are so many professionals choosing a career in
 
 You might be wondering, Why choose a career in the cloud, and why AWS?
 
+[<img src="assets/Why choose a career in the cloud-1.png" alt="AWS Core Services" width="100%" height="100%" >]()
+
 Since Amazon Web Services became popular in 2006, AWS has built <b>Hundreds of new services</b>. These services range from basic compute needs to advanced machine learning and artificial intelligence tools.
 
 With its <b>global reach</b>, AWSis supporting innovation in every part of the world. And in just a few years, AWS has onboarded <b>millions of customers</b> by supporting both startup and corporate enterprise companies.
 
+<p align="center">
+<img src="assets/Why choose a career in the cloud-2.png" alt="AWS Core Services" width="505px" height="283px" >
+
+</p>
 The result is the need for thousands of cloud professionals to fill the thousands of cloud job opportunities around the world.
