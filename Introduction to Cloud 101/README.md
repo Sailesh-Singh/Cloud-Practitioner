@@ -1205,3 +1205,5 @@ The opportunity to develop career in the cloud comes with many benefits.
 </td>
 </tr>
 </table>
+
+### Basic qualifications
