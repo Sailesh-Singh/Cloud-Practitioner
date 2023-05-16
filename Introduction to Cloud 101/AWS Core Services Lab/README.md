@@ -63,8 +63,5 @@ We begin our journey of AWS Core Services Lab. Click <a href="./LAB7: Hosting a 
     3. Enable access to the bucket objects 
     4. Update the website
 
-        
-    
-    
-     
 
+####    End Of Module
