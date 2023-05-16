@@ -1141,3 +1141,13 @@ We begin our journey of AWS Core Services Lab. Click [AWS Core Services Lab](htt
 ## Module 5: Cloud Careers 
 
 [<img src="assets/Cloud_Careers.png" alt="AWS Core Services" width="100%" height="100%" >](https://awseducate.instructure.com/courses/891/modules/items/15095)
+
+
+### Objectives
+
+You might be asking yourself, Why are so many professionals choosing a career in the cloud? By the end of this section, it will become clear. You will be able to :
+
++   Describe the benefits of a cloud career
++   Identify different career pathways into the cloud
++   Discuss flexibility to grow your career in the cloud
+
