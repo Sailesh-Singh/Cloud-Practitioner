@@ -1152,3 +1152,11 @@ You might be asking yourself, Why are so many professionals choosing a career in
 +   Discuss flexibility to grow your career in the cloud
 
 ### Why choose a career in the cloud?
+
+You might be wondering, Why choose a career in the cloud, and why AWS?
+
+Since Amazon Web Services became popular in 2006, AWS has built <b>Hundreds of new services</b>. These services range from basic compute needs to advanced machine learning and artificial intelligence tools.
+
+With its <b>global reach</b>, AWSis supporting innovation in every part of the world. And in just a few years, AWS has onboarded <b>millions of customers</b> by supporting both startup and corporate enterprise companies.
+
+The result is the need for thousands of cloud professionals to fill the thousands of cloud job opportunities around the world.
