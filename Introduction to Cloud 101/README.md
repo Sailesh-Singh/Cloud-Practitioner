@@ -1150,3 +1150,5 @@ You might be asking yourself, Why are so many professionals choosing a career in
 +   Describe the benefits of a cloud career
 +   Identify different career pathways into the cloud
 +   Discuss flexibility to grow your career in the cloud
+
+### Why choose a career in the cloud?
