@@ -1166,3 +1166,42 @@ With its <b>global reach</b>, AWSis supporting innovation in every part of the w
 
 </p>
 The result is the need for thousands of cloud professionals to fill the thousands of cloud job opportunities around the world.
+
+
+### Benefits of a career in the cloud
+
+The opportunity to develop career in the cloud comes with many benefits.
+
+<table>
+<tr>
+    <th> Variety of roles </th>
+    <th> High-paying jobs </th>
+    <th> Work-life balance </th>
+</tr>
+<tr>
+</tr>
+
+<tr>
+<td>
+     <p align="center">
+        <img src="assets/Variety_of_roles.png" alt="Variety_of_roles"  width="150px" height="150px" >
+     </p>
+
+>   _For example, you have the opportunity to explore a wide range of job roles, from help desk support associate to machine learning specialist._
+</td>
+<td>
+     <p align="center">
+        <img src="assets/High-paying_jobs.png" alt="High-paying_jobs"  width="150px" height="150px" >
+     </p>
+
+>   _Jobs in the cloud are among the highest paying jobs in IT. Some entry-level jobs will pay as much as $85,000 per year. Jobs roles that require more experience can pay as much as 200,000 or more._
+</td>
+<td>
+     <p align="center">
+        <img src="assets/Work-life_balance.png" alt="Work-life_balance"  width="150px" height="150px" >
+     </p>
+
+>   _Many cloud obs offer great work-life balance to fit your life. Some cloud jobs offer you the opportunity to travel and see the world, and with other cloud jobs, you can work remotely._
+</td>
+</tr>
+</table>
