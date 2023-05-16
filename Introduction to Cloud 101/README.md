@@ -1207,3 +1207,16 @@ The opportunity to develop career in the cloud comes with many benefits.
 </table>
 
 ### Basic qualifications
+
+You might be thinking, Will learning AWS and getting certified be enough to get a job in the cloud?
+
+[<img src="assets/Basic_qualifications.png" alt="Basic_qualifications" width="100%" height="100%" >]()
+
+Depending on the job roles that you are seeking, these skill sets might vary. It's important to research the basic skills that you will be required to develop. You want recruiters to consider you a qualified candidate for the role that you are seeking.
+Some basic requirements that a recruiter looks for in a solutioins architect candidate:
+
+
++   Bachelor degree or equivalence
++   Experience with system administration, network administration, IT security systems architecture or other technical discipline
++   Scripting in a cloud-based language such as Python, Java or .NET
++   AWS Certifications
