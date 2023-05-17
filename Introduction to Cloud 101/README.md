@@ -1234,3 +1234,28 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 ### Cloud Career variety
 
 [<img src="assets/Cloud_Career_variety.png" alt="Cloud Career variety" width="100%" height="100%" >]()
+
+####    1.  IT Professionals
++   Cloud support specialist
++   Solutions architect
++   DevOps engineer
++   Big data analyst
++   Machine learning engineer
++   Application developer
+
+####    2.  Sales
++   Cloud consultant
++   AWS account managers
+
+####    3.  Managers
++   People managers
++   Program managers
++   Finance managers
+
+####    4.  Education
++   Enterprise trainers
++   University instructors
+
+####    5.  Startups
++   Small business
++   Private contractors
