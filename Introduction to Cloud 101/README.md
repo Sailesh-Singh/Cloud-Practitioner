@@ -1263,3 +1263,5 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 ## Module 6: Final Assesment
 
 The final assesments consists of question answer where numbers of quesions were given and we have to choose right among them.
+
+## Module 7: Final Assesment
