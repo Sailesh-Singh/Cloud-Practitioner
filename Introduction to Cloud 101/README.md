@@ -1230,3 +1230,5 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 +   Certifications
 +   Entry-level role
 +   Solutions architect
+
+### Cloud Career variety
