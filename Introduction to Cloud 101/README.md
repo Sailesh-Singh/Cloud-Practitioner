@@ -1264,4 +1264,10 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 
 The final assesments consists of question answer where numbers of quesions were given and we have to choose right among them.
 
-## Module 7: Final Assesment
+## Module 7: Next Steps
+
+####    Decide your next steps
+####    Certifications
+
+[<img src="assets/Certifications.png" alt="Certifications" width="100%" height="100%" >]()
+**_All level of AWS Certifications_**
