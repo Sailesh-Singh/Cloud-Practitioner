@@ -1101,7 +1101,14 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 
 +   #####   How can I architect a cloud solution using Cloudwatch?
-    <img src="" alt="" style="height::100%; width: =100%;"   >  
+    You can architect a solution by using Amazon CloudWatch to monitor the CPU utilization and takes action.
+
+    <p align="centre">
+    <img src="assets/Architect_Amazon_CloudWatch.png" alt="Architect_Amazon_CloudWatch" style="height::100%; width: =100%;">
+    
+    </p> 
+
+    In the diagram, CloudWatch receives data on the EC2 instance CPU utilization. When the CPU goes over a specified percent, CloudWatch triggers Amazon EC2 Auto Scaling to provison an additional instance to help with the workload. Therefore, the first instance isn't overloaded.
 
 +   #####   How can I use CloudWatch?
 
