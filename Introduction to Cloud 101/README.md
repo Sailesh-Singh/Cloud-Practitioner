@@ -1220,3 +1220,7 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 +   Experience with system administration, network administration, IT security systems architecture or other technical discipline
 +   Scripting in a cloud-based language such as Python, Java or .NET
 +   AWS Certifications
+
+### Solutions architect career pathway
+
+[<img src="assets/Solutions_architect_career_pathway.png" alt="Solutions_architect_career_pathway" width="100%" height="100%" >]()
