@@ -1112,9 +1112,11 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 +   #####   How can I use CloudWatch?
 
-    +   Infrastructure monitoring and troubleshooting
-        +   Proactive resource optiization
-        +   Application monitoring
+    +   ######   Infrastructure monitoring and troubleshooting
+        You can use CloudWatch to monitor key metrics and logs, visualize your application and infrastructure stack, and create alarms. It correlates metrics and logs to understand and resolve  the root cause of performance issues in your AWS resources.
+
+    +   ######  Proactive resource optiization
+    +   ######  Application monitoring
 
 +   #####   What else should I keep in mind when using CloudWatch?
     <img src="" alt="" style="height::100%; width: =100%;"   >
@@ -1276,7 +1278,7 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 +   Small business
 +   Private contractors
 
-## Module 6: Final Assesment
+## Module 6: Final Assessment
 
 The final assesments consists of question answer where numbers of quesions were given and we have to choose right among them.
 
