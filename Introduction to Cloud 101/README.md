@@ -1224,3 +1224,9 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 ### Solutions architect career pathway
 
 [<img src="assets/Solutions_architect_career_pathway.png" alt="Solutions_architect_career_pathway" width="100%" height="100%" >]()
+
++   Base IT Training
++   Coding Proficiency
++   Certifications
++   Entry-level role
++   Solutions architect
