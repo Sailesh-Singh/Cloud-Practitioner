@@ -1232,3 +1232,5 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 +   Solutions architect
 
 ### Cloud Career variety
+
+[<img src="assets/Cloud_Career_variety.png" alt="Cloud Career variety" width="100%" height="100%" >]()
