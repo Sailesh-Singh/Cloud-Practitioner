@@ -1087,7 +1087,9 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
     Amazon CloudWatch is a monitoring and obsercation servicethat is built for Devols engineers, developers, security engineer, and IT managers. CloudWatch provides you with data and actionable insighrs to monitor your applications, respond to system-wide performance changes, and optimize resources utilization. You get a unified view of operational health.
 
 +   #####   What problem does CloudWatch Solve?
-    <img src="alt" alt="" style="height::100%; width: =100%;"   >  
+    Amazon CloudWatch solves the problem of responding to events and alarms, as they occur in your architecture. Amazon CloudWatch collects monitoring and operational data in the form of logs, metrics, and events. It provides you with a unified view of AWS resources, applications, and services that run on AWS and on-premises servers. You can use CloudWatch to detect anomalous behavior in your environments, set alarms, and visualize logs and metrics side by side. Use it to take automated actions, troubleshoot issues, and discover insights to keep your applications running smoothly.
+
+
 +   #####   What are the benefits of Cloudwatch?
     <img src="" alt="" style="height::100%; width: =100%;"   >      
 
