@@ -1091,7 +1091,14 @@ With Amazon S3, you pay only for what you use. It has no minimum fee. Some price
 
 
 +   #####   What are the benefits of Cloudwatch?
-    <img src="" alt="" style="height::100%; width: =100%;"   >      
+    The following list describes some of the benefits that Amazon CloudWatch offers:
+
+    +   You can use CloudWatch to collect metrics and logs from all your AWS resources, applications, and services that run on AWS and on-premises servers. You can monitor them from one platform.
+
+    +   You can use CloudWatch to maintain visibility across your services, applications, and infrastructure, so you can visualize key metrics like CPU utilization and memory.
+
+    +   You can use CloudWatch to set alarms and take automated actions. It frees up important resources so you can focous on adding business value.
+
 
 +   #####   How can I architect a cloud solution using Cloudwatch?
     <img src="" alt="" style="height::100%; width: =100%;"   >  
