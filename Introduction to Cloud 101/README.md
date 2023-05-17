@@ -1259,3 +1259,5 @@ Some basic requirements that a recruiter looks for in a solutioins architect can
 ####    5.  Startups
 +   Small business
 +   Private contractors
+
+## Module 6: Final Assesment
