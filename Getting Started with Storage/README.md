@@ -20,6 +20,16 @@ By the end of this course I will be able to do the following:
 +   Identify other AWS storage solutions and their use cases.
 +   Use Amazon S3 to create a static website.
 
+Click <a href="./Getting Started with Storage/README.md">Getting Started with Storage</a>
+
 [<img src="assets/Welcome_to_getting_started_with_storage.png" alt="Welcome_to_getting_started_with_storage.png" align="left" width="100%" height="100%">]()
+<small>**_Getting Started with Storage_**</small>
 
++   In this module we learn about basic storage domain and AWS course storage services. It is broken into following four sections:
+    ####  [1.  Introduction to Storage](#)
+    ####  [2.  Intoduction to Amazon S3](#)
+    ####  [3.  Using Amazon S3](#)
+    ####  [4.  Additional AWS Storage Services](#)
 
+[<img src="assets/Four_Sections.png" alt="Four_Sections" align="left" width="100%" height="100%">]()
+<small>**_Four Sections_**</small>
