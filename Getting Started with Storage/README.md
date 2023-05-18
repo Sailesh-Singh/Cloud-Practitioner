@@ -19,3 +19,7 @@ By the end of this course I will be able to do the following:
 +   Describe Amazon S3 configurations for cost savings and security.
 +   Identify other AWS storage solutions and their use cases.
 +   Use Amazon S3 to create a static website.
+
+[<img src="assets/Welcome_to_getting_started_with_storage.png" alt="Welcome_to_getting_started_with_storage.png" align="left" width="100%" height="100%">]()
+
+
