@@ -21,5 +21,8 @@ It’s helpful if already you have a basic understanding of cloud computing conc
 
 +   <a href="./Introduction to Cloud 101/README.md">Introduction to Cloud 101</a>
 
+##  <a href="./Getting Started with Storage/README.md">Getting Started with Storage</a>
+We begin our journey from AWS Educate course. Click [Getting Started with Storage](https://awseducate.instructure.com/courses/815) to begin learning. In this course we learn about Fundamental of AWS about basic storage domain and AWS course storage services. <a href="./Getting Started with Storage/README.md"><i>learn more..</i></a>
+
 ##  <a href="./Getting Started with Cloud Operations/README.md">Getting Started with Cloud  Operations</a>
 We begin our journey from AWS Educate course. Click [Getting Started with Cloud Operations](https://awseducate.instructure.com/courses/889) to begin learning. In this course we learn about Fundamental operations of AWS <a href="./Getting Started with Cloud Operations/README.md"><i>learn more..</i></a>
