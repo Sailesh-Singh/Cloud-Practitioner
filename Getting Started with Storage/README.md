@@ -98,4 +98,10 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Benefits of Cloud Storage</i></strong></small>
     </p>
 
-    
+
+    <b>1.  Cost Efficient</b> so we pay for only what we use.
+    <b>2.  Secure</b> because data is saved across multiple servers.
+    <b>3.  Accessible</b> to multiple users in an account.
+    <b>4.  Scalable</b> so it can grow and shrink as our workloads change.
+    <b>5.  Managed</b> so we don't have to worry about servers, and we can focus on our data and applications.
+    <b>6.  Backed up</b> so copies of data are stored in different physical locations in case of failure.
