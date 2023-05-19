@@ -118,9 +118,13 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     <b>1.   Block Storage</b>
 
-    [<img src="assets/Block_storage.png" alt="    Types_of_cloud-storage" align="right" width="80px" height="100px">]()
+    [<img src="assets/Block_storage.png" alt="Types_of_cloud-storage" align="left" width="90px" height="90px">]()
 
     Block storage breaks up data into blocks and then stores those blocks as seperate pieces, each with a unique identifier. They are stored wherever it is most efficient. Thus, it can store those blocks across different systems and each block can be configured to work with different operating systems.
+    
+    <br><br>
 
     <b>2.   Cloud Storage</b>
-    
+
+    [<img src="assets/File_storage.png" alt="File_storage" align="right" width="500px" height="150px">]()
+    File storage is a methodology that helps users, applications, and services access data in a shared file system. Data is stored in a hierarchical structure. This structure is similar to a centralized shared network drive in a company where employees store and access file.
