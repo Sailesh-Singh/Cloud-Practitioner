@@ -26,10 +26,20 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 <small>**_Getting Started with Storage_**</small>
 
 +   In this module we learn about basic storage domain and AWS course storage services. It is broken into following four sections:
-    ####  [1.  Introduction to Storage](#)
+    ####  [1.  Introduction to Storage](#introduction-to-storage)
     ####  [2.  Intoduction to Amazon S3](#)
     ####  [3.  Using Amazon S3](#)
     ####  [4.  Additional AWS Storage Services](#)
 
 [<img src="assets/Four_Sections.png" alt="Four_Sections" align="left" width="100%" height="100%">]()
 <small>**_Four Sections_**</small>
+
+### Introduction to Storage
+
+Computers use data to complete tasks, and this data must be stored to be accessed. Some data can be stored internal to the computer itself, such as files that help the computer start up and run. More data can be stored on servers to be accessed by our computer. When data is on server in the cloud, people  all around the world can access it. 
+
+
+
+There are different types of storage for different applications.
+
+Introduction-to-storage.png
