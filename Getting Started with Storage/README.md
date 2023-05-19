@@ -53,13 +53,13 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <tr>
     <td>
     <p align="center">
-        <img src="assets/On-premises-storage.png" alt="On-premises-storage" align="left" width="100%" height="100%">
+        <img src="assets/On-premises-storage.png" alt="On-premises-storage" align="" width="50%" height="50%">
     </p>
     </td>
 
     <td>
     <p align="center">
-        <img src="assets/Cloud_Storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">
+        <img src="assets/Cloud_Storage.png" alt="Introduction-to-storage" align="" width="50%" height="50%">
     </p>
     </td>
     </tr>
@@ -67,13 +67,13 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <tr>
     <td>
     <p align="center">
-        <img src="assets/On-premises-storage-detail.png" alt="On-premises-storage-detail" align="left" width="100%" height="100%">
+        <img src="assets/On-premises-storage-detail.png" alt="On-premises-storage-detail" align="" width="50%" height="50%">
     </p>
     </td>
 
     <td>
     <p align="center">
-        <img src="assets/Cloud_Storage-detail.png" alt="Cloud_Storage-detail" align="left" width="100%" height="100%">
+        <img src="assets/Cloud_Storage-detail.png" alt="Cloud_Storage-detail" align="" width="50%" height="50%">
     </p>
     </td>
     </tr>
@@ -108,7 +108,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>4.  Scalable</b> so it can grow and shrink as our workloads change.
 
     <b>5.  Managed</b> so we don't have to worry about servers, and we can focus on our data and applications.
-    
+
     <b>6.  Backed up</b> so copies of data are stored in different physical locations in case of failure.
 
 +   ####    Types of Cloud Storage
