@@ -71,7 +71,9 @@ There are different types of storage for different applications. Before learning
 </td>
 
 <td>
-
+<p align="center">
+    <img src="assets/Cloud_Storage-detail.png" alt="Cloud_Storage-detail" align="left" width="100%" height="100%">
+</p>
 </td>
 </tr>
 
