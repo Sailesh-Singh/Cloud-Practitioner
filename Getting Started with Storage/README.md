@@ -109,7 +109,18 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 +   ####    Types of Cloud Storage
     
 
+    [<img src="assets/Types_of_cloud-storage.png" alt="    Types_of_cloud-storage" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Types of Cloud Storage</i></strong></small>
+    </p>
 
+    Storage comes in three basic types: <b>block storage, file storage, and object storage</b>.
 
-    
+    <b>1.   Block Storage</b>
+
+    [<img src="assets/Block_storage.png" alt="    Types_of_cloud-storage" align="right" width="80px" height="100px">]()
+
+    Block storage breaks up data into blocks and then stores those blocks as seperate pieces, each with a unique identifier. They are stored wherever it is most efficient. Thus, it can store those blocks across different systems and each block can be configured to work with different operating systems.
+
+    <b>2.   Cloud Storage</b>
     
