@@ -132,3 +132,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <br>
 
     <b>3.   Object Storage</b>
+
+    [<img src="assets/Object_storage.png" alt="File_storage" align="right" width="100%" height="110px">]()
+
+    
