@@ -93,7 +93,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Benefits of Cloud Storage
 
-    [<img src="assets/Benefits_of_Cloud-Storage.png" alt="IBenefits of Cloud Storage" align="center" width="100%" height="100%">]()
+    [<img src="assets/Benefits_of_Cloud-Storage.png" alt="Benefits of Cloud Storage" align="center" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Benefits of Cloud Storage</i></strong></small>
     </p>
@@ -105,3 +105,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>4.  Scalable</b> so it can grow and shrink as our workloads change.
     <b>5.  Managed</b> so we don't have to worry about servers, and we can focus on our data and applications.
     <b>6.  Backed up</b> so copies of data are stored in different physical locations in case of failure.
+
++   ####    Types of Cloud Storage
+    
+
+
+
+    
+    
