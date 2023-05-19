@@ -35,59 +35,67 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 <small>**_Four Sections_**</small>
 
 ### Introduction to Storage
++   #### Introduction to Storage
 
-Computers use data to complete tasks, and this data must be stored to be accessed. Some data can be stored internal to the computer itself, such as files that help the computer start up and run. More data can be stored on servers to be accessed by our computer. When data is on server in the cloud, people  all around the world can access it. 
+    Computers use data to complete tasks, and this data must be stored to be accessed. Some data can be stored internal to the computer itself, such as files that help the computer start up and run. More data can be stored on servers to be accessed by our computer. When data is on server in the cloud, people  all around the world can access it. 
 
-[<img src="assets/Introduction-to-storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">]()
-<small>**_Introduction to Storage_**</small>
+    [<img src="assets/Introduction-to-storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">]()
+    <small>**_Introduction to Storage_**</small>
 
-There are different types of storage for different applications. Before learning about the types of cloud storage, it is important to understand the difference between **_On-premises storage and Cloud storage_**
+    There are different types of storage for different applications. Before learning about the types of cloud storage, it is important to understand the difference between **_On-premises storage and Cloud storage_**
 
-<table>
-<tr>
-    <th>On-Premises</th>
-    <th>Cloud Storage</th>
-</tr>
+    <table>
+    <tr>
+        <th>On-Premises</th>
+        <th>Cloud Storage</th>
+    </tr>
 
-<tr>
-<td>
-<p align="center">
-    <img src="assets/On-premises-storage.png" alt="On-premises-storage" align="left" width="100%" height="100%">
-</p>
-</td>
+    <tr>
+    <td>
+    <p align="center">
+        <img src="assets/On-premises-storage.png" alt="On-premises-storage" align="left" width="100%" height="100%">
+    </p>
+    </td>
 
-<td>
-<p align="center">
-    <img src="assets/Cloud_Storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">
-</p>
-</td>
-</tr>
+    <td>
+    <p align="center">
+        <img src="assets/Cloud_Storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">
+    </p>
+    </td>
+    </tr>
 
-<tr>
-<td>
-<p align="center">
-    <img src="assets/On-premises-storage-detail.png" alt="On-premises-storage-detail" align="left" width="100%" height="100%">
-</p>
-</td>
+    <tr>
+    <td>
+    <p align="center">
+        <img src="assets/On-premises-storage-detail.png" alt="On-premises-storage-detail" align="left" width="100%" height="100%">
+    </p>
+    </td>
 
-<td>
-<p align="center">
-    <img src="assets/Cloud_Storage-detail.png" alt="Cloud_Storage-detail" align="left" width="100%" height="100%">
-</p>
-</td>
-</tr>
+    <td>
+    <p align="center">
+        <img src="assets/Cloud_Storage-detail.png" alt="Cloud_Storage-detail" align="left" width="100%" height="100%">
+    </p>
+    </td>
+    </tr>
 
-<tr>
-<td>
-<b>On-premises storage</b> means that our server is hosted within our organization's infrastructure and might be physically onsite. Company controls, administers, and maintains the server. Data and other information are shared between computers through our local network.
-</td>
+    <tr>
+    <td>
+    <b>On-premises storage</b> means that our server is hosted within our organization's infrastructure and might be physically onsite. Company controls, administers, and maintains the server. Data and other information are shared between computers through our local network.
+    </td>
 
-<td>
+    <td>
 
-With <b>Cloud Storage</b>, an outside service provider like AWS hosts our data. The cloud providers procures, installs, and maintains all hardware, software, and other supporting infrastructure in its data centers. We access these services and manage our account through the internet.
-</td>
-</tr>
+    With <b>Cloud Storage</b>, an outside service provider like AWS hosts our data. The cloud providers procures, installs, and maintains all hardware, software, and other supporting infrastructure in its data centers. We access these services and manage our account through the internet.
+    </td>
+    </tr>
 
-</table>
+    </table>
 
-####    Benefits of Cloud Storage
++   ####    Benefits of Cloud Storage
+
+    [<img src="assets/Benefits_of_Cloud-Storage.png" alt="IBenefits of Cloud Storage" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Benefits of Cloud Storage</i></strong></small>
+    </p>
+
+    
