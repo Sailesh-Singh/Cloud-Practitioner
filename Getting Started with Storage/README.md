@@ -90,3 +90,4 @@ With <b>Cloud Storage</b>, an outside service provider like AWS hosts our data. 
 
 </table>
 
+####    Benefits of Cloud Storage
