@@ -41,4 +41,29 @@ Computers use data to complete tasks, and this data must be stored to be accesse
 [<img src="assets/Introduction-to-storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">]()
 <small>**_Introduction to Storage_**</small>
 
-There are different types of storage for different applications.
+There are different types of storage for different applications. Before learning about the types of cloud storage, it is important to understand the difference between **_On-premises storage and Cloud storage_**
+
+<table>
+<tr>
+    <th>On-Premises</th>
+    <th>Cloud Storage</th>
+</tr>
+
+<tr>
+
+<td>
+<p align="center">
+    <img src="assets/On-premises-storage.png" alt="On-premises-storage" align="left" width="100%" height="100%">
+</p>
+
+</td>
+
+
+<td>
+
+
+</td>
+
+</tr>
+</table>
+
