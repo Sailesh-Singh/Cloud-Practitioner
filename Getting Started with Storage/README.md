@@ -38,8 +38,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 Computers use data to complete tasks, and this data must be stored to be accessed. Some data can be stored internal to the computer itself, such as files that help the computer start up and run. More data can be stored on servers to be accessed by our computer. When data is on server in the cloud, people  all around the world can access it. 
 
-
+[<img src="assets/Introduction-to-storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">]()
+<small>**_Introduction to Storage_**</small>
 
 There are different types of storage for different applications.
-
-Introduction-to-storage.png
