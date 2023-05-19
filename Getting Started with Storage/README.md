@@ -107,7 +107,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>6.  Backed up</b> so copies of data are stored in different physical locations in case of failure.
 
 +   ####    Types of Cloud Storage
-    
 
     [<img src="assets/Types_of_cloud-storage.png" alt="    Types_of_cloud-storage" align="center" width="100%" height="100%">]()
     <p align="center">
@@ -136,3 +135,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     [<img src="assets/Object_storage.png" alt="File_storage" align="right" width="100%" height="110px">]()
 
     In Object storage, files are stored as objects based on attributes and metadata. Each object consists of data, metadata, and an object key. The metadata has information about the data (object size, object purpose, and more), and the object key is the unique identifier of the object. When you update files in object storage, the entire file object is updated, instead of a piece of a file, as in block storage.
+
++   ####    Choosing the right storage type
