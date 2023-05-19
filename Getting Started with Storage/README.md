@@ -137,3 +137,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     In Object storage, files are stored as objects based on attributes and metadata. Each object consists of data, metadata, and an object key. The metadata has information about the data (object size, object purpose, and more), and the object key is the unique identifier of the object. When you update files in object storage, the entire file object is updated, instead of a piece of a file, as in block storage.
 
 +   ####    Choosing the right storage type
+
+    [<img src="assets/Choosing_the_right_storage_type.png" alt="Choosing the right storage type" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Choosing the right storage type</i></strong></small>
+    </p>
+
