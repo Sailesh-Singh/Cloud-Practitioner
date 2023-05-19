@@ -50,22 +50,30 @@ There are different types of storage for different applications. Before learning
 </tr>
 
 <tr>
-
 <td>
 <p align="center">
     <img src="assets/On-premises-storage.png" alt="On-premises-storage" align="left" width="100%" height="100%">
 </p>
-
 </td>
-
 
 <td>
 <p align="center">
     <img src="assets/Cloud_Storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">
 </p>
+</td>
+</tr>
 
+<tr>
+<td>
+<p align="center">
+    <img src="assets/On-premises-storage-detail.png" alt="On-premises-storage-detail" align="left" width="100%" height="100%">
+</p>
 </td>
 
+<td>
+
+</td>
 </tr>
+
 </table>
 
