@@ -60,7 +60,9 @@ There are different types of storage for different applications. Before learning
 
 
 <td>
-
+<p align="center">
+    <img src="assets/Cloud_Storage.png" alt="Introduction-to-storage" align="left" width="100%" height="100%">
+</p>
 
 </td>
 
