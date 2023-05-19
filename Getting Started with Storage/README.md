@@ -77,5 +77,11 @@ There are different types of storage for different applications. Before learning
 </td>
 </tr>
 
+<tr>
+<td>
+<b>On-premises storage</b> means that our server is hosted within our organization's infrastructure and might be physically onsite. Company controls, administers, and maintains the server. Data and other information are shared between computers through our local network.</td>
+<td></td>
+</tr>
+
 </table>
 
