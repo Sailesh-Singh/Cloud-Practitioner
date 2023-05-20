@@ -149,3 +149,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +   ####    Storage use cases
+
+    Storage use cases gives ideas for how to solve storage problems that we might face.
