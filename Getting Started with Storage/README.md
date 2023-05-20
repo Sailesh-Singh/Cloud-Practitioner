@@ -150,4 +150,62 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Storage use cases
 
-    Storage use cases gives ideas for how to solve storage problems that we might face.
+    Storage use cases gives ideas for how to solve storage problems that we might face. 
+
+    <b>Block</b>
+
+
+Hosting database instances
+Block storage scales with your performance needs, whether you are supporting millions of gaming customers or billions of e-commerce transactions. Databases such as SAP HANA, Oracle, Microsoft SQL Server, MySQL, and PostgreSQL are widely deployed on block storage.
+Block storage volumes provide consistent and low-latency performance for running NoSQL databases such as Cassandra, MongoDB, and CouchDB.
+
+Big  data analytics
+Block storage offers data persistence, dynamic-performance adjustments, and the ability to detach and reattach volumes. Therefore, you can resize clusters for big data analytics engines such as Apache Hadoop and Apache Spark.
+Block storage provides persistent, fast storage to address key components of your solution, including data warehouses, search and indexing, NoSQL databases, and streaming data.
+
+Enterprise applications
+Block storage provides high availability and high durability storage to reliably run mission-critical applications on AWS.
+The design of block storage provides versatile storage services with:
+• Low latency and consistently high input/output operations per second (IOPS) and throughput performance
+• Capacity and performance scalability without workload disruption
+• High availability
+
+--Object
+Disaster recovery
+Protect critical data, applications, and IT systems that run in the AWS Cloud or your on-premises environment without incurring the expense of a second physical site. With object storage and other cloud services, you can create disaster recovery architectures to recover from outages caused by natural disasters, system failures, and human errors.
+
+Data lakes
+﻿
+
+Data lakes
+Accelerate innovation by building a data lake with object storage. You can then extract valuable insights using query- in-place, analytics, and machine learning tools.
+You can also store large amounts of data that you only need to access periodically. For instance, suppose that your business does a lot of production work, in any medium. You probably need a lot of space to store your finished projects after their useful life is complete. However, you probably also need access to the files in case you or a client needs them again in the future.
+
+Cloud-native applications
+Build fast, cost-effective cloud-native applications by using object storage to store development and production data. The microservices that make up cloud-native applications share this data. With object storage, you can upload any amount of data and access it anywhere to deploy applications faster and reach more users.
+
+####	AWS core storage services
+
+Amazon Elastic Block Store
+Amazon Simple Storage Service (Amazon S3) is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects.
+Amazon S3 can be used for many applications. It can be used for data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, loT devices, and big data analytics.
+
+Amazon Elastic File System
+Amazon Elastic File System (Amazon EFS) is a simple elastic file system that lets you share file data without provisioning or managing storage. It can be used with AWS services and on-premises resources.
+Amazon EFS is well suited to support a broad spectrum of use cases. These use cases include storage for serverless applications, web serving and content management, application development and testing, and database backups.
+
+Amazon Simple Storage Services
+Amazon Simple Storage Service (Amazon S3) is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects.
+Amazon S3 can be used for many applications. It can be used for data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, loT devices, and big data analytics.
+
+####	Introduction to Storage summary
+
+
+
+
+
+
+
+
+
+
