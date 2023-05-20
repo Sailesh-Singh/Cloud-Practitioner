@@ -27,7 +27,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   In this module we learn about basic storage domain and AWS course storage services. It is broken into following four sections:
     ####  [1.  Introduction to Storage](#introduction-to-storage)
-    ####  [2.  Intoduction to Amazon S3](#)
+    ####  [2.  Introduction to Amazon S3](#)
     ####  [3.  Using Amazon S3](#)
     ####  [4.  Additional AWS Storage Services](#)
 
@@ -124,7 +124,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     [<img src="assets/Block_storage.png" alt="Types_of_cloud-storage" align="left" width="90px" height="90px">]()
 
-    Block storage breaks up data into blocks and then stores those blocks as seperate pieces, each with a unique identifier. They are stored wherever it is most efficient. Thus, it can store those blocks across different systems and each block can be configured to work with different operating systems.
+    Block storage breaks up data into blocks and then stores those blocks as separate pieces, each with a unique identifier. They are stored wherever it is most efficient. Thus, it can store those blocks across different systems and each block can be configured to work with different operating systems.
     
     <br>
 
@@ -148,3 +148,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Choosing the right storage type</i></strong></small>
     </p>
 
++   ####    Storage use cases
