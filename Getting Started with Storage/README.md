@@ -203,4 +203,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         [<img src="assets/Amazon(EBS)_Working.png" alt="Amazon(EBS)_Working" align="center" width="100%" height="100%">]()
         <p align="center">
         <small><strong><i>Amazon(EBS) Working</i></strong></small>
-        </p>        
+        </p>  
+
+    +   #####   Amazon Elastic File System (Amazon EFS)      
