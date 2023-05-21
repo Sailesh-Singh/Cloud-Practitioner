@@ -200,7 +200,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
         Amazon EBS is a scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2). You can use Amazon EBS to create storage volumes and attach them to Amazon EC2 instances. All EBS volume types offer durable snapshot capabilities and are designed for 99.999 percent availability. Amazon EBS provides a range of options that you can choose from to optimize storage performance and cost for your workload.
 
-        [<img src="assets/Object_and_its_types.png" alt="Object_and_its_types" align="center" width="100%" height="100%">]()
+        [<img src="assets/Amazon(EBS)_Working.png" alt="Amazon(EBS)_Working" align="center" width="100%" height="100%">]()
         <p align="center">
-        <small><strong><i>Object storage and its types</i></strong></small>
-        </p>
+        <small><strong><i>Amazon(EBS) Working</i></strong></small>
+        </p>        
