@@ -246,3 +246,13 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +   ####    Meet Amazon S3
+
+    Amazon S3 is an object storage service that you can use to collect, store, and analyze data in any amount from anywhere in the world. Amazon S3 is available to businesses of all sizes and in any industry for a range of use cases.
+
+    Common use cases include:
+    +	<b>Data lakes</b>, for storing large amounts of data
+    +	<b>File storage</b>, for static website hosting
+    +	<b>Backups</b> of data, for use in disaster recovery
+    +	<b>Archive</b>, for data that isnt being actively used but saved for the future.
+    
+    Amazon S3 offers high levels of <b>scalability, data durability and availability, perfomance, and security</b>.
