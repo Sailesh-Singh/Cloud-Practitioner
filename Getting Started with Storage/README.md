@@ -194,4 +194,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Build fast, cost-effective cloud-native applications by using object storage to store development and production data. The microservices that make up cloud-native applications share this data. With object storage, you can upload any amount of data and access it anywhere to deploy applications faster and reach more users.
 
 +   ####	AWS core storage services
-    +   #####   Amazon Elastic Block Store
+    +   #####   Amazon Elastic Block Store (Amazon EBS)
+
+        Amazon EBS is a scalable, high-performance block-storage service designed for Amazon Elastic Compute Cloud (Amazon EC2). You can use Amazon EBS to create storage volumes and attach them to Amazon EC2 instances. All EBS volume types offer durable snapshot capabilities and are designed for 99.999 percent availability. Amazon EBS provides a range of options that you can choose from to optimize storage performance and cost for your workload.
