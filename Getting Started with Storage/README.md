@@ -158,7 +158,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
      [<img src="assets/Block_and_its_types.png" alt="Block_and_its_types" align="center" width="100%" height="100%">]()
     <p align="center">
-    <small><strong><i>Block and its types</i></strong></small>
+    <small><strong><i>Block storage and its types</i></strong></small>
     </p>
 
     ######  Hosting database instances
@@ -177,6 +177,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   High availability
 
     #####   2.   Object storage use cases
+
+    [<img src="assets/Object_and_its_types.png" alt="Object_and_its_types" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Object storage and its types</i></strong></small>
+    </p>
 
 
 
