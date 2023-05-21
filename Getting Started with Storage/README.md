@@ -170,6 +170,12 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Block storage provides persistent, fast storage to address key components of your solution, including data warehouses, search and indexing, NoSQL databases, and streaming data.
 
     ######  Enterprise applications
+    Block storage provides high availability and high durability storage to reliably run mission-critical applications on AWS.
+    The design of block storage provides versatile storage services with:
+    +   Low latency and consistently high input/output operations per second (IOPS) and throughput performance
+    +   Capacity and performance scalability without workload disruption
+    +   High availability
+
 
 
 
