@@ -191,9 +191,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     You can also store large amounts of data that you only need to access periodically. For instance, suppose that your business does a lot of production work, in any medium. You probably need a lot of space to store your finished projects after their useful life is complete. However, you probably also need access to the files in case you or a client needs them again in the future.
 
     ######  Cloud-native applications
-
-
-
-
-
-
+    Build fast, cost-effective cloud-native applications by using object storage to store development and production data. The microservices that make up cloud-native applications share this data. With object storage, you can upload any amount of data and access it anywhere to deploy applications faster and reach more users.
