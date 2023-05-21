@@ -230,3 +230,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         </p>
 
 +   ####	Introduction to Storage summary
+
+    [<img src="assets/Storage_Summary.png" alt="Storage_Summary" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Storage Summary</i></strong></small>
+    </p>
