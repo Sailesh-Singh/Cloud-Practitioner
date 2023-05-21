@@ -264,3 +264,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     The data is stored as objects in an S3 bucket. Each obejct has a unique identifier.
 
     Using the unique identifier, we can use the objects in applications or to analyze data.
+
+    [<img src="assets/Basic_S3-workflow.png" alt="Basic_S3-workflow" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Basic S3 Workflow</i></strong></small>
+    </p>
