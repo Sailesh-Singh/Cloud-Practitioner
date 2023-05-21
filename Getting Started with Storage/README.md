@@ -205,7 +205,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         <small><strong><i>Amazon(EBS) Working</i></strong></small>
         </p>  
 
-    +   #####   Amazon Elastic File System (Amazon EFS) 
+    +   #####   Amazon Elastic File System (Amazon EFS)
+
+        [<img src="assets/Amazon(EFS).png" alt="Amazon(EFS)" align="left" width="90px" height="90px">]()
 
         Amazon Elastic File System (Amazon EFS) is a simple elastic file system that lets you share file data without provisioning or managing storage. It can be used with AWS services and on-premises resources.
         Amazon EFS is well suited to support a broad spectrum of use cases. These use cases include storage for serverless applications, web serving and content management, application development and testing, and database backups.     
