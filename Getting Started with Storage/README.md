@@ -194,3 +194,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Build fast, cost-effective cloud-native applications by using object storage to store development and production data. The microservices that make up cloud-native applications share this data. With object storage, you can upload any amount of data and access it anywhere to deploy applications faster and reach more users.
 
 +   ####	AWS core storage services
+    +   #####   Amazon Elastic Block Store
