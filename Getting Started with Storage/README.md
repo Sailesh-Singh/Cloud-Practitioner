@@ -150,7 +150,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Storage use cases
 
-    Storage use cases gives ideas for how to solve storage problems that we might face. We will discuss about two use cases: 
+    [<img src="assets/Storage_use_cases.png" alt="Storage_use_cases" align="left" width="40px" height="50px">]()
+
+    Storage use cases gives ideas for how to solve storage problems that we might face. We will discuss about two use cases:  
 
     <b>1.   Block storage use cases</b>
 
