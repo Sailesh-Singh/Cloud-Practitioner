@@ -256,3 +256,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +	<b>Archive</b>, for data that isnt being actively used but saved for the future.
     
     Amazon S3 offers high levels of <b>scalability, data durability and availability, perfomance, and security</b>.
+
++   ####    Basic S3 workflow
