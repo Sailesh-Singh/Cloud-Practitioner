@@ -219,5 +219,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     +   #####   Amazon Simple Storage Services
 
+        [<img src="assets/Amazon(S3).png" alt="Amazon(EFS)" align="right" width="90px" height="90px">]()
+
         Amazon Simple Storage Service (Amazon S3) is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects.
         Amazon S3 can be used for many applications. It can be used for data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, loT devices, and big data analytics.  
