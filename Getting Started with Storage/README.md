@@ -169,6 +169,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Block storage offers data persistence, dynamic-performance adjustments, and the ability to detach and reattach volumes. Therefore, you can resize clusters for big data analytics engines such as Apache Hadoop and Apache Spark.
     Block storage provides persistent, fast storage to address key components of your solution, including data warehouses, search and indexing, NoSQL databases, and streaming data.
 
+    ######  Enterprise applications
+
 
 
 
