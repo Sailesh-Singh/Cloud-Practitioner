@@ -227,4 +227,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         [<img src="assets/Amazon(S3)_Working.png" alt="Amazon(S3)_Working" align="center" width="100%" height="100%">]()
         <p align="center">
         <small><strong><i>Amazon(S3) Working</i></strong></small>
-        </p> 
+        </p>
+
++   ####	Introduction to Storage summary
