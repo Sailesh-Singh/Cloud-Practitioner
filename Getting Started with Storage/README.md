@@ -27,7 +27,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   In this module we learn about basic storage domain and AWS course storage services. It is broken into following four sections:
     ####  [1.  Introduction to Storage](#introduction-to-storage)
-    ####  [2.  Introduction to Amazon S3](#)
+    ####  [2.  Introduction to Amazon S3](#introduction-to-amazon-s3)
     ####  [3.  Using Amazon S3](#)
     ####  [4.  Additional AWS Storage Services](#)
 
