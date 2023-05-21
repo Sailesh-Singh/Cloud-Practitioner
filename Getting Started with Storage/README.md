@@ -154,11 +154,15 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     Storage use cases gives ideas for how to solve storage problems that we might face. We will discuss about two use cases:  
 
-    <b>1.   Block storage use cases</b>
+    #####   1.   Block storage use cases
 
      [<img src="assets/Block_and_its_types.png" alt="Block_and_its_types" align="center" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Block and its types</i></strong></small>
     </p>
+
+    ######  Hosting database instances
+
+
 
 
