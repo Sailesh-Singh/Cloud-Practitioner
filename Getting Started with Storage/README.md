@@ -215,4 +215,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         [<img src="assets/Amazon(EFS)__Working.png" alt="Amazon(EFS)__Working" align="center" width="100%" height="100%">]()
         <p align="center">
         <small><strong><i>Amazon(EFS) Working</i></strong></small>
-        </p>    
+        </p> 
+
+    +   #####   Amazon Simple Storage Services   
