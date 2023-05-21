@@ -187,6 +187,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Protect critical data, applications, and IT systems that run in the AWS Cloud or your on-premises environment without incurring the expense of a second physical site. With object storage and other cloud services, you can create disaster recovery architectures to recover from outages caused by natural disasters, system failures, and human errors.
 
     ######  Data lakes
+    Accelerate innovation by building a data lake with object storage. You can then extract valuable insights using query- in-place, analytics, and machine learning tools.
+    You can also store large amounts of data that you only need to access periodically. For instance, suppose that your business does a lot of production work, in any medium. You probably need a lot of space to store your finished projects after their useful life is complete. However, you probably also need access to the files in case you or a client needs them again in the future.
+
 
 
 
