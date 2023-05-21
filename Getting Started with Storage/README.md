@@ -259,9 +259,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Basic S3 workflow
 
-    First, we move our data into  Amazon S3. It accepts data of all file types. Although there is no limit to the amout of data that can be stored, individual objects must be less than 5 terabytes (TB).
+    First, we move our data into  Amazon S3. It accepts data of all file types. Although there is no limit to the amount of data that can be stored, individual objects must be less than 5 terabytes (TB).
 
-    The data is stored as objects in an S3 bucket. Each obejct has a unique identifier.
+    The data is stored as objects in an S3 bucket. Each object has a unique identifier.
 
     Using the unique identifier, we can use the objects in applications or to analyze data.
 
