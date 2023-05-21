@@ -120,7 +120,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     Storage comes in three basic types: <b>block storage, file storage, and object storage</b>.
 
-    <b>1.   Block Storage</b>
+    #####   1.   Block Storage
 
     [<img src="assets/Block_storage.png" alt="Types_of_cloud-storage" align="left" width="90px" height="90px">]()
 
@@ -128,14 +128,14 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     
     <br>
 
-    <b>2.   Cloud Storage</b>
+    #####   2.   Cloud Storage
 
     [<img src="assets/File_storage.png" alt="File_storage" align="right" width="500px" height="150px">]()
     File storage is a methodology that helps users, applications, and services access data in a shared file system. Data is stored in a hierarchical structure. This structure is similar to a centralized shared network drive in a company where employees store and access file.
 
     <br>
 
-    <b>3.   Object Storage</b>
+    #####   3.   Object Storage
 
     [<img src="assets/Object_storage.png" alt="File_storage" align="right" width="100%" height="110px">]()
 
@@ -192,3 +192,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     ######  Cloud-native applications
     Build fast, cost-effective cloud-native applications by using object storage to store development and production data. The microservices that make up cloud-native applications share this data. With object storage, you can upload any amount of data and access it anywhere to deploy applications faster and reach more users.
+
++   ####	AWS core storage services
