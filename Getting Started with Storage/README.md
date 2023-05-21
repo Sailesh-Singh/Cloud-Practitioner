@@ -186,6 +186,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     ######  Disaster recovery
     Protect critical data, applications, and IT systems that run in the AWS Cloud or your on-premises environment without incurring the expense of a second physical site. With object storage and other cloud services, you can create disaster recovery architectures to recover from outages caused by natural disasters, system failures, and human errors.
 
+    ######  Data lakes
+
 
 
 
