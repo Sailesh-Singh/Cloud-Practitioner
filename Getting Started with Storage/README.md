@@ -190,6 +190,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Accelerate innovation by building a data lake with object storage. You can then extract valuable insights using query- in-place, analytics, and machine learning tools.
     You can also store large amounts of data that you only need to access periodically. For instance, suppose that your business does a lot of production work, in any medium. You probably need a lot of space to store your finished projects after their useful life is complete. However, you probably also need access to the files in case you or a client needs them again in the future.
 
+    ######  Cloud-native applications
+
 
 
 
