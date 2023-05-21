@@ -239,3 +239,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 ### Introduction to Amazon S3
 +   ####    Introduction to Amazon S3
     Amazon S3, an object-level storage service. Amazon S3 stores objects inside buckets within the Region of our choice. Objects are then used in our applications or business operations.
+
+    [<img src="assets/Amazon_S3_Object-Storage.png" alt="Amazon_S3_Object-Storage" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Amazon S3 Object Storage</i></strong></small>
+    </p>
