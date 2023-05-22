@@ -361,3 +361,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>Which storage class might you recommend?</b>
     
     _<b>Amazon S3 Intelligent-Tiering</b> should be used when workloads are unpredictable. Amazon S3 Intelligent-Tiering will optimize storage costs by automatically moving data to the most cost-effective access tier when access patterns change._
+
++   ####    Amazon S3 costs
