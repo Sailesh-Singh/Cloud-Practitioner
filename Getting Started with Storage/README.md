@@ -313,4 +313,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   #####   Amazon S3 Standard
         +   Websites that only include static content
         +   Storage for log files that are frequently accessed, reviewed, or have analytics run against them
-        +   Storage for application installers, configuration files, and provisioning and deployment tools 
+        +   Storage for application installers, configuration files, and provisioning and deployment tools
+
+    +   #####   Amazon S3 Standard-infrequent Access(IA)
