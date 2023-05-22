@@ -310,3 +310,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   ##### Amazon S3 Intelligent-Tiering
 
 +   ####    Amazon S3 storage classes use cases
+    +   #####   Amazon S3 Standard 
