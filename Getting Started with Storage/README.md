@@ -334,3 +334,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
         +   Archives or datasets that must be retained for compliance purposes
         +   Long-term data libraries
+
+    +   #####   Amazon S3 Intelligent-Tiering
