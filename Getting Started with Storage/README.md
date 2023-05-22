@@ -295,6 +295,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Amazon S3 storage classes
 
+    [<img src="assets/Amazon_S3_Storage_classes.png" alt="Amazon_S3_Storage_classes" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Amazon S3 Storage classes</i></strong></small>
+    </p>
+
     Amazon S3 storage classes support virtually every storage use case from backup and recovery, to archive and digital preservation, to data lakes, business critical applications, and analytics. Storage class are based on the data access, resiliency, and cost requirements of your workloads.
 
     +   ##### Amazon S3 Standard 
