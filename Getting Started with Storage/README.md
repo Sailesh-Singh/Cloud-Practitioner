@@ -342,3 +342,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Rapidly changing workloads
 
 +   ####    Choosing a Storage class - case 1
+
+    >A user uploads a video to your application and your application generates a thumbnail preview of the video. Your user agreement permits a user to access the video thumbnail for one year. However, your usage data indicates that most thumbnail previews are not often accessed after 60 days but must be accessed quickly.
+    <b>Which storage class might you recommend?</b>
+    
+    _<b>Amazon S3 - Infrequent Access</b> is the best choice for this situation. Using Amazon S3 - IA gives users quick access to the thumbnail but saves costs. You could consider using a lifecycle policy to move the thumbnail into archive storage after 60 days._
