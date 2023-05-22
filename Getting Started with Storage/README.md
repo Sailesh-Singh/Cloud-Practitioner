@@ -292,3 +292,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Active storage is for the data you use all the time. It also includes data that you access less frequently, but itis important that data can be accessed quickly. Examplesare files for a static website or backups.
 
     Archive storage is for data that you rarely access but must be maintained. Examples could include data for compliance or business continuity operations.
+
++   ####    Amazon S3 storage classes
