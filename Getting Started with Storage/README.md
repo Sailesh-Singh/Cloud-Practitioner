@@ -341,3 +341,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Unknown workloads
         +   Rapidly changing workloads
 
++   ####    Choosing a Storage class - case 1
