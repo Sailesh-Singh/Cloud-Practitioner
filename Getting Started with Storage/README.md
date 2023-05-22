@@ -387,8 +387,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     **•** Transfer IN to Amazon S3.
     **•** Transfer between S3 buckets in the same Region. 
     **•** Transfer OUT to Amazon EC2 in the same Region. 
-    **•** Transfer OUT to Amazon CloudFront in the
-    same Region.
+    **•** Transfer OUT to Amazon CloudFront in the same Region.
     **•** DELETE and CANCEL requests.
     </td>
     </tr>
