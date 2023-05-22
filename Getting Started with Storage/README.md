@@ -318,3 +318,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   #####   Amazon S3 Standard-infrequent Access(IA)
         +   Backups of your systems
         +   Files that are rarely accessed but must be quickly accessed if needed.
+
+    +   #####   Amazon S3 One Zone-infrequent Access(IA)
