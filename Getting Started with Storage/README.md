@@ -277,7 +277,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Object-level storage</i></strong></small>
     </p>
 
-    The files, or objects, that you upload to Amazon S3 consist of data and metadata. The metadata consists of information about the data, such as content type, last modified date, and more. In addition to the data and metadata, an object's key serves as a unique identifier.
+    The files, or objects, that we upload to Amazon S3 consist of data and metadata. The metadata consists of information about the data, such as content type, last modified date, and more. In addition to the data and metadata, an object's key serves as a unique identifier.
     S3 buckets are created inside regions. Objects are stored in a bucket, which is similar to a directory or folder in your computer. When you store  an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object  so that you can interact with that object.
 
 +   ####    Active and archive storage
@@ -287,11 +287,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Active and archive storage</i></strong></small>
     </p>
 
-    Object storage can be classified by how often you must access your data. The two broad categories are active storage and archive storage. 
+    Object storage can be classified by how often we must access our data. The two broad categories are active storage and archive storage. 
 
-    Active storage is for the data you use all the time. It also includes data that you access less frequently, but itis important that data can be accessed quickly. Examplesare files for a static website or backups.
+    Active storage is for the data we use all the time. It also includes data that we access less frequently, but it is important that data can be accessed quickly. Examples are files for a static website or backups.
 
-    Archive storage is for data that you rarely access but must be maintained. Examples could include data for compliance or business continuity operations.
+    Archive storage is for data that we rarely access but must be maintained. Examples could include data for compliance or business continuity operations.
 
 +   ####    Amazon S3 storage classes
 
@@ -300,7 +300,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Amazon S3 Storage classes</i></strong></small>
     </p>
 
-    Amazon S3 storage classes support virtually every storage use case from backup and recovery, to archive and digital preservation, to data lakes, business critical applications, and analytics. Storage class are based on the data access, resiliency, and cost requirements of your workloads.
+    Amazon S3 storage classes support virtually every storage use case from backup and recovery, to archive and digital preservation, to data lakes, business critical applications, and analytics. Storage class are based on the data access, resiliency, and cost requirements of our workloads.
 
     +   ##### Amazon S3 Standard 
     +   ##### Amazon S3 Standard-infrequent Access(IA)
@@ -321,7 +321,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     +   #####   Amazon S3 One Zone-infrequent Access(IA)
         +   Storage for cross-Region replication backups from other 53 buckets
-        +   Off-site storage of copies of on-premises backups, which gives you extra protection for your backups 
+        +   Off-site storage of copies of on-premises backups, which gives us extra protection for your backups 
         +   Easily replaceable files
 
     +   #####   Amazon S3 Glacier Flexible Retrieval
@@ -349,3 +349,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     _<b>Amazon S3 - Infrequent Access</b> is the best choice for this situation. Using Amazon S3 - IA gives users quick access to the thumbnail but saves costs. You could consider using a lifecycle policy to move the thumbnail into archive storage after 60 days._
 
 +   ####    Choosing a Storage class - case 2
+
+    >A business wants to implement stronger business continuity practices and keep backups of their data for a long period of time. They do not anticipate needing to access the data often. But they want to be able to have the data within a few hours in the event of disaster recovery.
+    <b>Which storage class might you recommend?</b>
+
+    _<b>Amazon S3 Glacier Flexible Retrieval</b> is a low-cost option for long-term storage. Data can be retrieved in a number of hours with standard retrieval or 1-5 minutes with expedited retrieval._
