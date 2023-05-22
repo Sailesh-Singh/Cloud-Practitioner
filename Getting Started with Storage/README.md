@@ -336,3 +336,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Long-term data libraries
 
     +   #####   Amazon S3 Intelligent-Tiering
+
+        +   Unpredictable workloads 
+        +   Unknown workloads
+        +   Rapidly changing workloads
