@@ -356,3 +356,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     _<b>Amazon S3 Glacier Flexible Retrieval</b> is a low-cost option for long-term storage. Data can be retrieved in a number of hours with standard retrieval or 1-5 minutes with expedited retrieval._
 
 +   ####    Choosing a Storage class - case 3
+
+    >A company builds a cloud-native application with Amazon S3 storage for school exams. The application gets some use during the school term but then is used very heavily during the exam season near the end of the term. The application has unpredictable use patterns, and the company is trying to control costs.
+    <b>Which storage class might you recommend?</b>
+    
+    _<b>Amazon S3 Intelligent-Tiering</b> should be used when workloads are unpredictable. Amazon S3 Intelligent-Tiering will optimize storage costs by automatically moving data to the most cost-effective access tier when access patterns change._
