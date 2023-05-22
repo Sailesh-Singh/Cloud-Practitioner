@@ -363,3 +363,56 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     _<b>Amazon S3 Intelligent-Tiering</b> should be used when workloads are unpredictable. Amazon S3 Intelligent-Tiering will optimize storage costs by automatically moving data to the most cost-effective access tier when access patterns change._
 
 +   ####    Amazon S3 costs
+
+    <table>
+
+    <tr>
+    <th>What costs money ?</th>
+    <th>What doesn't cost money ?</th>
+    </tr>
+
+    <tr>
+    <td>
+
+    Pricing depends on the storage class you choose and the features that you require:
+    
+    **•** GB per month
+    **•** Transfers OUT to other Regions or the internet
+    **•** PUT, COPY, POST, LIST, and GET requests
+    
+    </td>
+
+    <td>
+
+    **•** Transfer IN to Amazon S3.
+    **•** Transfer between S3 buckets in the same Region. 
+    **•** Transfer OUT to Amazon EC2 in the same Region. 
+    **•** Transfer OUT to Amazon CloudFront in the
+    same Region.
+    **•** DELETE and CANCEL requests.
+    </td>
+    </tr>
+
+    <tr>
+    <th>AWS Free Tier</th>
+    <th>Estimate your own costs</th>
+    </tr>
+
+    <tr>
+    <td>
+
+    New AWS customers receive 5 GB of Amazon S3 for the first 12 months. Each month of the first 12 months includes:
+
+    **•** 20,000 GET requests
+    **•** 2,000 PUT, COPY, POST, or LIST requests
+    **•** 100 GB of data transfer out
+    </td>
+
+    <td>
+
+    The AWS pricing calculator will help you understand the costs of your own workload.
+
+    For more information, see [AWS Pricing Calculator](https://calculator.aws/#/)
+    </td>
+    </tr>
+    </table>
