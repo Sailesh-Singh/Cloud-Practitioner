@@ -316,3 +316,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Storage for application installers, configuration files, and provisioning and deployment tools
 
     +   #####   Amazon S3 Standard-infrequent Access(IA)
+        +   Backups of your systems
+        +   Files that are rarely accessed but must be quickly accessed if needed.
