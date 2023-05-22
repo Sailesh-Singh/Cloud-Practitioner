@@ -320,3 +320,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Files that are rarely accessed but must be quickly accessed if needed.
 
     +   #####   Amazon S3 One Zone-infrequent Access(IA)
+        +   Storage for cross-Region replication backups from other 53 buckets
+        +   Off-site storage of copies of on-premises backups, which gives you extra protection for your backups 
+        +   Easily replaceable files
