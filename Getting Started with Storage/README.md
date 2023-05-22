@@ -418,3 +418,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </table>
 
 +   ####    Introduction to Amazon S3 summary
+
+    In this section you have learned the basics of Amazon S3. Amazon S3 is an object storage service.
+
+    The key takeaways from this section are:
+    +   Amazon S3 is an object storage service.
+    +   Buckets can store unlimited data but no object larger than 5 TB. 
+    +   Amazon S3 has storage classes to suit every use case.
+    +   Pricing is based on the type of object, how long it's stored, and how it is accessed. As with all AWS services, pricing is transparent.
