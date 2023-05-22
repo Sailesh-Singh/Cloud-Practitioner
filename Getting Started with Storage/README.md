@@ -347,3 +347,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>Which storage class might you recommend?</b>
     
     _<b>Amazon S3 - Infrequent Access</b> is the best choice for this situation. Using Amazon S3 - IA gives users quick access to the thumbnail but saves costs. You could consider using a lifecycle policy to move the thumbnail into archive storage after 60 days._
+
++   ####    Choosing a Storage class - case 2
