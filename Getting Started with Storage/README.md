@@ -323,3 +323,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Storage for cross-Region replication backups from other 53 buckets
         +   Off-site storage of copies of on-premises backups, which gives you extra protection for your backups 
         +   Easily replaceable files
+
+    +   #####   Amazon S3 Glacier Flexible Retrieval
