@@ -269,3 +269,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Basic S3 Workflow</i></strong></small>
     </p>
+
++   ####    Object-level storage
