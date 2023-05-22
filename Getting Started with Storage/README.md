@@ -272,7 +272,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Object-level storage
 
-    [<img src="assets/Object-level_storage.png" alt="Basic_S3-workflow" align="center" width="100%" height="100%">]()
+    [<img src="assets/Object-level_storage.png" alt="Object-level_storage" align="center" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Object-level storage</i></strong></small>
     </p>
@@ -281,6 +281,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     S3 buckets are created inside regions. Objects are stored in a bucket, which is similar to a directory or folder in your computer. When you store  an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object  so that you can interact with that object.
 
 +   ####    Active and archive storage
+
+    [<img src="assets/Active_and_archive_storage.png" alt="Active_and_archive_storage" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Active and archive storage</i></strong></small>
+    </p>
 
     Object storage can be classified by how often you must access your data. The two broad categories are active storage and archive storage. 
 
