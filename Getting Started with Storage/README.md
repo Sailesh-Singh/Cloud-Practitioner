@@ -354,3 +354,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>Which storage class might you recommend?</b>
 
     _<b>Amazon S3 Glacier Flexible Retrieval</b> is a low-cost option for long-term storage. Data can be retrieved in a number of hours with standard retrieval or 1-5 minutes with expedited retrieval._
+
++   ####    Choosing a Storage class - case 3
