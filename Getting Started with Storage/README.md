@@ -325,3 +325,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Easily replaceable files
 
     +   #####   Amazon S3 Glacier Flexible Retrieval
+
+        +   Storage of long term backups or archives for compliance purposes, or for backups that need to be retained for a long period of time
+        +   Replacement for magnetic tapes stored on-premises or off site
+        +   Digital media asset archive for large media files
+
+    +   #####   Amazon S3 Glacier Deep Archive
