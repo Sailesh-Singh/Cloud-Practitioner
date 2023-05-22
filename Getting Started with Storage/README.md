@@ -271,3 +271,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +   ####    Object-level storage
+
+    The files, or objects, that you upload to Amazon S3 consist of data and metadata. The metadata consists of information about the data, such as content type, last modified date, and more. In addition to the data and metadata, an object's key serves as a unique identifier.
+    S3 buckets are created inside regions. Objects are stored in a bucket, which is similar to a directory or folder in your computer. When you store  an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object  so that you can interact with that object.
