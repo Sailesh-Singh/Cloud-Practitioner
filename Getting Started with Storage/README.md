@@ -281,3 +281,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     S3 buckets are created inside regions. Objects are stored in a bucket, which is similar to a directory or folder in your computer. When you store  an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object  so that you can interact with that object.
 
 +   ####    Active and archive storage
+
+    Object storage can be classified by how often you must access your data. The two broad categories are active storage and archive storage. 
+
+    Active storage is for the data you use all the time. It also includes data that you access less frequently, but itis important that data can be accessed quickly. Examplesare files for a static website or backups.
+
+    Archive storage is for data that you rarely access but must be maintained. Examples could include data for compliance or business continuity operations.
