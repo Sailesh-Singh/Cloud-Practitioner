@@ -309,3 +309,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   ##### Amazon S3 Glacier Deep Archive
     +   ##### Amazon S3 Intelligent-Tiering
 
++   ####    Amazon S3 storage classes use cases
