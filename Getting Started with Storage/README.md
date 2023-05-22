@@ -331,3 +331,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Digital media asset archive for large media files
 
     +   #####   Amazon S3 Glacier Deep Archive
+
+        +   Archives or datasets that must be retained for compliance purposes
+        +   Long-term data libraries
