@@ -294,3 +294,13 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     Archive storage is for data that you rarely access but must be maintained. Examples could include data for compliance or business continuity operations.
 
 +   ####    Amazon S3 storage classes
+
+    Amazon S3 storage classes support virtually every storage use case from backup and recovery, to archive and digital preservation, to data lakes, business critical applications, and analytics. Storage class are based on the data access, resiliency, and cost requirements of your workloads.
+
+    +   ##### Amazon S3 Standard 
+    +   ##### Amazon S3 Standard-infrequent Access(IA)
+    +   ##### Amazon S3 One Zone-infrequent Access(IA)
+    +   ##### Amazon S3 Glacier Flexible Retrieval
+    +   ##### Amazon S3 Glacier Deep Archive
+    +   ##### Amazon S3 Intelligent-Tiering
+
