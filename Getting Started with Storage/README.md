@@ -425,3 +425,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   Buckets can store unlimited data but no object larger than 5 TB. 
     +   Amazon S3 has storage classes to suit every use case.
     +   Pricing is based on the type of object, how long it's stored, and how it is accessed. As with all AWS services, pricing is transparent.
+
+### Using Amazon S3
