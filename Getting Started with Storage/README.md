@@ -488,3 +488,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     We can add tags to our bucket to track our storage costs or criteria for individual projects
     For example, in the tag **_project/Alpha_**, project is the key and **_Alpha_** is the value. Another tag could be **_cost-center/Alpha_**. We can add tags to a bucket from the properties page at any point.
+    
+
+    [<img src="assets/Using_Amazon_S3-tags.png" alt="Using_Amazon_S3-tags" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Configure the bucket - tags</i></strong></small>
+    </p>
