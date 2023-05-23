@@ -452,7 +452,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     `https://photobucket.s3.amazonaws.com/2021-04-13/myphotos.zip`
     The key  is `2021-04-13/myphotos.zip`. We use this unique URL to reference objects within the bucket.
 
-    [<img src="assets/Using_Amazon_S3-Create_a_Bucket.png" alt="Using_Amazon_S3-Create_a_Bucket.png" align="center" width="100%" height="100%">]()
+    [<img src="assets/Using_Amazon_S3-Create_a_Bucket.png" alt="Using_Amazon_S3-Create_a_Bucket" align="center" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Create a bucket - Object Storage</i></strong></small>
     </p>
@@ -461,3 +461,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     After giving the bucket a name, we can make a series of configurations. If we leave all the defaults, the bucket will be secure and accessible by only you.
     First, you **Choose a Region** for the bucket. The Region will default to the Region that's currently selected for our AWS account. We choose a Region close to us to minimize latency and costs.
+
+    [<img src="assets/Using_Amazon_S3-choose_a_Region.png" alt="Using_Amazon_S3-choose_a_Region" align="center" width="100%" height="100%">]()
+    
+    **Note: Not all Regioins shown, visit [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) for an up-to-date-map of Regions.**
