@@ -435,4 +435,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Using Amazon S3</i></strong></small>
     </p>
+
 +   ####    Create a bucket
+
+    The first step to create a bucket is to give the bucket a name. The name that we assign to our bucket must be globally unique even though  the bucket is created inside a Region.
+    Bucket names can be 3-63 characters and must include only lowercase letters, numbers, dots (.), and hyphens (-). Bucket names begin and end with a letter or number.
+
