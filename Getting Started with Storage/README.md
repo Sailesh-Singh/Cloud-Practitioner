@@ -456,3 +456,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Create a bucket - Object Storage</i></strong></small>
     </p>
+
++   ####    Configure the bucket - Choose a Region
