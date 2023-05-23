@@ -429,3 +429,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 ### Using Amazon S3
 
 +   ####    Using Amazon S3
+    Now that we are familiar with the basics of Amazon S3, we will learn how to use the service. In this section, we will walk through the basic steps to create and configure a bucket, upload objects, and manage the service. Then, we will learn how to configure andwork with our buckets and objects.
