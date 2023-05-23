@@ -472,3 +472,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Object Ownership and Access</i></strong></small>
     </p>
+
++   ####    Configure the bucket - bucket versioning
