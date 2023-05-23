@@ -427,3 +427,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   Pricing is based on the type of object, how long it's stored, and how it is accessed. As with all AWS services, pricing is transparent.
 
 ### Using Amazon S3
+
++   ####    Using Amazon S3
