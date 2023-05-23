@@ -458,3 +458,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +   ####    Configure the bucket - Choose a Region
+
+    After giving the bucket a name, we can make a series of configurations. If we leave all the defaults, the bucket will be secure and accessible by only you.
+    First, you **Choose a Region** for the bucket. The Region will default to the Region that's currently selected for our AWS account. We choose a Region close to us to minimize latency and costs.
