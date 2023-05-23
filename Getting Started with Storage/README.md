@@ -467,3 +467,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     **Note: Not all Regioins shown, visit [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) for an up-to-date-map of Regions.**
 
 +   ####    Configure the bucket - object ownership and access
+
+    [<img src="assets/Using_Amazon_S3-Object_ownership_and_access.png" alt="Using_Amazon_S3-Object_ownership_and_access" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Object Ownership and Access</i></strong></small>
+    </p>
