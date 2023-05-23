@@ -451,3 +451,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     For example, if we store an object called `myphotos.zip` in a bucket called `photobucket`, the URL would be as follows:
     `https://photobucket.s3.amazonaws.com/2021-04-13/myphotos.zip`
     The key  is `2021-04-13/myphotos.zip`. We use this unique URL to reference objects within the bucket.
+
+    [<img src="assets/Using_Amazon_S3-Create_a_Bucket.png" alt="Using_Amazon_S3-Create_a_Bucket.png" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Create a bucket - Object Storage</i></strong></small>
+    </p>
