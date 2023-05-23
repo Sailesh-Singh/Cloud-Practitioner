@@ -445,3 +445,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Create a bucket</i></strong></small>
     </p>
+
+    When we store an object in a bucket, the combination of a bucket name, key, and version ID uniquely identifies the object.
+
+    For example, if we store an object called `myphotos.zip` in a bucket called `photobucket`, the URL would be as follows:
+    `https://photobucket.s3.amazonaws.com/2021-04-13/myphotos.zip`
+    The key  is `2021-04-13/myphotos.zip`. We use this unique URL to reference objects within the bucket.
