@@ -435,3 +435,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Using Amazon S3</i></strong></small>
     </p>
++   ####    Create a bucket
