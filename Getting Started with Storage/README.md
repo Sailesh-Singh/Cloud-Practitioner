@@ -483,3 +483,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Bucket Versioning</i></strong></small>
     </p>
+
++   ####    Configure the bucket - tags
