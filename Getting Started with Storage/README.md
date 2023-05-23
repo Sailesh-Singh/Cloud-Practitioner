@@ -478,3 +478,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <b>Versioning</b> gives us the ability to keep multiple variants of an object in the same bucket. We can use versioning to preserve, retrieve, and restore every version of every object stored in your S3 bucket. With versioning, we can recover from both unintended user actions and applications failures. The versioning state applies to all the objects in that bucket.
     When we enable versioning in a bucket, all new objects are versioned and given a unique version ID. Obect that already existed in the bucket at the time versioning is enabled will thereafter always be versioned. They will be given a unique version ID when they are modified by future requests. 
     Versioning is disabled by default and can be enabled later. We can enable and suspend versioning at the bucket level. After we version-enable a bucket, it can never return to an unversioned state. But we can suspend versioning on that bucket.
+
+    [<img src="assets/Using_Amazon_S3-bucket_versioning.png" alt="Using_Amazon_S3-bucket_versioning" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Bucket Versioning</i></strong></small>
+    </p>
