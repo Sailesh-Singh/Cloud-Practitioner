@@ -515,4 +515,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Upload objects - data</i></strong></small>
     </p>
 
++   ####    Upload obects - choose storage class
+
 
