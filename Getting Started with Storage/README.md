@@ -529,4 +529,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Upload objects - multipart upload
 
+    We can use multipart upload to upload a single object as a set of parts. Each part is a contiguous portion of the object's data. We can upload these object parts independently and in any order. If transmission of any part fails, we can retransmit that part without affecting other parts. After all of our object are uploaded, Amazon S3 assembles the parts and creates the object.
+
+    Consider using multipart upload when you have objects with a size over **100 MB**.
+
 
