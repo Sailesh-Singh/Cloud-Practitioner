@@ -527,3 +527,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 
++   ####    Upload objects - multipart upload
+
+
