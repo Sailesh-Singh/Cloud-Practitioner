@@ -517,4 +517,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Upload obects - choose storage class
 
+    When we upload obects, we can choose the storage class for the objects that are part of the upload. The default class is **S3 Standard**.
+    After the upload, we will see the storage class of each object in the console.
+    We can change the storage class of objects at any time by choosing the objects and then choosing **Edit storage class** from the **Actions** menu. This menu gives us the list of storage classes to choose from.
+
 
