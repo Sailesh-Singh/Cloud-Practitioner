@@ -501,5 +501,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     After configuring our bucket, choose **Create bucket**, and your bucket will be created. Now we can upload obects to the bucket.
 
-
+    [<img src="assets/Upload_objects.png" alt="Upload_objects" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Upload objects</i></strong></small>
+    </p>
 
