@@ -521,7 +521,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     After the upload, we will see the storage class of each object in the console.
     We can change the storage class of objects at any time by choosing the objects and then choosing **Edit storage class** from the **Actions** menu. This menu gives us the list of storage classes to choose from.
 
-    [<img src="assets/Upload_objects-choose_storage_class.png" alt="Upload_objects-data" align="center" width="100%" height="100%">]()
+    [<img src="assets/Upload_objects-choose_storage_class.png" alt="Upload_objects-choose_storage_class" align="center" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Upload obects - choose storage class</i></strong></small>
     </p>
@@ -533,4 +533,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     Consider using multipart upload when you have objects with a size over **100 MB**.
 
+    [<img src="assets/Upload_objects-multipart_upload.png" alt="Upload_objects-multipart_upload" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Upload obects - multipart upload</i></strong></small>
+    </p>
 
