@@ -498,3 +498,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 ### Upload objects
 
 +   ####    Upload objects
+
+    After configuring our bucket, choose **Create bucket**, and your bucket will be created. Now we can upload obects to the bucket.
+
+
+
