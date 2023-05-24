@@ -510,4 +510,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     We can upload larger objects by using the command line interface (CLI).
     >We will receive a notification with the status of the upload so you can retry any items that failed to load.
 
+    [<img src="assets/Upload_objects-data.png" alt="Upload_objects-data" align="center" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Upload objects - data</i></strong></small>
+    </p>
+
 
