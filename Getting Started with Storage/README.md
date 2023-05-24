@@ -506,3 +506,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Upload objects</i></strong></small>
     </p>
 
+    Object size also has limits for objects that are uploaded by using the console. Objects are limited to **160 GB**
+    We can upload larger objects by using the command line interface (CLI).
+    >We will receive a notification with the status of the upload so you can retry any items that failed to load.
+
+
