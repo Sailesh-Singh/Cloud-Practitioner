@@ -499,7 +499,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +   ####    Upload objects
 
-    After configuring our bucket, choose **Create bucket**, and your bucket will be created. Now we can upload obects to the bucket.
+    After configuring our bucket, choose **Create bucket**, and your bucket will be created. Now we can upload objects to the bucket.
 
     [<img src="assets/Upload_objects.png" alt="Upload_objects" align="center" width="100%" height="100%">]()
     <p align="center">
@@ -515,15 +515,15 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Upload objects - data</i></strong></small>
     </p>
 
-+   ####    Upload obects - choose storage class
++   ####    Upload objects - choose storage class
 
-    When we upload obects, we can choose the storage class for the objects that are part of the upload. The default class is **S3 Standard**.
+    When we upload objects, we can choose the storage class for the objects that are part of the upload. The default class is **S3 Standard**.
     After the upload, we will see the storage class of each object in the console.
     We can change the storage class of objects at any time by choosing the objects and then choosing **Edit storage class** from the **Actions** menu. This menu gives us the list of storage classes to choose from.
 
     [<img src="assets/Upload_objects-choose_storage_class.png" alt="Upload_objects-choose_storage_class" align="center" width="100%" height="100%">]()
     <p align="center">
-    <small><strong><i>Upload obects - choose storage class</i></strong></small>
+    <small><strong><i>Upload objects - choose storage class</i></strong></small>
     </p>
 
 
@@ -535,6 +535,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     [<img src="assets/Upload_objects-multipart_upload.png" alt="Upload_objects-multipart_upload" width="100%" height="100%">]()
     <p align="center">
-    <small><strong><i>Upload obects - multipart upload</i></strong></small>
+    <small><strong><i>Upload objects - multipart upload</i></strong></small>
     </p>
 
