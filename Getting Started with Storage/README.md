@@ -562,3 +562,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 +	####	Additional features
 
     Amazon S3 has additional features to consider. This module will review lifecycle rules, replication rules and security.
+
+    [<img src="assets/Additional_features.png" alt="Additional_features" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Additional Features</i></strong></small>
+    </p>
