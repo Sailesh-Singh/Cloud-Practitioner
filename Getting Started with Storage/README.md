@@ -649,4 +649,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +	**_Application A_** has an IAM policy attached to grant access to your bucket.
     +	**_Application B_** does not  have an IAM policy, so it is denied access.
 
-+	####	Bucket security - bucket policy
++	####	Bucket security - Bucket Policy
+
+    Another way to grant access to an S3 bucket is to use a bucket  policy. This policy is attached tothe bucket and can grant other AWS accounts or users access to the obects that are stored within the bucket. We can specify the type of access within the policy. Ploicies are written in json.
+
