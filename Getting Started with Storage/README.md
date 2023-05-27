@@ -627,5 +627,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
         +   Abide by data sovereignty laws by storing multiple copies of your data in separate AWS accounts within a certain Region.
 
-
-
++	####	Bucket security
