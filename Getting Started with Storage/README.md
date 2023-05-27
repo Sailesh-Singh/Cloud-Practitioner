@@ -657,3 +657,25 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Bucket Security - Bucket Policy</i></strong></small>
     </p>
+
+    ```
+    {
+      "Version": "2012-10-17", 
+      "Id": "S3PolicyId1",
+
+      "Statement": [
+
+        {
+          "Sid": "IPAllow",
+          "Effect": "Deny",
+          "Principal": "*",
+          "Action": "s3:*",
+          "Resource": "arn: aws:s3::: examplebucket/*", 
+          "Condition": {
+             "NotIpAddress": {"aws: SourceIp": "54.240.143.0/24"}
+           }
+        }
+      ]
+    }
+
+    ```
