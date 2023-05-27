@@ -637,3 +637,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Bucket security - IAM policy
+
+    By default, all Amazon S3 resources are private. Only we can access the resource. We can optionally grant access permissions to others by writing an IAM policy. We can grant users, groups, and roles controlled access to Amazon S3 and our objects.
+    **_For example_**, we can use an IAM role to grant access to our S3 bucket. 
