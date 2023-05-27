@@ -570,7 +570,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +	####	Additional features - lifecycle rules
 
-    Amazon S3 lifecycle is a set  of rules that define actions that amazon S3 applies to the group of objects. There are two types of  actions:
+    _Amazon S3 lifecycle_ is a set  of rules that define actions that amazon S3 applies to the group of objects. There are two types of  actions:
 
 	1. Transition actions define when objects transition from one storage class to another.
 	2. Expiration actions define when objects expire and deleted.
@@ -588,3 +588,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Additional features - replication rules
+
+    **_Replication_** offers automatic copying of objects across S3 buckets. We can set up replication rules to replicate objects to the following:
+
+    Using replication can help us to efficiently maintain copies of objects in multiple Regions, in different storage classes, and under different ownership. We can create replication rules from the console by selecting the Management tab inside our bucket.
