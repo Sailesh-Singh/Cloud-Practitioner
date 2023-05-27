@@ -553,3 +553,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     1. Security Credentials
     2. A valid serial number, a space, and the six-digit code displayed on an approved authentication device.
+
+    [<img src="assets/Delete_objects.png" alt="Delete_objects" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Delete Objects</i></strong></small>
+    </p>
