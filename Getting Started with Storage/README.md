@@ -586,3 +586,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Additional Features - Lifecycle rules example</i></strong></small>
     </p>
+
++	####	Additional features - replication rules
