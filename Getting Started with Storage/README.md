@@ -679,3 +679,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     }
 
     ```
+
++	####	Bucket security - Encryption
