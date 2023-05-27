@@ -653,3 +653,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     Another way to grant access to an S3 bucket is to use a bucket  policy. This policy is attached tothe bucket and can grant other AWS accounts or users access to the obects that are stored within the bucket. We can specify the type of access within the policy. Ploicies are written in json.
 
+    [<img src="assets/Bucket_security-bucket_policy.png" alt="Bucket_security-bucket_policy" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Bucket Security - Bucket Policy</i></strong></small>
+    </p>
