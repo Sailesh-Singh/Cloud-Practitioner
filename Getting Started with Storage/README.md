@@ -543,3 +543,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Work with Objects</i></strong></small>
     </p>
+
++	####	Delete objects
