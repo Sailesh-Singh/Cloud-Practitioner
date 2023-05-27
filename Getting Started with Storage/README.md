@@ -602,6 +602,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     When considering replication, we must decide whether we want to replicate objects within the same Region or across Regions. Both strategies have benefits, and we should base our decisions on the constraints of our workload and business needs.
 
+    [<img src="assets/Additional_features-Cross-region_and_Same-Region_Replication.png" alt="Additional_features-Cross-region_and_Same-Region_Replication" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Additional Features - Cross-region and Same-region Replication</i></strong></small>
+    </p>
+
 	1. Cross-Region Replication
 		
 	    You can use Cross-Region Replication to copy objects across Amazon S3 buckets in different AWS Regions. Consider this type of replication when you need to:
@@ -621,4 +626,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         +   Configure live replication between production and test accounts that use the same data. You can replicate objects between those accounts while maintaining object metadata.
 
         +   Abide by data sovereignty laws by storing multiple copies of your data in separate AWS accounts within a certain Region.
+
+
 
