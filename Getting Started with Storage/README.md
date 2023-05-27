@@ -631,7 +631,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     **_Cloud security_** at AWS is the highest priority. Security is a shared responsiblity between AWS and us. As the customer, we are responsible for security in the cloud as outlined by the shared responsiblity model. Amazon S3 default setting create a bucket that is secure. 
     However, as we upload and work with objects, we might want to employ other security features.
 
-    [<img src="assets/Bucket_security.png" alt="ABucket_security" width="100%" height="100%">]()
+    [<img src="assets/Bucket_security.png" alt="Bucket_security" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Bucket security</i></strong></small>
     </p>
@@ -639,4 +639,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 +	####	Bucket security - IAM policy
 
     By default, all Amazon S3 resources are private. Only we can access the resource. We can optionally grant access permissions to others by writing an IAM policy. We can grant users, groups, and roles controlled access to Amazon S3 and our objects.
-    **_For example_**, we can use an IAM role to grant access to our S3 bucket. 
+    **_For example_**, we can use an IAM role to grant access to our S3 bucket.
+
+    [<img src="assets/Bucket_security-IAM_policy.png" alt="Bucket_security-IAM_policy" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Bucket Security - IAM Policy</i></strong></small>
+    </p>
