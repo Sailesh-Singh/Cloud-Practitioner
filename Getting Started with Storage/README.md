@@ -630,3 +630,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 +	####	Bucket security
     **_Cloud security_** at AWS is the highest priority. Security is a shared responsiblity between AWS and us. As the customer, we are responsible for security in the cloud as outlined by the shared responsiblity model. Amazon S3 default setting create a bucket that is secure. 
     However, as we upload and work with objects, we might want to employ other security features.
+
+    [<img src="assets/Bucket_security.png" alt="ABucket_security" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Bucket security</i></strong></small>
+    </p>
