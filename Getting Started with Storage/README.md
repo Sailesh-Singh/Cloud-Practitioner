@@ -569,3 +569,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Additional features - lifecycle rules
+
+    Amazon S3 lifecycle is a set  of rules that define actions that amazon S3 applies to the group of objects. There are two types of  actions:
+
+	1. Transition actions define when objects transition from one storage class to another.
+	2. Expiration actions define when objects expire and deleted.
