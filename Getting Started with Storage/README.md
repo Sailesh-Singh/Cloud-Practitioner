@@ -681,3 +681,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     ```
 
 +	####	Bucket security - Encryption
+
+    We can protect our data while in transit and while at rest by using different types of encryption. When we upload and download objects, we can protect our data by using **_client-side encryption_**. Data is encrypted before we upload it, and we hold all the encryption keys. Amazon S3 does not play a role in encrypting or decrypting the data. We can also protect our Amazon S3 data at rest with client-side encryption.
+    We can also use **_server-side encryption_**. Amazon S3 encrypts data at the object level when we upload it. When we download the object, Amazon S3 decrypts the data.
