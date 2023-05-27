@@ -597,3 +597,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Additional Features -  Replication rules</i></strong></small>
     </p>
+
++	####	Additional features - Cross-Region and Same-Region Replication
