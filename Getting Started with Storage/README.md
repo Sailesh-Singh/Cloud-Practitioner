@@ -579,3 +579,10 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Additional Features - Lifecycle rules</i></strong></small>
     </p>
+
+    Consider example for the Additional Features - Lifecycle rules:
+
+    [<img src="assets/Additional_features-lifecycle_rules_example.png" alt="Additional_features-lifecycle_rules_example" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Additional Features - Lifecycle rules example</i></strong></small>
+    </p>
