@@ -545,3 +545,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Delete objects
+
+    All objects in our S3 bucket incur storage costs, we should delete objects that we no longer need. We can delete objects from the console by choosing the object and the choosing Delete.
+    In a bucket with S3 versioning enabled, we can protect our objects from accidental or malicious deletion by enabling **_multi-factor authentication (MFA)_** delete.
+
+    **_MFA_** delete requires two forms of authentication to change a bucket versioning state permanently delete an object version. The following are the two forms of authentication:
+
+    1. Security Credentials
+    2. A valid serial number, a space, and the six-digit code displayed on an approved authentication device.
