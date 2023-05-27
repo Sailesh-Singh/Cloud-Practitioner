@@ -647,4 +647,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
     +	**_Application A_** has an IAM policy attached to grant access to your bucket.
-    +	**_Application B_** does not  have an IAM policy, so it is denied access.	
+    +	**_Application B_** does not  have an IAM policy, so it is denied access.
+
++	####	Bucket security - bucket policy
