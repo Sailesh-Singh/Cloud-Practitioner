@@ -538,3 +538,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Work with objects
+
+    [<img src="assets/Work_with_objects.png" alt="Work_with_objects" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Work with Objects</i></strong></small>
+    </p>
