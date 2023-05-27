@@ -574,3 +574,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 	1. Transition actions define when objects transition from one storage class to another.
 	2. Expiration actions define when objects expire and deleted.
+
+    [<img src="assets/Additional_features-lifecycle_rules.png" alt="Additional_features-lifecycle_rules" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Additional Features - Lifecycle rules</i></strong></small>
+    </p>
