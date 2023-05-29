@@ -714,5 +714,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     +   Transfer gigabytes or terabytes of data across continents on a regular basis.
 
     #####  2. AWS Snowcone
+    AWS Snowcone is a portable, rugged, and secure device for edge computing and data transfer. We can use a Snowcone device to collect, process, and move data to the AWS Cloud. We can move the data either offline by shipping the device to AWS, or online by using AWS DataSync.
+
+    We can use AWS Snowcone devices for one-time data migration scenarios where our data is ready to be transferred. Snowcone offers a quick and low-cost way to transfer up to 8 TB or 14 TB of data to the AWS Cloud by shipping the device back to AWS.
     #####  3. AWS Snowball
     #####  4. AWS Snowmobile
