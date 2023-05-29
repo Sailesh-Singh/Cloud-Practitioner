@@ -699,3 +699,9 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Moving large Amount of data into Amazon S3</i></strong></small>
     </p>
+
+    These features and services including the following:
+    #####  1. S3 Transfer Acceleration
+    #####  2. AWS Snowcone
+    #####  3. AWS Snowball
+    #####  4. AWS Snowmobile
