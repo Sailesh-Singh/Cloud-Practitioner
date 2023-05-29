@@ -1,4 +1,4 @@
-#   Getting Started with Storage
+#   [Getting Started with Storage](https://awseducate.instructure.com/courses/908)
 
 ## Overview
 
@@ -738,3 +738,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     #####  4. AWS Snowmobile
 
     AWS Snowmobile is an exabyte-scale data transfer service that is used to move extremely large amounts of data to AWS. You can transfer up to 100 PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck. Snowmobile makes it easy to move massive volumes of data to the cloud, including video libraries, image repositories, or even a complete data center migration. Transferring data with Snowmobile is more secure, fast, and cost effective.
+
++	####	Using Amazon S3 summary
+
+    [<img src="assets/Using Amazon S3 summary.png" alt="Using Amazon S3 summary" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Using Amazon S3 summary</i></strong></small>
+    </p>
+
