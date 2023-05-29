@@ -692,3 +692,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Moving large amounts of data into Amazon S3
+
+    We can begin moving data into Amazon S3 in larger chunks. AWS has service features and a family of services to assist in migrating large amounts of data.
