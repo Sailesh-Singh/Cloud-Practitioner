@@ -722,7 +722,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
     We can use AWS Snowcone devices for one-time data migration scenarios where our data is ready to be transferred. Snowcone offers a quick and low-cost way to transfer up to 8 TB or 14 TB of data to the AWS Cloud by shipping the device back to AWS.
-    
+
     #####  3. AWS Snowball
     The AWS Snowball service uses physical storage devices to transfer large amounts of data between Amazon S3 and our onsite data storage location at faster-than- internet speeds.
 
@@ -736,3 +736,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     You can use AWS Snowball devices to migrate petabytes of data into Amazon S3 for processing and analysis.
 
     #####  4. AWS Snowmobile
+
+    AWS Snowmobile is an exabyte-scale data transfer service that is used to move extremely large amounts of data to AWS. You can transfer up to 100 PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck. Snowmobile makes it easy to move massive volumes of data to the cloud, including video libraries, image repositories, or even a complete data center migration. Transferring data with Snowmobile is more secure, fast, and cost effective.
