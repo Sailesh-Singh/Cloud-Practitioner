@@ -695,7 +695,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     We can begin moving data into Amazon S3 in larger chunks. AWS has service features and a family of services to assist in migrating large amounts of data.
 
-    [<img src="assets/Moving large Amount of data into Amazon S3.png" alt="BMoving large Amount of data into Amazon S3" width="100%" height="100%">]()
+    [<img src="assets/Moving large Amount of data into Amazon S3.png" alt="Moving large Amount of data into Amazon S3" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Moving large Amount of data into Amazon S3</i></strong></small>
     </p>
@@ -703,6 +703,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     These features and services including the following:
     #####  1. S3 Transfer Acceleration
     Amazon S3 Transfer Acceleration offers fast and straightforward data transfer into an S3 bucket by taking advantage of many Amazon CloudFront globally distributed edge locations. S3 Transfer Acceleration shortens the distance between client applications and Amazon S3 by using the global network of hundreds of CloudFront edge locations. Uploads and downloads are automatically routed through the closest edge locations to your application.
+
+    [<img src="assets/S3 Transfer Acceleration.png" alt="S3 Transfer Acceleration" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>S3 Transfer Acceleration</i></strong></small>
+    </p>
 
     Consider Transfer Acceleration when we:
     +   Have customers all over the world who upload to a centralized bucket.
