@@ -722,5 +722,17 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
     We can use AWS Snowcone devices for one-time data migration scenarios where our data is ready to be transferred. Snowcone offers a quick and low-cost way to transfer up to 8 TB or 14 TB of data to the AWS Cloud by shipping the device back to AWS.
+    
     #####  3. AWS Snowball
+    The AWS Snowball service uses physical storage devices to transfer large amounts of data between Amazon S3 and our onsite data storage location at faster-than- internet speeds.
+
+    The two different job types are import jobs and export jobs.
+    +   <b>Import jobs</b>
+    An import job is the transfer of 72 TB or less of our data (located in an on-premises data source). It is copied onto a single Snowball, and then moved into Amazon S3.
+
+    +   <b>Export jobs</b>
+    An export job is the transfer of any amount of data (located in Amazon S3). It is copied onto any number of Snowballs, and then moved one Snowball at a time into your on-premises data destination.
+
+    You can use AWS Snowball devices to migrate petabytes of data into Amazon S3 for processing and analysis.
+
     #####  4. AWS Snowmobile
