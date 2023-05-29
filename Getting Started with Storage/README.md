@@ -690,3 +690,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Bucket security - Encryption</i></strong></small>
     </p>
+
++	####	Moving large amounts of data into Amazon S3
