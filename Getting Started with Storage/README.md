@@ -702,6 +702,12 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     These features and services including the following:
     #####  1. S3 Transfer Acceleration
+    Amazon S3 Transfer Acceleration offers fast and straightforward data transfer into an S3 bucket by taking advantage of many Amazon CloudFront globally distributed edge locations. S3 Transfer Acceleration shortens the distance between client applications and Amazon S3 by using the global network of hundreds of CloudFront edge locations. Uploads and downloads are automatically routed through the closest edge locations to your application.
+
+    Consider Transfer Acceleration when we:
+    +   Have customers all over the world who upload to a centralized bucket.
+    +   Transfer gigabytes or terabytes of data across continents on a regular basis.
+
     #####  2. AWS Snowcone
     #####  3. AWS Snowball
     #####  4. AWS Snowmobile
