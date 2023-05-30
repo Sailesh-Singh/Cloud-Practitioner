@@ -802,4 +802,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     +	#####	Data security
         Amazon EBS volumes are presented to you as raw, unformatted block devices. These devices are logical devices that are created on the EBS infrastructure. The Amazon EBS service verifies that the devices are logically empty prior to any use or reuse by a customer.
+
+    +	#####	Snapshots
+    
     
