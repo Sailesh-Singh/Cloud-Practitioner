@@ -809,5 +809,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 		Each snapshot contains all of the information that is needed to restore your data (from the moment when the snapshot was taken) to a new EBS volume.
 
     +	#####	Flexibility
+        Amazon EBS is flexible, which means that you can make changes without service interruptions. You can modify the volume type, volume size, and IOPS capacity while in production.
+		When you make a change, you are only charged for the new volume configuration after the change is in effect.
 
     
