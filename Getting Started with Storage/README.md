@@ -804,5 +804,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         Amazon EBS volumes are presented to you as raw, unformatted block devices. These devices are logical devices that are created on the EBS infrastructure. The Amazon EBS service verifies that the devices are logically empty prior to any use or reuse by a customer.
 
     +	#####	Snapshots
-    
+        You can back up the data on your Amazon EBS volumes to Amazon S3 by taking point-in-time snapshots.
+		Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. This method minimizes the time required to create the snapshot and saves on storage costs by not duplicating data.
+		Each snapshot contains all of the information that is needed to restore your data (from the moment when the snapshot was taken) to a new EBS volume.
+
     
