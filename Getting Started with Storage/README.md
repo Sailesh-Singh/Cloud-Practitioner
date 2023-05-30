@@ -28,8 +28,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 +   In this module we learn about basic storage domain and AWS course storage services. It is broken into following four sections:
     ####  [1.  Introduction to Storage](#introduction-to-storage)
     ####  [2.  Introduction to Amazon S3](#introduction-to-amazon-s3)
-    ####  [3.  Using Amazon S3](#)
-    ####  [4.  Additional AWS Storage Services](#)
+    ####  [3.  Using Amazon S3](#using-amazon-s3)
+    ####  [4.  Additional AWS Storage Services](#additional-aws-storage-services)
 
 [<img src="assets/Four_Sections.png" alt="Four_Sections" align="left" width="100%" height="100%">]()
 <small>**_Four Sections_**</small>
@@ -464,7 +464,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     [<img src="assets/Using_Amazon_S3-choose_a_Region.png" alt="Using_Amazon_S3-choose_a_Region" align="center" width="100%" height="100%">]()
     
-    **Note: Not all Regioins shown, visit [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) for an up-to-date-map of Regions.**
+    <small>**Note: Not all Regioins shown, visit [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) for an up-to-date-map of Regions.**</small>
 
 +   ####    Configure the bucket - object ownership and access
 
@@ -782,3 +782,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	Data security
 	Snapshots
 	Flexibility
+
+
