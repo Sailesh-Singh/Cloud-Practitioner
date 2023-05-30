@@ -752,3 +752,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     Now, We are familiar with Amazon S3 for object storage, it's time to diveinto the AWS storage services for block storage and file storage.
 	In this section, we'll review the storage types and be introduced to **_Amazon Elastic Block Store (Amazon EBS)_** and **_Amazon Elastic File System (Amazon EFS)_**.
+
+    [<img src="assets/Additional_AWS_Storage_Services.png" alt="Additional_AWS_Storage_Services" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Additional AWS Storage Services</i></strong></small>
+    </p>
