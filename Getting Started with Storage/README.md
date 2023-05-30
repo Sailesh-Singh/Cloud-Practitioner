@@ -791,4 +791,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     +	#####	Data availability
         When you create an EBS volume, it is automatically replicated within its Availability Zone to prevent data loss due to failure of any single hardware component. You can attach an EBS volume to any EC2 instance in the same Availability Zone. After you attach a volume, it appears as a native block device similar to a hard drive or other physical device. At that point, the instance can interact with the volume just as it would with a local drive.
+
+    +	#####	Data persistence
     
