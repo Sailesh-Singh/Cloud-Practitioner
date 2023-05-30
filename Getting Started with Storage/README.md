@@ -746,3 +746,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Using Amazon S3 summary</i></strong></small>
     </p>
 
+### Additional AWS Storage Services
+
+
