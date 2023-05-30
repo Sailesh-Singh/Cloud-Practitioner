@@ -759,3 +759,10 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Block storage at AWS
+
+    Recall that block storage is data that stored on device in fixed-sized blocks. AWS has two block storage solutions. 
+	
+	The first type of block storage is an **_Amazon EC2_** instance store, which is a temproary block-level storage for our EC2 instance. This storage consists of a preconfigured and preattached block of disk storage on the same physical server that hosts the EC2 instance. It is temproary because the storage data is lost when you stop or terminate our EC2 instance.
+	
+	The second type of block storage is **_Amazon EBS_**, a detachable storage associated with an Availability Zone. If we stop or terminate our EC2 instance, our data is still available in the EBS volume.
+	We can detach it from the instance that we are terminating and reattach it to another instance.
