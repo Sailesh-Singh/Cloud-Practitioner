@@ -766,3 +766,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	
 	The second type of block storage is **_Amazon EBS_**, a detachable storage associated with an Availability Zone. If we stop or terminate our EC2 instance, our data is still available in the EBS volume.
 	We can detach it from the instance that we are terminating and reattach it to another instance.
+
+    [<img src="assets/Block_storage_at_AWS.png" alt="Block_storage_at_AWS.png" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Block storage at AWS</i></strong></small>
+    </p>
