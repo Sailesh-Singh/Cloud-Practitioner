@@ -788,4 +788,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>EBS key features and benefits</i></strong></small>
     </p>
+
+    +	#####	Data availability
     
