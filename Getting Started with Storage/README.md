@@ -775,12 +775,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 +	####	Amazon EBS key features and benefits
 
     Amazon EBS is a durable, block-level storage device that was designed for Amazon EC2. EBS volumes provide six key features and benefits:
-	
-	Data availability
-	Data persistence
-	Data encryption
-	Data security
-	Snapshots
-	Flexibility
 
-
+    #####  [1.  Data availability](#)
+    #####  [2.  Data persistence](#)
+    #####  [3.  Data encryption](#)
+    #####  [4.  Data security](#)
+    #####  [5.  Snapshots](#)
+    #####  [6.  Flexibility](#)
+    
