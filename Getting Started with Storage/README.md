@@ -801,4 +801,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         For data encryption, you can create encrypted EBS volumes with the Amazon EBS encryption feature. All EBS volume types support encryption. Amazon EBS encryption uses 256-bit Advanced Encryption Standard algorithms (AES-256) and an Amazon-managed key infrastructure. The encryption occurs on the server that hosts the EC2 instance, providing encryption of data-in-transit from the EC2 instance to Amazon EBS storage.
 
     +	#####	Data security
+        Amazon EBS volumes are presented to you as raw, unformatted block devices. These devices are logical devices that are created on the EBS infrastructure. The Amazon EBS service verifies that the devices are logically empty prior to any use or reuse by a customer.
     
