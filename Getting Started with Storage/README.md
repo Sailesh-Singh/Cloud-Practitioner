@@ -793,4 +793,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         When you create an EBS volume, it is automatically replicated within its Availability Zone to prevent data loss due to failure of any single hardware component. You can attach an EBS volume to any EC2 instance in the same Availability Zone. After you attach a volume, it appears as a native block device similar to a hard drive or other physical device. At that point, the instance can interact with the volume just as it would with a local drive.
 
     +	#####	Data persistence
+        An EBS volume is off-instance storage that can persist independently from the life of an instance. You continue to pay for the volume usage as long as the data persists.
+		EBS volumes can be set to automatically detach from the instance with the data intact and can be reattached to a new instance, enabling quick recovery.
+		If you are using an EBS-backed instance, you can stop and restart that instance without affecting the data stored in the attached volume. The volume remains attached throughout the stop-start cycle.
     
