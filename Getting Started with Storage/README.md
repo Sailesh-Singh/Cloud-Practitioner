@@ -757,3 +757,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Additional AWS Storage Services</i></strong></small>
     </p>
+
++	####	Block storage at AWS
