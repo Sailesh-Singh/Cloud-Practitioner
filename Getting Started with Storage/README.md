@@ -772,7 +772,7 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <small><strong><i>Block storage at AWS</i></strong></small>
     </p>
 
-+	####	Amazon EBS key features and benefits
++	####	EBS key features and benefits
 
     Amazon EBS is a durable, block-level storage device that was designed for Amazon EC2. EBS volumes provide six key features and benefits:
 
@@ -782,4 +782,10 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     #####  [4.  Data security](#)
     #####  [5.  Snapshots](#)
     #####  [6.  Flexibility](#)
+    
+
+    [<img src="assets/EBS_key_features_and_benefits.png" alt="EBS_key_features_and_benefits" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>EBS key features and benefits</i></strong></small>
+    </p>
     
