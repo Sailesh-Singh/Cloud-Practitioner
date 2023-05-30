@@ -776,12 +776,12 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
     Amazon EBS is a durable, block-level storage device that was designed for Amazon EC2. EBS volumes provide six key features and benefits:
 
-    #####  [1.  Data availability](#)
-    #####  [2.  Data persistence](#)
-    #####  [3.  Data encryption](#)
-    #####  [4.  Data security](#)
-    #####  [5.  Snapshots](#)
-    #####  [6.  Flexibility](#)
+    #####  [1.  Data availability](#data-availability)
+    #####  [2.  Data persistence](#data-persistence)
+    #####  [3.  Data encryption](#data-encryption)
+    #####  [4.  Data security](#data-security)
+    #####  [5.  Snapshots](#snapshots)
+    #####  [6.  Flexibility](#flexibility)
     
 
     [<img src="assets/EBS_key_features_and_benefits.png" alt="EBS_key_features_and_benefits" width="100%" height="100%">]()
@@ -812,4 +812,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
         Amazon EBS is flexible, which means that you can make changes without service interruptions. You can modify the volume type, volume size, and IOPS capacity while in production.
 		When you make a change, you are only charged for the new volume configuration after the change is in effect.
 
-    
+
+        
