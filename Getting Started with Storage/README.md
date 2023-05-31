@@ -866,9 +866,14 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +	####	Amazon EFS use cases
 
-    [<img src="assets/Amazon_EFS_use_cases.png" alt="Amazon_EFS_use_cases.png" width="100%" height="100%">]()
+    [<img src="assets/Amazon_EFS_use_cases.png" alt="Amazon_EFS_use_cases" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Amazon EFS use cases</i></strong></small>
     </p>
 
 +	####	Other AWS Storage Services summary
+
+    [<img src="assets/Other_AWS_Storage_Services_summary.png" alt="Other_AWS_Storage_Services_summary" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Other AWS Storage Services summary</i></strong></small>
+    </p>
