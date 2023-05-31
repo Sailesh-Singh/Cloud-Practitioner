@@ -845,3 +845,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 		With elastic capacity, provisioning is unnecessary, and you're billed only for what you use. Amazon EFS is designed to be highly scalable both in storage capacity and throughput performance. With Amazon EFS, throughput and IOPS scale as your file system grows, while file operations are delivered with consistent low latencies.
 
 	+	####	Data encryption
+
+		Amazon EFS provides a comprehensive encryption solution to secure both your stored data and data in flight. Data at rest is transparently encrypted by using encryption keys that the AWS Key Management Service (AWS KMS) manages. Encryption of data in transit uses industry-standard Transport Layer Security (TLS) to secure network
+		traffic.
