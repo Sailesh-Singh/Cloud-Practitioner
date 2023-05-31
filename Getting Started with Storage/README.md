@@ -827,3 +827,10 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	Amazon EFS is scalable file system that's used  with AWS Cloud services and on-permises resources. Amazon EFS supports thousands of connections from EC2 instances across multiple Availability Zones. On-permises servers can access Amazon EFS through AWS Direct Connect. Amazon EFS storage is permanent. When attached to an AWS compute instance, data will not  disappear when that instance is relaunched.
 	
 +	####	Amazon EFS key features and benefits
+
+	We can use Amazon EFS to access our file system across Availability Zones, AWS Regions, and Virtual Private Clouds (VPCs). File can be shared between thousands of EC2 instances and on-permises servers. Amazon EFS provides four key features and benefits:
+	
+	1. Fully managed 
+	2. Highly available and durable
+	3. Elastic and scalable
+	4. Data encryption
