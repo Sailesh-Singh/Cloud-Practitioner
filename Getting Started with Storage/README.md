@@ -863,3 +863,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 		Amazon EFS provides a comprehensive encryption solution to secure both your stored data and data in flight. Data at rest is transparently encrypted by using encryption keys that the AWS Key Management Service (AWS KMS) manages. Encryption of data in transit uses industry-standard Transport Layer Security (TLS) to secure network
 		traffic.
+
++	####	Amazon EFS use cases
