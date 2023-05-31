@@ -834,3 +834,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	2. Highly available and durable
 	3. Elastic and scalable
 	4. Data encryption
+
+	+	####	Fully managed
