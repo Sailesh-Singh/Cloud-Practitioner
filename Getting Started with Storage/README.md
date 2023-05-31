@@ -840,3 +840,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 		Amazon EFS is highly available and durable. It was designed for 99.999999999 percent (11 9s) of durability and up to 99.99 percent (4 9s) of availability. By default, Amazon EFS redundantly stores every file system object (in other words, a directory, file, and link) across multiple Availability Zones for file systems. It uses Standard storage classes.
 
 	+	####	Elastic and scalable
+
+    	With Amazon EFS, storage capacity is elastic. Therefore, the storage capacity grows and shrinks automatically as you add and remove files. This elasticity provides storage capacity to your applications as needed.
+		With elastic capacity, provisioning is unnecessary, and you're billed only for what you use. Amazon EFS is designed to be highly scalable both in storage capacity and throughput performance. With Amazon EFS, throughput and IOPS scale as your file system grows, while file operations are delivered with consistent low latencies.
