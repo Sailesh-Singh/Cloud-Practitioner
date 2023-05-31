@@ -813,6 +813,12 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 		When you make a change, you are only charged for the new volume configuration after the change is in effect.
 
 +	####	Amazon EBS volume types
-        
+
+	The two main categories for EBS volume types are _solid state  drives (SSD) and hard disk drives (HDD)_.
+	
+	**_SSDs_** are used for transactional workloads with frequent read/write operations and small input/output (I/O) size for faster I/O operations per second (IOPS). Choose from general-purpose SSD and provisions IOPS SSD.
+	
+	**_HDDs_** are used for large streaming workloads that need high throughput performance. Choose between throughput optimized HDD and Cold HDD.
+	The type of storage volume that you choose is influenced by the type of workloads that you have. Review the use cases for EBS volume types.      
 
     
