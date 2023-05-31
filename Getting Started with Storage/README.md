@@ -873,6 +873,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +	####	Other AWS Storage Services summary
 
+    In this section, we have learned about other AWS storage services and their uses.
+
     [<img src="assets/Other_AWS_Storage_Services_summary.png" alt="Other_AWS_Storage_Services_summary" width="100%" height="100%">]()
     <p align="center">
     <small><strong><i>Other AWS Storage Services summary</i></strong></small>
