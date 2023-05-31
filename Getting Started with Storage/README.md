@@ -821,4 +821,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	**_HDDs_** are used for large streaming workloads that need high throughput performance. Choose between throughput optimized HDD and Cold HDD.
 	The type of storage volume that you choose is influenced by the type of workloads that you have. Review the use cases for EBS volume types.      
 
-    
+
++	####	File storage at AWS
