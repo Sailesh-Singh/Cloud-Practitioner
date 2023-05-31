@@ -845,6 +845,11 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	3. Elastic and scalable
 	4. Data encryption
 
+    [<img src="assets/Amazon_EFS_key_features_and_benefits.png" alt="Amazon_EFS_key_features_and_benefits" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Amazon EFS key features and benefits</i></strong></small>
+    </p> 
+
 	+	####	Fully managed
 
 		Amazon EFS is highly available and durable. It was designed for 99.999999999 percent (11 9s) of durability and up to 99.99 percent (4 9s) of availability. By default, Amazon EFS redundantly stores every file system object (in other words, a directory, file, and link) across multiple Availability Zones for file systems. It uses Standard storage classes.
