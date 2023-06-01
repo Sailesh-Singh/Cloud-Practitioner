@@ -881,3 +881,10 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Summary
+	**In the first section**, we got an introduction to storage. This introduction included storage basics, types of storage, when to use different types of storage, and storage use cases.
+	
+	**In the second section**, we were introduced to Amazon S3. This section included an overview of the key concepts of Amazon S3, storage classes, and storage class use cases.
+	
+	**In the third section**, we learned how to use Amazon S3 to create, configure, and manage storage with Amazon S3. We also learned about additional settings for security and data management.
+	
+	**In the final section**, we learned about the additional AWS storage services for block storage and file storage.
