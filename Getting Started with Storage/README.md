@@ -895,3 +895,4 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Continue your learning journey
+    The Getting Started series will help us build our foundational knowledge. Here is the suggested order for taking the courses in this series.
