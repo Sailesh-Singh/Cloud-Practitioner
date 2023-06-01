@@ -896,3 +896,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 
 +	####	Continue your learning journey
     The Getting Started series will help us build our foundational knowledge. Here is the suggested order for taking the courses in this series.
+
+    [<img src="assets/Continue_your_learning_journey.png" alt="Continue your learning journey" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Continue your learning journey</i></strong></small>
+    </p>
