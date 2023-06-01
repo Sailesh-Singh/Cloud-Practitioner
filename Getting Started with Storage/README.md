@@ -903,3 +903,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     </p>
 
 +	####	Thank you for choosing AWS Educate
+
+    [<img src="assets/Thank_you_for_choosing_AWS_Educate.png" alt="Thank you for choosing AWS Educate" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Thank you for choosing AWS Educate</i></strong></small>
+    </p>
