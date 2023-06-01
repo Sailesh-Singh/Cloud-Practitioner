@@ -888,3 +888,8 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 	**In the third section**, we learned how to use Amazon S3 to create, configure, and manage storage with Amazon S3. We also learned about additional settings for security and data management.
 	
 	**In the final section**, we learned about the additional AWS storage services for block storage and file storage.
+
+    [<img src="assets/Summary.png" alt="Summary" width="100%" height="100%">]()
+    <p align="center">
+    <small><strong><i>Summary</i></strong></small>
+    </p>
