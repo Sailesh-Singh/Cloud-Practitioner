@@ -901,3 +901,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Continue your learning journey</i></strong></small>
     </p>
+
++	####	Thank you for choosing AWS Educate
