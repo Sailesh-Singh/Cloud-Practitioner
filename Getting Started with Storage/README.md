@@ -908,3 +908,5 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
     <p align="center">
     <small><strong><i>Thank you for choosing AWS Educate</i></strong></small>
     </p>
+
+### Getting Started with Amazon Simple Storage Service (Amazon S3) Lab Guide
