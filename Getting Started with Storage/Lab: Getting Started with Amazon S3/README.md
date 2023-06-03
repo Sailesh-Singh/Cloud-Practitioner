@@ -200,3 +200,6 @@ We have uploaded our file to the bucket.
     A report is displayed in the web browser.
 
     If we wait 5 minutes and use the link again, we will find that the URL has expired and no longer works.
+
+
+####    Task 6: Using a bucket policy to secure your bucket
