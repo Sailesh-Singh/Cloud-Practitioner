@@ -311,3 +311,4 @@ Recall that when we created your bucket, you turned on versioning. In this task,
 In this lab, we created a personalized, publicly accessible static website. We learned how to use a presigned URL to temporarily share objects in our bucket. We also protected our work with a bucket policy that prevents file deletion and turned on bucket versioning in case we need to recover previous versions of files. 
 
 
+### END OF LAB
