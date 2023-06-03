@@ -76,4 +76,4 @@ In this task, we create an S3 bucket and configure it for static website hosting
 
 +   Choose the **Properties** tab.
 
-
+####    Task 2: Configuring a static website on Amazon S3
