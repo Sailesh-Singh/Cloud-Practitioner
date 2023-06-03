@@ -164,3 +164,39 @@ Now we know how to share objects with everyone by making them public. However, t
 
 
 ####    Task 5: Securely sharing an object using a presigned URL
+
+When we need to temporarily and securely share an object with a person or group of people, we can create a presigned URL. When we create the URL, we must configure how long the URL will be valid. Then, we can share this URL with the users who should have access to the object.
+
+As long as the presigned URL is valid, anyone who has it can get to the object. Avoid keeping the URL active longer than necessary, and only share the URL with people we trust.
+
++   Choose (right-click) the following link, and download the file to our computer: Ensure that the file keeps the same file name, including the extension.
+
+    +   <a href="./assets/new-report.png">new-report.png</a>
+
++   Return to the Amazon S3 console, and choose the **Objects** tab.
++   Choose **Upload**
++   Choose **Add files**
++   Choose the file that we downloaded.
++   Choose **Upload**
+
+We have uploaded our file to the bucket.
+
++   Choose **Close**
+
+    Like when we first uploaded the website files, the **new-report.png** file is private by default. This time, instead of making the object public, we create a presigned URL to access the file.
+
++   In the **Objects** tab, choose **new-report.png**.
++   From the **Actions** menu, select **Share with a presigned URL**
+
++   In the pop-up window, configure the **Time interval until the presigned URL expires:**
+    +   Choose **Minutes**
+
++   Choose **Create presigned URL**
+
++   From the banner at the top of the page, choose **Copy presigned URL**.
+
++   Open a new browser tab, and paste the URL we copied into the address bar.
+
+    A report is displayed in the web browser.
+
+    If we wait 5 minutes and use the link again, we will find that the URL has expired and no longer works.
