@@ -914,4 +914,6 @@ Click <a href="./Getting Started with Storage/README.md">Getting Started with St
 This lab guide teaches you the basic feature functionality of Amazon Simple Storage Service (Amazon S3). _Click to [Learn more ...](https://awseducate.instructure.com/courses/908/modules/items/15802)_
 
 
-### Getting Started with Amazon Simple Storage Service (Amazon S3) Lab 
+### <a href="./Lab: Getting Started with Amazon S3/README.md">Getting Started with Amazon Simple Storage Service (Amazon S3) Lab</a>
+
+<a  href="./Lab: Getting Started with Amazon S3/README.md">Click to learn more ...</a>
