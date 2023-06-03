@@ -77,3 +77,24 @@ In this task, we create an S3 bucket and configure it for static website hosting
 +   Choose the **Properties** tab.
 
 ####    Task 2: Configuring a static website on Amazon S3
+You will now configure the bucket for static website hosting.
+
++   Scroll to the **Static website hosting** panel.
++   Choose **Edit**
+
++   Configure the following settings:
+
+    +   **Static web hosting:** Choose **Enable**.
+    +   **Hosting type:** Choose **Host a static website**.
+    +   **Index document:** Enter `index.html`
+    +   **Error document:** Enter **error.html** 
+    **Note:** You must enter `index.html` and `error.html` even though they are already displayed.
+
++   Choose **Save changes**
+
++   In the **Static website hosting** panel under **Bucket website endpoint**, choose the link.
+
+    You receive a _403 Forbidden_ message because you have not yet configured the bucket permissions. Keep this tab open in your web browser so that you can return to it later.
+
+    You have configured your bucket to host a static website.
+
