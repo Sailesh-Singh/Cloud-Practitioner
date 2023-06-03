@@ -285,3 +285,6 @@ Amazon S3 is an object storage service, so we must upload the whole file. This a
 Our name should now be on the page.
 
 Our static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
+
+
+####    Task 8: Exploring file versions
