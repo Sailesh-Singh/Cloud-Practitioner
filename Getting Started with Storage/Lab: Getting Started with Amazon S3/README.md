@@ -24,4 +24,4 @@ After completing this lab, we will know how to do the following:
 +   Update the website.
 +   View object versions in the Amazon S3 console.
 
-
+####   Duration
