@@ -26,3 +26,5 @@ After completing this lab, we will know how to do the following:
 
 ####   Duration
 This lab requires approximately **30 minutes** to complete. You will have a total time of **180 minutes** to complete this lab.
+
+#### Prerequisites
