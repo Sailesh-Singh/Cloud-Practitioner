@@ -203,3 +203,60 @@ We have uploaded our file to the bucket.
 
 
 ####    Task 6: Using a bucket policy to secure your bucket
+
+You want to protect your website files and make sure that no one can delete them. To do this, you apply a bucket policy that denies delete privileges on your website files.
+
++   Return to the Amazon S3 console, and choose the **Permissions** tab.
++   Under **Bucket policy**, choose **Edit**
++   Copy the following policy text. In the **Policy** text editor, replace the existing policy text with this text:
+
+```
+    {
+        "Version": "2012-10-17",
+        "Id": "MyBucketPolicy",
+        "Statement": [
+            {
+                "Sid": "BucketPutDelete",
+                "Effect": "Deny",
+                "Principal": "*",
+                "Action": "s3:DeleteObject",
+                "Resource": [
+                    "arn:aws:s3:::<bucket-name>/index.html",
+                    "arn:aws:s3:::<bucket-name>/script.js",
+                    "arn:aws:s3:::<bucket-name>/style.css"
+                ]
+            }
+        ]
+    }
+```
+This policy prevents everyone from deleting the three files that make our website work.
+
++   Next, you update the text in the policy editor. In the following lines of code in the policy editor, replace the _<bucket-name>_ placeholders with the name of our bucket.
+
+```
+    "arn:aws:s3:::<bucket-name>/index.html",
+    "arn:aws:s3:::<bucket-name>/script.js",
+    "arn:aws:s3:::<bucket-name>/style.css"
+```
+
+Our updated code should look similar to the following:
+
+```
+    "arn:aws:s3:::website-1234/index.html",
+    "arn:aws:s3:::website-1234/script.js",
+    "arn:aws:s3:::website-1234/style.css"
+```
+
+**Note:** Your bucket name will be different. Be sure to use the name of the bucket that you created.
+
++   Choose **Save changes**
++   Return to the the **Object tab**
++   Select **index.html**.
++   Choose **Delete**.
++   In the **Delete objects** panel, enter `delete` to confirm that you want to remove this file.
++   Choose **Delete objects**
++   Notice that the **index.html** file is listed in the **Failed to delete** pane.
+
+    This confirms that your policy is working and preventing the website’s files from being deleted.
+
++   Choose **Close** to return to the **Objects** tab.
