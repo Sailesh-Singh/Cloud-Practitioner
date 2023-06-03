@@ -161,3 +161,6 @@ Our static website is now publicly accessible.
 We should now see the static website that is being hosted by Amazon S3.
 
 Now we know how to share objects with everyone by making them public. However, there may be times when we need to share an individual object for a limited amount of time. In the next task, we learn how to temporarily share an object.
+
+
+####    Task 5: Securely sharing an object using a presigned URL
