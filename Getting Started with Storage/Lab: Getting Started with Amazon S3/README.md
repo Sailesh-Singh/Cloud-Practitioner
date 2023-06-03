@@ -40,3 +40,40 @@ This lab requires the following:
 ---
 
 ####    Task 1: Creating a bucket in Amazon S3
+
+In this task, we create an S3 bucket and configure it for static website hosting.
+
++   In the **AWS Management Console**, on the **Services** menu, choose **S3**.
+
++   Choose **Create bucket**
+
+    An S3 bucket name is globally unique, and all AWS accounts share the namespace. After you create a bucket, no other AWS accounts in any AWS Regions can use the name of that bucket unless you delete the bucket.
+
+    For this lab, we use a bucket name that includes a random number, such as **website-123**.
+
++   For **Bucket name**, enter `website-<123>` and replace _<123>_ with a random number.
+
+    Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.
+
++   For **Object Ownership**, choose **ACLs enabled**.
+
++   Choose **Bucket owner preferred**.
+
++   For **Block Public Access settings for this bucket**, clear the check box for **Block _all_ public access**, and then select the box that states **I acknowledge that the current settings might result in this bucket and the objects within becoming public**.
+
++   For **Bucket Versioning**, choose **Enable**.
+
+    >Note: Once you turn on (enable) bucket versioning, you can’t turn it off.
+
++   For **Tags**, choose **Add tag**, and enter the following:
+
+    +   **Key:** `Department`
+    +   **Value:** `Marketing` You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.
+
++   Choose **Create bucket**
+
++   In the **Buckets** section, choose the name of your new bucket.
+
++   Choose the **Properties** tab.
+
+
