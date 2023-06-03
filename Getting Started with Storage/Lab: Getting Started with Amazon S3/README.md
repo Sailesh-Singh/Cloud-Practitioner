@@ -121,3 +121,6 @@ In this task, you upload the static files to your bucket.
 Your files are uploaded to the bucket.
 
 +   Choose **Close**
+
+
+####    Task 4: Turning on public access to the objects
