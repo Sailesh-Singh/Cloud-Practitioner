@@ -108,9 +108,9 @@ In this task, you upload the static files to your bucket.
 
     Ensure that each file keeps the same file name, including the extension.
 
-    +   index.html
-    +   script.js
-    +   style.css
+    +   <a href="./src/index.html" target="_blank">index.html</a>
+    +   <a href="./src/script.js" target="_blank">script.js</a>
+    +   <a href="./src/style.css" target="_blank">style.css</a>
 
 +   Return to the Amazon S3 console, and choose the **Objects** tab.
 +   Choose **Upload**
