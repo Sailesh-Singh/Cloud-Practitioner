@@ -28,3 +28,11 @@ After completing this lab, we will know how to do the following:
 This lab requires approximately **30 minutes** to complete. You will have a total time of **180 minutes** to complete this lab.
 
 #### Prerequisites
+
+This lab requires the following:
+
++   A notebook computer running Microsoft Windows, macOS, or Linux (Ubuntu, SUSE, or Red Hat)
++   An internet connection
++   For Microsoft Windows users, administrator access to the computer
+
+><b>_Note:</b> This lab is incompatible with Internet Explorer 11. Use a different browser to launch this lab._
