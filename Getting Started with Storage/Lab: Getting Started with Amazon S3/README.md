@@ -260,3 +260,6 @@ Our updated code should look similar to the following:
     This confirms that your policy is working and preventing the website’s files from being deleted.
 
 +   Choose **Close** to return to the **Objects** tab.
+
+
+####    Task 7: Updating the website
