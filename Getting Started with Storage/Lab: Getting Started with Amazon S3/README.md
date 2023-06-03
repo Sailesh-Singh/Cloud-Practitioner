@@ -263,3 +263,25 @@ Our updated code should look similar to the following:
 
 
 ####    Task 7: Updating the website
+
+Although we have configured a policy to prevent deletion of website files, we can still update the website by editing the HTML file and uploading it to the S3 bucket again.
+
+Amazon S3 is an object storage service, so we must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object; instead, you must replace the whole object.
+
++   On your computer, load the **index.html** file into a text editor (for example, Notepad or TextEdit).
+
++   Find the text Served from Amazon S3, and replace it with `Created by <YOUR-NAME>` and substitute your name for _<YOUR-NAME>_ (for example, **Created by Sailesh**).
+
++   Save the file.
+
++   Return to the Amazon S3 console, and upload the **index.html** file that you just edited.
+
++   Choose **index.html**, and in the **Actions** menu, choose the **Make public using ACL** option again.
+
++   Choose **Make public**.
+
++   Return to the web browser tab with the static website, and refresh the page.
+
+Our name should now be on the page.
+
+Our static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
