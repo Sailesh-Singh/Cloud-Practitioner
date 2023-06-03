@@ -36,3 +36,7 @@ This lab requires the following:
 +   For Microsoft Windows users, administrator access to the computer
 
 ><b>_Note:</b> This lab is incompatible with Internet Explorer 11. Use a different browser to launch this lab._
+
+---
+
+####    Task 1: Creating a bucket in Amazon S3
