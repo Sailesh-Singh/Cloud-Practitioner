@@ -9,3 +9,11 @@ In this course, you acquire the knowledge that you need to start using Amazon EC
 
 
 ##	Objectives
+By the end of this course, you will be able to do the following:
+
++   Discuss different types of compute solutions and their features and benefits.
++   Discuss the basic features and concepts of Amazon EC2.
++   Describe EC2 instance types and how to choose an instance type.
++   Describe how to use Amazon EC2 to launch and configure an instance.
++   Describe how to manage EC2 instances.
++   Use Amazon EC2 to launch and manage and instance.
