@@ -6,3 +6,6 @@ When you consider running your workloads on Amazon Web Services (AWS), you will 
 You will then focus on Amazon Elastic Compute Cloud (Amazon EC2), a secure and resizable compute service that offers reliable, scalable infrastructure on demand. Customers of all sizes and industries can use the broad range of instance choices from Amazon EC2 to match their workloads’ needs. You will learn about the types of instances to meet your use case. These instance types include general purpose, compute optimized, memory optimized, storage optimized, and accelerated computing. 
 
 In this course, you acquire the knowledge that you need to start using Amazon EC2. You will learn about the key concepts and features of Amazon EC2. You will learn how to launch and configure an instance to meet your workload’s needs. You will choose storage for your compute instance and configure security to keep your data secure.  
+
+
+##	Objectives
