@@ -92,3 +92,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 			Bandwidth is the amount of data  that can be sent  over  a specified time.
 		+	######	Latency 
 			Latency is how long it takes the data to travel.
+
+	Every computer has an operating system. The operating system is the software package that manages the computer's hardware and software.
