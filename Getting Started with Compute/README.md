@@ -58,3 +58,8 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     </p>
 
 	For example, we rely on computing for communication, travel, medical equipment, scientific research, financial security, sales transactions, everyday business tasks, entertainment, and much more.
+
+    [<img src="assets/Examples_of_computing.png" alt="Examples_of_computing" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Examples of Computing</i></b></small>
+    </p>
