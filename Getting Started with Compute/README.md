@@ -73,3 +73,22 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     <p align="center">
     <small><b><i>Components of Computing</i></b></small>
     </p>
+
+
+	+	#####	CPU
+		CPU is the central processing unit. It is responsible for running and processing instructions that it is given.
+		
+	+	#####	RAM
+		Our Computer's memory, or RAM, stores data that the computer needs to carry out processing tasks. For example, when you run an application, the required data to run the application is temporarily stored on the RAM.
+		
+	+	#####	Hard drive
+		The hard drive is long-term storage where all of our files are stored and kept.
+		
+		
+	+	#####	Network Performance
+		The computer's network performance is the speed at  which a message can be sent or received. It is measured in two ways: bandwidth and latency.
+		
+		+	######	Bandwidth
+			Bandwidth is the amount of data  that can be sent  over  a specified time.
+		+	######	Latency 
+			Latency is how long it takes the data to travel.
