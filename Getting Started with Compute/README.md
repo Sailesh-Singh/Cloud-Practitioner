@@ -67,3 +67,9 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     At  its most base level, computing is the brain that makes IT applications work. It collects any necessary data, and it can then analyze that data, process that data, and, finally distribute that data.
 
     The main components of computing are CPU, memory, hard drive and network performance.
+
+
+    [<img src="assets/Components_of_computing.png" alt="Components_of_computing" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Components of Computing</i></b></small>
+    </p>
