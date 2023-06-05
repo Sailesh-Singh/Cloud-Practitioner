@@ -97,5 +97,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 	Every computer has an operating system. The operating system is the software package that manages the computer's hardware and software.
     
-
+	Some of the most familiar operating systems are Microsoft Windows, Linux, and Apple's MacOS. The operating system, combined with our computer's hardware and additional software, determines the capabilities of our computer.
     
