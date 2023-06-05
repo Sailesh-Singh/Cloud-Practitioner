@@ -103,4 +103,8 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     <p align="center">
     <small><b><i>Examples of OS</i></b></small>
     </p>
+
+	With the expansion of virtualization technologies, computing has moved into what is called the **cloud**.
+	
+	Cloud Computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. It alleviates the need to buy, own, and maintain physical data centers and servers. Instead, you can access  technology services, such as computing power, storage, and database, on as-needed basis from a cloud provider like AWS.
     
