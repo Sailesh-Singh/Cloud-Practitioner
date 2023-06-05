@@ -17,3 +17,5 @@ By the end of this course, we will be able to do the following:
 +   Describe how to use Amazon EC2 to launch and configure an instance.
 +   Describe how to manage EC2 instances.
 +   Use Amazon EC2 to launch and manage and instance.
+
+Click <a href="https://awseducate.instructure.com/courses/817">Getting Started with Compute</a>
