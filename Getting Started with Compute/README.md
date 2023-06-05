@@ -93,4 +93,9 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	######	Latency 
 			Latency is how long it takes the data to travel.
 
+    [<img src="assets/OS_packages.png" alt="OS_packages" align="right" width="100px" height="90px">]()
+
 	Every computer has an operating system. The operating system is the software package that manages the computer's hardware and software.
+    
+
+    
