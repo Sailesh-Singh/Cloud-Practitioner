@@ -36,7 +36,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 ### Introduction to Compute
 +   ####    Introduction to Compute
 
-    Computuing is the brain behind IT applications. Organizations all around the world run diverse workloads on different compute platforms. Dependin on our workload, we might need a different architectural method for how we set up our computing resources. 
+    Computing is the brain behind IT applications. Organizations all around the world run diverse workloads on different compute platforms. Dependin on our workload, we might need a different architectural method for how we set up our computing resources. 
 
     [<img src="assets/Introduction_to_Compute.png" alt="Introduction_to_Compute" align="left" width="100%" height="100%">]()
     <p align="center">
