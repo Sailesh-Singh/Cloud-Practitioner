@@ -63,3 +63,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     <p align="center">
     <small><b><i>Examples of Computing</i></b></small>
     </p>
+
+    At  its most base level, computing is the brain that makes IT applications work. It collects any necessary data, and it can then analyze that data, process that data, and, finally distribute that data.
+
+    The main components of computing are CPU, memory, hard drive and network performance.
