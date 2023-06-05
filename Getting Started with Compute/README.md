@@ -51,3 +51,8 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 +	####	What is computing?
 
     Computers have been around for a long time. Through the years, they have changed a lot. We rely on them for many things, including  things that we might not ordinarily associate with computers.
+
+    [<img src="assets/Computer_development.png" alt="Computer_development" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Computer Development</i></b></small>
+    </p>
