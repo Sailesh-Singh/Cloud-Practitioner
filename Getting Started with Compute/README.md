@@ -49,3 +49,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 
 +	####	What is computing?
+
+    Computers have been around for a long time. Through the years, they have changed a lot. We rely on them for many things, including  things that we might not ordinarily associate with computers.
