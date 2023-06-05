@@ -32,3 +32,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 [<img src="assets/Four_Sections.png" alt="Four_Sections" align="left" width="100%" height="100%">]()
 <small>**_Four Sections_**</small>
+
+### Introduction to Compute
