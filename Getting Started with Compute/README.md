@@ -19,3 +19,6 @@ By the end of this course, we will be able to do the following:
 +   Use Amazon EC2 to launch and manage and instance.
 
 Click <a href="https://awseducate.instructure.com/courses/817">Getting Started with Compute</a>
+
+[<img src="assets/Welcome_to_getting_started_with_compute.png" alt="Welcome_to_getting_started_with_storage.png" align="left" width="100%" height="100%">]()
+<small>**_Getting Started with Compute_**</small>
