@@ -108,3 +108,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 	
 	Cloud Computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. It alleviates the need to buy, own, and maintain physical data centers and servers. Instead, you can access  technology services, such as computing power, storage, and database, on as-needed basis from a cloud provider like AWS.
     
+    [<img src="assets/Cloud_Computing.png" alt="Cloud_Computing" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Cloud Computing</i></b></small>
+    </p>
