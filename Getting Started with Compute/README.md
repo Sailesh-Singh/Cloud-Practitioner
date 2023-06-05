@@ -38,8 +38,14 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
     Computuing is the brain behind IT applications. Organizations all around the world run diverse workloads on different compute platforms. Dependin on our workload, we might need a different architectural method for how we set up our computing resources. 
 
-    [<img src="assets/Introduction_to_Compute.png" alt="Introduction_to_Compute" align="left" width="100%" height="100%">]()<small>**_Introduction to Compute_**</small>
+    [<img src="assets/Introduction_to_Compute.png" alt="Introduction_to_Compute" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Introduction to Compute</i></b></small>
+    </p>
+
+    [<img src="assets/Introduction_to_Compute_2.png" alt="Introduction_to_Compute" align="left" width="100%" height="100%">]()
 
     In this section of the module, we will be introduced to the basics of compute, compute architectural methods, and some compute services that AWS offers.
 
-    [<img src="assets/Introduction_to_Compute_2.png" alt="Introduction_to_Compute" align="left" width="100%" height="100%">]()
+
++	####	What is computing?
