@@ -29,3 +29,6 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     ####  [2.  Amazon Elastic Compute Cloud (Amazon EC2)]()
     ####  [3.  Using Amazon EC2]()
     ####  [4.  Managing Amazon EC2]()
+
+[<img src="assets/Four_Sections.png" alt="Four_Sections" align="left" width="100%" height="100%">]()
+<small>**_Four Sections_**</small>
