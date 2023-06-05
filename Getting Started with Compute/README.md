@@ -113,9 +113,13 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     <small><b><i>Cloud Computing</i></b></small>
     </p>
 
-	+	####	Benefits of Cloud computing
+    +	####	Benefits of Cloud computing
 		Cloud computing has several benefits compared to on-permises computing.
-		+	#####	Save on costs
+		<!-- +	#####	Save on costs
 		+	#####	Scalable
-		+	#####	Reliable
+		+	#####	Reliable -->
 		
+        [<img src="assets/Benefits_of_Cloud-Computing.png" alt="Benefits_of_Cloud-Computing.png" align="left" width="100%" height="100%">]()
+        <p align="center">
+        <small><b><i>Benefits of Cloud computing</i></b></small>
+        </p>
