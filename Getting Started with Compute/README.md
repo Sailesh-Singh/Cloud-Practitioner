@@ -24,3 +24,8 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 <small>**_Getting Started with Compute_**</small>
 
 +   In this module we learn about the compute domain and the Amazon Elastic Compute Cloud (Amazon EC2) service. It is broken into four sections.
+
+    ####  [1.  Introduction to Compute]()
+    ####  [2.  Amazon Elastic Compute Cloud (Amazon EC2)]()
+    ####  [3.  Using Amazon EC2]()
+    ####  [4.  Managing Amazon EC2]()
