@@ -56,3 +56,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     <p align="center">
     <small><b><i>Computer Development</i></b></small>
     </p>
+
+	For example, we rely on computing for communication, travel, medical equipment, scientific research, financial security, sales transactions, everyday business tasks, entertainment, and much more.
