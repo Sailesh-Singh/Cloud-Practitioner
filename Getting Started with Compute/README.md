@@ -135,3 +135,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Hosting environment
 		+	Development and testing environments
 		+	Backup and disaster recovery
+
+	+	#####	Containers
