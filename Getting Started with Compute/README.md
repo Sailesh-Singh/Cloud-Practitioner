@@ -137,3 +137,11 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Backup and disaster recovery
 
 	+	#####	Containers
+
+		**Containers** are a method of operating system virtualization that we can use to run an application and its dependencies in resource-isolated processes. By using containers, we can package an application's code, configurations, and dependencies into simple building blocks that deliver environmental consistency, operational efficiency, developer productivity, and version control.
+		Containers are smaller than virtual machines and do not contain an entire operating system. Instead, containers share a virtualized operating system and run as resource-isolated processes, which ensure quick, reliable, and consistent deployments. Containers hold everything that the software needs to run, such as libraries, system tools, code, and the runtime.
+		
+		**Containers use case** include the folllowing:
+		+	Building microservices architecture
+		+	Video rendering services
+		+	Quick development and deployment
