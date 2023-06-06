@@ -126,3 +126,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 +	####	Computing Methods
     When deciding which computing method would work best for our architecture, we might consider instances, containers, serverless, or a hybrid of cloud and on-premises computing.
+
+    +	#####	Instances
