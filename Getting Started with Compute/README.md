@@ -154,3 +154,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Web applications 
 		+	Mobile backends
 		+	Cron jobs (scheduled computing tasks)
+
+	+	#####	Hybrid	
