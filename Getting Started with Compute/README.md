@@ -128,3 +128,10 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     When deciding which computing method would work best for our architecture, we might consider instances, containers, serverless, or a hybrid of cloud and on-premises computing.
 
     +	#####	Instances
+
+		An **instance**, or virtual machine, is a computing resource in the cloud. It works like a traditional on-premises server. it can support workloads such as web hosting, applications, databases, authentication services, and anything else a serveer can do. We choose the operating system (OS), CPU, memory, storage, and other components, and in a few minutes, our instance is ready to use. As soon as we're done, we can stop or terminate the instances. We're not locked in or stuck with servers that we don't need or want. We can treat instances as temproary and disposable computing resources, free from the inflexibility and constraints of a fixed and finite IT infrastructure.
+		
+		**Instance use cases** include the following:
+		+	Hosting environment
+		+	Development and testing environments
+		+	Backup and disaster recovery
