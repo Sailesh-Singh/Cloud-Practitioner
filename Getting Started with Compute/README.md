@@ -147,3 +147,10 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Quick development and deployment
 
 	+	#####	Serverless
+		**Serverless computing** gives you the ability to run code without provisioning or managing servers. Serverless computing features automatic scaling, built-in high availability, and a pay-for-use billing model to increase agility and optimize costs. Serverless computing also eliminates infrastructure management tasks like capacity provisioning and patching, so we can focus on writing code that serves our customers.
+		
+		**Serverless use cases** include the following:
+		+	File processing 
+		+	Web applications 
+		+	Mobile backends
+		+	Cron jobs (scheduled computing tasks)
