@@ -145,3 +145,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Building microservices architecture
 		+	Video rendering services
 		+	Quick development and deployment
+
+	+	#####	Serverless
