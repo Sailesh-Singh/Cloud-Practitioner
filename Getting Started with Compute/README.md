@@ -123,3 +123,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
         <p align="center">
         <small><b><i>Benefits of Cloud computing</i></b></small>
         </p>
+
++	####	Computing Methods
