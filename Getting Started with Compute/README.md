@@ -185,3 +185,6 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		To manage your containers, you must install an open-source Amazon ECS container agent on your EC2 instances. This agent is referred to as a container instance. You can run this agent on both Linux and Windows Amazon Machine Images (AMIs). Amazon ECS uses API calls to control Docker-enabled applications.
 
 	+	#####	Amazon EKS
+
+		Amazon Elastic Kubernetes Service (Amazon EKS) provides the flexibility to start, run, and scale Kubernetes applications in the AWS Cloud or on premises. Kubernetes is an open-source platform for managing containerized applications. It is portable and extensible.
+		With Amazon EKS, you will be able to provide highly available and secure clusters. It automates patching, node provisioning, and updates.
