@@ -168,3 +168,8 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 +	####	AWS Computing Services
 	+	#####	Amazon EC2
+		Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure and resizable compute capacity in the cloud. You can use it to provision virtual servers that are called Amazon EC2 instances, which can handle almost any computing need.
+		With Amazon EC2 you can do the following:
+		+	Provision and launch one or more EC2 instances in minutes.
+		+	Stop or shut down EC2 instances when you finish running a workload. 
+		+	Pay for only the compute time that you use when running an instance.
