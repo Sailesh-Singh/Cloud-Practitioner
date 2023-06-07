@@ -194,3 +194,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		AWS Fargate is a serverless compute engine for containers. It supports both Amazon ECS and Amazon EKS architectures. Fargate allocates the right amount of compute, which reduces the need to manage EC2 instances, cluster capacity, and scaling.
 
 	+	#####	AWS Elastic Beanstalk
+
+        AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications. You can upload your code, and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.
+        
+        There is no additional charge for Elastic Beanstalk; you pay for only the AWS resources needed to store and run your applications.
