@@ -190,3 +190,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		With Amazon EKS, you will be able to provide highly available and secure clusters. It automates patching, node provisioning, and updates.
 
 	+	#####	AWS Fargate
+
+		AWS Fargate is a serverless compute engine for containers. It supports both Amazon ECS and Amazon EKS architectures. Fargate allocates the right amount of compute, which reduces the need to manage EC2 instances, cluster capacity, and scaling.
