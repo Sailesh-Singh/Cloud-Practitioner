@@ -167,3 +167,4 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Government regulatory requirements
 
 +	####	AWS Computing Services
+	+	#####	Amazon EC2
