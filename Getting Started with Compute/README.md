@@ -164,4 +164,6 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		**Hybrid use cases** include the following:
 		+	Legacy applications
 		+	Company regulatory requirements
-		+	Government regulatory requirements  
+		+	Government regulatory requirements
+
++	####	AWS Computing Services
