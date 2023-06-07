@@ -173,3 +173,6 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		+	Provision and launch one or more EC2 instances in minutes.
 		+	Stop or shut down EC2 instances when you finish running a workload. 
 		+	Pay for only the compute time that you use when running an instance.
+
+	+	#####	AWS Lambda
+
