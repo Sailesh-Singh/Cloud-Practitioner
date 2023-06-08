@@ -200,3 +200,4 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
         There is no additional charge for Elastic Beanstalk; you pay for only the AWS resources needed to store and run your applications.
 
 ###	Introduction to Amazon EC2
+In this section, we will be introduced to Amazon EC2, a cloud computing service. Amazon EC2 is a web service that provides resizable compute capacity in the cloud at affordable costs all around the world.
