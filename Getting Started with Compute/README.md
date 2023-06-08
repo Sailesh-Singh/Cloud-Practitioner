@@ -201,3 +201,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 ###	Introduction to Amazon EC2
 In this section, we will be introduced to Amazon EC2, a cloud computing service. Amazon EC2 is a web service that provides resizable compute capacity in the cloud at affordable costs all around the world.
+
++	####	What is Amazon  EC2?
