@@ -203,3 +203,5 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 In this section, we will be introduced to Amazon EC2, a cloud computing service. Amazon EC2 is a web service that provides resizable compute capacity in the cloud at affordable costs all around the world.
 
 +	####	What is Amazon  EC2?
+
+	Amazon EC2, is a compute service that _provides resizable compute capacity in the cloud_. It's designed to make web-scale computing easier for developers. It eliminates the need to invest in hardware up front, so you can focus on developing and deploying applications faster. We can use Amazon EC2 to launch as many _virtual server_, also known as **compute instances**, as we need.
