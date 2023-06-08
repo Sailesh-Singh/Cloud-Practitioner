@@ -205,3 +205,21 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
 +	####	What is Amazon  EC2?
 
 	Amazon EC2, is a compute service that _provides resizable compute capacity in the cloud_. It's designed to make web-scale computing easier for developers. It eliminates the need to invest in hardware up front, so you can focus on developing and deploying applications faster. We can use Amazon EC2 to launch as many _virtual server_, also known as **compute instances**, as we need.
+
+	+	#####	EC2 instance types
+
+		Amazon EC2 offers a wide selection of instance types optimized to fit different use cases. Instance types are composed of
+		
+		+	CPU
+		+	Memory
+		+	Storage
+		+	Networking Capacity
+		
+		Amazon EC2 instances are **_reliable, scalable, highly available, and cost effective_**. 
+	
+	+	#####	Amazon EC2 purchasing options
+
+		+	On-Demand Instances
+		+	Savings Plans
+		+	Dedicated Hosts
+		+	Spot instances
