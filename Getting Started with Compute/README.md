@@ -231,6 +231,7 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
 
 +	####	Amazon EC2 Overview
 
-
+	Amazon EC2 provides virtual machines in the cloud and gives us full administrative control over the operating system that runs on the instance. Amazon EC2 supports most server operating systems, including Windows and Linux.
+	With Amazon EC2, we can launch any number of instances of any size into any Availability Zone anywhere in the world in a matter of minutes. We can also control traffic to and from instances by using security groups and Elastic Load Balancing (ELB). Amazon EC2 can host the same kinds of applications that we might run on a traditional on-premises server.
 
 
