@@ -228,3 +228,9 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
 		+	Savings Plans
 		+	Dedicated Hosts
 		+	Spot instances
+
++	####	Amazon EC2 Overview
+
+
+
+
