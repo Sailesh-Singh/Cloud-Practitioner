@@ -258,4 +258,14 @@ We can use Amazon EC2 to increase or decrease capacity within minutes, not hours
 </td>
 <tr>
 
+<tr>
+<th>
+	
+	Complete control
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
