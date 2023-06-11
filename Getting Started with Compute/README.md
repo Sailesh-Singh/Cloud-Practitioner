@@ -321,11 +321,11 @@ For more information about Amazon EC2 pricing, see the <a href="https://aws.amaz
 
 <tr>
 <th>
-	
-Get started quickly
+	<img src="assets/Get_started_quickly.png" alt="Get started quickly" align="center" width="100px" height="100px"><br>
+	Get started quickly
 </th>
 <td>
-
+We can get started quickly with Amazon EC2. Whether we launch an instance programmatically or through the AWS Management Console, our instances will be ready to use in minutes. When we no longer need the instances, we can stop or terminate them as quickly as we started them.
 </td>
 <tr>
 
