@@ -310,11 +310,12 @@ Security is our highest priority. As an AWS customer, we will benefit from a dat
 
 <tr>
 <th>
-
-Inexpensive
+	<img src="assets/Inexpensive.png" alt="Inexpensive" align="center" width="100px" height="100px"><br>
+	Inexpensive
 </th>
 <td>
-
+Using Amazon EC2, we can take advantage of Amazon's scale-you can pay a very low rate for the compute capacity that we actually consume.
+For more information about Amazon EC2 pricing, see the <a href="https://aws.amazon.com/ec2/pricing/?trk=36c6da98-7b20-48fa-8225-4784bced9843&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Compute|EC2|US|EN|Text&s_kwcid=AL!4422!3!488982705483!p!!g!!amazon%20ec2&ef_id=CjwKCAjw7vuUBhBUEiwAEdu2pFivmVo-FtkL4LGDqt2DTC4ADQ5jtqayYy9VLodSssQxZvZ-ptsVXBoCJ9YQAvD_BwE:G:s&s_kwcid=AL!4422!3!488982705483!p!!g!!amazon%20ec2"> Amazon EC2 Pricing </a>page.
 </td>
 <tr>
 
