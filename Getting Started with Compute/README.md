@@ -249,8 +249,13 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
 
 <table>
 <tr>
-<th>Elastic computing</th>
-<td></td>
+<th>
+	<img src="assets/Elastic_computing﻿.png" alt="Elastic computing" align="center" width="100px" height="100px"><br>
+	Elastic computing
+</th>
+<td>
+We can use Amazon EC2 to increase or decrease capacity within minutes, not hours or days. We can commission one, hundreds, or even thousands of server instances simultaneously. We can also use Amazon EC2 Auto Scaling to maintain availability of our Amazon EC2 fleet and automatically scale our fleet up and down depending on our needs to maximize performance and minimize cost. To scale multiple services, we can use AWS Auto Scaling.
+</td>
 <tr>
 
 </table>
