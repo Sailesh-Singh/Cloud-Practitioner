@@ -248,6 +248,9 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
     </p>
 
 <table>
-
+<tr>
+<th>Elastic computing</th>
+<td></td>
+<tr>
 
 </table>
