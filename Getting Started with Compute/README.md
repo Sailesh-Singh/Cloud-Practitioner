@@ -300,11 +300,11 @@ Amazon EC2 offers a highly reliable environment where replacement instances can 
 
 <tr>
 <th>
-
-Secure
+	<img src="assets/Secure.png" alt="Secure" align="center" width="100px" height="100px"><br>
+	Secure
 </th>
 <td>
-
+Security is our highest priority. As an AWS customer, we will benefit from a data center and network architecture that's built to meet the requirements of the most security-sensitive organizations. Amazon EC2 works in conjunction with Amazon VPC to provide security and robust networking functionality for our compute resources.
 </td>
 <tr>
 
