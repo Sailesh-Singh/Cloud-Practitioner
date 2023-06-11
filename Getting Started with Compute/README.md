@@ -280,11 +280,11 @@ We have the choice of multiple instance types, operating systems, and software p
 
 <tr>
 <th>
-	
-Integrated
+	<img src="assets/Integrated.png" alt="Integrated" align="center" width="100px" height="100px"><br>
+	Integrated
 </th>
 <td>
-
+Amazon EC2 is integrated with most AWS services. For example, these services could include Amazon Simple Storage Service (Amazon S3), Amazon Relational Database Service (Amazon RDS), and Amazon Virtual Private Cloud (Amazon VPC). This integration provides a complete, secure solution for computing, query processing, and cloud storage across a wide range of applications.
 </td>
 <tr>
 
