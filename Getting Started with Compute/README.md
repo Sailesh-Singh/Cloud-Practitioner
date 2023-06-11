@@ -247,7 +247,7 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
     <small><b><i>Amazon EC2 benefits</i></b></small>
     </p>
 
-<details>
+<details open>
 <summary><b>Click to learn more about Amazon EC2 benefits</b></summary>	
 
 <table>
