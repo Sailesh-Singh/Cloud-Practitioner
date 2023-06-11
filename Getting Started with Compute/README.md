@@ -319,4 +319,14 @@ For more information about Amazon EC2 pricing, see the <a href="https://aws.amaz
 </td>
 <tr>
 
+<tr>
+<th>
+	
+Get started quickly
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
