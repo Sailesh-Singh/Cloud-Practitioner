@@ -278,4 +278,14 @@ We have the choice of multiple instance types, operating systems, and software p
 </td>
 <tr>
 
+<tr>
+<th>
+	
+Integrated
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
