@@ -260,7 +260,7 @@ We can use Amazon EC2 to increase or decrease capacity within minutes, not hours
 
 <tr>
 <th>
-	<img src="assets/Complete_control.png" alt="Elastic computing" align="center" width="100px" height="100px"><br>
+	<img src="assets/Complete_control.png" alt="Complete control" align="center" width="100px" height="100px"><br>
 	Complete control
 </th>
 <td>
@@ -270,11 +270,11 @@ We have complete control of our instances, including root access, and the abilit
 
 <tr>
 <th>
-	
-Flexible hosting services
+	<img src="assets/Flexible_hosting_services.png" alt="Flexible hosting services" align="center" width="100px" height="100px"><br>
+	Flexible hosting services
 </th>
 <td>
-
+We have the choice of multiple instance types, operating systems, and software packages. With Amazon EC2, you can select a configuration of memory, CPU, instance storage, and boot partition size that's optimal for our choice of operating system and application. For example, choice of operating systems includes numerous Linux distributions and Microsoft Windows Server.
 </td>
 <tr>
 
