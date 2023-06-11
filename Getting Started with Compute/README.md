@@ -288,4 +288,14 @@ Amazon EC2 is integrated with most AWS services. For example, these services cou
 </td>
 <tr>
 
+<tr>
+<th>
+
+Reliable
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
