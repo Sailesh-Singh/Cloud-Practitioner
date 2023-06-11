@@ -308,4 +308,14 @@ Security is our highest priority. As an AWS customer, we will benefit from a dat
 </td>
 <tr>
 
+<tr>
+<th>
+
+Inexpensive
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
