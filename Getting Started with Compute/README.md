@@ -242,3 +242,12 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
 
 +	####	Amazon EC2 benefits
 
+	[<img src="assets/Amazon_EC2_benefits.png" alt="Amazon_EC2_benefits" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Amazon EC2 benefits</i></b></small>
+    </p>
+
+<table>
+
+
+</table>
