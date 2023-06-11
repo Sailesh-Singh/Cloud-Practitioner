@@ -268,4 +268,14 @@ We have complete control of our instances, including root access, and the abilit
 </td>
 <tr>
 
+<tr>
+<th>
+	
+Flexible hosting services
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
