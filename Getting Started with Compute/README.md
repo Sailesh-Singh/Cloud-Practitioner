@@ -290,11 +290,11 @@ Amazon EC2 is integrated with most AWS services. For example, these services cou
 
 <tr>
 <th>
-
-Reliable
+	<img src="assets/Reliable.png" alt="Reliable" align="center" width="100px" height="100px"><br>
+	Reliable
 </th>
 <td>
-
+Amazon EC2 offers a highly reliable environment where replacement instances can be rapidly and predictably commissioned. The service runs within the proven network infrastructure and data centers of Amazon.
 </td>
 <tr>
 
