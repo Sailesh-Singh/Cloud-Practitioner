@@ -298,4 +298,14 @@ Amazon EC2 offers a highly reliable environment where replacement instances can 
 </td>
 <tr>
 
+<tr>
+<th>
+
+Secure
+</th>
+<td>
+
+</td>
+<tr>
+
 </table>
