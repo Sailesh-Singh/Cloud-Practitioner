@@ -247,6 +247,9 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
     <small><b><i>Amazon EC2 benefits</i></b></small>
     </p>
 
+<details>
+<summary><b>Click to learn more about Amazon EC2 benefits</b></summary>	
+
 <table>
 <tr>
 <th>
@@ -330,3 +333,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 <tr>
 
 </table>
+
+</details>
