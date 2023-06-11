@@ -260,11 +260,11 @@ We can use Amazon EC2 to increase or decrease capacity within minutes, not hours
 
 <tr>
 <th>
-	
+	<img src="assets/Complete_control.png" alt="Elastic computing" align="center" width="100px" height="100px"><br>
 	Complete control
 </th>
 <td>
-
+We have complete control of our instances, including root access, and the ability to interact with them as we would any machine. We can stop any instance while retaining the data on the boot partition and then subsequently restart the same instance by using web service APIs. Instances can be rebooted remotely by using web service APIs, and we also have access to their console output.
 </td>
 <tr>
 
