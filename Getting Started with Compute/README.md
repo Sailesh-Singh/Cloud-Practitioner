@@ -355,5 +355,9 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Amazon EC2 architectural components
 
 	+	#####	Regions
+		[<img src="assets/Amazon_EC2_arcitectural_components-Regions.png" alt="Amazon_EC2_arcitectural_components-Regions" align="left" width="100%" height="100%">]()
+		<p align="center">
+		<small><b><i>Regions</i></b></small>
+		</p>
 		When we launch an EC2 instance, you must choose the Region that we want to provision the instance in. A Region is a physical location around the world where AWS clusters data centers.
 		Each Region is designed to be isolated from the other Regions. This separation achieves the greatest possible fault tolerance and stability. Ideally, when you launch an instance, we want to choose the Region that is closest to our users to help cut down on latency.
