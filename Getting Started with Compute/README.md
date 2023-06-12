@@ -339,5 +339,15 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Amazon EC2 architecture
 
 	We'll be deciding which Region, Virtual Private Cloud (VPC) on AWS, subnet, and security group to place it in. First, we must choose the the Region. AWS has Regions all over the globe.
+
+	[<img src="assets/Amazon_EC2_Environment.png" alt="Amazon_EC2_Environment" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Amazon EC2 Environment</i></b></small>
+    </p>
 	
 	The Region is the outer portion of our architecture. Next, we choose the VPC on AWS that we want to place our EC2 instance in. Within each VPC, we can then specify the subnet to place the EC2 instance in. Each EC2 instance will be placed behind a security group, with the security configurations that we have set up, when we launch the instance. For high availability, it is a best practice to place our instances in multiple subnets in different Availability Zones. Then, have an Elastic Load Balancer attached to route traffic based on our application needs.
+
+	[<img src="assets/Amazon_EC2_architecture.png" alt="Amazon_EC2_architecture" align="left" width="100%" height="100%">]()
+    <p align="center">
+    <small><b><i>Amazon EC2 Architecture</i></b></small>
+    </p>
