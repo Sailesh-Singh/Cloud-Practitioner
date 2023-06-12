@@ -351,3 +351,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
     <p align="center">
     <small><b><i>Amazon EC2 Architecture</i></b></small>
     </p>
+
++	####	Amazon EC2 architectural components
