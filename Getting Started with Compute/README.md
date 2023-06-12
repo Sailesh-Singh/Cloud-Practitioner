@@ -364,29 +364,35 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	#####	VPC
 
-		[<img src="assets/Amazon_EC2_arcitectural_components-VPC.png" alt="Amazon_EC2_arcitectural_components-VPC" align="left" width="100%" height="100%">]()
+		EC2 instances are launched in the VPC that we choose. Amazon VPC is a service that lets us launch AWS resources in a logically isolated virtual network that we define. When we set up an AWS account, we are given a default VPC. However, we can create multiple VPCs in a single Region or place them in different Regions.
+		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
+
+		<p align="center">
+		<img src="assets/Amazon_EC2_arcitectural_components-VPC.png" alt="Amazon_EC2_arcitectural_components-VPC"  width="400px" height="300px">
+		</p>
 		<p align="center">
 		<small><b><i>VPC</i></b></small>
 		</p>
 
-		EC2 instances are launched in the VPC that we choose. Amazon VPC is a service that lets us launch AWS resources in a logically isolated virtual network that we define. When we set up an AWS account, we are given a default VPC. However, we can create multiple VPCs in a single Region or place them in different Regions.
-		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
-
 	+	#####	Subnets
-
-		[<img src="assets/Amazon_EC2_arcitectural_components-Subnets.png" alt="Amazon_EC2_arcitectural_components-Subnets" align="left" width="100%" height="100%">]()
-		<p align="center">
-		<small><b><i>Subnets</i></b></small>
-		</p>
 
 		Within each VPC, we can specify the subnet to place the EC2 instance in. A subnet is a range of IP addresses in your VPC. Use a public subnet for resources that must be connected to the internet and a private subnet for resources that won't be connected to the internet.
 		Subnets are associated with only one Availability Zone. You will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help you understand the architectural environment that your EC2 instance will be launched in.
 
+		<p align="center">
+		<img src="assets/Amazon_EC2_arcitectural_components-Subnets.png" alt="Amazon_EC2_arcitectural_components-Subnets"  width="400px" height="300px">
+		</p>
+		<p align="center">
+		<small><b><i>Subnets</i></b></small>
+		</p>
+
 	+	#####	Security groups
 
-		[<img src="assets/Amazon_EC2_arcitectural_components-SecurityGroups.png" alt="Amazon_EC2_arcitectural_components-SecurityGroups" align="left" width="100%" height="100%">]()
+		When we launch our EC2 instance, it will be protected by a security group that we select while configuring the instance. A security group acts as a virtual firewall for our EC2 instances to control incoming and outgoing traffic. We want to build our application to be highly available and fault tolerant. To do so, a best practice is to launch instances in multiple Availability Zones and attach an Elastic Load Balancer. An Elastic Load Balancer automatically distributes incoming application traffic across multiple targets and virtual instances in one or more Availability Zones.
+
+		<p align="center">
+		<img src="assets/Amazon_EC2_arcitectural_components-SecurityGroups.png" alt="Amazon_EC2_arcitectural_components-SecurityGroups" width="400px" height="300px">
+		</p>
 		<p align="center">
 		<small><b><i>Security groups</i></b></small>
 		</p>
-
-		When we launch our EC2 instance, it will be protected by a security group that we select while configuring the instance. A security group acts as a virtual firewall for our EC2 instances to control incoming and outgoing traffic. We want to build our application to be highly available and fault tolerant. To do so, a best practice is to launch instances in multiple Availability Zones and attach an Elastic Load Balancer. An Elastic Load Balancer automatically distributes incoming application traffic across multiple targets and virtual instances in one or more Availability Zones.
