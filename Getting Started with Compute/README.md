@@ -363,3 +363,6 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Each Region is designed to be isolated from the other Regions. This separation achieves the greatest possible fault tolerance and stability. Ideally, when you launch an instance, we want to choose the Region that is closest to our users to help cut down on latency.
 
 	+	#####	VPC
+
+		EC2 instances are launched in the VPC that we choose. Amazon VPC is a service that lets us launch AWS resources in a logically isolated virtual network that we define. When we set up an AWS account, we are given a default VPC. However, we can create multiple VPCs in a single Region or place them in different Regions.
+		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
