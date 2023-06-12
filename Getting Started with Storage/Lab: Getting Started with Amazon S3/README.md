@@ -45,6 +45,13 @@ In this task, we create an S3 bucket and configure it for static website hosting
 
 +   In the **AWS Management Console**, on the **Services** menu, choose **S3**.
 
+    <p align="center">
+    <img src="assets/Amazon-S3_Service_menu.png" alt="Amazon-S3_Service_menu"  width="100%" height="100%">
+    </p>
+    <p align="center">
+    <small><b><i>Services Menu</i></b></small>
+    </p>
+
 +   Choose **Create bucket**
 
     An S3 bucket name is globally unique, and all AWS accounts share the namespace. After we create a bucket, no other AWS accounts in any AWS Regions can use the name of that bucket unless we delete the bucket.
