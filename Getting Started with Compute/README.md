@@ -374,5 +374,10 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	#####	Subnets
 
+		[<img src="assets/Amazon_EC2_arcitectural_components-Subnets.png" alt="Amazon_EC2_arcitectural_components-Subnets" align="left" width="100%" height="100%">]()
+		<p align="center">
+		<small><b><i>Subnets</i></b></small>
+		</p>
+
 		Within each VPC, we can specify the subnet to place the EC2 instance in. A subnet is a range of IP addresses in your VPC. Use a public subnet for resources that must be connected to the internet and a private subnet for resources that won't be connected to the internet.
 		Subnets are associated with only one Availability Zone. You will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help you understand the architectural environment that your EC2 instance will be launched in.
