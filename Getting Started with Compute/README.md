@@ -373,3 +373,6 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
 
 	+	#####	Subnets
+
+		Within each VPC, we can specify the subnet to place the EC2 instance in. A subnet is a range of IP addresses in your VPC. Use a public subnet for resources that must be connected to the internet and a private subnet for resources that won't be connected to the internet.
+		Subnets are associated with only one Availability Zone. You will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help you understand the architectural environment that your EC2 instance will be launched in.
