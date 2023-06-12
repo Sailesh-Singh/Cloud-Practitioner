@@ -383,3 +383,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Subnets are associated with only one Availability Zone. You will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help you understand the architectural environment that your EC2 instance will be launched in.
 
 	+	#####	Security groups
+
+		When we launch our EC2 instance, it will be protected by a security group that we select while configuring the instance. A security group acts as a virtual firewall for our EC2 instances to control incoming and outgoing traffic. We want to build our application to be highly available and fault tolerant. To do so, a best practice is to launch instances in multiple Availability Zones and attach an Elastic Load Balancer. An Elastic Load Balancer automatically distributes incoming application traffic across multiple targets and virtual instances in one or more Availability Zones.
