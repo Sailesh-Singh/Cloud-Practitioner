@@ -45,12 +45,8 @@ In this task, we create an S3 bucket and configure it for static website hosting
 
 +   In the **AWS Management Console**, on the **Services** menu, choose **S3**.
 
-    <p align="center">
-    <img src="assets/Amazon-S3_Service_menu.png" alt="Amazon-S3_Service_menu"  width="100%" height="100%">
-    </p>
-    <p align="center">
-    <small><b><i>Services Menu</i></b></small>
-    </p>
+    [<img src="assets/Amazon-S3_Service_menu.png" alt="Amazon-S3_Service_menu"  width="80%" height="80%">]()
+    
 
 +   Choose **Create bucket**
 
@@ -61,6 +57,8 @@ In this task, we create an S3 bucket and configure it for static website hosting
 +   For **Bucket name**, enter `website-<123>` and replace _<123>_ with a random number.
 
     Public access to buckets is blocked by default. Because the files in our static website will need to be accessible through the internet, we must permit public access.
+
+    [<img src="assets/Amazon-S3_Create_bucket.png" alt="Amazon-S3_Create_bucket.png"  width="90%" height="100%">]()
 
 +   For **Object Ownership**, choose **ACLs enabled**.
 
