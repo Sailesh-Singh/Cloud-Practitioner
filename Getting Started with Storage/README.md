@@ -790,25 +790,38 @@ Click <a href="https://awseducate.instructure.com/courses/908">Getting Started w
     </p>
 
     +	#####	Data availability
+
+        <img src="assets/Data_availability.png" alt="Data availability" align="left" width="150px" height="100px">
+
         When you create an EBS volume, it is automatically replicated within its Availability Zone to prevent data loss due to failure of any single hardware component. You can attach an EBS volume to any EC2 instance in the same Availability Zone. After you attach a volume, it appears as a native block device similar to a hard drive or other physical device. At that point, the instance can interact with the volume just as it would with a local drive.
 
     +	#####	Data persistence
+        <img src="assets/Data_persistence.png" alt="Data persistence" align="left" width="100px" height="120px">
+
         An EBS volume is off-instance storage that can persist independently from the life of an instance. You continue to pay for the volume usage as long as the data persists.
 		EBS volumes can be set to automatically detach from the instance with the data intact and can be reattached to a new instance, enabling quick recovery.
 		If you are using an EBS-backed instance, you can stop and restart that instance without affecting the data stored in the attached volume. The volume remains attached throughout the stop-start cycle.
 
     +	#####	Data encryption
+        <img src="assets/Data_encryption.png" alt="Data encryption" align="left" width="120px" height="100px">
+
         For data encryption, you can create encrypted EBS volumes with the Amazon EBS encryption feature. All EBS volume types support encryption. Amazon EBS encryption uses 256-bit Advanced Encryption Standard algorithms (AES-256) and an Amazon-managed key infrastructure. The encryption occurs on the server that hosts the EC2 instance, providing encryption of data-in-transit from the EC2 instance to Amazon EBS storage.
 
     +	#####	Data security
+        <img src="assets/Data_security.png" alt="Data security" align="left" width="100px" height="90px">
+
         Amazon EBS volumes are presented to you as raw, unformatted block devices. These devices are logical devices that are created on the EBS infrastructure. The Amazon EBS service verifies that the devices are logically empty prior to any use or reuse by a customer.
 
     +	#####	Snapshots
+        <img src="assets/Snapshots.png" alt="Snapshots" align="left" width="130px" height="100px">
+
         You can back up the data on your Amazon EBS volumes to Amazon S3 by taking point-in-time snapshots.
 		Snapshots are incremental backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. This method minimizes the time required to create the snapshot and saves on storage costs by not duplicating data.
 		Each snapshot contains all of the information that is needed to restore your data (from the moment when the snapshot was taken) to a new EBS volume.
 
     +	#####	Flexibility
+        <img src="assets/Flexibility.png" alt="Flexibility" align="left" width="120px" height="100px">
+
         Amazon EBS is flexible, which means that you can make changes without service interruptions. You can modify the volume type, volume size, and IOPS capacity while in production.
 		When you make a change, you are only charged for the new volume configuration after the change is in effect.
 
