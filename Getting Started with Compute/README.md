@@ -364,5 +364,10 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	#####	VPC
 
+		[<img src="assets/Amazon_EC2_arcitectural_components-VPC.png" alt="Amazon_EC2_arcitectural_components-VPC" align="left" width="100%" height="100%">]()
+		<p align="center">
+		<small><b><i>VPC</i></b></small>
+		</p>
+
 		EC2 instances are launched in the VPC that we choose. Amazon VPC is a service that lets us launch AWS resources in a logically isolated virtual network that we define. When we set up an AWS account, we are given a default VPC. However, we can create multiple VPCs in a single Region or place them in different Regions.
 		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
