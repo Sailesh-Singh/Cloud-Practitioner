@@ -335,3 +335,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 </table>
 
 </details>
+
++	####	Amazon EC2 architecture
