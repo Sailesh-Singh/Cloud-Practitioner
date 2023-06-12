@@ -384,4 +384,9 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	#####	Security groups
 
+		[<img src="assets/Amazon_EC2_arcitectural_components-SecurityGroups.png" alt="Amazon_EC2_arcitectural_components-SecurityGroups" align="left" width="100%" height="100%">]()
+		<p align="center">
+		<small><b><i>Security groups</i></b></small>
+		</p>
+
 		When we launch our EC2 instance, it will be protected by a security group that we select while configuring the instance. A security group acts as a virtual firewall for our EC2 instances to control incoming and outgoing traffic. We want to build our application to be highly available and fault tolerant. To do so, a best practice is to launch instances in multiple Availability Zones and attach an Elastic Load Balancer. An Elastic Load Balancer automatically distributes incoming application traffic across multiple targets and virtual instances in one or more Availability Zones.
