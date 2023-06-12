@@ -353,3 +353,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
     </p>
 
 +	####	Amazon EC2 architectural components
+
+	+	#####	Regions
