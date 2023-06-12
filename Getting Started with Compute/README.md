@@ -36,7 +36,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 ### Introduction to Compute
 +   ####    Introduction to Compute
 
-    Computing is the brain behind IT applications. Organizations all around the world run diverse workloads on different compute platforms. Dependin on our workload, we might need a different architectural method for how we set up our computing resources. 
+    Computing is the brain behind IT applications. Organizations all around the world run diverse workloads on different compute platforms. Depending on our workload, we might need a different architectural method for how we set up our computing resources. 
 
     [<img src="assets/Introduction_to_Compute.png" alt="Introduction_to_Compute" align="left" width="100%" height="100%">]()
     <p align="center">
@@ -79,7 +79,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		CPU is the central processing unit. It is responsible for running and processing instructions that it is given.
 		
 	+	#####	RAM
-		Our Computer's memory, or RAM, stores data that the computer needs to carry out processing tasks. For example, when you run an application, the required data to run the application is temporarily stored on the RAM.
+		Our Computer's memory, or RAM, stores data that the computer needs to carry out processing tasks. For example, when we run an application, the required data to run the application is temporarily stored on the RAM.
 		
 	+	#####	Hard drive
 		The hard drive is long-term storage where all of our files are stored and kept.
@@ -106,7 +106,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 	With the expansion of virtualization technologies, computing has moved into what is called the **cloud**.
 	
-	Cloud Computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. It alleviates the need to buy, own, and maintain physical data centers and servers. Instead, you can access  technology services, such as computing power, storage, and database, on as-needed basis from a cloud provider like AWS.
+	Cloud Computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. It alleviates the need to buy, own, and maintain physical data centers and servers. Instead, we can access  technology services, such as computing power, storage, and database, on as-needed basis from a cloud provider like AWS.
     
     [<img src="assets/Cloud_Computing.png" alt="Cloud_Computing" align="left" width="100%" height="100%">]()
     <p align="center">
@@ -114,7 +114,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
     </p>
 
     +	####	Benefits of Cloud computing
-		Cloud computing has several benefits compared to on-permises computing.
+		Cloud computing has several benefits compared to on-premises computing.
 		<!-- +	#####	Save on costs
 		+	#####	Scalable
 		+	#####	Reliable -->
@@ -134,7 +134,7 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
     +	#####	Instances
 
-		An **instance**, or virtual machine, is a computing resource in the cloud. It works like a traditional on-premises server. it can support workloads such as web hosting, applications, databases, authentication services, and anything else a serveer can do. We choose the operating system (OS), CPU, memory, storage, and other components, and in a few minutes, our instance is ready to use. As soon as we're done, we can stop or terminate the instances. We're not locked in or stuck with servers that we don't need or want. We can treat instances as temproary and disposable computing resources, free from the inflexibility and constraints of a fixed and finite IT infrastructure.
+		An **instance**, or virtual machine, is a computing resource in the cloud. It works like a traditional on-premises server. it can support workloads such as web hosting, applications, databases, authentication services, and anything else a server can do. We choose the operating system (OS), CPU, memory, storage, and other components, and in a few minutes, our instance is ready to use. As soon as we're done, we can stop or terminate the instances. We're not locked in or stuck with servers that we don't need or want. We can treat instances as temporary and disposable computing resources, free from the inflexibility and constraints of a fixed and finite IT infrastructure.
 		
 		**Instance use cases** include the following:
 		+	Hosting environment
@@ -146,13 +146,13 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 		**Containers** are a method of operating system virtualization that we can use to run an application and its dependencies in resource-isolated processes. By using containers, we can package an application's code, configurations, and dependencies into simple building blocks that deliver environmental consistency, operational efficiency, developer productivity, and version control.
 		Containers are smaller than virtual machines and do not contain an entire operating system. Instead, containers share a virtualized operating system and run as resource-isolated processes, which ensure quick, reliable, and consistent deployments. Containers hold everything that the software needs to run, such as libraries, system tools, code, and the runtime.
 		
-		**Containers use case** include the folllowing:
+		**Containers use case** include the following:
 		+	Building microservices architecture
 		+	Video rendering services
 		+	Quick development and deployment
 
 	+	#####	Serverless
-		**Serverless computing** gives you the ability to run code without provisioning or managing servers. Serverless computing features automatic scaling, built-in high availability, and a pay-for-use billing model to increase agility and optimize costs. Serverless computing also eliminates infrastructure management tasks like capacity provisioning and patching, so we can focus on writing code that serves our customers.
+		**Serverless computing** gives us the ability to run code without provisioning or managing servers. Serverless computing features automatic scaling, built-in high availability, and a pay-for-use billing model to increase agility and optimize costs. Serverless computing also eliminates infrastructure management tasks like capacity provisioning and patching, so we can focus on writing code that serves our customers.
 		
 		**Serverless use cases** include the following:
 		+	File processing 
@@ -173,26 +173,26 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 +	####	AWS Computing Services
 	+	#####	Amazon EC2
-		Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure and resizable compute capacity in the cloud. You can use it to provision virtual servers that are called Amazon EC2 instances, which can handle almost any computing need.
-		With Amazon EC2 you can do the following:
+		Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure and resizable compute capacity in the cloud. We can use it to provision virtual servers that are called Amazon EC2 instances, which can handle almost any computing need.
+		With Amazon EC2 we can do the following:
 		+	Provision and launch one or more EC2 instances in minutes.
-		+	Stop or shut down EC2 instances when you finish running a workload. 
-		+	Pay for only the compute time that you use when running an instance.
+		+	Stop or shut down EC2 instances when we finish running a workload. 
+		+	Pay for only the compute time that we use when running an instance.
 
 	+	#####	AWS Lambda
 
-		AWS Lambda is a serverless compute service that helps you run code without provisioning or managing servers. You pay for only the computetime you consume, and you incur no charges when your code is not running.
-		With Lambda, you can run code for virtually any type of application or backend service, all with zero administration. You need only to upload your code, and Lambda manages everything required to run and scale your code with high availability. You can set up your code to automatically launch from other AWS services or call it directly from any web or mobile app.
+		AWS Lambda is a serverless compute service that helps us run code without provisioning or managing servers. We pay for only the compute time we consume, and we incur no charges when our code is not running.
+		With Lambda, we can run code for virtually any type of application or backend service, all with zero administration. We need only to upload our code, and Lambda manages everything required to run and scale our code with high availability. We can set up our code to automatically launch from other AWS services or call it directly from any web or mobile app.
 
 	+	#####	Amazon ECS
 
 		Amazon Elastic Container Service (Amazon ECS) is a highly scalable and high-performance container management system. It helps customers spin up new containers and manage them across EC2 instances. Amazon ECS supports Docker containers. Docker is a software platform that packages software (such as applications) into containers.
-		To manage your containers, you must install an open-source Amazon ECS container agent on your EC2 instances. This agent is referred to as a container instance. You can run this agent on both Linux and Windows Amazon Machine Images (AMIs). Amazon ECS uses API calls to control Docker-enabled applications.
+		To manage our containers, we must install an open-source Amazon ECS container agent on our EC2 instances. This agent is referred to as a container instance. We can run this agent on both Linux and Windows Amazon Machine Images (AMIs). Amazon ECS uses API calls to control Docker-enabled applications.
 
 	+	#####	Amazon EKS
 
 		Amazon Elastic Kubernetes Service (Amazon EKS) provides the flexibility to start, run, and scale Kubernetes applications in the AWS Cloud or on premises. Kubernetes is an open-source platform for managing containerized applications. It is portable and extensible.
-		With Amazon EKS, you will be able to provide highly available and secure clusters. It automates patching, node provisioning, and updates.
+		With Amazon EKS, we will be able to provide highly available and secure clusters. It automates patching, node provisioning, and updates.
 
 	+	#####	AWS Fargate
 
@@ -200,16 +200,16 @@ Click <a href="https://awseducate.instructure.com/courses/817">Getting Started w
 
 	+	#####	AWS Elastic Beanstalk
 
-        AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications. You can upload your code, and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.
+        AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications. We can upload our code, and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, we retain full control over the AWS resources powering our application and can access the underlying resources at any time.
 
-        There is no additional charge for Elastic Beanstalk; you pay for only the AWS resources needed to store and run your applications.
+        There is no additional charge for Elastic Beanstalk; we pay for only the AWS resources needed to store and run our applications.
 
 ###	Introduction to Amazon EC2
 In this section, we will be introduced to Amazon EC2, a cloud computing service. Amazon EC2 is a web service that provides resizable compute capacity in the cloud at affordable costs all around the world.
 
 +	####	What is Amazon  EC2?
 
-	Amazon EC2, is a compute service that _provides resizable compute capacity in the cloud_. It's designed to make web-scale computing easier for developers. It eliminates the need to invest in hardware up front, so you can focus on developing and deploying applications faster. We can use Amazon EC2 to launch as many _virtual server_, also known as **compute instances**, as we need.
+	Amazon EC2, is a compute service that _provides resizable compute capacity in the cloud_. It's designed to make web-scale computing easier for developers. It eliminates the need to invest in hardware up front, so we can focus on developing and deploying applications faster. We can use Amazon EC2 to launch as many _virtual server_, also known as **compute instances**, as we need.
 
 	+	#####	EC2 instance types
 
@@ -277,7 +277,7 @@ We have complete control of our instances, including root access, and the abilit
 	Flexible hosting services
 </th>
 <td>
-We have the choice of multiple instance types, operating systems, and software packages. With Amazon EC2, you can select a configuration of memory, CPU, instance storage, and boot partition size that's optimal for our choice of operating system and application. For example, choice of operating systems includes numerous Linux distributions and Microsoft Windows Server.
+We have the choice of multiple instance types, operating systems, and software packages. With Amazon EC2, we can select a configuration of memory, CPU, instance storage, and boot partition size that's optimal for our choice of operating system and application. For example, choice of operating systems includes numerous Linux distributions and Microsoft Windows Server.
 </td>
 <tr>
 
@@ -363,13 +363,13 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		<p align="center">
 		<small><b><i>Regions</i></b></small>
 		</p>
-		When we launch an EC2 instance, you must choose the Region that we want to provision the instance in. A Region is a physical location around the world where AWS clusters data centers.
-		Each Region is designed to be isolated from the other Regions. This separation achieves the greatest possible fault tolerance and stability. Ideally, when you launch an instance, we want to choose the Region that is closest to our users to help cut down on latency.
+		When we launch an EC2 instance, we must choose the Region that we want to provision the instance in. A Region is a physical location around the world where AWS clusters data centers.
+		Each Region is designed to be isolated from the other Regions. This separation achieves the greatest possible fault tolerance and stability. Ideally, when we launch an instance, we want to choose the Region that is closest to our users to help cut down on latency.
 
 	+	#####	VPC
 
 		EC2 instances are launched in the VPC that we choose. Amazon VPC is a service that lets us launch AWS resources in a logically isolated virtual network that we define. When we set up an AWS account, we are given a default VPC. However, we can create multiple VPCs in a single Region or place them in different Regions.
-		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
+		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If we do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
 
 		<p align="center">
 		<img src="assets/Amazon_EC2_architectural_components-VPC.png" alt="Amazon_EC2_architectural_components-VPC"  width="400px" height="300px">
@@ -380,8 +380,8 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	#####	Subnets
 
-		Within each VPC, we can specify the subnet to place the EC2 instance in. A subnet is a range of IP addresses in your VPC. Use a public subnet for resources that must be connected to the internet and a private subnet for resources that won't be connected to the internet.
-		Subnets are associated with only one Availability Zone. You will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help you understand the architectural environment that your EC2 instance will be launched in.
+		Within each VPC, we can specify the subnet to place the EC2 instance in. A subnet is a range of IP addresses in our VPC. Use a public subnet for resources that must be connected to the internet and a private subnet for resources that won't be connected to the internet.
+		Subnets are associated with only one Availability Zone. We will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help we understand the architectural environment that our EC2 instance will be launched in.
 
 		<p align="center">
 		<img src="assets/Amazon_EC2_architectural_components-Subnets.png" alt="Amazon_EC2_architectural_components-Subnets"  width="400px" height="300px">
