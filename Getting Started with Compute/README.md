@@ -355,7 +355,7 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Amazon EC2 architectural components
 
 	+	#####	Regions
-		[<img src="assets/Amazon_EC2_arcitectural_components-Regions.png" alt="Amazon_EC2_arcitectural_components-Regions" align="left" width="100%" height="100%">]()
+		[<img src="assets/Amazon_EC2_architectural_components-Regions.png" alt="Amazon_EC2_architectural_components-Regions" align="left" width="100%" height="100%">]()
 		<p align="center">
 		<small><b><i>Regions</i></b></small>
 		</p>
@@ -368,7 +368,7 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Each VPC can have a dedicated purpose to support different environments, such as production, development, and testing. If you do not specify the VPC to launch our instance in, then it will be launched in our default VPC.
 
 		<p align="center">
-		<img src="assets/Amazon_EC2_arcitectural_components-VPC.png" alt="Amazon_EC2_arcitectural_components-VPC"  width="400px" height="300px">
+		<img src="assets/Amazon_EC2_architectural_components-VPC.png" alt="Amazon_EC2_architectural_components-VPC"  width="400px" height="300px">
 		</p>
 		<p align="center">
 		<small><b><i>VPC</i></b></small>
@@ -380,7 +380,7 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Subnets are associated with only one Availability Zone. You will learn more about the architecture of a VPC and subnets in the Getting Started with Networking course. This high-level overview is to help you understand the architectural environment that your EC2 instance will be launched in.
 
 		<p align="center">
-		<img src="assets/Amazon_EC2_arcitectural_components-Subnets.png" alt="Amazon_EC2_arcitectural_components-Subnets"  width="400px" height="300px">
+		<img src="assets/Amazon_EC2_architectural_components-Subnets.png" alt="Amazon_EC2_architectural_components-Subnets"  width="400px" height="300px">
 		</p>
 		<p align="center">
 		<small><b><i>Subnets</i></b></small>
@@ -391,7 +391,7 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		When we launch our EC2 instance, it will be protected by a security group that we select while configuring the instance. A security group acts as a virtual firewall for our EC2 instances to control incoming and outgoing traffic. We want to build our application to be highly available and fault tolerant. To do so, a best practice is to launch instances in multiple Availability Zones and attach an Elastic Load Balancer. An Elastic Load Balancer automatically distributes incoming application traffic across multiple targets and virtual instances in one or more Availability Zones.
 
 		<p align="center">
-		<img src="assets/Amazon_EC2_arcitectural_components-SecurityGroups.png" alt="Amazon_EC2_arcitectural_components-SecurityGroups" width="400px" height="300px">
+		<img src="assets/Amazon_EC2_architectural_components-SecurityGroups.png" alt="Amazon_EC2_architectural_components-SecurityGroups" width="400px" height="300px">
 		</p>
 		<p align="center">
 		<small><b><i>Security groups</i></b></small>
