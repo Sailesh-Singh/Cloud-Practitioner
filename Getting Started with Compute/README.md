@@ -407,3 +407,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	**_Run cloud-native and enterprise applications_**
 		Amazon EC2 delivers secure, reliable, high-performance, and cost-effective compute infrastructure to meet demanding business needs.
+
+	+	**_Scale for high performance computing (HPC) applications_**
