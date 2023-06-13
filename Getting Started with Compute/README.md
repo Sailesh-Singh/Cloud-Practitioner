@@ -418,3 +418,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Amazon EC2 delivers the broadcast choice of compute, networking (up to 400 Gbps), and storage services, purpose-built to optimize price performance for ML projects.
 
 +	####	Instance costs
+
+	Five main aspects of our instance will determine the cost. They are the Instance purchasing options, the tenancy, the Amazon Machine Image (AMI), the EC2 instance type, and the storage type and size that you choose. For now, we are going to focus on the purchasing options and tenancy. We will learn more about the AMI, instance types, and storage in the next section.
