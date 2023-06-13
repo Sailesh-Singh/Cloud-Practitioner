@@ -404,3 +404,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Amazon EC2 use cases
 
 	Amazon EC2 has many use cases to help customers manage their applications.
+
+	+	**_Run cloud-native and enterprise applications_**
