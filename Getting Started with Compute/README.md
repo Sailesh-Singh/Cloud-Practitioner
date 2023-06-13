@@ -420,3 +420,9 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Instance costs
 
 	Five main aspects of our instance will determine the cost. They are the Instance purchasing options, the tenancy, the Amazon Machine Image (AMI), the EC2 instance type, and the storage type and size that you choose. For now, we are going to focus on the purchasing options and tenancy. We will learn more about the AMI, instance types, and storage in the next section.
+
+	[<img src="assets/Instance_costs.png" alt="Amazon_EC2_architectural_components-SecurityGroups" width="100%" height="100%">]()
+	</p>
+	<p align="center">
+	<small><b><i>Instance Costs</i></b></small>
+	</p>
