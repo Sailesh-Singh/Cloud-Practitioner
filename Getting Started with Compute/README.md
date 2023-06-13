@@ -402,3 +402,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		</p>
 
 +	####	Amazon EC2 use cases
+
+	Amazon EC2 has many use cases to help customers manage their applications.
