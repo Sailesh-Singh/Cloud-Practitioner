@@ -409,3 +409,4 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Amazon EC2 delivers secure, reliable, high-performance, and cost-effective compute infrastructure to meet demanding business needs.
 
 	+	**_Scale for high performance computing (HPC) applications_**
+		Access the on-demand infrastructure and capacity that you need to run HPC applications faster and more cost effectively.
