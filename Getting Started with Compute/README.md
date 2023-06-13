@@ -410,3 +410,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	**_Scale for high performance computing (HPC) applications_**
 		Access the on-demand infrastructure and capacity that you need to run HPC applications faster and more cost effectively.
+
+	+	**_Develop for Apple platforms_**
