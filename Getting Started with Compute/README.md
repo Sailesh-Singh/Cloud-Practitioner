@@ -400,3 +400,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		<p align="center">
 		<small><b><i>Security groups</i></b></small>
 		</p>
+
++	####	Amazon EC2 use cases
