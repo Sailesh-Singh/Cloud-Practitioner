@@ -413,3 +413,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	+	**_Develop for Apple platforms_**
 		Build, test, and sign on-demand macOS workloads. Access environments in minutes, dynamically scale capacity as needed, and benefit from AWS pay-as-you-go pricing.
+
+	+	**_Train and deploy machine learning (ML) applications_**
