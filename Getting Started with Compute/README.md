@@ -412,3 +412,4 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Access the on-demand infrastructure and capacity that you need to run HPC applications faster and more cost effectively.
 
 	+	**_Develop for Apple platforms_**
+		Build, test, and sign on-demand macOS workloads. Access environments in minutes, dynamically scale capacity as needed, and benefit from AWS pay-as-you-go pricing.
