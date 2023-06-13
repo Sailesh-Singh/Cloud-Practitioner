@@ -415,3 +415,4 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		Build, test, and sign on-demand macOS workloads. Access environments in minutes, dynamically scale capacity as needed, and benefit from AWS pay-as-you-go pricing.
 
 	+	**_Train and deploy machine learning (ML) applications_**
+		Amazon EC2 delivers the broadcast choice of compute, networking (up to 400 Gbps), and storage services, purpose-built to optimize price performance for ML projects.
