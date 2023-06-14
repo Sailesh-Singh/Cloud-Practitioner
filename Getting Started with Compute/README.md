@@ -532,4 +532,4 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</tbody>
 	</table>
 
-		
++	####	Spot Instances
