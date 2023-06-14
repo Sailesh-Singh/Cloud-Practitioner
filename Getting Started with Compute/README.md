@@ -428,3 +428,13 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</p>
 
 +	####	Instance purchasing options
+
+	Amazon EC2 provides purchasing options so that we can optimize our costs based on our needs. When we choose an instance purchasing option, we should consider the following:
+	+	The instance use case
+	+	The purchasing option's costs structure
+	
+	Based on our needs Amazon EC2 provides four main purchasing options:
+	<b>1.	On-Demand Instances</b>
+	<b>2.	Reserved Instances</b>
+	<b>3.	Savings Plans Instances</b>, and 
+	<b>4.	Spot Instances</b>
