@@ -483,23 +483,25 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	<table>
 	<thead>
-	<tr>
-		<th>Use case</th>
-		<th>Problem solved</th>
+	<tr style="background:#bbb3db">
+	<th>Use case</th>
+	<th>Problem solved</th>
 	</tr>
 	</thead>
-	<tbody>
+	<tbody style="background:#f1f0f8">
 	<tr>
-		<td>Predictable usage workloads that do not require flexibility in compute power</td>
-		<td rowspan="3">Provides the ability to reserve capacity ahead of time reducing cost</td>
+	<td>Predictable usage workloads that do not require flexibility in compute power</td>
+	<td rowspan="3">Provides the ability to reserve capacity ahead of time reducing cost</td>
 	</tr>
 	<tr>
-		<td>Workloads that  last longer than 1 year</td>
+	<td>Workloads that  last longer than 1 year</td>
 	</tr>
 	<tr>
-		<td>Users are able to make upfront payments to reduce total  computing costs even further</td>
+	<td>Users are able to make upfront payments to reduce total  computing costs even further</td>
 	</tr>
 	</tbody>
 	</table>
+
++	####	Savings Plans Instances
 
 	
