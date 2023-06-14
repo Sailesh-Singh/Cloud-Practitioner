@@ -426,3 +426,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	<p align="center">
 	<small><b><i>Instance Costs</i></b></small>
 	</p>
+
++	####	Instance purchasing options
