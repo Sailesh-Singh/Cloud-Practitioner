@@ -466,3 +466,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</tr>
 	</tbody>
 	</table>
+
++	####	Reserved Instances (RI)
