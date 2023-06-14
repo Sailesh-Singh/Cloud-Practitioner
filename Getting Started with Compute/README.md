@@ -448,3 +448,21 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	+	No long-term commitments
 	+	No upfront payments
 	+	Increase or decrease our compute capacity depending on the demands of our application
+
+	<table>
+	<thead>
+	<tr>
+	<th style="background:#fb9b04">Use case</th>
+	<th style="background:#fb9b04">Problem solved</th>
+	</tr>
+	</thead>
+	<tbody style="background:#fff5e6">
+	<tr>
+	<td>Short-term, spiky, or unpredictable workloads</td>
+	<td rowspan="2">Application development or testing</td>
+	</tr>
+	<tr>
+	<td>Solve the need for immediate compute capacity</td>
+	</tr>
+	</tbody>
+	</table>
