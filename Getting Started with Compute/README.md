@@ -511,4 +511,23 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		+	These plans automatically apply to EC2 instance usage regardless of instance family, size, Availability Zone, Region, Operating System, or tenancy. They also apply to AWS Fargate and AWS Lambda usage.
 		
 	+	**EC2 Instance Savings Plans** apply to a specific instance family within a specific Region and provide the largest discount (up to 72 percent, like Standard RIs)
+
+	<table>
+	<thead>
+	<tr>
+	<th>Use case</th>
+	<th>Problem solved</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Long time workloads</td>
+	<td rowspan="2">Don't have to coordinate our RI purchases</td>
+	</tr>
+	<tr>
+	<td>Computing needs that might need flexibility over location or by instance power</td>
+	</tr>
+	</tbody>
+	</table>
+
 		
