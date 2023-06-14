@@ -441,6 +441,9 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 +	####	On-Demand  Instances
 
+	[<img src="assets/On-Demand_Instances.png" alt="On-Demand  Instances" align="left" width="100px" height="100px">]()
+	
+
 	+	Pay for compute capacity per second (Amazon Linux and Ubuntu) or by the hour (all other operating systems)
 	+	No long-term commitments
 	+	No upfront payments
