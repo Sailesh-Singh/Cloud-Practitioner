@@ -481,4 +481,25 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 		+	Convertible RIs
 		+	Scheduled RIs
 
+	<table>
+	<thead>
+	<tr>
+		<th>Use case</th>
+		<th>Problem solved</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>Predictable usage workloads that do not require flexibility in compute power</td>
+		<td rowspan="3">Provides the ability to reserve capacity ahead of time reducing cost</td>
+	</tr>
+	<tr>
+		<td>Workloads that  last longer than 1 year</td>
+	</tr>
+	<tr>
+		<td>Users are able to make upfront payments to reduce total  computing costs even further</td>
+	</tr>
+	</tbody>
+	</table>
+
 	
