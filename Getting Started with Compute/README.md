@@ -533,3 +533,9 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</table>
 
 +	####	Spot Instances
+
+	+	Purchase unused Amazon EC2 capacity
+	+	Up to 90 percent off compared to on-demanding pricing
+	+	Prices controlled by AWS based on supply and demand
+	+	Termination notice provided 2 minutes prior to termination
+	+	Spot blocks: Launch Spot Instances with a duration lasting 1-6 hours
