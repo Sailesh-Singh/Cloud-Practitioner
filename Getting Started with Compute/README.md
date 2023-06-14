@@ -470,9 +470,15 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Reserved Instances (RI)
 
 	Reserved Instances can provide a significant discount for your architectures.
+	<p align="center">
+	<img src="assets/Reserved_Instances.png" alt="Reserved Instances" align="" width="100px" height="100px">
+	</p>
+
 	+	Up to 72 percent discount compared to On-Demand Instances
 	+	Prepay for capacity (1-year or 3-year buying options)
 	+	The upfront payment methods:
 		+	Standard RIs
 		+	Convertible RIs
 		+	Scheduled RIs
+
+	
