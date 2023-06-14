@@ -438,3 +438,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	<b>2.	Reserved Instances</b>
 	<b>3.	Savings Plans Instances</b>, and 
 	<b>4.	Spot Instances</b>
+
++	####	On-Demand  Instances
