@@ -506,6 +506,8 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	AWS offers two types of savings plans:
 
+	[<img src="assets/Savings_Plans_Instances.png" alt="Savings Plans Instances" align="left" width="100px" height="100px">]()
+
 	+	**Compute Savings Plans** provide the most flexibility and help to reduce our costs by up to 66 percent.
 
 		+	These plans automatically apply to EC2 instance usage regardless of instance family, size, Availability Zone, Region, Operating System, or tenancy. They also apply to AWS Fargate and AWS Lambda usage.
@@ -514,12 +516,12 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	<table>
 	<thead>
-	<tr>
+	<tr style="background:#abe324">
 	<th>Use case</th>
 	<th>Problem solved</th>
 	</tr>
 	</thead>
-	<tbody>
+	<tbody style="background:#f7fce9">
 	<tr>
 	<td>Long time workloads</td>
 	<td rowspan="2">Don't have to coordinate our RI purchases</td>
