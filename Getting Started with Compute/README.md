@@ -534,6 +534,9 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 +	####	Spot Instances
 
+
+	[<img src="assets/Spot_Instances.png" alt="Spot Instances" align="left" width="100px" height="100px">]()
+
 	+	Purchase unused Amazon EC2 capacity
 	+	Up to 90 percent off compared to on-demanding pricing
 	+	Prices controlled by AWS based on supply and demand
