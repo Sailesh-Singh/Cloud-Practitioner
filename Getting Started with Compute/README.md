@@ -440,3 +440,8 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	<b>4.	Spot Instances</b>
 
 +	####	On-Demand  Instances
+
+	+	Pay for compute capacity per second (Amazon Linux and Ubuntu) or by the hour (all other operating systems)
+	+	No long-term commitments
+	+	No upfront payments
+	+	Increase or decrease our compute capacity depending on the demands of our application
