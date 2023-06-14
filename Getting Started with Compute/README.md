@@ -542,3 +542,25 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	+	Prices controlled by AWS based on supply and demand
 	+	Termination notice provided 2 minutes prior to termination
 	+	Spot blocks: Launch Spot Instances with a duration lasting 1-6 hours
+
+
+	<table>
+<thead>
+  <tr>
+    <th>Use case</th>
+    <th>Problem solved</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Applications with flexible start and end time</td>
+    <td rowspan="3">Low budgeted workloads can be completed with low cost instances, provided that interruptions can be tolerated.</td>
+  </tr>
+  <tr>
+    <td>Applications only feasible at very low compute prices</td>
+  </tr>
+  <tr>
+    <td>Users with  urgent computing needs for large amounts of additional capacity</td>
+  </tr>
+</tbody>
+</table>
