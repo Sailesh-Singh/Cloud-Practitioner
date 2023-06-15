@@ -604,5 +604,10 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	> To handle the spike in workload, On-Demand Instances should be used. On-Demand Instances are purpose-built to handle an increase in workloads and then terminate the instances when the spike in the workload decreases.
 
 +	####	Tenancy	
+
 	Tenancy defines how EC2 instances are distributed across the physical host hardware.
 	Amazon EC2 offers three tenancy options for hosting our instances. They are shared tenancy, dedicated instances,and dedicated hosts. The tenancy that we choose will affect pricing.
+
+	<p align="center">
+	<img src="assets/Tenancy_offers.png" alt="Tenancy Offers"  width="100%" height="100%">
+	</p>
