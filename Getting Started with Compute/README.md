@@ -582,3 +582,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 	> <p align="center"><strong>Solution</strong></p>
 	> The best instance purchasing option would be the Compute Savings Plans. It provides the flexibility needed and helps to reduce your costs by up to 66 percent. With these instance types, you can make changes to instances regardless of instance family, size, Availability Zone, Region, operating system, or tenancy. Therefore, if the project is relocated from the Ireland Region to the United States Region, your Savings Plans instances let you make that change. Also, if the workload is moved from Amazon EC2 to Lambda, with Saving Plans instances, you can switch to Lambda at the Savings Plans costs.
+
++	####	Amazon EC2 purchasing options scenario 2
