@@ -575,3 +575,10 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	> See if your answer corresponds with the solution. If it doesn't, go back and review the differences between the Amazon EC2 purchasing options in this section.
 
 +	####	Amazon EC2 purchasing options scenario 1
+
+	<p align="center"><strong>What is your solution?</strong></p>
+
+	_Your manager has told you that you must set up some computing resources by using Amazon EC2. You are told that the project lasts at least 1 year, maybe longer. The resources should be located in Ireland, but they might need to move to the United States within 6 months. Also, some people have discussed the possibility of moving the application to Lambda later in the year. Which Amazon EC2 purchasing option would you recommend?_
+
+	> <p align="center"><strong>Solution</strong></p>
+	> The best instance purchasing option would be the Compute Savings Plans. It provides the flexibility needed and helps to reduce your costs by up to 66 percent. With these instance types, you can make changes to instances regardless of instance family, size, Availability Zone, Region, operating system, or tenancy. Therefore, if the project is relocated from the Ireland Region to the United States Region, your Savings Plans instances let you make that change. Also, if the workload is moved from Amazon EC2 to Lambda, with Saving Plans instances, you can switch to Lambda at the Savings Plans costs.
