@@ -611,3 +611,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	<p align="center">
 	<img src="assets/Tenancy_offers.png" alt="Tenancy Offers"  width="100%" height="100%">
 	</p>
+
++	####	Comparing tenancies
