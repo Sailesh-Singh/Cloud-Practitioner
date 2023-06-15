@@ -613,3 +613,44 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</p>
 
 +	####	Comparing tenancies
+
+	**<p align="center">Tenancy use cases</p>**
+	
+	<table>
+	<thead>
+	<tr>
+	<th>Dedicated Host</th>
+	<th>Dedicated Instance</th>
+	<th>Shared Tenancy</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>Regulatory compliance that requires <i><b>hosts cannot be shared</b></i> between AWS accounts.</td>
+	<td>Regulatory compliance that requires <i><b>hosts cannot be shared</b></i> between AWS accounts.</td>
+	<td>Regulatory compliance <i><b>is not</b></i> required</td>
+	</tr>
+	
+	<tr>
+	<td>Managing the host hardware <i><b>is</b><i> required.</td>
+	<td>Managing the host hardware <i><b>is not</b></i> required.</td>
+	<td>Development and testing accounts.</td>
+	</tr>
+	
+	<tr>
+	<td>When you <i><b>will need enough</b></i> or close to enough dedicated instances to fill a host.</td>
+	<td>When you <i><b>do  not need</b></i>enough dedicated instances to fill a host.</td>
+	<td></td>
+	</tr>
+	
+	
+	<tr>
+	<td>Using <i><b>existing</b></i> per-socket, per-core, or per-VM software licenses that are <i><b>bound</b></i> to VMs, sockets, or physical cores, subject to our license terms.</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	</tbody>
+	</table>
+	
+	> _**Note:** A host contains approximately 22 instances._
