@@ -571,6 +571,7 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	**<p align="center">What is your solution?</p>**
 
 	_**Instructions:** Read the scenario that describes the business problem. Then think about which Amazon EC2 purchasing option you would recommend. The key to selecting the right answer is based on use case and keeping the costs as low as possible. Don't guess; reason it out and see whether you can explain your choice. Then choose the question mark icon to see whether you were correct._
+
 	> **<p align="center">Solution</p>**
 	> See if your answer corresponds with the solution. If it doesn't, go back and review the differences between the Amazon EC2 purchasing options in this section.
 
@@ -586,9 +587,18 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Amazon EC2 purchasing options scenario 2
 
 	**<p align="center">What is your solution?</p>**
+	
 	_You need an inexpensive computing resource to handle a batch processing task. No immediate timeline currently exists for when the work should be done, and it can be interrupted and resumed later if needed. Which EC2 instance purchasing option would you choose?_
 
 	> **<p align="center">Solution</p>**
 	> The best solution for this scenario would be Spot Instances. Spot Instances offer discounts up to 90 percent off of what On-Demand Instances offer. Spot Instances are ideal for workloads that have a small budget and when the work can be interrupted and finished later.
 
-+	####	Amazon EC2 purchasing options scenario 3	
++	####	Amazon EC2 purchasing options scenario 3
+
+	**<p align="center">What is your solution?</p>**
+	
+	_You need a computing solution for a project that will go on for over a year. The computing resources will be steady throughout the year. However, workloads might spike for a month or two, and you will temporarily need additional computing resources._
+
+	> **<p align="center">Solution</p>**
+	> In this scenario, you would use two purchasing options. To handle the steady workload, you can use either Reserved Instances or EC2 Compute Savings Plans. Both offer a savings of up to 72 percent; however, EC2 Compute Savings Plans offer more flexibility for the same price. So, choosing EC2 Compute Savings Plans instead of Reserved Instances would make a better choice.
+	> To handle the spike in workload, On-Demand Instances should be used. On-Demand Instances are purpose-built to handle an increase in workloads and then terminate the instances when the spike in the workload decreases.
