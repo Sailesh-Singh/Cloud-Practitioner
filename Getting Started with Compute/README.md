@@ -564,3 +564,6 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</tr>
 	</tbody>
 	</table>
+
+
++	####	Amazon EC2 purchasing options thinking activity (instructions)
