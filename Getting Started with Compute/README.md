@@ -654,3 +654,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	</table>
 	
 	> _**Note:** A host contains approximately 22 instances._
+
++	####	Introduction to Amazon EC2 Summary
