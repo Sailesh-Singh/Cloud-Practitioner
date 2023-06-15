@@ -656,3 +656,10 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	> _**Note:** A host contains approximately 22 instances._
 
 +	####	Introduction to Amazon EC2 Summary
+
+	<p align="center">
+	<img src="assets/Introduction_to_Amazon_EC2_Summary.png" alt="Introduction to Amazon EC2 Summary"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	**_Introduction to Amazon EC2 Summary_**
+	</p>
