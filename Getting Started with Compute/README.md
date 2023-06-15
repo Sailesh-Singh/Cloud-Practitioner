@@ -573,3 +573,5 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	_**Instructions:** Read the scenario that describes the business problem. Then think about which Amazon EC2 purchasing option you would recommend. The key to selecting the right answer is based on use case and keeping the costs as low as possible. Don't guess; reason it out and see whether you can explain your choice. Then choose the question mark icon to see whether you were correct._
 	> <p align="center"><strong>Solution</strong></p>
 	> See if your answer corresponds with the solution. If it doesn't, go back and review the differences between the Amazon EC2 purchasing options in this section.
+
++	####	Amazon EC2 purchasing options scenario 1
