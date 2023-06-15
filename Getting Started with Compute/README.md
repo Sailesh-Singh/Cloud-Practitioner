@@ -568,19 +568,25 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 +	####	Amazon EC2 purchasing options thinking activity (instructions)
 
-	<p align="center"><strong>What is your solution?</strong></p>
+	**<p align="center">What is your solution?</p>**
 
 	_**Instructions:** Read the scenario that describes the business problem. Then think about which Amazon EC2 purchasing option you would recommend. The key to selecting the right answer is based on use case and keeping the costs as low as possible. Don't guess; reason it out and see whether you can explain your choice. Then choose the question mark icon to see whether you were correct._
-	> <p align="center"><strong>Solution</strong></p>
+	> **<p align="center">Solution</p>**
 	> See if your answer corresponds with the solution. If it doesn't, go back and review the differences between the Amazon EC2 purchasing options in this section.
 
 +	####	Amazon EC2 purchasing options scenario 1
 
-	<p align="center"><strong>What is your solution?</strong></p>
+	**<p align="center">What is your solution?</p>**
 
 	_Your manager has told you that you must set up some computing resources by using Amazon EC2. You are told that the project lasts at least 1 year, maybe longer. The resources should be located in Ireland, but they might need to move to the United States within 6 months. Also, some people have discussed the possibility of moving the application to Lambda later in the year. Which Amazon EC2 purchasing option would you recommend?_
 
-	> <p align="center"><strong>Solution</strong></p>
+	> **<p align="center">Solution</p>**
 	> The best instance purchasing option would be the Compute Savings Plans. It provides the flexibility needed and helps to reduce your costs by up to 66 percent. With these instance types, you can make changes to instances regardless of instance family, size, Availability Zone, Region, operating system, or tenancy. Therefore, if the project is relocated from the Ireland Region to the United States Region, your Savings Plans instances let you make that change. Also, if the workload is moved from Amazon EC2 to Lambda, with Saving Plans instances, you can switch to Lambda at the Savings Plans costs.
 
 +	####	Amazon EC2 purchasing options scenario 2
+
+	**<p align="center">What is your solution?</p>**
+	_You need an inexpensive computing resource to handle a batch processing task. No immediate timeline currently exists for when the work should be done, and it can be interrupted and resumed later if needed. Which EC2 instance purchasing option would you choose?_
+
+	> **<p align="center">Solution</p>**
+	> The best solution for this scenario would be Spot Instances. Spot Instances offer discounts up to 90 percent off of what On-Demand Instances offer. Spot Instances are ideal for workloads that have a small budget and when the work can be interrupted and finished later.	
