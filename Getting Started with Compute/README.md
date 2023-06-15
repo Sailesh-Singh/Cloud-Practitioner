@@ -596,9 +596,11 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 +	####	Amazon EC2 purchasing options scenario 3
 
 	**<p align="center">What is your solution?</p>**
-	
+
 	_You need a computing solution for a project that will go on for over a year. The computing resources will be steady throughout the year. However, workloads might spike for a month or two, and you will temporarily need additional computing resources._
 
 	> **<p align="center">Solution</p>**
 	> In this scenario, you would use two purchasing options. To handle the steady workload, you can use either Reserved Instances or EC2 Compute Savings Plans. Both offer a savings of up to 72 percent; however, EC2 Compute Savings Plans offer more flexibility for the same price. So, choosing EC2 Compute Savings Plans instead of Reserved Instances would make a better choice.
 	> To handle the spike in workload, On-Demand Instances should be used. On-Demand Instances are purpose-built to handle an increase in workloads and then terminate the instances when the spike in the workload decreases.
+
++	####	Tenancy	
