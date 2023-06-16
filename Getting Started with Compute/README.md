@@ -229,6 +229,14 @@ In this section, we will be introduced to Amazon EC2, a cloud computing service.
 		+	Dedicated Hosts
 		+	Spot instances
 
++	####	What problems does Amazon EC2 solve?
+
+	Running servers on-premises is a big challenge for building our IT architecture.
+	Data centers are expensive to build, staff, and maintain. We need to think ahead for computing capacity needs.
+	For example, it can be difficult to predict traffic spikes and peak workloads. And this issue must be balanced with making sure that we don't have unused and idle servers running. Unused resources can be wasteful and cost us a lot of money.
+	
+	With Amazon EC2, we do not need to guess our computing capacity. As traffic spikes or workloads increase, we can launch more instances to meet the computing needs. When workloads die down, we can stop the instance or terminate it so that we don't have idle instances that are costing us money. With Amazon EC2, we pay for only what we use, which helps us save on costs.
+
 +	####	Amazon EC2 Overview
 
 	Amazon EC2 provides virtual machines in the cloud and gives us full administrative control over the operating system that runs on the instance. Amazon EC2 supports most server operating systems, including Windows and Linux.
