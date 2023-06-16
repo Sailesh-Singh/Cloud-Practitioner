@@ -672,3 +672,6 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 	<p align="center">
 	<b><i>Introduction to Amazon EC2 Summary
 	</i></b></p>
+
+###	Using Amazon EC2
+
