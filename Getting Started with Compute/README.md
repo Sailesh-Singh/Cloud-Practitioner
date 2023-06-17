@@ -675,6 +675,8 @@ We can get started quickly with Amazon EC2. Whether we launch an instance progra
 
 ###	Using Amazon EC2
 
++	####	Using Amazon EC2
+
 In this section, we will learn about the seven steps to launch an EC2 instance. We will also learn about configuration for each step. Finally, we will learn that understanding how the instance will be used help to guide us in making good  configuration choices.
 
 <p align="center">
@@ -684,3 +686,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 <p align="center">
 <b><i>Using Amazon EC2</i></b>
 </p>
+
+
++	####	Steps to launching an instance
