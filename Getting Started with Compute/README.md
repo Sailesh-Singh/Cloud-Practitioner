@@ -731,3 +731,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 		AWS Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, we can specify who can access which services and resources, and under which conditions. Using IAM, we can use tagged resources to implement attribute-based control (ABAC). We can create IAM policies that allow operations based on tag information to control access. ABAC helps provide better control over which resources a user can modify, use, or delete.
 		For example, we can create an IAM policy that allows users to terminate an instance but denies the action if the instance has the tag environment-production.
+
++	####	Step 2. Choosing an Amazon Machine Image
