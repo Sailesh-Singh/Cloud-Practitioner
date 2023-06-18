@@ -752,3 +752,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	If instances have different use cases, use AMIs that are specific to the use cases of each instance.
 	
 	Therefore, before choosing the AMI that we will create our instance from, it is important to fully understand the use case of the instance.
+
++	####	Where do you get an AMI?
