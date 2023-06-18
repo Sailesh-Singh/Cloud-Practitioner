@@ -700,4 +700,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Tag features
 
 	After we have created our instances, we can manage our tags and use them to filter and search for resources by tag.
+
+	+	#####	Manage
 	
