@@ -721,3 +721,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Cost Management
 
 		We can use AWS Cost Explorer and detailed billing reports to break down AWS costs by tag. Typically, we use business tags such as cost center, business unit, customer, or project to associate AWS costs with traditional cost-allocation dimensions. But a cost allocation report can include any tag. The following table is an example of a partial cost allocation report.
+
+	+	#####	Automation
