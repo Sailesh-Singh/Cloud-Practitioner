@@ -733,3 +733,14 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		For example, we can create an IAM policy that allows users to terminate an instance but denies the action if the instance has the tag environment-production.
 
 +	####	Step 2. Choosing an Amazon Machine Image
+
+	An AMI is required when launching an EC2 instance. The AMI has three main components. They are as follows:
+	
+	+	**Templates for the root volumes** of the instance contain:
+		+	Operating System (OS)
+		+	Application servers
+		+	Application
+		
+	+	**Launch permissions** control which AWS accounts can use the AMI.
+	
+	+	**Block device mapping** specifies the volumes to attach to the instance (if any) when it is launched.
