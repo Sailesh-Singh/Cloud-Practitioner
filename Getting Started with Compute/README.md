@@ -725,4 +725,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Automation
 	
 		Resource-specific or service-specific tags are often used to filter resources during automation activities. Automation tags are used to opt in or opt out of automated tasks or to identify specific versions of resources to archive, update, or delete.
-		For example, we can run automated start or stop scripts that turn off development environments during nonbusiness hours to reduce costs. In this scenario, EC2 instance tags are a simple way to identify instances to opt out of this action. For scripts that find and delete stale, out-of-date, or rolling Amazon EBS snapshots, snapshot tags can add an extra dimension of search criteria.
+		For example, we can run automated start or stop scripts that turn off development environments during non business hours to reduce costs. In this scenario, EC2 instance tags are a simple way to identify instances to opt out of this action. For scripts that find and delete stale, out-of-date, or rolling Amazon EBS snapshots, snapshot tags can add an extra dimension of search criteria.
