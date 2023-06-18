@@ -707,4 +707,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	The tag limit per Amazon EC2 resources is 50 tags.
 		+	Naming and tagging resources is optional
 	
+	+	#####	Search and filter
 	
