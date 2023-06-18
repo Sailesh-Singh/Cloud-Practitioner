@@ -754,3 +754,13 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	Therefore, before choosing the AMI that we will create our instance from, it is important to fully understand the use case of the instance.
 
 +	####	Where do you get an AMI?
+
+	We can use Amazon's pre-built AMIs,purchase them from the Amazon Market place, Create your own, or get them from  the Community AMI pool.
+
+	+	**Pre-built:** Amazon offers a number of pre-built AMIs to launch our instances. These AMIs include Linux and Windows options, with various  sub-options to tailor our setup.
+	
+	+	**AWS Marketplace:** The AWS Marketplace offers a digital catalog with thousands of software solutions listed. These AMIs can offer specific  use cases to help us get started quickly.
+	
+	+	**Create your own:** An AMI is an anonymized, block-level copy of the root volume of a _donor machine or golden instance_. It is a virtual machine (VM) that you've configured with the specific OS and application content that you want placed on the AMI. When you create an AMI, Amazon EC2 stops the instance, snapshots its root volume, and finally registers the snapshot as an AMI.
+	
+	+	**Community AMIs:** People all over the globe create community AMIs. These AMIs are not vetted by AWS and are used at your own risk. These AMIs can offer many different solutions to various problems, but use them with great care. They should be thoroughly reviewed for security concerns when using them in any production or corporate environment.
