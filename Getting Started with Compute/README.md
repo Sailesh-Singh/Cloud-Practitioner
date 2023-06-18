@@ -744,3 +744,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	**Launch permissions** control which AWS accounts can use the AMI.
 	
 	+	**Block device mapping** specifies the volumes to attach to the instance (if any) when it is launched.
+
++	####	Using AMIs
