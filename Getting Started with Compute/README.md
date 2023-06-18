@@ -766,3 +766,26 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	**Community AMIs:** People all over the globe create community AMIs. These AMIs are not vetted by AWS and are used at your own risk. These AMIs can offer many different solutions to various problems, but use them with great care. They should be thoroughly reviewed for security concerns when using them in any production or corporate environment.
 
 +	####	AMI benefits
+
+
+	AMIs are a required element to creating our EC2 instance, and like most AWS service features, they  come with many benefits.
+	
+	+	#####	Repeatability
+
+		Instances that are launched from the same AMI are exact replicas of one another. As a result, it greatly facilitates building clusters of similar instances or recreating compute environments.
+		
+	+	#####	Reusability
+	
+		AMIs package the full configuration  and content of an EC2 instance such that it can be used over and over again, with efficiency and precision.
+		
+	+	#####	Recoverability
+	
+		An AMI is perfect for replacing failed machines with new instances that are created from the same AMI.
+		
+	+	#####	Marketplace Solutions
+	
+		Suppose that you are looking for a software solution from a specific vendor. An AMI probably exists on the marketplace that you can launch to implement that solution on an EC2 instance. Additionally, authorized software vendors can create AMIs and also sell them there.
+		
+	+	#####	Backups
+	
+		AMIs provide a great way to back up a complete EC2 instance configuration, which we can use to launch a replacement instance in the event of a failure.
