@@ -713,3 +713,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	Filter and search for resources by a combination of tag keys and values.
 		
 +	####	Benefits of using tags
+
+	+	#####	Resource organization
