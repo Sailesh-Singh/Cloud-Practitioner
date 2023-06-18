@@ -746,3 +746,9 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	**Block device mapping** specifies the volumes to attach to the instance (if any) when it is launched.
 
 +	####	Using AMIs
+
+	+	Choose an AMI that fits the use case of your instance.
+	+	Use the same AMI to launch multiple instances that should have the same configuration.
+	+	If instances have different use cases, use AMIs that are specific to the use cases of each instance.
+	
+	Therefore, before choosing the AMI that we will create our instance from, it is important to fully understand the use case of the instance.
