@@ -728,3 +728,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		For example, we can run automated start or stop scripts that turn off development environments during non business hours to reduce costs. In this scenario, EC2 instance tags are a simple way to identify instances to opt out of this action. For scripts that find and delete stale, out-of-date, or rolling Amazon EBS snapshots, snapshot tags can add an extra dimension of search criteria.
 
 	+	#####	Access control
+
+		AWS Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, we can specify who can access which services and resources, and under which conditions. Using IAM, we can use tagged resources to implement attribute-based control (ABAC). We can create IAM policies that allow operations based on tag information to control access. ABAC helps provide better control over which resources a user can modify, use, or delete.
+		For example, we can create an IAM policy that allows users to terminate an instance but denies the action if the instance has the tag environment-production.
