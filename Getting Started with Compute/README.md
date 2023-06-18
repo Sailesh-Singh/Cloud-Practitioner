@@ -719,3 +719,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Tags are a good way to organize AWS resources in the AWS Management Console. You can configure tags to be displayed with resources, and we can search and filter by tag. With the AWS Resource Groups service, we can create groups of AWS resources based on one or more tags or portions of tags. Using Resource Groups and Tag Editor, we can consolidate and view data for applications that consist of multiple services, resources, and Regions in one place.
 
 	+	#####	Cost Management
+
+		We can use AWS Cost Explorer and detailed billing reports to break down AWS costs by tag. Typically, we use business tags such as cost center, business unit, customer, or project to associate AWS costs with traditional cost-allocation dimensions. But a cost allocation report can include any tag. The following table is an example of a partial cost allocation report.
