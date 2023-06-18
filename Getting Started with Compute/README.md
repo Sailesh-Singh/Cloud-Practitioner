@@ -715,3 +715,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Benefits of using tags
 
 	+	#####	Resource organization
+
+		Tags are a good way to organize AWS resources in the AWS Management Console. You can configure tags to be displayed with resources, and we can search and filter by tag. With the AWS Resource Groups service, we can create groups of AWS resources based on one or more tags or portions of tags. Using Resource Groups and Tag Editor, we can consolidate and view data for applications that consist of multiple services, resources, and Regions in one place.
