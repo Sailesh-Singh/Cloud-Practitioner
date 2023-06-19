@@ -690,7 +690,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Steps to launching an instance
 
-	his section walks through **seven key decisions** to make when you use the AWS Management Console **Launch Instance Wizard** to create an EC2 instance.
+	This section walks through **seven key decisions** to make when you use the AWS Management Console **Launch Instance Wizard** to create an EC2 instance.
 	+	Along the way, we will explore essential Amazon EC2 concepts. In this section of the module, we will  be introduced to the configuration choices that we can make when we launch an instance. These choice include making decisions on _instance names and tags, AMIs, Instance types, key pairs, network settings, storage configurations, and advanced details_.
 
 +	####	Step 1. Using tags
