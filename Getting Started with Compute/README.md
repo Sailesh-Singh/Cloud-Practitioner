@@ -703,6 +703,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	The first step in creating an instance is assigning it a name and tags. This steps is optional but recommended. The name of an instance is default tag for the instance name and works like every other tag. Tag work as metadata  to identify and define the AWS resources that they are attached to. Each tag is a label that consists of a customer-defined key and an optional value that can simplify managing, searching for, and filtering resources. Although there are no inherent types of tags, customer can use them to categorize resources by purpose, owner, environment, or other criteria.
 
+	<p align="center">
+	<img src="assets/Step1_Using_tags.png" alt="Step1_Using_tags" width="80%" height="100%">
+	</p>
+
 +	####	Tag features
 
 	After we have created our instances, we can manage our tags and use them to filter and search for resources by tag.
