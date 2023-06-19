@@ -791,3 +791,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		AMIs provide a great way to back up a complete EC2 instance configuration, which we can use to launch a replacement instance in the event of a failure.
 
 +	####	Step 3. Instance types
+
+	The instance type specifies the hardware of the host computer that's used for our instance, such as CPU, memory, storage, and networking capacity.
+	Amazon EC2 provides a selection of instance types that these components optimize to fit different use cases. We select the appropriate instance type based on the requirements of the application or software that we plan to run on our instance.
+	
