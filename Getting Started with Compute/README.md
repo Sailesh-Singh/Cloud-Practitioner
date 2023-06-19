@@ -827,4 +827,9 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	The instance type specifies the hardware of the host computer that's used for our instance, such as CPU, memory, storage, and networking capacity.
 	Amazon EC2 provides a selection of instance types that these components optimize to fit different use cases. We select the appropriate instance type based on the requirements of the application or software that we plan to run on our instance.
+
+	[<img src="assets/Step3_Instance_types.png" alt="Step3_Instance_types" align="left" width="100%" height="100%">]()
+	<p align="center">
+	<b>Instance Types</b>
+	</p>
 	
