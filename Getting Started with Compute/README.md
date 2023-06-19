@@ -711,17 +711,40 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	After we have created our instances, we can manage our tags and use them to filter and search for resources by tag.
 
-	+	#####	Manage
-		
-		+	Add, remove or edit tags.
-		+	The tag limit per Amazon EC2 resources is 50 tags.
-		+	Naming and tagging resources is optional
-	
-	+	#####	Search and filter
+	<table>
+	<tr>
+	<th>Manage</th>
+	<th>Search and filter</th>
+	</tr>
 
-		+	Search for resources by key or by value.
-		+	Filter and search for resources by a combination of tag keys and values.
-		
+	<tr>
+	<td>
+	<p align="center"><br>
+	<img src="assets/Manage.png" alt="Manage" width="200px" height="100%">
+	</p>
+	</td>
+	<td>
+	<p align="center"><br>
+	<img src="assets/Search_and_filter.png" alt="Search and filter" width="200px" height="100%">
+	</p>
+	</td>
+	</tr>
+
+	<tr>
+	<td>Add, remove or edit tags.</td>
+	<td>Search for resources by key or by value.</td>
+	</tr>
+
+	<tr>
+	<td>The tag limit per Amazon EC2 resources is 50 tags.</td>
+	<td rowspan="2">Filter and search for resources by a combination of tag keys and values.</td>
+	</tr>
+	<tr>
+	<td>Naming and tagging resources is optional</td>
+	</tr>
+	
+	</table>
+
 +	####	Benefits of using tags
 
 	+	#####	Resource organization
