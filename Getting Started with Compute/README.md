@@ -789,3 +789,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Backups
 	
 		AMIs provide a great way to back up a complete EC2 instance configuration, which we can use to launch a replacement instance in the event of a failure.
+
++	####	Step 3. Instance types
