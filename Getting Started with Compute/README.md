@@ -693,6 +693,12 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	This section walks through **seven key decisions** to make when you use the AWS Management Console **Launch Instance Wizard** to create an EC2 instance.
 	+	Along the way, we will explore essential Amazon EC2 concepts. In this section of the module, we will  be introduced to the configuration choices that we can make when we launch an instance. These choice include making decisions on _instance names and tags, AMIs, Instance types, key pairs, network settings, storage configurations, and advanced details_.
 
+	[<img src="assets/Steps_to_launching_an_EC2_instance_2.png" alt="Steps_to_launching_an_EC2_instance_2" align="left" width="50%" height="100%">]()[<img src="assets/Steps_to_launching_an_EC2_instance.png" alt="Steps_to_launching_an_EC2_instance" align="left" width="50%" height="100%">]()
+	
+	<p align="center">
+	<b>Steps to launching an instance & Demo</b>
+	</p>
+
 +	####	Step 1. Using tags
 
 	The first step in creating an instance is assigning it a name and tags. This steps is optional but recommended. The name of an instance is default tag for the instance name and works like every other tag. Tag work as metadata  to identify and define the AWS resources that they are attached to. Each tag is a label that consists of a customer-defined key and an optional value that can simplify managing, searching for, and filtering resources. Although there are no inherent types of tags, customer can use them to categorize resources by purpose, owner, environment, or other criteria.
