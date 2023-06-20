@@ -849,7 +849,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Instance Categories
 
-	Depending on the ue case of our EC2 instance, we have a variety of instance categories to choose from.
+	Depending on the use case of our EC2 instance, we have a variety of instance categories to choose from.
 
 	[<img src="assets/Instance_categories.png" alt="Instance_categories" align="left" width="100%" height="100%">]()
 	<p align="center">
