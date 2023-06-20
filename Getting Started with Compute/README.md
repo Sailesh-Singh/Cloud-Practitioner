@@ -866,5 +866,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		[<img src="assets/Memory_optimized.png" alt="Memory_optimized" align="" width="100%" height="100%">]()
 
 	+	#####	Accelerated computing
+		[<img src="assets/Accelerated_computing.png" alt="Accelerated_computing" align="" width="100%" height="100%">]()
 
 	+	#####	Storage optimized
