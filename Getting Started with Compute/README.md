@@ -834,3 +834,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	Instance families
+
+	Each instance type belongs to an family. An instance family is a group of instances, with varying configurations, that are based on similar compute, memory, and storage capabilities. Within each family, instance types have specific names. For example, the T family has specific instance types such as t2.micro and t3.large.
