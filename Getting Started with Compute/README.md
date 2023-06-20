@@ -857,6 +857,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 	+	#####	General Purpose
+		[<img src="assets/General_purpose.png" alt="General_purpose" align="" width="100%" height="100%">]()
 
 	+	#####	Compute Optimize
 
