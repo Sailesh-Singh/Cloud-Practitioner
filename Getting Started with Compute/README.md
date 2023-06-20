@@ -848,3 +848,15 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	[<img src="assets/Instance_types_names.png" alt="Instance types names" align="left" width="100%" height="100%">]()
 
 +	####	Instance Categories
+
+	Depending on the ue case of our EC2 instance, we have a variety of instance categories to choose from.
+
+	+	#####	General Purpose
+
+	+	#####	Compute Optimize
+
+	+	#####	Memory optimized
+
+	+	#####	Accelerated computing
+
+	+	#####	Storage optimized
