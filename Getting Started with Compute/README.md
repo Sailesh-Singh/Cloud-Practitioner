@@ -843,3 +843,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	Instance types names
+	When you look at a specific instance type, we will see that its name has several parts.
