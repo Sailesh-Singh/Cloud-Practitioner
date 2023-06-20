@@ -832,4 +832,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>Instance Types</b>
 	</p>
-	
+
++	####	Instance families
