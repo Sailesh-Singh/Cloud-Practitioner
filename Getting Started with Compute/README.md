@@ -870,3 +870,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Storage optimized
 		[<img src="assets/Storage_optimized.png" alt="Storage_optimized" align="" width="100%" height="100%">]()
+
++	####	Scaling instances vertically
