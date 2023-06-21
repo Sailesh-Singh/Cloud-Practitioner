@@ -879,3 +879,9 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	Switch to any instance type in any instance family.
 
 +	####	Step 4. Key pairs
+
+	At instance launch, you can specify an existing key pair, create a new key pair, or choose not to use a key pair for this instance. A key pair cannot be added to the instance after it is launched.
+
+	A key pair consists of the following:
+	+	A **public key** that AWS stores
+	+	A **private key** file that you store
