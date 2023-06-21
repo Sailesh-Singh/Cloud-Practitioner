@@ -885,3 +885,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	A key pair consists of the following:
 	+	A **public key** that AWS stores
 	+	A **private key** file that you store
+
+	[<img src="assets/Step4_Key_pairs.png" alt="Step 4. Key pairs" align="left" width="100%" height="100%">]()
+	<p align="center">
+	<b>Key Pairs</b>
+	</p>
