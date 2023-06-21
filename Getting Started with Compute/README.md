@@ -898,3 +898,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	**Windows AMIs** use the private key to obtain the administrator password that we need to log in to our instance through Remote Desktop Protocol (RDP).
 	
 	**Linux AMIs** use the private key to use Secure Shell (SSH) to securely connect to our instance.
+
++	####	Step 5. Network settings
