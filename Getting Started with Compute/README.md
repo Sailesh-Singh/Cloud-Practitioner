@@ -877,3 +877,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	Vertical scaling (scaling for more compute power per instance) gives us the ability to do the following:
 	+	Scale up or down for CPU.
 	+	Switch to any instance type in any instance family.
+
++	####	Step 4. Key pairs
