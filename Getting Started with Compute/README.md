@@ -900,3 +900,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	**Linux AMIs** use the private key to use Secure Shell (SSH) to securely connect to our instance.
 
 +	####	Step 5. Network settings
+
+	[<img src="assets/Step5_Network_setting.png" alt="Step 5. Network settings" align="left" width="100%" height="100%">]()
+	<p align="center">
+	<b>Network Settings</b>
+	</p>
