@@ -933,3 +933,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	Public IP address
+
+	[<img src="assets/Public_IP_address.png" alt="Public_IP_address.png" align="left" width="100%" height="100%">]()
+	<p align="center">
+	<b>Public IP address</b>
+	</p>
