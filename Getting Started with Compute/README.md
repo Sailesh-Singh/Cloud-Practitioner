@@ -916,3 +916,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	VPCs and Subnets
+
+	When we start using  Amazon VPC, we have a default VPC in each AWS Region. A default VPC comes with a public subnet in each Availability Zone of the Region. Therefore we can immediately start launching Amazon EC2 instances into a default VPC. 
+	
+	
+	In this example, we have three Regions: the Northern Virginia Region, the London Region, and the Tokyo Region. Now, take a closer look at the Northern Virginia Region. The Northern Virginia Region has six public subnets, one for each of its six Availability Zones. We can create more public subnets in our defaults VPC, and we can even create and customize additional VPCs in any Region.
