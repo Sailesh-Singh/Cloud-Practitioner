@@ -907,3 +907,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	Regions
+
+	Choosing the region to launch our EC2 instance in is not a network configuration setting in the Amazon EC2 launch wizard. The Region is assumed based on the Region that we are working on our AWS Management Console.
