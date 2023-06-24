@@ -1056,3 +1056,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	Managing security groups
+
+
+	<p align="center">
+	<img src="assets/Managing_security_groups.png" alt="Managing_security_groups"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Managing security groups</b>
+	</p>
