@@ -1200,3 +1200,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Add volumes
 
 		We can specify instance store volumes for an instance only when we launch. After the instance is launched, we can add EBS volumes to the instance but not instance store volumes.
+
+	+	#####	Detach volumes
