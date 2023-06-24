@@ -1114,4 +1114,12 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Hard Disk Drives (HDDs)
 		+	######	Throughput Optimized
 
+			Throughput Optimized is a low-cost HDD volume designed for frequently accessed, throughput-intensive workloads.
+			Its use cases include the following:
+			+	Streaming workloads
+			+	Big data
+			+	Data warehouses
+			+	Log processing
+			+	Cannot be a boot volume
+	
 	
