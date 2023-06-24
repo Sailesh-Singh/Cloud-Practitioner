@@ -1206,3 +1206,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		An instance store volume's disks are physically attached to the instance. Therefore, we cannot detach an instance store volume from one instance and attach it to a different instance. AWS does not offer you the option to detach the volume.
 
 	+	#####	Configure volumes
+
+		Instance store volumes are not configurable. The instance type that we choose predetermines the volume type (SSD or HDD) and size. These configurations are not optional. We also cannot encrypt these volumes.
