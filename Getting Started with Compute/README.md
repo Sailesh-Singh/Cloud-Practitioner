@@ -950,3 +950,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Default VPC - custom subnet
 
 		We have the option to create additional subnets in our default VPC. If we launch our EC2 into a non-default subnet of the default VPC, then the **Auto-assign public IP** setting will be disabled by default. However, we can choose to change it from disabled to enabled.
+
+	+	#####	Custom VPC - custom subnet
