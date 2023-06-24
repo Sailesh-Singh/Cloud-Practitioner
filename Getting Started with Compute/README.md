@@ -1189,6 +1189,13 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	An instance store provides temporary block-level storage for your instance. This storage is located on disks that are physically attached to the host computer. An instance store is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content.
 
+	<p align="center">
+	<img src="assets/Amazon_EC2_instance_store.png" alt="Amazon_EC2_instance_store.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Amazon EC2 instance store</b>
+	</p>
+
 	+	#####	Persistent volumes
 
 		Instance store volumes are not persistent storage. If our instance is (on purpose or system failure) stopped, hibernated, or terminated, we will loose all of our date on the volume.
