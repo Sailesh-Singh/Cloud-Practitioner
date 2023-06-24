@@ -1139,3 +1139,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Amazon EBS storage configuration options
 	When configuring EBS storage configuration options, we have several options.
+
+	<p align="center">
+	<img src="assets/Amazon_EBS_storage_configuration_options.png" alt="Amazon_EBS_storage_configuration_options.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Amazon EBS storage configuration options</b>
+	</p>
