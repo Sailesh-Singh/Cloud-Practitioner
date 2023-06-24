@@ -1070,3 +1070,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	We can attach more than one security group to an instance. 
 		+	Instance-specific security groups are recommended.
 	+	All the rules from all the security groups that are attached to an instance are evaluated before traffic is allowed to pass through.
+
