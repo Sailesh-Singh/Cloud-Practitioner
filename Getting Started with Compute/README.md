@@ -1166,3 +1166,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 		Delete on termination indicates whether the volume should be automatically deleted when the instance is terminated. If we disable this delete on termination, then the volume will persist independently from the running life of an EC2 instance. As a result, the volume will remain provisioned in our account until we delete it manually.
 		We can also change the delete on termination behavior after the instance has been launched.
+
+	+	#####	Encryption
