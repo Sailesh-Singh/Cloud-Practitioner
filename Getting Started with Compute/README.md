@@ -1054,3 +1054,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>Security groups' stateful attributes</b>
 	</p>
+
++	####	Managing security groups
