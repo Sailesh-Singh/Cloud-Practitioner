@@ -1103,5 +1103,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Boot volumes
 			+	Development and test environments
 			
+		+	######	Provisioned IOPS
 
 	
