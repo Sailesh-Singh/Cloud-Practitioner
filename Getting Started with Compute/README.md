@@ -1093,4 +1093,15 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Solid State Drives (SSDs)
 		+	######	General purpose
+
+			General purpose is an SSD volume that balances price and performance for a wide variety of workloads.
+			Its use cases include the following:
+			+	Recommended for most workloads
+			+	Virtual desktops
+			+	Medium-sized single instance databases such as Microsoft SQL Server and Oracle
+			+	Latency-sensitive interactive applications
+			+	Boot volumes
+			+	Development and test environments
+			
+
 	
