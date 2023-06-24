@@ -1082,3 +1082,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	Able to handle almost any computing requirements
 
 +	####	EBS volume types
+
+	Amazon EBS provides multiple volume types that we can use optimize storage performance and cost for a broad range of applications.
+	
+	>These volumes types are divided into two major categories:
+	>><b>a.)	Solid State Drives (SSDs)</b>
+	>><b>b.)	Hard Disk Drives (HDDs)</b>
+	
+	**SSDs** are for transactional workloads, such as databases, virtual desktops, and boot volumes, and **HDDs** are for throughput-intensive workloads, such as MapReduce and log processing.
