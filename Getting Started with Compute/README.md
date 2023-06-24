@@ -942,5 +942,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Public IP
 
 	Depending on the situation, a public address might or might not be auto-assigned to our EC2 instance.
+
+	+	#####	Default VPC - default subnet
 	
 	+	#####	Default VPC - custom subnet
