@@ -1178,3 +1178,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	We can remove instances from the file system without losing any files stored on Amazon EFS.
 	Amazon EFS cannot act as a root volume. Each instance that is attached to Amazon EFS must have its own root volume.
 
+	<p align="center">
+	<img src="assets/Adding_a_file_system.png" alt="Adding_a_file_system.png"  width="200px" height="100%">
+	</p>
+	<p align="center">
+	<b>Adding a file system</b>
+	</p>
+
