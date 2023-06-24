@@ -1112,5 +1112,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Large database workloads
 
 	+	#####	Hard Disk Drives (HDDs)
+		+	######	Throughput Optimized
 
 	
