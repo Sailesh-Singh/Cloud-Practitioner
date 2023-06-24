@@ -1150,3 +1150,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Volume types
 
 		When choosing a volume type, you cannot use Throughput Optimized or Cold HDD volumes for root volumes. The root volume must be a general purpose or a Provisioned IOPs volume. You can add additional volumes (non-root volumes) to your instance and mix and match any types with other volume types as needed.
+
+	+	#####	Volume size
