@@ -1015,3 +1015,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Inbound and Outbound rules
 
 	Security group rules are divided into two categories:
+
+	+	#####	Inbound rules
