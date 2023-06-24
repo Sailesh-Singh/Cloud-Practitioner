@@ -1157,9 +1157,9 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		
 		Supported volume sizes are as follows: 
 		<i>
-		+	General purpose volumes: 1 GiB to 16,384 GiB
-		+	Provisioned IOPS: 4 GiB to 16,384 GiB
-		+	Throughput Optimized or Cold HHD: 125 GiB to 16,384 GiB
+		+	General purpose volumes: <b>1 GiB to 16,384 GiB</b>
+		+	Provisioned IOPS: <b>4 GiB to 16,384 GiB</b>
+		+	Throughput Optimized or Cold HHD: <b>125 GiB to 16,384 GiB</b>
 		</i>
 
 	+	#####	Delete on termination
