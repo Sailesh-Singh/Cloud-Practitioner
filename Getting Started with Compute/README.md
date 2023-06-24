@@ -1185,3 +1185,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<b>Adding a file system</b>
 	</p>
 
++	####	Amazon EC2 instance store
+
