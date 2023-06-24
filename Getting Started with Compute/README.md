@@ -997,3 +997,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 	+	#####	Type
+
+		The type is where we choose the specific type of protocol to open to network traffic. We can choose a common protocol, such as SSH (for a Linux instance), RDP (for a Windows instance), and HTTP and HTTPS to allow internet traffic to reach our instance.
