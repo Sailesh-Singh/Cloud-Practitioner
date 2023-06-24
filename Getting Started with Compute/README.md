@@ -1168,3 +1168,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		We can also change the delete on termination behavior after the instance has been launched.
 
 	+	#####	Encryption
+
+		Amazon EBS encryption is an encryption solution for our EBS volumes. We have the option to encrypt our root volume and any additional volumes that you attach to your EC2 instance. Amazon EBS encryption uses AWS Key Management Service (AWS KMS) keys to encrypt volumes. AWS KMS is a security service that lets we create and manage cryptographic keys and control their use across a wide range of AWS services.
