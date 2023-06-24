@@ -944,5 +944,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	Depending on the situation, a public address might or might not be auto-assigned to our EC2 instance.
 
 	+	#####	Default VPC - default subnet
+
+		By default, the **Auto-assign public IP** setting is set to enabled when we launce an instance in default subnet in the default VPC. However, when launching our instance, we can choose to disable the auto-assignment of the public IP address if we want to.
 	
 	+	#####	Default VPC - custom subnet
