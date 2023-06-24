@@ -1017,9 +1017,19 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	Security group rules are divided into two categories:
 
 	+	#####	Inbound rules
-
+		
+		[<img src="assets/Inbound_rules.png" alt="Inbound_rules.png" align="left" width="200px" height="120px">]()
+	
 		When we create a security group, it has **no inbound rules**. Therefore, no inbound traffic that originates from another host to our instance is allowed until we add inbound rules to the security group.
+
 		In this example, the instance has a security group that is allowing SSH access to the instance, from a source IP 203.0.113.5/32. However, it is not allowing SSH access from any other IP, and it is not allowing any HTTP access.
+
+		<p align="center">
+		<img src="assets/Inbound_rules1.png" alt="Inbound_rules1.png"  width="500px" height="150px">
+		</p>
+		<p align="center">
+		<b>Inbound rules</b>
+		</p>
 
 	+	#####	Outbound rules
 
