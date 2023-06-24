@@ -1072,3 +1072,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	All the rules from all the security groups that are attached to an instance are evaluated before traffic is allowed to pass through.
 
 +	####	Step 6. Configure storage
+
+	The main solution for EC2 instance storage is Amazon Elastic Block Store, or Amazon EBS.
+	
+	**Amazon Elastic Block Store (Amazon EBS)** is a durable, detachable, high-performance block-storage service designed for Amazon EC2.
+	+	Works like an external hard drive
+	+	Can provide low latency
+	+	Able to handle almost any computing requirements
