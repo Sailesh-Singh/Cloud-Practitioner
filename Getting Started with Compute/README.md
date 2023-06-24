@@ -1057,7 +1057,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Managing security groups
 
-
 	<p align="center">
 	<img src="assets/Managing_security_groups.png" alt="Managing_security_groups"  width="100%" height="100%">
 	</p>
@@ -1072,6 +1071,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	All the rules from all the security groups that are attached to an instance are evaluated before traffic is allowed to pass through.
 
 +	####	Step 6. Configure storage
+
+	[<img src="assets/Step6_Configure_storage.png" alt="Step6_Configure_storage" align="right"  width="200px" height="100%">]()
 
 	The main solution for EC2 instance storage is Amazon Elastic Block Store, or Amazon EBS.
 	
