@@ -1033,6 +1033,15 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Outbound rules
 
+		[<img src="assets/Outbound_rules.png" alt="Outbound_rules.png" align="left" width="200px" height="120px">]()
+
 		By default, a security group includes an outbound rule that **allows all outbound traffic**. We can remove the rule and add outbound rules that allow specific outbound traffic only.
 		If your security group has no outbound rules, no outbound traffic that **originates** from our instance is allowed.
 		In this example, the security group is configured to allow outbound rules for SSH to a specific IP address but doesn't allow outbound access for HTTP.
+		
+		<p align="center">
+		<img src="assets/Outbound_rules1.png" alt="Outbound_rules1.png"  width="500px" height="180px">
+		</p>
+		<p align="center">
+		<b>Outbound rules</b>
+		</p>
