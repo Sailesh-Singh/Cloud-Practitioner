@@ -1090,3 +1090,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	>><b>b.)	Hard Disk Drives (HDDs)</b>
 	
 	**SSDs** are for transactional workloads, such as databases, virtual desktops, and boot volumes, and **HDDs** are for throughput-intensive workloads, such as MapReduce and log processing.
+
+	+	#####	Solid State Drives (SSDs)
