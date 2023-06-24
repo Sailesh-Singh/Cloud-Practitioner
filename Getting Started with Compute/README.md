@@ -988,3 +988,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Rule components
 
 	Internet protocols are different ways that computers and other services on the internet can send information to each other. When we configure a security group's rules, there are four main components: _type, protocol, port range, and source_.
+
+	<p align="center">
+	<img src="assets/Rule_components.png" alt="Rule_components.png" width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Rule components</b>
+	</p>
