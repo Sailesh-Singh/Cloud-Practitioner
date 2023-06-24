@@ -1146,3 +1146,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>Amazon EBS storage configuration options</b>
 	</p>
+
+	+	#####	Volume types
