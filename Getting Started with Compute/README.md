@@ -1123,3 +1123,9 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Cannot be a boot volume
 
 		+	######	Cold
+		
+			Cold HDD is the lowest cost HDD volume and is designed for less frequently accessed workloads.
+			Its use cases include the following:
+			+	Throughput-oriented storage for large volumes of data that is infrequently accessed
+			+	Scenarios where the lowest storage cost is important
+			+	Cannot be a boot volume
