@@ -1202,3 +1202,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		We can specify instance store volumes for an instance only when we launch. After the instance is launched, we can add EBS volumes to the instance but not instance store volumes.
 
 	+	#####	Detach volumes
+
+		An instance store volume's disks are physically attached to the instance. Therefore, we cannot detach an instance store volume from one instance and attach it to a different instance. AWS does not offer you the option to detach the volume.
