@@ -1208,3 +1208,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Configure volumes
 
 		Instance store volumes are not configurable. The instance type that we choose predetermines the volume type (SSD or HDD) and size. These configurations are not optional. We also cannot encrypt these volumes.
+
++	####	Amazon EC2 instance store compared to Amazon EBS
