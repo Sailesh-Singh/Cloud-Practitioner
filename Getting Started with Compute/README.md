@@ -1111,4 +1111,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Critical business applications that require sustained IOPS performance
 			+	Large database workloads
 
+	+	#####	Hard Disk Drives (HDDs)
+
 	
