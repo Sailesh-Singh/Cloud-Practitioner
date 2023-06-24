@@ -1194,3 +1194,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Instance store volumes are not persistent storage. If our instance is (on purpose or system failure) stopped, hibernated, or terminated, we will loose all of our date on the volume.
 
 	+	#####	Limited availability
+
+		Instance store volumes have limited availability because the are only optional for a certain combination of AMIs and instance types. When selecting an AMIs that offer instance store volumes.
