@@ -1022,3 +1022,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		In this example, the instance has a security group that is allowing SSH access to the instance, from a source IP 203.0.113.5/32. However, it is not allowing SSH access from any other IP, and it is not allowing any HTTP access.
 
 	+	#####	Outbound rules
+
+		By default, a security group includes an outbound rule that **allows all outbound traffic**. We can remove the rule and add outbound rules that allow specific outbound traffic only.
+		If your security group has no outbound rules, no outbound traffic that **originates** from our instance is allowed.
+		In this example, the security group is configured to allow outbound rules for SSH to a specific IP address but doesn't allow outbound access for HTTP.
