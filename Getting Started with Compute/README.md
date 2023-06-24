@@ -1138,3 +1138,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Cannot be a boot volume
 
 +	####	Amazon EBS storage configuration options
+	When configuring EBS storage configuration options, we have several options.
