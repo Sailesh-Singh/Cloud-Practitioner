@@ -1105,4 +1105,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			
 		+	######	Provisioned IOPS
 
+			Input/Output Operations per Second (IOPS) measures the number of maximum reads and writes that a computing storage device can perform in a second. Provisioned IOPS are the highest-performance SSD volumes for mission-critical low-latency or high-throughput workloads. With these volumes, customers can meet the IOPS and throughput requirements of their most intensive business-critical applications.
+			
+			Its use cases include the following:
+			+	Critical business applications that require sustained IOPS performance
+			+	Large database workloads
+
 	
