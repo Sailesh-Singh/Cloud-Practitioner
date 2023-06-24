@@ -1161,3 +1161,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	Provisioned IOPS: 4 GiB to 16,384 GiB
 		+	Throughput Optimized or Cold HHD: 125 GiB to 16,384 GiB
 		</i>
+
+	+	#####	Delete on termination
