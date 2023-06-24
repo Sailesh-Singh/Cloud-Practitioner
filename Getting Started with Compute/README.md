@@ -1001,3 +1001,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		The type is where we choose the specific type of protocol to open to network traffic. We can choose a common protocol, such as SSH (for a Linux instance), RDP (for a Windows instance), and HTTP and HTTPS to allow internet traffic to reach our instance.
 
 	+	#####	Protocol
+
+		Internet protocols are different ways that computers and other services on the internet can send information to each other. The protocol section shows the protocol to allow for the protocol type. The most common protocols are 6 (TCP), 17 (User Datagram Protocol or UDP), and 1 (Internet Control Message Protocol, or ICMP).
