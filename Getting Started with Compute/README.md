@@ -1198,3 +1198,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Instance store volumes have limited availability because the are only optional for a certain combination of AMIs and instance types. When selecting an AMIs that offer instance store volumes.
 
 	+	#####	Add volumes
+
+		We can specify instance store volumes for an instance only when we launch. After the instance is launched, we can add EBS volumes to the instance but not instance store volumes.
