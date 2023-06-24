@@ -1152,3 +1152,12 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		When choosing a volume type, you cannot use Throughput Optimized or Cold HDD volumes for root volumes. The root volume must be a general purpose or a Provisioned IOPs volume. You can add additional volumes (non-root volumes) to your instance and mix and match any types with other volume types as needed.
 
 	+	#####	Volume size
+
+		The size of the volume is chosen in GiB. If you are creating the volume from a snapshot, then the size of the volume cannot be smaller than the size of the snapshot.
+		
+		Supported volume sizes are as follows: 
+		<i>
+		+	General purpose volumes: 1 GiB to 16,384 GiB
+		+	Provisioned IOPS: 4 GiB to 16,384 GiB
+		+	Throughput Optimized or Cold HHD: 125 GiB to 16,384 GiB
+		</i>
