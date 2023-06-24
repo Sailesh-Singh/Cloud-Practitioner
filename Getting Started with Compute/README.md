@@ -1013,3 +1013,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		The source is where we choose the source (inbound rules) or destination (outbound rules) for the traffic to reach. This option determines the traffic that can reach your instance. We can specify a single IP address, or a range of IP addresses. If the instance is hosting a web page, we can leave it open to all traffic on HTTP.
 
 +	####	Inbound and Outbound rules
+
+	Security group rules are divided into two categories:
