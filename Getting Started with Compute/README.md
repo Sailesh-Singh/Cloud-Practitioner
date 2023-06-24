@@ -1003,3 +1003,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Protocol
 
 		Internet protocols are different ways that computers and other services on the internet can send information to each other. The protocol section shows the protocol to allow for the protocol type. The most common protocols are 6 (TCP), 17 (User Datagram Protocol or UDP), and 1 (Internet Control Message Protocol, or ICMP).
+
+	+	#####	Port Range
