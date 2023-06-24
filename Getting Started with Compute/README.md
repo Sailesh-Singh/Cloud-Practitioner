@@ -1080,3 +1080,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	Works like an external hard drive
 	+	Can provide low latency
 	+	Able to handle almost any computing requirements
+
++	####	EBS volume types
