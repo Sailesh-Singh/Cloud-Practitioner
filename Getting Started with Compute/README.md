@@ -1192,3 +1192,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Persistent volumes
 
 		Instance store volumes are not persistent storage. If our instance is (on purpose or system failure) stopped, hibernated, or terminated, we will loose all of our date on the volume.
+
+	+	#####	Limited availability
