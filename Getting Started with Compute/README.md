@@ -986,7 +986,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Rule components
 
-	Internet protocols are different ways that computers and other services on the internet can send information to each other. When we configure a security group's rules, there are four main components: _type, protocol, port range, and source_.
+	Internet protocols are different ways that computers and other services on the internet can send information to each other. When we configure a security group's rules, there are four main components: _**type, protocol, port range, and source**_.
 
 	<p align="center">
 	<img src="assets/Rule_components.png" alt="Rule_components.png" width="100%" height="100%">
@@ -1216,3 +1216,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Instance store volumes are not configurable. The instance type that we choose predetermines the volume type (SSD or HDD) and size. These configurations are not optional. We also cannot encrypt these volumes.
 
 +	####	Amazon EC2 instance store compared to Amazon EBS
+
++	####	Step 7. Advance details
