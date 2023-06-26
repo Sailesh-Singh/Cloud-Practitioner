@@ -1218,3 +1218,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Amazon EC2 instance store compared to Amazon EBS
 
 +	####	Step 7. Advance details
+
+### Managing EC2
