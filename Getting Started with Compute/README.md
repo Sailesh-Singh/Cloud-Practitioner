@@ -1591,7 +1591,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	2. Make the desired change to the instance size or type. 
 	3. Start the instance.
 	
-	Disadvantages of vertical scaling include the following: 
+	<b>Disadvantages of vertical scaling include the following:</b> 
 	+	Manual process (but can be automated with AWS Lambda)
 	+	Challenging when you have multiple instances to manage 
 	+	Limited on the instance scalability
