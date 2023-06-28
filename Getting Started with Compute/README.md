@@ -1246,6 +1246,13 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Using IAM roles with AWS services
 
 	EC2 instances often run applications that must make secure API calls to other AWS services. Roles can be used to give instances permissions to access other AWS services to overcome security risks.
+
+	<p align="center">
+	<img src="assets/Using_IAM_roles_with_AWS_services.png" alt="Using_IAM_roles_with_AWS_services.png"  width="350px" height="100%">
+	</p>
+	<p align="center">
+	<b>Using IAM roles with AWS services</b>
+	</p>
 		
 
 ### Managing EC2
