@@ -1461,5 +1461,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	A **public key** that AWS stores
 		+	A **private key** file that we store
 
+	+	#####	Network setting
+
 
 ### Managing EC2
