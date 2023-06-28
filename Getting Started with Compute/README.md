@@ -1509,4 +1509,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 		To update and patch the instance when it is launched, add the appropriate script to the **user data** field.
 
++	####	Using Amazon EC2 summary
+
 		### Managing EC2
