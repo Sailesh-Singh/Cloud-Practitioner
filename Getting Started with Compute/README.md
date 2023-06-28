@@ -1566,3 +1566,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 | **Stopped**         | The instance is shut down and cannot be used. The instance can be started at any time.                                                                                                 | Not billed                                                       |
 | **Stop-hibernated** | The instance is shut down and cannot be used. The instance can be started at any time.                                                                                                 | Not billed                                                       |
 
+
++	####	EC2 instance lifecycle state flows
