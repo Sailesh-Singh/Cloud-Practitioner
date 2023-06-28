@@ -1568,3 +1568,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 
 +	####	EC2 instance lifecycle state flows
+
+	<p align="center">
+	<img src="assets/EC2_instance_lifecycle_state_flows.png" alt="EC2_instance_lifecycle_state_flows.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>EC2 instance lifecycle state flows</b>
+	</p>
