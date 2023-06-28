@@ -1575,3 +1575,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>EC2 instance lifecycle state flows</b>
 	</p>
+
+	An instance enters the pending state when it launches for the first time. In this state, the instance is preparing to enter the running state and cannot yet be used. When the instance is fully booted and ready, it exits the pending state and enters the running state. At this state, the  instance is running and readdy for use. If we reboot our instance, it will be unavailable for use until it re-enter the running  state again. 
+	If we decide to terminate the instance, it will briefly enter an intermediary state of shutting down before it is terminated. After the instance is terminated, it will remain visible in the Amazon EC2 console for a while before the virtual machine is deleted.
+	However, we cannot connect to or recover the terminated instance. These states are the only states available for instaces that are backed by an instance store volume. However, if our instance is backed by an EBS volume, then you have additional options available in the lifecycle of an instance. Instances thatare backed by Amazon EBS can be stopped. They enter the stopping state before they attain the fully stopped state. A stopped instance will not incur the same cost as a running instance. Starting a stopped instance puts it back into the pending state before itenters the running state and is ready for use again. From the stopped state, we can also terminate an instance if we want to.
