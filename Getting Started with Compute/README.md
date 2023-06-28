@@ -1326,5 +1326,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Tenancy
 		We'll recall that in the previous section of the course, we learned about dedicated tenancy. At this point, we can make that choice to have it enabled or disabled. Dedicated tenancy instances run on single-tenant, dedicated hardware. Host tenancy instances run on a dedicated host. If we select dedicated tenancy or dedicated host, our costs will be increased for our instance. We'll have no additional charge for running our instance on shared hardware. If no value is specified, the value of the source AMI will still be used.
-		
+
++	####	Configuration considerations
+
 ### Managing EC2
