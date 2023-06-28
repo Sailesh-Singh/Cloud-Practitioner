@@ -1552,3 +1552,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		
 	+	#####	Through other AWS services
 		AWS has some services such as AWS CloudFormation, AWS OpsWorks, and AWS Elastic Beanstalk that can be used to launch multiple resources at the same time. Typically, we would consider using these services to launch EC2 instances when they are part of bigger infrastructure or application.
+
++	####	Amazon EC2 lifecycle states
