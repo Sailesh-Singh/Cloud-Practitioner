@@ -1336,4 +1336,36 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<b>Configuration considerations</b>
 	</p>
 
+	Keep in mind the following considerations to help you make good decisions when launching our instance
+
++	#####	Have no default setting
+	+	Key Pair
+	
++	#####	Affect costs
+	+	Amazon Machine Image
+	+	Instance type
+	+	Configuration storage
+	+	Advanced details
+	+	Regions
+	
++	#####	Cannot be modified after instance launch
+	+	Amazon Machine
+	+	Image
+	+	Key Pair
+	+	Network settings
+		+	VPC
+		+	Subnet
+	+	Region
+		
++	#####	Can be modified after instance launch
+	+	Name and tags
+	+	Instance type
+	+	Networking settings
+		+	IP address
+		+	Security groups
+	+	Storage
+	+	Advance details
+		+	Adding a role
+		+	User data scripts
+
 ### Managing EC2
