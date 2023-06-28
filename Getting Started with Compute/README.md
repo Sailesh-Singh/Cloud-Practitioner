@@ -1319,5 +1319,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Shutdown behavior
 		The shutdown behavior setting affects how the instance behaves when an OS-level shutdown is performed. Instances can be either terminated or stopped. If no value is specified, the value of the AMI will still be used.
 	+	#####	Termination protection
-	
+		If **termination protection** is enabled, the instance cannot be terminated by using the console, API, or CLI until termination protection is disabled. If no value is specified, the value of the source AMI will still be used.
+
 ### Managing EC2
