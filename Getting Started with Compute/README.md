@@ -1322,5 +1322,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		If **termination protection** is enabled, the instance cannot be terminated by using the console, API, or CLI until termination protection is disabled. If no value is specified, the value of the source AMI will still be used.
 
 	+	#####	Detailed monitoring
-
+		Amazon CloudWatch is a monitoring service that provides you with data and actionable insights to monitor our applications. It is continually monitoring, collecting, and analyzing metrics about our instances. It updates our metrics dashboard every 5 minutes, without any additional charges. If detailed monitoring is enabled, CloudWatch updates metrics to our monitoring dashboards every minute. Additional charges will apply if it is enabled. If no value is specified, the value of the source AMI will still be used.
 ### Managing EC2
