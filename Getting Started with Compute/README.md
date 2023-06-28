@@ -1236,6 +1236,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Assumable access
 		To assume a role, the user must meet the requirements outline in the IAM policy. Role access can be granted to IAM users or federated users.
+
+	+	#####	Permission policies
 		
 
 ### Managing EC2
