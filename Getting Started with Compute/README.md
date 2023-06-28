@@ -1482,4 +1482,16 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Storage configurations
 
+		+	######	Requirements to consider:
+			+	The website should be available to everyone on the web, but the primary customer target is on the east coast of the United States.
+
+			+	The costs to run the instance should be kept as low as possible.
+
+		A **general purpose EBS volume** would make the best choice for this workload. A provisioned IOPS volume is over-resourcing and will cost us more than we need to spend. If the website was hosting a critical business website with a large database, then a provisioned IOPS volume could be the right solution. We can always scale to meet the needs of our storage.
+
+		+	######	Amazon EBS capabilities
+			+	Run databases
+			+	Host applications
+			+	Handle most storage computing needs
+
 		### Managing EC2
