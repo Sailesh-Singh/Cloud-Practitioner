@@ -1241,6 +1241,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Policies determine which actions an identity can perform, on which AWS resources, and under which conditions.
 
 	+	#####	Temporary credentials
+		Temporary credentials have a more restricted set of permissions than the standard IAM user, and they expire automatically after a set period of time.
 		
 
 ### Managing EC2
