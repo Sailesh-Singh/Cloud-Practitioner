@@ -924,7 +924,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<b>VPCs and subnets</b>
 	</p>
 	
-	In this example, we have three Regions: the Northern Virginia Region, the London Region, and the Tokyo Region. Now, take a closer look at the Northern Virginia Region. The Northern Virginia Region has six public subnets, one for each of its six Availability Zones. We can create more public subnets in our defaults VPC, and we can even create and customize additional VPCs in any Region.
+	**_In this example_**, we have three Regions: the Northern Virginia Region, the London Region, and the Tokyo Region. Now, take a closer look at the Northern Virginia Region. The Northern Virginia Region has six public subnets, one for each of its six Availability Zones. We can create more public subnets in our defaults VPC, and we can even create and customize additional VPCs in any Region.
 
 	[<img src="assets/VPCs_and_subnets_custom.png" alt="VPCs_and_subnets_custom.png" align="left" width="100%" height="100%">]()
 	<p align="center">
