@@ -1232,6 +1232,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 	+	#####	IAM Identities
+
 		An IAM identity represents a user, and can be authenticated and then authorized to perform actions in AWS.
 
 	+	#####	Assumable access
