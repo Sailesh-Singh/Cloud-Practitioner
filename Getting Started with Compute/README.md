@@ -1494,4 +1494,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Host applications
 			+	Handle most storage computing needs
 
+	+	#####	Advanced details
+
 		### Managing EC2
