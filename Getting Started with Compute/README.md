@@ -1256,6 +1256,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Security risk
 		Placing AWS credentials on an EC2 instance to give it permission to make secure API calls to other AWS services is highly insecure.
+
+	+	#####	Security solution
 		
 
 ### Managing EC2
