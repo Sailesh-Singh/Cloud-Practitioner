@@ -1609,3 +1609,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	Requires no downtime to implement
 
 +	####	Auto Scaling
+
+	**Amazon EC2 Auto Scaling** helps you maintain application availability and lets us automatically or remove EC2 instances according to conditions that we define.
+	+	Launches or terminates instances based on specified conditions
+	+	Automatically registers new instances with load balancers when specified
+	+	Can launch instances across Availability Zones
+	+	Replaces unhealthy or unreachable instances with new instances
+	+	Helps to save money by automating the number of instances based on condition needs
