@@ -1540,3 +1540,15 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>Options for launching EC2 instances</b>
 	</p>
+
+	+	#####	AWS Management Console
+		The AWS management Console is a graphical user interface that we can use to launch, configure, and manage AWS services.
+		
+	+	#####	AWS Command Line Interface (AWS CLI)
+		The AWS CLI is a unified tool to manage our AWS services. With only one tool to download and configure, we can provision and control multiple AWS services from the command line and automate them through scripts.
+		
+	+	#####	AWS Software Development Kit (SDK)
+		SDKs take the complexity out of coding by providing language-specific APIs AWS services. With AWS SDKs, we can launch AWS services, like EC2 instances, by using a variety of codes such as JavaScript, Python, Java, .NET, C++, and more.
+		
+	+	#####	Through other AWS services
+		AWS has some services such as AWS CloudFormation, AWS OpsWorks, and AWS Elastic Beanstalk that can be used to launch multiple resources at the same time. Typically, we would consider using these services to launch EC2 instances when they are part of bigger infrastructure or application.
