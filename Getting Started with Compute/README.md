@@ -874,7 +874,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Scaling instances vertically
 
 	Unlike the instance's AMI, the instance type can be changed after the instance is launched. Thus, we have the option to scale our instances by changing our instance type to give it more compute power. This kind of expansion is called vertical scaling.
-	Vertical scaling (scaling for more compute power per instance) gives us the ability to do the following:
+	Vertical scaling _(scaling for more compute power per instance)_ gives us the ability to do the following:
 	+	Scale up or down for CPU.
 	+	Switch to any instance type in any instance family.
 
