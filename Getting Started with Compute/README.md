@@ -1235,6 +1235,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		An IAM identity represents a user, and can be authenticated and then authorized to perform actions in AWS.
 
 	+	#####	Assumable access
+		To assume a role, the user must meet the requirements outline in the IAM policy. Role access can be granted to IAM users or federated users.
 		
 
 ### Managing EC2
