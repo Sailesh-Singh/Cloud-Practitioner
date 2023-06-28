@@ -1430,4 +1430,27 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	Launch permissions
 			+	A block device mapping
 
+	+	#####	Instance type
+
+		+	######	Requirements to consider:
+			+	The website should be available to everyone on the web, but the primary customer target is on the east coast of the United States.
+
+			+	The costs to run the instance should be kept as low as possible.
+
+		The instance is going to be used to host a website, and cost is a factor. Therefore, the most cost-effective instance type for a web server is one of the families in the **general purpose** category. Remember that instance types can be changed. You can scale up or scale down as needed. For example, you might start with an instance in the T3 family, and scale up if you need more CPU.
+
+		<table>
+			<tr>
+				<th>Instance</th>
+				<td>A1, M4, M5, T2, T3</td>
+			</tr>
+			<tr>
+				<th>UseCase</th>
+				<td>These instances are ideal for applications that use these resources in equal proportions such as web servers and code repositories.</td>
+			</tr>
+		</table>
+
+
+
+
 ### Managing EC2
