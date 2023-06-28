@@ -1400,5 +1400,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	The costs to run the instance should be kept as low as possible.
 
 	+	#####	Name and tags
+
+		+	######	Requirements to consider:
+			+	The instance's resources should be reportable for costs.
+			+	The costs to run the instance should be kept as low as possible.
+
+		To help track the costs of the instance, tags should be used. You can run reports based on tags to gain insight into the monthly costs of this particular instance.
 		
 ### Managing EC2
