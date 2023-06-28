@@ -1258,6 +1258,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Placing AWS credentials on an EC2 instance to give it permission to make secure API calls to other AWS services is highly insecure.
 
 	+	#####	Security solution
-		
+		Attach an IAM role to the EC2 instance that grants permission to make API requests to other services.
 
 ### Managing EC2
