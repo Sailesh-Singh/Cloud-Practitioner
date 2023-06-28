@@ -1533,3 +1533,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Options for launching EC2 instances
 
 	AWS offers four main methods for launching an EC2 instance. We can use the AWS Management Console, the AWS Command Line Interface (AWS CLI), or AWS SDKs, or we can launch instances through other AWS services.
+
+	<p align="center">
+	<img src="assets/Option_for_launching_EC2_instances.png" alt="Option_for_launching_EC2_instances.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Options for launching EC2 instances</b>
+	</p>
