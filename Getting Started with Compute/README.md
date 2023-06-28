@@ -1381,4 +1381,22 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Scenario
 
+		Your manager has asked you to create an EC2 instance that will host a dynamic website. After asking your manager more specific questions, you learn the following:
+		
+		+	The website should be available to everyone on the web, but the primary customer target is on the east coast of the United States.
+		
+		+	The instance that is hosting the website should have a Windows operating system.
+		
+		+	The application should be launched with the most recent patches and updates.
+		
+		+	The instance will need to have an administrator update patches from time to time.
+		
+		+	The instance must be protected from accidentally being terminated.
+		
+		+	The application will need to access Amazon S3.
+		
+		+	The instance's resources should be reportable for costs
+		
+		+	The costs to run the instance should be kept as low as possible.
+		
 ### Managing EC2
