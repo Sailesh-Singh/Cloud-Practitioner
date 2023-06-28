@@ -917,7 +917,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	VPCs and Subnets
 
-	When we start using  Amazon VPC, we have a default VPC in each AWS Region. A default VPC comes with a public subnet in each Availability Zone of the Region. Therefore we can immediately start launching Amazon EC2 instances into a default VPC. 
+	When we start using  **_Amazon VPC_**, we have a default VPC in each AWS Region. A default VPC comes with a public subnet in each Availability Zone of the Region. Therefore we can immediately start launching Amazon EC2 instances into a default VPC. 
 
 	[<img src="assets/VPCs_and_subnets.png" alt="VPCs_and_subnets" align="left" width="100%" height="100%">]()
 	<p align="center">
