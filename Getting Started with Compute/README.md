@@ -1369,4 +1369,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	User data scripts
 
 +	####	Putting it all together
+
+	<p align="center">
+	<img src="assets/Putting_it_all_together.png" alt="Putting_it_all_together.png"  width="350px" height="100%">
+	</p>
+	<p align="center">
+	<b>Putting it all together</b>
+	</p>
 ### Managing EC2
