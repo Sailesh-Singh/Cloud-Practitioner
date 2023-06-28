@@ -1272,5 +1272,43 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	User data
+	When we create our EC2 instances, we have the option of passing user data to the instance.
+	
+    **User data**
+
+	+	Optionally, specify a user data script at instance launch.
+	+	Use user data scripts to customize the runtime environment of your instance.
+	
+		+	A script runs the first time the instance starts by default.
+
+		+	A script can be configured to run every time the instance starts.
+		
+	+	These scripts can do the following:
+	
+		+	Patch and update the instance AMI.
+		+	Fetch and install software license keys.
+		+	Install additional software.
+		+	and more...
+
+	Example of a user data script
+	
+	+	`#!/bin/bash`<br>
+		This command is called a _shebang_ line. This line selects the  interpreter of the script executions, which is required on the first line for our script to work.
+		<br>
+	
+	+	`yum update -y`<br>
+		This command updates all the packages on our instance.
+		<br>
+	
+	+	`yum install httpd -y`<br>
+		This command installs the most recent Apache HTTP server program on our instance.
+		<br>
+	
+	+	`service httpd start`<br>
+		This command starts our Apache server program. Now it is not only  installed on our instance. It is also running on our instance.
+		<br>
+	
+	+	`chkconfig httpd on`<br>
+		This command configures our instance to automatically start the Apache server program for each reboot of the instance.
 	
 ### Managing EC2
