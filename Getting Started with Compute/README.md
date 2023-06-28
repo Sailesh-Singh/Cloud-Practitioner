@@ -1242,6 +1242,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Temporary credentials
 		Temporary credentials have a more restricted set of permissions than the standard IAM user, and they expire automatically after a set period of time.
+
++	####	Using IAM roles with AWS services
 		
 
 ### Managing EC2
