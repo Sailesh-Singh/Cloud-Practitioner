@@ -1243,7 +1243,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Temporary credentials
 		Temporary credentials have a more restricted set of permissions than the standard IAM user, and they expire automatically after a set period of time.
 
-+	####	Managing roles
 
 +	####	Using IAM roles with AWS services
 
@@ -1262,4 +1261,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Security solution
 		Attach an IAM role to the EC2 instance that grants permission to make API requests to other services.
 
++	####	Managing roles
+	An instance profile is a container for an IAM role. From the instance profile, we can select a role to associate with the instance.
+	
 ### Managing EC2
