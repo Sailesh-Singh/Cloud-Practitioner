@@ -1511,4 +1511,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Using Amazon EC2 summary
 
+	<p align="center">
+	<img src="assets/Using_Amazon_EC2_summary.png" alt="Using_Amazon_EC2_summary.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Using Amazon EC2 summary</b>
+	</p>
+
 		### Managing EC2
