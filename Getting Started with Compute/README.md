@@ -1581,3 +1581,16 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	However, we cannot connect to or recover the terminated instance. These states are the only states available for instances that are backed by an instance store volume. However, if our instance is backed by an EBS volume, then you have additional options available in the lifecycle of an instance. Instances that are backed by Amazon EBS can be stopped. They enter the stopping state before they attain the fully stopped state. A stopped instance will not incur the same cost as a running instance. Starting a stopped instance puts it back into the pending state before it enters the running state and is ready for use again. From the stopped state, we can also terminate an instance if we want to.
 
 +	####	Vertical Scaling
+
+	Amazon EC2 gives you the option to scale your instances by changing your instance type. Thus, you can scale up or down, as needed, for computing power, memory, disk space and more. This process is called vertical scaling.
+	To vertically scale an Amazon EC2 instance, you must complete three steps:
+	1. Stop the instance.
+	2. Make the desired change to the instance size or type. 
+	3. Start the instance.
+	
+	Disadvantages of vertical scaling include the following: 
+	+	Manual process (but can be automated with AWS Lambda)
+	+	Challenging when you have multiple instances to manage 
+	+	Limited on the instance scalability
+	+	Requires the instance to be unavailable while making changes
+
