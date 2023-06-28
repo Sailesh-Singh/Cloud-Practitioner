@@ -1463,6 +1463,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Network setting
 
+		<p align="">
+		<img src="assets/Activity_Network_settings.png" alt="Activity_Network_settings.png"  align="right" width="150px" height="220px">
+		</p>
+
 		+	######	Requirements to consider:
 			+	The instance that is hosting the website should have a Windows operating system.
 
