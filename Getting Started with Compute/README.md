@@ -1379,4 +1379,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Activity: Configuring an instance based on the use case
 
+	+	#####	Scenario
+
 ### Managing EC2
