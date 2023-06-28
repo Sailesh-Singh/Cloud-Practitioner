@@ -1314,5 +1314,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Additional advance settings options
 
 	+	#####	Request Spot instances
+		We can request Spot Instances at the Spot price, which are capped off at the On-Demand price. Remember that Spot Instances are for workloads that can be interrupted. Requesting Spot Instances can affect pricing because they are cheaper than On-Demand Instances.
+
+	+	#####	Shutdown behavior
 	
 ### Managing EC2
