@@ -1618,3 +1618,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	Helps to save money by automating the number of instances based on condition needs
 
 +	####	Amazon EC2 Auto Scaling options
+	Amazon EC2 Auto Scaling offers three main ways to automate horizontal scaling.
