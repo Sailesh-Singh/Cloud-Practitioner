@@ -1463,5 +1463,18 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Network setting
 
+		+	######	Requirements to consider:
+			+	The instance that is hosting the website should have a Windows operating system.
 
-### Managing EC2
+			+	The website should be available to everyone on the web, but the primary customer target is on the east coast of the United States.
+
+		The website will be primarily targeting customers on the east coast of the United States. Therefore, the best Region to launch our instance in is the **N. Virginia Region**. We should be sure that the **VPC** and **subnet** that we place our instance in are configured for internet access. Also, a **public IP address** should be assigned to the instance.
+
+		The **security group** should have inbound rules that allow for the following:
+
+		+	Internet (HTTP/HTTPS) traffic for the public website to be accessible to the internet.
+
+		+	Remote desktop protocol (RDP) traffic for an administrator to log in for patching and updating the instance. If the instance had a Linux OS, then you would use SSH instead.
+
+
+		### Managing EC2
