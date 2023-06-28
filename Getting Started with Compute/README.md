@@ -1398,5 +1398,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	The instance's resources should be reportable for costs
 		
 		+	The costs to run the instance should be kept as low as possible.
+
+	+	#####	Name and tags
 		
 ### Managing EC2
