@@ -1329,4 +1329,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Configuration considerations
 
+	<p align="center">
+	<img src="assets/Configuration_considerations.png" alt="Configuration_considerations.png"  width="350px" height="100%">
+	</p>
+	<p align="center">
+	<b>Configuration considerations</b>
+	</p>
+
 ### Managing EC2
