@@ -1452,5 +1452,14 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Key pair
 
+		+	######	Requirements to consider:
+			+	The instance will need to have an administrator update patches from time to time.
+
+		Because the instance will need to have an administrator update patches from time to time, the instance should be created with a key pair. You can either create a new key pair or use an existing key pair. The administrator who is making the updates should have access to this key pair.
+
+		A key consists of the following:
+		+	A **public key** that AWS stores
+		+	A **private key** file that we store
+
 
 ### Managing EC2
