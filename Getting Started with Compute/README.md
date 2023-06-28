@@ -1518,4 +1518,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<b>Using Amazon EC2 summary</b>
 	</p>
 
-		### Managing EC2
+
+### Managing EC2
