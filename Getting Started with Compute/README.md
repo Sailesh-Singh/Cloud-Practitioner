@@ -1616,3 +1616,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	Can launch instances across Availability Zones
 	+	Replaces unhealthy or unreachable instances with new instances
 	+	Helps to save money by automating the number of instances based on condition needs
+
++	####	Amazon EC2 Auto Scaling options
