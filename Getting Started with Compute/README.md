@@ -1244,6 +1244,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Temporary credentials have a more restricted set of permissions than the standard IAM user, and they expire automatically after a set period of time.
 
 +	####	Using IAM roles with AWS services
+
+	EC2 instances often run applications that must make secure API calls to other AWS services. Roles can be used to give instances permissions to access other AWS services to overcome security risks.
 		
 
 ### Managing EC2
