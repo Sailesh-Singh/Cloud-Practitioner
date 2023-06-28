@@ -1312,5 +1312,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		This command configures our instance to automatically start the Apache server program for each reboot of the instance.
 
 +	####	Additional advance settings options
+
+	+	#####	Request Spot instances
 	
 ### Managing EC2
