@@ -1608,4 +1608,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	Lowers costs
 		+	Requires no downtime to implement
 
-
++	####	Auto Scaling
