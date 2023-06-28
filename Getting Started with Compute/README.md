@@ -1317,5 +1317,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		We can request Spot Instances at the Spot price, which are capped off at the On-Demand price. Remember that Spot Instances are for workloads that can be interrupted. Requesting Spot Instances can affect pricing because they are cheaper than On-Demand Instances.
 
 	+	#####	Shutdown behavior
+		The shutdown behavior setting affects how the instance behaves when an OS-level shutdown is performed. Instances can be either terminated or stopped. If no value is specified, the value of the AMI will still be used.
 	
 ### Managing EC2
