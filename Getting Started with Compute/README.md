@@ -1496,4 +1496,17 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Advanced details
 
+		+	######	Requirements to consider:
+			+	The instance must have an administrator update patches from time to time.
+
+			+	The application must be protected from accidentally being terminated.
+
+			+	The application will need to access Amazon S3
+
+		Because the application must access Amazon S3, we should attach an **IAM role** to the instance that has sufficient permissions to perform the required tasks.
+
+		To protect the instance from accidental termination, enable **termination protection**.
+
+		To update and patch the instance when it is launched, add the appropriate script to the **user data** field.
+
 		### Managing EC2
