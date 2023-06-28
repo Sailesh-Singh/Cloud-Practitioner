@@ -1450,7 +1450,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			</tr>
 		</table>
 
-
+	+	#####	Key pair
 
 
 ### Managing EC2
