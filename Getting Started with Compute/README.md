@@ -1368,4 +1368,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		+	Adding a role
 		+	User data scripts
 
++	####	Putting it all together
 ### Managing EC2
