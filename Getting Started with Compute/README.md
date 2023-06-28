@@ -1224,4 +1224,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Step 7. Advance details
 	An IAM role is an IAM identity that we can create in our account that has specific permissions. Roles can be granted temporary credentials that have a more restricted set of permissions than your standard IAm user.
 
+	<p align="center">
+	<img src="assets/Step7_advanced_details.png" alt="Step7_advanced_details.png"  width="350px" height="100%">
+	</p>
+	<p align="center">
+	<b>Advance details</b>
+	</p>
+
 ### Managing EC2
