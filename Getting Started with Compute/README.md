@@ -1619,3 +1619,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Amazon EC2 Auto Scaling options
 	Amazon EC2 Auto Scaling offers three main ways to automate horizontal scaling.
+
+	<p align="center">
+	<img src="assets/Amazon EC2 Auto Scaling options.png" alt="Amazon EC2 Auto Scaling options.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Amazon EC2 Auto Scaling options</b>
+	</p>
