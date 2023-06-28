@@ -1598,6 +1598,8 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Horizontal Scaling
 
+	[<img src="assets/Horizontal_scaling.png" alt="Horizontal_scaling.png"  align="right" width="300px" height="220px">]()
+
 	Horizontal scaling is the process of adding or removing Amazon EC2 instances depending on the traffic demands. This process can be automated by using the Amazon EC2 Auto Scaling service. With horizontal scaling, you can add as many instances as you need for the computing job and terminate them when they are no longer needed.
 
 	+	#####	Benefits:
