@@ -1415,5 +1415,19 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		</p>
 		
 	+	#####	AMI
-	
+
+		+	######	Requirements to consider:
+			
+			+	The instance that is hosting the website should have a Windows operating system.
+			
+			+	The costs to run the instance should be kept as low as possible.
+
+		An **AMI** should be chosen that is packaged with **Windows** as the operating system. Also, you should give careful consideration for any other software that might be needed when choosing your AMI. Your manager said to keep costs as low as possible. However, you don't want the performance of your website to suffer in order to keep costs low. Remember that AMIs cannot be switched out. If you later find that you need a more advanced AMI, you will need to create a new instance.
+
+		+	######	Amazon Machine Image components:
+
+			+	A template for the root volume 
+			+	Launch permissions
+			+	A block device mapping
+
 ### Managing EC2
