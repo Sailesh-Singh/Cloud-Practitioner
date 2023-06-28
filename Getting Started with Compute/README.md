@@ -1321,4 +1321,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	Termination protection
 		If **termination protection** is enabled, the instance cannot be terminated by using the console, API, or CLI until termination protection is disabled. If no value is specified, the value of the source AMI will still be used.
 
+	+	#####	Detailed monitoring
+
 ### Managing EC2
