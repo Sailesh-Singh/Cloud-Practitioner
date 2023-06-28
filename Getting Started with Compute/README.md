@@ -1476,5 +1476,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 		+	Remote desktop protocol (RDP) traffic for an administrator to log in for patching and updating the instance. If the instance had a Linux OS, then you would use SSH instead.
 
+	+	#####	Storage configurations
 
 		### Managing EC2
