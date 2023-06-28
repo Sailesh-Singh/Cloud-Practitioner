@@ -1263,5 +1263,12 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Managing roles
 	An instance profile is a container for an IAM role. From the instance profile, we can select a role to associate with the instance.
+
+	<p align="center">
+	<img src="assets/Managing_roles.png" alt="Managing_roles.png"  width="350px" height="100%">
+	</p>
+	<p align="center">
+	<b>Managing roles</b>
+	</p>
 	
 ### Managing EC2
