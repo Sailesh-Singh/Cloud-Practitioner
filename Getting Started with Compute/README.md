@@ -1406,5 +1406,12 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 			+	The costs to run the instance should be kept as low as possible.
 
 		To help track the costs of the instance, tags should be used. You can run reports based on tags to gain insight into the monthly costs of this particular instance.
+
+		<p align="center">
+		<img src="assets/Activity_Name_and_tags.png" alt="Activity_Name_and_tags.png"  width="350px" height="100%">
+		</p>
+		<p align="center">
+		<b>Name and tags</b>
+		</p>
 		
 ### Managing EC2
