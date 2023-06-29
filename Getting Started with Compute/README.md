@@ -1652,3 +1652,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>Vertical scaling use case</b>
 	</p>
+
++	####	Horizontal scaling use case
