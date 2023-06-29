@@ -1654,3 +1654,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	Horizontal scaling use case
+	A good use case to implement horizontal scaling, using Amazon EC2 Auto Scaling, is when we have more processing requests coming in tha our instance can handle.
+	In this example, we have an instance with an m5.large instance type. The instance is able to handle basic processing tasks. However, it is being overloaded by the number of processing tasks that are coming in at the  moment. Amazon EC2 Auto Scaling can detect that the instance has over 50 percent of its CPU utilized, so it spins up more instances to spread out the workload. As soon as the instance's CPU utilization drops below a certain threshold, Amazon EC2 Auto Scaling will begin terminating the extra instances.
+	In this scenario, vertical scaling would not be the best option because our application would need to be offline while we scaled up and down. Automating horizontal scaling with Amazon EC2 Auto Scaling is the best choice.
