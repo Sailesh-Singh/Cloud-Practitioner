@@ -1645,3 +1645,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	A good example of when we might implement vertical scaling is when the instance size is not big enough to handle common processing tasks.
 	In this example, the instance size is not big enough to handle the basic processing needs of the workload. So, we can scale up from an m5.large to a m5.xlarge. If we still need more CPU, then we can scale up to m5.2xlarge.
 	Scaling horizontally would not work in this scenario, because adding more instances would not address the issue of instances that cannot handle basic processing needs.
+
+	<p align="center">
+	<img src="assets/Vertical_scaling_use_case.png" alt="Vertical_scaling_use_case.png"  width="700px" height="100%">
+	</p>
+	<p align="center">
+	<b>Vertical scaling use case</b>
+	</p>
