@@ -1640,3 +1640,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 		<b>Predictive scaling</b> uses machine learning to schedule the right number of EC2 instances in anticipation of approaching traffic changes. Predictive scaling uses machine learning algorithms to predict future traffic, including regularly occurring spikes, and provisions the right number of EC2 instances in advance. As a result, it removes the need for manual adjustment to Amazon EC2 Auto Scaling parameters. It also delivers faster, simpler, and more accurate capacity provisioning, which results in lower cost and more responsive applications.
 
++	####	Vertical scaling use case
