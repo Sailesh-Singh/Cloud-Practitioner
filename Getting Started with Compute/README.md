@@ -1677,3 +1677,10 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	Another part of managing our EC2 instances is making sure that they are available. Thus, we need to consider managing traffic to our application on our instance.
 	For example, if we deployed our application on one EC2 instance, over time, the instance response time might decrease, or the instance might stop responding. To resolve the issue, we would have to review our logs, identify the issue, and launch another EC2 instance. During this response action, our customers would not be able to access our web application.
 	To help avoid this situation, AWS offers Elastic Load Balancing (ELB). Elastic Load Balancers are a highly available and scalable AWS service that automatically distributes incoming application traffic across multiple targets, such  as EC2 instances. The target can be in a single Availability Zone or multiple zones. With Elastic Load Balancers, we would have two or more EC2 instances. If one instances stops responding, the Elastic Load Balancer will distribute the traffic to other instances without affecting our customers.
+
+	<p align="center">
+	<img src="assets/ELB.png" alt="ELB.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Elastic Load Balancing (ELB)</b>
+	</p>
