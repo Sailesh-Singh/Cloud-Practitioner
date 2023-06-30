@@ -1686,3 +1686,11 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	</p>
 
 +	####	ELB options
+	AWS offers three main ways to manage traffic to our EC2 instances.
+
+	<p align="center">
+	<img src="assets/ELB_options.png" alt="ELB_options.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>ELB options</b>
+	</p>
