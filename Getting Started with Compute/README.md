@@ -1694,3 +1694,14 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	<p align="center">
 	<b>ELB options</b>
 	</p>
+
++	#####	Application Load Balancer	﻿
+		An Application Load Balancer is ideal for load balancing HTTP and HTTPS traffic. It operates at the request level (layer 7) and routes traffic to targets (EC2 instances, containers, IP addresses, and Lambda functions) based on the request content. Choose an Application Load Balancer when you need a flexible feature set for our applications with HTTP and HTTPS traffic.
+		
+	+	#####	Network Load Balancer﻿
+		A Network Load Balancer is ideal for load balancing TCP and UDP traffic. Choose a Network Load Balancer when we need ultra-high performance and static IP addresses for our applications. Operating at the connection level (layer 4), Network Load Balancers are capable of handling millions of requests per second securely while maintaining ultra-low latencies.
+		
+	+	#####	Gateway Load Balancer
+		A Gateway Load Balancer helps us to deploy, scale, and manage our third-party virtual appliances. It operates at the network level (level 3) and provides a gateway for distributing traffic across multiple virtual appliances while scaling them up and down based on demand.
+		We choose a Gateway Load Balancer when we need to deploy and manage a fleet of third-party virtual appliances that support GENEVE protocols. You can use these appliances to improve security, compliance, and policy controls. Gateway Load Balancers operate at the third layer.
+
