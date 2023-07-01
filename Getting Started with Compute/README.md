@@ -1716,5 +1716,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		To connect to an instance by using Session Manager, we must be granted the necessary permissions.
 
 	+	#####	SSH client
-	
+		After launching our instance, we can connect to it and use it the way that you'd use a computer that's sitting in front of you. If the instance is created without a key pair, we cannot connect to the instance through SSH.
+
+	+	#####	EC2 serial console
 	
