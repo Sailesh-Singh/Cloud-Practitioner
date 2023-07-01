@@ -1705,3 +1705,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		A Gateway Load Balancer helps us to deploy, scale, and manage our third-party virtual appliances. It operates at the network level (level 3) and provides a gateway for distributing traffic across multiple virtual appliances while scaling them up and down based on demand.
 		We choose a Gateway Load Balancer when we need to deploy and manage a fleet of third-party virtual appliances that support GENEVE protocols. You can use these appliances to improve security, compliance, and policy controls. Gateway Load Balancers operate at the third layer.
 
++	####	Additional options for connecting to our instance
