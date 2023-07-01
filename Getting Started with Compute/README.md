@@ -1706,3 +1706,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		We choose a Gateway Load Balancer when we need to deploy and manage a fleet of third-party virtual appliances that support GENEVE protocols. You can use these appliances to improve security, compliance, and policy controls. Gateway Load Balancers operate at the third layer.
 
 +	####	Additional options for connecting to our instance
+	+	#####	EC2 Instance Connect
