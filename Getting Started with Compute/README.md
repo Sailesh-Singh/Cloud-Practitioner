@@ -1719,4 +1719,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		After launching our instance, we can connect to it and use it the way that you'd use a computer that's sitting in front of you. If the instance is created without a key pair, we cannot connect to the instance through SSH.
 
 	+	#####	EC2 serial console
+		The **Amazon EC2 serial console** provides access to your EC2 instance's serial port. We can use the serial console to troubleshoot boot, network configuration, and other issues. The serial console does not require our instance to have any networking capabilities. On the serial console, we can enter commands to an instance as if our keyboard and monitor are directly attached to the instance's serial port.
+		To connect to an instance by using the Amazon EC2 serial console, the account must be authorized in the Amazon EC2 account settings.
 	
