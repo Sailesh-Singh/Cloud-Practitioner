@@ -1714,4 +1714,7 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		**Session Manager** is a fully managed AWS Systems Manager capability. We can use it to manage our EC2 instances, on-premises instances, and virtual machines through an interactive one-click, browser-based shell or through the AWS CLI.
 		Fleet Manager, an AWS Systems Manager capability, is a unified UI experience that helps us remotely manage our nodes that run on AWS or on premises. With Fleet Manager, we can view the health and performance status of our entire server fleet from one console.
 		To connect to an instance by using Session Manager, we must be granted the necessary permissions.
+
+	+	#####	SSH client
+	
 	
