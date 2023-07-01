@@ -1709,3 +1709,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 	+	#####	EC2 Instance Connect
 		**Amazon EC2 Instance Connect** provides a simple and secure way to connect to our instances by using Secure Shell (SSH).
 		We can connect by using Amazon EC2 Instance Connect with a valid user name and without a key pair.
+
+	+	#####	Session Manager
