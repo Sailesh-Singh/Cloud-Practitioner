@@ -1730,3 +1730,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Right-sizing your instances means that you choose the right balance of instance types. This process includes monitoring when servers can be either sized down or turned off and still meet your performance requirements.
 
 	+	#####	Increasing  elasticity
+		Increase elasticity is the practice of designing your deployments to reduce the amount of server capacity that is idle by implementing deployments that are elastic. For example, you can have deployments that use automatic scaling to handle peak loads.
