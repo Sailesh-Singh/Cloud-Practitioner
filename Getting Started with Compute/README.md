@@ -1728,3 +1728,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Using the right  size instance
 		Right-sizing your instances means that you choose the right balance of instance types. This process includes monitoring when servers can be either sized down or turned off and still meet your performance requirements.
+
+	+	#####	Increasing  elasticity
