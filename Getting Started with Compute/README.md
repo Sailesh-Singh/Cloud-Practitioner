@@ -1736,3 +1736,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Optimal pricing model is about recognizing the available pricing options. Analyze your usage patterns so that you can run EC2 instances with the right mix of pricing options.
 
 	+	#####	Optimizing storage choices
+		Optimizing storage choices requires you to analyze the storage requirements of your deployments. The goal is to reduce unused storage overhead when possible and choose less expensive storage options if they still meet your requirements for storage performance.
