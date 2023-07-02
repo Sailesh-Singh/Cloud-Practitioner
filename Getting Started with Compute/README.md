@@ -1737,3 +1737,6 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 	+	#####	Optimizing storage choices
 		Optimizing storage choices requires you to analyze the storage requirements of your deployments. The goal is to reduce unused storage overhead when possible and choose less expensive storage options if they still meet your requirements for storage performance.
+
+
++	####	Other AWS Storage Services summary
