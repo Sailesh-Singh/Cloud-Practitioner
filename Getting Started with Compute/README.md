@@ -1723,3 +1723,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		To connect to an instance by using the Amazon EC2 serial console, the account must be authorized in the Amazon EC2 account settings.
 	
 +	####	Optimizing instance costs
+	Finally, as we manage our instances, we must optimize them for costs to keep our computing budget as low as possible.
+	Optimizing instance costs has four pillars. These pillars are:
