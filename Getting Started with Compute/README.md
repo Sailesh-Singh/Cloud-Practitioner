@@ -1725,3 +1725,5 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 +	####	Optimizing instance costs
 	Finally, as we manage our instances, we must optimize them for costs to keep our computing budget as low as possible.
 	Optimizing instance costs has four pillars. These pillars are:
+
+	+	#####	Using the right  size instance
