@@ -1733,3 +1733,4 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		Increase elasticity is the practice of designing your deployments to reduce the amount of server capacity that is idle by implementing deployments that are elastic. For example, you can have deployments that use automatic scaling to handle peak loads.
 
 	+	#####	Choosing  optimal pricing models
+		Optimal pricing model is about recognizing the available pricing options. Analyze your usage patterns so that you can run EC2 instances with the right mix of pricing options.
