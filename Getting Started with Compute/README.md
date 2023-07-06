@@ -1707,10 +1707,18 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 +	####	Additional options for connecting to our instance
 	+	#####	EC2 Instance Connect
+		<p align="center">
+		<img src="assets/EC2_Instance_Connect.png" alt="EC2_Instance_Connect.png"  width="100px" height="100%">
+		</p>
+
 		**Amazon EC2 Instance Connect** provides a simple and secure way to connect to our instances by using Secure Shell (SSH).
 		We can connect by using Amazon EC2 Instance Connect with a valid user name and without a key pair.
 
 	+	#####	Session Manager
+		<p align="center">
+		<img src="assets/Session_Manager.png" alt="Session_Manager.png"  width="100px" height="100%">
+		</p>
+
 		**Session Manager** is a fully managed AWS Systems Manager capability. We can use it to manage our EC2 instances, on-premises instances, and virtual machines through an interactive one-click, browser-based shell or through the AWS CLI.
 		Fleet Manager, an AWS Systems Manager capability, is a unified UI experience that helps us remotely manage our nodes that run on AWS or on premises. With Fleet Manager, we can view the health and performance status of our entire server fleet from one console.
 		To connect to an instance by using Session Manager, we must be granted the necessary permissions.
@@ -1719,11 +1727,26 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 		After launching our instance, we can connect to it and use it the way that you'd use a computer that's sitting in front of you. If the instance is created without a key pair, we cannot connect to the instance through SSH.
 
 	+	#####	EC2 serial console
+		<p align="center">
+		<img src="assets/EC2_serial_console.png" alt="EC2_serial_console.png"  width="100px" height="100%">
+		</p>
+
 		The **Amazon EC2 serial console** provides access to your EC2 instance's serial port. We can use the serial console to troubleshoot boot, network configuration, and other issues. The serial console does not require our instance to have any networking capabilities. On the serial console, we can enter commands to an instance as if our keyboard and monitor are directly attached to the instance's serial port.
 		To connect to an instance by using the Amazon EC2 serial console, the account must be authorized in the Amazon EC2 account settings.
 	
 +	####	Optimizing instance costs
+	<p align="center">
+	<img src="assets/Optimizing_Instance_cost1.png" alt="Optimizing_Instance_cost1.png"  width="200px" height="100%">
+	</p>
 	Finally, as we manage our instances, we must optimize them for costs to keep our computing budget as low as possible.
+
+	<p align="center">
+	<img src="assets/Optimizing_Instance_cost2.png" alt="Optimizing_Instance_cost2.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Optimize instance cost pillars</b>
+	</p>
+
 	Optimizing instance costs has four pillars. These pillars are:
 
 	+	#####	Using the right  size instance
@@ -1740,3 +1763,38 @@ In this section, we will learn about the seven steps to launch an EC2 instance. 
 
 
 +	####	Other AWS Storage Services summary
+	<p align="center">
+	<img src="assets/Other_AWS_Storage_Services_summary.png" alt="Other_AWS_Storage_Services_summary.png"  width="100%" height="100%">
+	</p>
+	<p align="center">
+	<b>Other AWS Storage Summary</b>
+	</p>
+
++	###	Summary
+
+	Key takeaways from the course:
+
+	<p align="center">
+	<img src="assets/Summary.png" alt="Summary.png"  width="100%" height="100%">
+	</p>
+
++	###	Continue your learning journey
+
+	<p align="center">
+	<img src="assets/Continue_your_learning_journey.png" alt="Continue_your_learning_journey.png"  width="100%" height="100%">
+	</p>
+
++	###	Thank you for choosing AWS Educate
+
+	<p align="center">
+	<img src="assets/Thank_you_for_choosing_AWS_Educate.png" alt="Thank_you_for_choosing_AWS_Educate.png"  width="100%" height="100%">
+	</p>
+
+### Getting Started with Amazon EC2 Lab Guide
+
+This lab guide teaches you the basic overview of launching, resizing, managing,and monitoring  an Amazon Elastic Compute Cloud (Amazon EC2) instance. _Click to [Learn more ...](https://awseducate.instructure.com/courses/907/modules/items/15905)_
+
+
+### <a href="./Lab: Getting Started with Amazon EC2/README.md">Getting Started with Amazon EC2 Lab</a>
+
+<a  href="./Lab: Getting Started with Amazon EC2/README.md">Click to learn more ...</a>
