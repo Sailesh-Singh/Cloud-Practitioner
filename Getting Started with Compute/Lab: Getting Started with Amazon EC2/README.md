@@ -83,7 +83,7 @@ In the Launch instance section, choose the Launch instance dropdown list, and th
     +   For Security group name - required, enter `Web Server security group`
     
     +   To delete the existing RDP rule,  next to Security group rule 1, choose Remove.
-    <img src="vpc_required.PNG" alt="vpc_requiredg" style="height: 100%; width:100%;"/>
+    <img src="./assets/vpc_required.PNG" alt="vpc_required.PNG" style="height: 100%; width:100%;"/>
 
 +   #####  Step 6: Add storage
 
@@ -97,10 +97,7 @@ In the Launch instance section, choose the Launch instance dropdown list, and th
     
     +   For IAM instance profile, choose the role that has LabInstanceProfile in the name.
     
-    
     +   From the Termination protection dropdown list, choose Enable.
-    
-      
     
     +   Copy the following commands, and paste them into the User data text box.
     
@@ -145,7 +142,7 @@ In the Launch instance section, choose the Launch instance dropdown list, and th
     
     +   Next to your Web-Server, select the  check box. The Details tab displays detailed information about your instance
     
-    <img src="instance_launch.PNG" alt="instance_launch" style="height: 100%; width:100%;"/>
+    <img src="./assets/instance_launch.PNG" alt="instance_launch" style="height: 100%; width:100%;"/>
 
 
 #### Task 2: Monitor your instance
@@ -190,7 +187,7 @@ Source: Choose Anywhere-IPv4.
 
 >   <b>Note:</b> Notice the "Rules with source of 0.0.0.0/0 allow all IP addresses to access your instance. We recommend setting security group rules to allow access from known IP addresses only." While this is true and common best practice, this lab allows access from any IP address (Anywhere) to simplify both the security group configuration and testing of the website running on your EC2 instance.
 
- <img src="3.PNG" alt="Connecting " style="height: 100%; width:100%;"/>
+ <img src="./assets/3.PNG" alt="Connecting " style="height: 100%; width:100%;"/>
  
 
 +   Choose Save rules
@@ -220,7 +217,7 @@ A new tab opens.
 +   To disconnect from your Web-Server instance, choose End session. 
 
 +   In the pop-up window, choose End session again .
- <img src="4.PNG" alt="Connecting " style="height: 100%; width:100%;"/>
+ <img src="./assets/4.PNG" alt="Connecting " style="height: 100%; width:100%;"/>
  
 
 #### Task 5: Resizing your instance
@@ -264,13 +261,13 @@ When the instance is started again, it is a t2.nano instance. You now start the 
 +   Once the instance is restarted, the Instance state displays Running.
 
 
- <img src="5.PNG" alt="Resizing your instance " style="height: 100%; width:100%;"/>
+ <img src="./assets/5.PNG" alt="Resizing your instance " style="height: 100%; width:100%;"/>
 
 #### Task 6: Testing termination protection 
 
 +   Select the check box next to your Web-Server instance. From the Instance state  dropdown menu, choose Terminate instance.
 
-+       Notice the message next to the Terminate instance option: Termination protection is enabled for one or more of the selected instances. 
++   Notice the message next to the Terminate instance option: Termination protection is enabled for one or more of the selected instances. 
 
 
 +   From the Actions dropdown menu, choose Instance settings, and then choose Change termination protection.
