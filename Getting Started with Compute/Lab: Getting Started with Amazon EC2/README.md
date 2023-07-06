@@ -283,7 +283,7 @@ When the instance is started again, it is a t2.nano instance. You now start the 
 
 #### Task 7: Exploring EC2 limits 
 
-+   In the left navigation pane, choose Limits.
++   In the left navigation pane, choose **Limits**.
 
 
 ###  END OF LAB 
