@@ -19,3 +19,66 @@ By the end of this course, we will be able to do the following:
 +   Discuss how to configure security in a VPC by using network access control lists (network ACLs) and security groups.
 +   Describe types of IP addressing, including use and benefits.
 +   Identify ways to manage your VPC.
+
+---
+
+# Getting started with Networking
+
+###	1.	Beginning Scenes
+**A.  Introduction to networking**
+
++	Network basics
++	OSI model
++	IP Address
++	VPCs
+
+**B.  Introduction to Amazon Virtual Private Cloud(Amazon VPC)**
+
++	Key concepts
++	Architecture
++	Use cases
++	VPC pricing
+
+**C.  Using Amazon VPC**
++	Subnets
++	Network gateways
++	Route tables
++	Firewalls
+
+**D.  Managing your network**
++	Using additional VPC features 
++	AWS VPN
++	AWS Direct Connect
++	Other AWS networking services
+
+### 2.  Keyboard Shortcuts
+
+**A.    Windows keys**
++   Play/Pause	`Ctrl+Alt+P`
++   Previous slide	`Ctrl+Alt+,(Comma)`
++   Next slide	`Ctrl+Alt+.(period)`
++   All shortcuts	`Shift+?`
+
+**B.    Mac keys**
++   Play/Pause	`Ctrl+Option+P`
++   Previous slide	`Ctrl+Option+,(Comma)`
++   Next slide	`Ctrl+Option+.(period)`
++   All shortcuts	`Shift+?`
+
+
+
+### 3.	Introduction to Networking
+Computer network is two or more devices connected together to share resources. Devices on network are called **nodes**. Nodes on network are divided into two categories. They are:
++   #####   Host node
+    Centralized node that shares files, applications, and resources with other nodes on the network.
+    Examples:
+    +	File Servers
+    +	Email Servers
+    +	Web Servers
+
++   #####    Client node
+    Nodes that depend on the host node for files, applications, and resources.
+    Examples:
+    +	Computers
+    +	Printers
+    +	Mobile devices
