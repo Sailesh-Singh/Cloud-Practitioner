@@ -356,7 +356,7 @@ Computer network is two or more devices connected together to share resources. D
 
     <img src="assets/network_gateways2.PNG" alt="network" style="height:100%; width:100%">
 
-+   ####   Route_table
++   ####   Route table
     <img src="assets/route_table.PNG" alt="route_table" style="height:100%; width:100%">
 
 +   ####   Route table associations
@@ -527,7 +527,7 @@ Computer network is two or more devices connected together to share resources. D
             <img src="assets/interface_vpc.PNG" alt="NAT" style="height:100%; width:100%"> 
 
         +   ######   Gateway endpoints
-            Provide reliable connectivity to Amazon Simple storage service(Amazon S3) and Amazon DynamoDB without requiring an internet gateway or a NAT device for your VPC. Gateway endpoints donot enable AWS PrivateLink. There is no additional charge for using gateway endpoints.
+            Provide reliable connectivity to Amazon Simple storage service(Amazon S3) and Amazon DynamoDB without requiring an internet gateway or a NAT device for your VPC. Gateway endpoints do not enable AWS PrivateLink. There is no additional charge for using gateway endpoints.
 
     +   #####   VPC Peering
         <img src="assets/vpc_peering.PNG" alt="NAT" style="height:100%; width:100%">  
