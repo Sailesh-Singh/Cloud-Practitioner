@@ -256,3 +256,291 @@ Computer network is two or more devices connected together to share resources. D
 
 +   #### Your cloud in cloud
     <img src="assets/cloudincloud.PNG" alt="cloud" style="height:100%; width:100%">    
+
+### 4.  Introduction to Amazon VPC
+
+<b>VPC flow logs can be used for:</b>
+
++   Networking monitoring
++   Security analysis
++   Expenses optimization
+
++   ####    Default VPC
+    <img src="assets/default_vpc.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####    VPC Quotas
+    <img src="assets/vpc_quotas.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   VPC Use Case
+
+    <img src="assets/vpc_usecase.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+    +   #####   Presentation tier
+        The presentation tier where web-server host a user interact websites or applications, the user access directly over the internet.
+
+    +   #####   Logic tier
+        Logic tier is where he code is stored on an application server and where the computing processes occurred as a presentation tier interact with logic tier.
+
+    +   #####   Data tier
+        Data tier is where database is stored. Typically the database only sends and receives traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessible on the internet.
+
+    +   #####   Amazon VPC multi-tier application example
+
+        <img src="assets/multitier_vpc.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   VPC Architectural Patterns
+    +   #####   Single VPC pattern
+        There are limited use cases where one VPC could be appropriate.
+        +   Small, single applications managed by one person or a very small team.
+        +   High-performance computing
+        +   Identity management
+
+    +   #####   Multi-VPC pattern
+        **Best suited for:**
+        +   Single team or single organizations, such as managed service providers.
+        +   Limited teams, which makes it simpler to maintain standards and manage access
+        
+        **Exception:**
+        +   Governance and compliance standards might require greater workload isolation regardless of organizational complexity.
+
+    +   #####   Multi-account VPC patterns
+        **Best suited for:**
+        +   Large organizations and organizations with multiple IT Teams
+        +   Medium-sized organization that anticipate rapid growth.    
+
+        **Why ?**
+        +   Managing access and standards can be more challenging in more complex organizations.
+
+        <img src="assets/vpc_patterns.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   Amazon VPC costs
+    <img src="assets/vpc_costs.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####    Components
+    <img src="assets/vpc_components.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   Amazon VPC CIDR blocks
+    <img src="assets/vpc_cidr.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   Amazon VPC default components
+    <img src="assets/vpc_default_component.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   VPC ID and tags
+    +   #####   VPC ID
+        When you create a VPC, it will be auto-assigned a VPC ID. The VPC ID is a string of random numbers and letters that identify your VPC. This ID will be required when you associate additional components to your VPC, such as subnets and route tables. VPC IDs cannot be edited.
+        <b>VPC ID example: vpc-0476e890abedg995f</b>
+
+    +   #####   VPC tags
+
+        Because the VPC ID can be difficult to remember, you have the option to tag your VPC with a more identifiable name. By tagging your VPC, the tag name appears after the VPC ID in parenthesis when associating components to your VPC. You can access controls lists(network ACLs). It is recommended that you tag these components to be sure that you are connecting the correct components together.
+
+        <img src="assets/vpc_tags.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   Subnets in AWS
+    <img src="assets/vpc_subnets.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   Subnets placement
+    <img src="assets/vpc_subnet_placement.PNG" alt="vpc" style="height:100%; width:100%"> 
+
++   ####   Subnetting in AWS
+    <img src="assets/vpc_subnetting.PNG" alt="vpc" style="height:100%; width:100%">
+
++   ####   Subnet sizes
+    <img src="assets/vpc_subnetting.PNG" alt="vpc" style="height:100%; width:100%">
+
++   ####   Subnet and VPC associations
+    <img src="assets/vpc_association.PNG" alt="vpc" style="height:100%; width:100%">
+
++   ####   Network Gateways
+    <img src="assets/network_gateways1.PNG" alt="network" style="height:100%; width:100%">
+
+    <img src="assets/network_gateways2.PNG" alt="network" style="height:100%; width:100%">
+
++   ####   Route_table
+    <img src="assets/route_table.PNG" alt="route_table" style="height:100%; width:100%">
+
++   ####   Route table associations
+    <img src="assets/route_table_associations.PNG" alt="route_table" style="height:100%; width:100%">
+
++   ####   Security groups
+    At most basic levels it filter inbound and outbound traffic that is allowed in our instances.
+    <img src="assets/security_groups.PNG" alt="security_groups" style="height:100%; width:100%">
+
++   ####   Security group rules
+    +   #####   Inbound rules
+        By default, it has no inbound rules. Therefore, no inbound traffic that originates from another host to your instance is allowed until you add inbound rules to he security groups.
+        The source in an inbound rule determines the traffic that can reach your instance.
+        This example shows an inbound rule that is configured to allow Secure Shell(SSH) traffic to a specific IPV4 address. As a result, the user of the specified IP address can update the instance through SSH access.
+
+        <img src="assets/security_inboundrule_example.PNG" alt="security_groups" style="height:100%; width:100%">
+
+    +   #####   Outbound rules
+        By default, a security group includes an outbound rule tha allows all outbound traffic. You can remove the rule and add outbound rules that allow specific outbound traffic only.
+        <img src="assets/outbound_rule.PNG" alt="security_groups" style="height:100%; width:100%">
+
+
++   ####   Security groups stateful characteristic
+    <img src="assets/security_character.PNG" alt="security_groups" style="height:100%; width:100%">
+
++   ####  Choosing security groups
+
+    <img src="assets/choose_Security.PNG" alt="security_groups" style="height:100%; width:100%">
+
++   #### Network ACLs
+    <img src="assets/network_ACL.PNG" alt="ACL" style="height:100%; width:100%">
+
++   ####   Subnet and Network ACL Associations
+    <img src="assets/network_ACL_association.PNG" alt="ACL" style="height:100%; width:100%">
+
++   ####   Network ACL stateless character
+    <img src="assets/network_stateless_character.PNG" alt="ACL" style="height:100%; width:100%">
+
++   ####   Network ACL rules
+    <img src="assets/ACL_rules.PNG" alt="ACL" style="height:100%; width:100%">
+
++   ####   Network ACLs rule evaluation
+    <img src="assets/ACL_rule1.PNG" alt="ACL" style="height:100%; width:100%">
+    
+    <img src="assets/ACL_rule2.PNG" alt="ACL" style="height:100%; width:100%">
+
++   #### Default and custom network ACLs
+    <img src="assets/default_custom_network.PNG" alt="ACL" style="height:100%; width:100%">
+
+
++   ####   Comparing Security groups and ACL
+    <img src="assets/comparing_ACL_and_security_groups.PNG" alt="ACL" style="height:100%; width:100%">
+
++   ####   VPC and more
+    **Options to create a VPC from the AWS Management Console:**
+
+    +   #####   VPC only
+        +   You must manually add each component.
+        +   You must connect and associate each component together.
+
+    +   #####   VPC and more
+        +   Components are created based on a template that you can adjust
+        +   You do not need to associate or connect components unless you need to make changes.
+
+
++   ####   Deleting a VPC
+    **Requires a manual deletion first**
+    +   EC2 instances
+    +   RDS instances
+    +   Elastic load balancer
+    +   NAT gateways
+    +   Transit gateways
+    +   VPC endpoints
+
+    **Automation deletion with VPC**
+    +   Subnets
+    +   Internet gateways
+    +   Egress-only internet gateways
+    +   Route tables 
+    +   Security groups
+    +   Network ACLs
+    +   DHCP options
+    +   Gateway endpoints
+
++   ####   Activity: Configuring a VPC based on the use case
+    +   #####   Scenario
+        You must have a business with a website that is hosted on an Amazon Elastic Compute Cloud(Amazon EC2) instance. You have an application server and customer data stored on a backend database that you want to keep private. You want to use Amazon VPC to set up a VPC that meets the following requirements.
+
+        +   The VPC should be in the N. Virginia Region, where you currently have five VPCs.
+        +   The first VPC address of your network must be 10.0.0.0.
+        +   You web server should be in a separate subnet from your application and database servers.
+        +   Your architecture must be highly available so that customers can access your site,
+        +   Your severs must be accessible to a group of administrators by using SSH access.
+        +   Security groups and network ACLs should be configured to allow only required traffic.
+        +   Five IP addresses that you consider a threat must be considered in security settings.
+
+    +   #####   VPC configurations
+        Requirements to consider:
+        +   The VPC should be in the N. Virginia Region, where you currently have five VPCs.
+        +   The first address of your network must be 10.0.0.0.
+        +   Each subnet must have 230 usable addresses.
+
+        The requirements say that this VPC should be in the N. Virginia Region. Therefore, you must submit a ticket to AWS to increase the number of VPCs for the N. Virginia Region.
+
+        To accommodate the requirement that the first address of your network be 10.0.0.0, consider using the CIDR block 10.0.0.0/16. This option will give you enough IP addresses for multiple subnets.
+
+    +   #####   Network gateways
+        Requirements to consider:
+        +   Your architecture must be highly available so that customers can access your site.
+        
+        Because you VPC is hosting a website on a web server that is public facing, an internet gateway must be attached. Any instances in the public subnet that will have access to the internet will also need a public IP address.
+
+    +   #####   Subnets
+        Requirements to consider:
+        +   Your web server should be in a separate subnet from your application servers and database servers.
+        +   Your architecture must be highly available so that customers can access your site.
+
+        For a highly available architecture that customers will always be able to access, put at least two public subnets in two different Availability Zones. Traffic would be controlled by an Elastic Load Balancer(ELB) balancer.
+
+        <img src="assets/subnet_configure.PNG" alt="ACL" style="height:100%; width:100%">
+
+    +   #####   Route tables
+        Requirements to consider:
+        +   You have an application server and customer data stored on a backend database you want to keep private.
+        +   Your customers must always be able to access your web server.
+
+        You should have a route table that is configured so that your public subnets have a route to the internet through the internet gateway. The private subnets route tables should not have any access to the internet gateway.
+        
+    +   #####   Security groups
+        Requirements to consider:    
+        +   your servers must be accessible to a group of administrators through SSH access.
+        +   Security groups and network ACLs should be configured to allow only required traffic.
+
+        Your security groups for application, database, and web servers should all allow SSH inbound rules. Rules should be configured so that the web server can communicate with the application server, which should be able to communicate with the database server.    
+
+    +   #####   Network ACLs
+        Requirements to consider:
+        +   Security groups and network ACLs should be configured to allow only required traffic.
+        +   Five IP addresses that you can consider a threat must be considered in security settings.
+
+        Your network ACLs should be configured to complement the security groups. However, remember that security groups only need inbound or outbound allow rules, but network ACLs must be configured to allow inbound and outbound rules.
+
++   ####    Managing Your Network 
+    +   #####   Elastic IP address
+        <img src="assets/elastic_ip.PNG" alt="Elastic" style="height:100%; width:100%">
+
+    +   #####   Elastic IP address flexibility and costs
+        <img src="assets/elastic_flexibility.PNG" alt="Elastic" style="height:100%; width:100%">
+
+    +   #####   NAT Gateway
+        <img src="assets/nat_gateway.PNG" alt="NAT" style="height:100%; width:100%">
+
+    +   #####   AWS VPN
+        +   create Virtual private gateway
+        +   create customer gateway
+        +   create private route table
+        +   establish site-to-site VPN connection
+        <img src="assets/AWS_vpn.PNG" alt="NAT" style="height:100%; width:100%">
+
+    +   #####   AWS Direct Connect
+        Used to establish dedicated private network connection between the network and one of the direct connect locations.
+        <img src="assets/AWS_direct_connect.PNG" alt="NAT" style="height:100%; width:100%">    
+
+    +   #####   VPC Endpoints
+        +   ######   Interface VPC endpoints:
+            AWS Private link is a technology that provides private connectivity between VPCs, AWS services, and your on-premises networks without exposing your traffic to the public internet. You can create interface VPC endpoints(interface endpoints), which you can use to connect to services that are powered by AWS PrivateLink. You are charged for creating and using an interface endpoint to a service.
+
+            <img src="assets/interface_vpc.PNG" alt="NAT" style="height:100%; width:100%"> 
+
+        +   ######   Gateway endpoints
+            Provide reliable connectivity to Amazon Simple storage service(Amazon S3) and Amazon DynamoDB without requiring an internet gateway or a NAT device for your VPC. Gateway endpoints donot enable AWS PrivateLink. There is no additional charge for using gateway endpoints.
+
+    +   #####   VPC Peering
+        <img src="assets/vpc_peering.PNG" alt="NAT" style="height:100%; width:100%">  
+
+    +   #####   VPC Peering restriction
+        <img src="assets/vpc_peering_restriction.PNG" alt="NAT" style="height:100%; width:100%">    
+
+    +   #####   Other AWS networking services
+        +   ######   Amazon Route S3
+            <img src="assets/route_s3.PNG" alt="NAT" style="height:100%; width:100%"> 
+
+        +   ######   Amazon CloudFront
+            <img src="assets/cloudfront.PNG" alt="NAT" style="height:100%; width:100%"> 
+
+        +   ######   Amazon API Gateway
+            <img src="assets/API_gateway.PNG" alt="NAT" style="height:100%; width:100%"> 
