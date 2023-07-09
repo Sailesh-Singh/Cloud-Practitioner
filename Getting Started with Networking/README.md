@@ -24,7 +24,7 @@ By the end of this course, we will be able to do the following:
 
 # Getting started with Networking
 
-###	1.	Beginning Scenes
+###	Beginning Scenes
 **A.  Introduction to networking**
 
 +	Network basics
@@ -51,7 +51,7 @@ By the end of this course, we will be able to do the following:
 +	AWS Direct Connect
 +	Other AWS networking services
 
-### 2.  Keyboard Shortcuts
+###  Keyboard Shortcuts
 
 **A.    Windows keys**
 +   Play/Pause	`Ctrl+Alt+P`
@@ -67,7 +67,7 @@ By the end of this course, we will be able to do the following:
 
 
 
-### 3.	Introduction to Networking
+###	Introduction to Networking
 Computer network is two or more devices connected together to share resources. Devices on network are called **nodes**. Nodes on network are divided into two categories. They are:
 +   #####   Host node
     Centralized node that shares files, applications, and resources with other nodes on the network.
@@ -257,7 +257,7 @@ Computer network is two or more devices connected together to share resources. D
 +   #### Your cloud in cloud
     <img src="assets/cloudincloud.PNG" alt="cloud" style="height:100%; width:100%">    
 
-### 4.  Introduction to Amazon VPC
+###  Introduction to Amazon VPC
 
 <b>VPC flow logs can be used for:</b>
 
