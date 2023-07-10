@@ -544,3 +544,13 @@ Computer network is two or more devices connected together to share resources. D
 
         +   ######   Amazon API Gateway
             <img src="assets/API_gateway.PNG" alt="NAT" style="height:100%; width:100%"> 
+
+
+### Getting Started with Networking Lab Guide 
+
+This lab guide teaches you the basic overview of Amazon Virtual Private Cloud (Amazon VPC) features that you learned about to create a basic VPC and deploy an Amazon Elastic Compute Cloud (Amazon EC2) instance into that VPC. _Click to [Learn more ...](https://awseducate.instructure.com/courses/911/modules/items/15874)_
+
+
+### <a href="./Lab: Getting Started with Networking/README.md">Getting Started with Networking Lab</a>
+
+<a  href="./Lab: Getting Started with Networking/README.md">Click to learn more ...</a>
