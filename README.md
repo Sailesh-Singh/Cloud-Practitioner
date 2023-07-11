@@ -30,5 +30,8 @@ We begin our journey from AWS Educate course. Click [Getting Started with Comput
 ##  <a href="./Getting Started with Networking/README.md">Getting Started with Networking</a>
 We begin our journey from AWS Educate course. Click [Getting Started with Networking](https://awseducate.instructure.com/courses/911) to begin learning. In this course we learn about Fundamental of basic Networking  concepts and using Amazon VPC <a href="./Getting Started with Networking/README.md"><i>learn more..</i></a>
 
+##  <a href="./Getting Started with Databases/README.md">Getting Started with Databases</a>
+We begin our journey from AWS Educate course. Click [Getting Started with Databases](https://awseducate.instructure.com/courses/912) to begin learning. In this course we learn about database fundamentals and Amazon Relational Database Service (Amazon RDS) <a href="./Getting Started with Databases/README.md"><i>learn more..</i></a>
+
 ##  <a href="./Getting Started with Cloud Operations/README.md">Getting Started with Cloud  Operations</a>
 We begin our journey from AWS Educate course. Click [Getting Started with Cloud Operations](https://awseducate.instructure.com/courses/889) to begin learning. In this course we learn about Fundamental operations of AWS <a href="./Getting Started with Cloud Operations/README.md"><i>learn more..</i></a>
