@@ -62,8 +62,8 @@ Data model is the logical structure of the database and determine the rules for 
 1.      Schema
     A database schema is the blueprint of the database. The schema outlines the relationships within the database and the constraints of the database.
     There are two main types of schemas: schema-less and semi-structured or fixed schema.
-    +   A schema-less database maanges information without the need for a blueprint.
-    +   Semi-structured data doesnot follow the format of a tabular data model or relational databases because it does not have fixed schema.
+    +   A schema-less database manages information without the need for a blueprint.
+    +   Semi-structured data does not follow the format of a tabular data model or relational databases because it does not have fixed schema.
 
 2.      Read/Write
     Reading and writing to a database is just what it sounds like.
@@ -73,8 +73,8 @@ Data model is the logical structure of the database and determine the rules for 
 
 3.      Input/output operations per second
     IOPS is the measure of performance of reads and writes to a storage location like a database.
-    Databases are IOPS intensive because they are continuously reading from the database and modifyinf the pages. Given this aspect of database, it is important to consider the impact of your performance when selecting IOPS.
-    To improve latency and rea/write throughput, provision more IOPS when configuring the databse. Limiting the IOPS may cause the database to hit the threshold and reduce performance. Over provisioning of IOPS will result in higher costs for the instance.
+    Databases are IOPS intensive because they are continuously reading from the database and modifying the pages. Given this aspect of database, it is important to consider the impact of your performance when selecting IOPS.
+    To improve latency and rea/write throughput, provision more IOPS when configuring the database. Limiting the IOPS may cause the database to hit the threshold and reduce performance. Over provisioning of IOPS will result in higher costs for the instance.
 
 4.      ACID and BASE compliance
 <img src="assets/acid and base.PNG" alt="ACID" style="height:100%; width:100%"> 
@@ -123,14 +123,14 @@ Data model is the logical structure of the database and determine the rules for 
 +   flexibility
 +   Scalability
 +   High performance
-+   Highly funcional APIs
++   Highly functional APIs
 
 ####    Non relational database use case
 <img src="assets/use case of non relational database.PNG" alt="database" style="height:100%; width:100%"> 
 
 ####    Why AWS database
 +       purpose built
-    AWS database service are purpose-built to support what your application is designed to do. Choose databqse service that best matches your workload.
+    AWS database service are purpose-built to support what your application is designed to do. Choose database service that best matches your workload.
 
 +       performance at scale
     AWS offers databases hat are three to five times faster than popular alternatives, or non-relational databases that give you microsecond to sub-millisecond latency.
@@ -233,7 +233,7 @@ such as:
 
 ####    Amazon RDS read replicas
 +   Amazon RDS allows you to create a special type of database instance called a read replica from a source database instance.
-+   Elastically scale out beyound the capacity constraints of a single database instance for read-heavy database workloads.
++   Elastically scale out beyond the capacity constraints of a single database instance for read-heavy database workloads.
 +   Create one or more replicas of a given source database instance to increase aggregate read throughput. 
 
 <img src="assets/read replicas.PNG" alt="read replicas" style="height:100%; width:100%">
