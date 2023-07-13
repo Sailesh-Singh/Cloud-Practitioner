@@ -111,3 +111,172 @@ Data model is the logical structure of the database and determine the rules for 
 +   Reducing redundancy and overall data storage.
 
 <img src="assets/database benefits.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    Use case of Relational database
+<img src="assets/use case of database.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    Nonrelational database
+<img src="assets/non relational database.PNG" alt="database" style="height:100%; width:100%"> 
+
+
+####    Non relational database benefits
++   flexibility
++   Scalability
++   High performance
++   Highly funcional APIs
+
+####    Non relational database use case
+<img src="assets/use case of non relational database.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    Why AWS database
++       purpose built
+    AWS database service are purpose-built to support what your application is designed to do. Choose databqse service that best matches your workload.
+
++       performance at scale
+    AWS offers databases hat are three to five times faster than popular alternatives, or non-relational databases that give you microsecond to sub-millisecond latency.
+
++       fully managed
+    AWS manages database tasks such as server provisioning, patching, configuration, and backups so you can focus on developing your application.
+
++       secure and highly available
+    AWS database are built for business-critical, enterprise workloads. They offer high availability, reliability, and security with multi-region and end-to-end encryption support.
+
+####    Database deployments and management
++   On-premises database
+<img src="assets/on-premises.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Hosted on Amazon EC2
+<img src="assets/hosted on amazon ec2.PNG" alt="database" style="height:100%; width:100%"> 
+
++   AWS managed    
+<img src="assets/aws managed.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    AWS databases
+<img src="assets/aws database.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Relational
+<img src="assets/relational.PNG" alt="database" style="height:100%; width:100%"> 
+
++   key-value
+<img src="assets/key value.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Document
+<img src="assets/document.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Timestream
+<img src="assets/timestream.PNG" alt="database" style="height:100%; width:100%">
+
++   In-memory
+<img src="assets/in-memory.PNG" alt="database" style="height:100%; width:100%">
+
++   Graph
+<img src="assets/graph.PNG" alt="database" style="height:100%; width:100%">
+
++   Ledger
+<img src="assets/graph.PNG" alt="database" style="height:100%; width:100%">
+
+
++   Key spaces
+<img src="assets/keyspaces.PNG" alt="database" style="height:100%; width:100%">
+
+####    Introduction to Amazon Relational Database Service(Amazon RDS)
++   Cost-efficient
++   Automating administration tasks
++   Resizable capacity
+
+####    Amazon RDS engines
+<img src="assets/RDS engine.PNG" alt="RDS" style="height:100%; width:100%">
+
+####    Amazon RDS
+    It is fully managed relational database service that supports the major relational database engines.
+
+<b>Why move to a fully managed services?</b>
+
+1.  Pass on the burden of repetitive tasks.
+such as:
+
++   Backups and restores
++   Software installations and patching
++   Managing hardware
+
+2.  Pass on the responsibility and engineering efforts.
++   scaling servers
++   highly available environments
++   maintenance free migration
+
+####    Amazon RDS benefits
++   Easy to administer
++   Available and durable
++   Highly scalable
++   Fast
++   Secure
++   Inexpensive
+
+####    High availability: Multi-AZ deployments
+<img src="assets/multi-az.PNG" alt="az" style="height:100%; width:100%">
+
+####    High availability: Multi-AZ deployments benefits
++       Enhanced durability
+    +   Multi-AZ deployments for the MySQL, MariaDB, Oracle, and PostgreSQL engines utilize synchronous physical replication to keep data on the standby up to date with the primary.
+    +   Multi-AZ deployments for the SQL Server engine use synchronous logical replication o achieve the same result, employing SQL Server-native mirroring technology.
+    +   If the storage volume on the primary instance falls, Amazon RDS automatically initiates a failover to the standby.
+
++       Increased availability
+    +   If there is an Availability Zone or primary database failure, your availability impact is limited to the time automatic failover takes to complete-typically under two minutes.
+    +   This availability benefit extends to planned maintenance and backups as well.
+    +   Upgrades and patches are installed on the standby instance first.
+    +   Once completed, a failover is initiated, and the updates or patches are installed on the remaining instance.
+
++       No administrative intervention
+    +   DB instance failover is fully automatic and requires no administrative intervention.
+    +   Amazon RDS monitors the health of your primary and standbys and initiates a failover automatically in response to a variety of failover conditions.
+
+####    Amazon RDS read replicas
++   Amazon RDS allows you to create a special type of database instance called a read replica from a source database instance.
++   Elastically scale out beyound the capacity constraints of a single database instance for read-heavy database workloads.
++   Create one or more replicas of a given source database instance to increase aggregate read throughput. 
+
+<img src="assets/read replicas.PNG" alt="read replicas" style="height:100%; width:100%">
+
+####    Amazon RDS read replicas benefits
++       Enhanced performance
+    Amazon RDS uses the MariaDB, Microsoft SQL Server, MySQL, Oracle, and PostgreSQL DB engines built-in replication functionality to create a special type of DB instance called a read replica from as source DB instance. The source DB instance becomes the primary DB instance. Updates made to the primary DB instance are asynchronously copied to the read replica. You can reduce the load on your primary DB instance by routing read queries from your applications to the read replica. Using read replicas, you can elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads.
+
++       Increased availability
+    Enhanced availability by deploying a standby instance in a second AZ, and achieve fault tolerance in the event of an AZ or database instance failure.
+
++       Designed for security 
+    When you create a read replica for Amazon RDS for MySQL, MariaDB, or Postgres SQL, Amazon RDS sets up a secure communications channel using public key encryption between the source DB instance and the read replica, even when replicating across Regions. Amazon RDS establishes any possible security configurations, such as adding security group entries, needed to enable the secure channel. You can also create read replicas within a Region or between Regions for you Amazon RDS for MYSQL, MariaDB, PostgreSQL, or Oracle database instances encrypts at rest with AWS KMS.
+
+There is a limit of five read replicas per primary    
+
+####    High availability example
+<img src="assets/high availability example.PNG" alt="high avilability" style="height:100%; width:100%">    
+
+####    Amazon RDS High availability failover
+<img src="assets/high availability failover.PNG" alt="failover" style="height:100%; width:100%"> 
+
+####    Amazon RDS High availability failover sequence4
+<img src="assets/sequence4.PNG" alt="sequence" style="height:100%; width:100%"> 
+
+####    Multi-AZ vs read replicas
+<img src="assets/az vs replicas.PNG" alt="az" style="height:100%; width:100%">
+
+####    Database backups
+<img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
+
+####    Database retention and backup storage
+<img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
+
+<img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
+
+####    AWS backup
++   Use AWS backup to manage backups of Amazon RDS DB instances
++   AWS backup service provides a centralized backup console
++   Backups managed by AWS backup are counted as manual backups.
+
+####    Amazon RDS backup solution
+<img src="assets/Amazon RDS backup solution.PNG" alt="Amazon RDS backup solution" style="height:100%; width:100%">
+
+####    Restoring Amazon RDS databases
+<img src="assets/Restoring Amazon RDS databases.PNG" alt="Restoring Amazon RDS databases" style="height:100%; width:100%">
