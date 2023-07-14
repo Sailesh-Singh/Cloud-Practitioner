@@ -280,3 +280,194 @@ There is a limit of five read replicas per primary
 
 ####    Restoring Amazon RDS databases
 <img src="assets/Restoring Amazon RDS databases.PNG" alt="Restoring Amazon RDS databases" style="height:100%; width:100%">
+
+####    Use case for Amazon RDS
+<img src="assets/use case for amazon RDS.PNG" alt="use case" style="height:100%; width:100%">
+
+####    RDS costs
+<img src="assets/RDS costs.PNG" alt="cost" style="height:100%; width:100%">
+
+####    Setting up Amazon RDS
+<img src="assets/setting up RDS.PNG" alt="RDS" style="height:100%; width:100%">
+
+####    Amazon RDS workflow
+<img src="assets/Amazon RDS workflow.PNG" alt="RDS workflow" style="height:100%; width:100%">
+
+####    Amazon RDS decision points
++   creating a virtual private cloud(VPC)
++   Amazon Elastic Compute Cloud (Amazon EC2) instance and the Amazon RDS database
++   Understand your workload, what is it that you want to accomplish
+
+<b>    Database engine</b>
++   Database engine you want to run
++   Each database engine has its own unique characteristics and features.
+
+<b> Instance storage</b>
+
++   DB instance class you select determines the computation and memory capacity of the Amazon RDS DB instance.
++   Three DB instance class types that are supported by Amazon RDS are standard, memory optimized, and burstable performance.
+
+<b>Security groups</b>
+
++   control access to a database instance.
++   Amazon RDS can use three types of security groups: database, VPC and EC2
++   Amazon RDS uses AWS Identity and Access Management or IAM.
++   IAM policies assign permissions that determine who can manage Amazon RDS resources.
+
+####    Options for creating a database in the console
+<img src="assets/creating db console.PNG" alt="DB" style="height:100%; width:100%">
+
+####    Amazon RDS creation
+<img src="assets/RDS creation.PNG" alt="RDS" style="height:100%; width:100%">
+
+<img src="assets/creation1.PNG" alt="RDS" style="height:100%; width:100%">
+
+<img src="assets/creation2.PNG" alt="RDS" style="height:100%; width:100%">
+
+####   Amazon RDS creation Engine type
+<img src="assets/engine type.PNG" alt="engine" style="height:100%; width:100%">
+
+####   Amazon RDS creation templates
+<img src="assets/templates.PNG" alt="templates" style="height:100%; width:100%">
+
+####   Amazon RDS creation -deployment options
+<img src="assets/deployment options.PNG" alt="RDS" style="height:100%; width:100%">
+
+####   Amazon RDS creation - DB cluster identifier
+<img src="assets/db cluster.PNG" alt="RDS" style="height:100%; width:100%">
+
+####    Amazon RDS settings - DB instance class
+<img src="assets/instance1.PNG" alt="instance" style="height:100%; width:100%">
+
+<img src="assets/instance2.PNG" alt="instance" style="height:100%; width:100%">
+
+<img src="assets/instance3.PNG" alt="instance" style="height:100%; width:100%">
+
+####    Amazon RDS settings storage type
+<img src="assets/storage type.PNG" alt="storage type" style="height:100%; width:100%">
+
+####    Connectivity - compute resource
+<img src="assets/connectivity.PNG" alt="connectivity" style="height:100%; width:100%">
+
+
+####    Connectivity - VPC
+<img src="assets/connectivity vpc.PNG" alt="connectivity" style="height:100%; width:100%">
+
+####    Connectivity - security groups
+<img src="assets/security groups.PNG" alt="connectivity" style="height:100%; width:100%">
+
+####    Connectivity - security groups example
+<img src="assets/security example.PNG" alt="connectivity" style="height:100%; width:100%">
+
+
+####   Connectivity - additional configuration
+
+<img src="assets/additional configuration.PNG" alt="connectivity" style="height:100%; width:100%">
+
+####    Modify settings
+<img src="assets/connectivity modify.PNG" alt="modify" style="height:100%; width:100%">
+
+####    Modify setting- easy use
+<img src="assets/easy modify.PNG" alt="modify" style="height:100%; width:100%">
+
+####  Using Amazon RDS
++   Connect to the database engine
++   Working with the data in the database
+
+####    Connecting to the database
++   A database connection allows you to work  with database tables directly.
++   Use any standard SQL client application to connect to a database on the DB instance.
+
+####    Steps to connecting to database
+<img src="assets/connecting db step.PNG" alt="database" style="height:100%; width:100%">
+
+####    MySQL command-line
+<img src="assets/command line.PNG" alt="command line" style="height:100%; width:100%">
+
+####    Troubleshooting
+1.      Inbound rules
+<img src="assets/inbound rules.PNG" alt="inbound rules" style="height:100%; width:100%">  
+
+2.      Public accessibility
+<img src="assets/public accesibility.PNG" alt="public accessibility rules" style="height:100%; width:100%">
+
+3.      Port
+<img src="assets/port.PNG" alt="port" style="height:100%; width:100%">
+
+4.      Availability
+    For a newly created DB instance, the DB instance has a status of creating until the DB instance is ready to use. When the state changes to available, you can connect to the DB instance. Depending on the size of your DB instance, it can take up to 20 minutes before an instance is available.
+
+5.      Internet gateway
+    For DB instance to be publicly accessible, the subnets in
+    its DB subnet group must have an internet gateway. 
+
+6.      DNS port
+    The wrong DNS name or endpoint is used to connect to the DB instance.
+
+7.      User authentication
+    User authentication is incorrect because of one of the following reasons:
+    +   You are using an incorrect user name or password at the database level to access the instance from the DB client.
+    +   You don't have the required database permissions to access the instance.
+    +   The client is running on a version that's incompatible with the database version.
+
+ ####    Role based access
+<img src="assets/role based access.PNG" alt="role based access" style="height:100%; width:100%">    
+
+####    Identifying roles
+1.      Service user
+<img src="assets/service user.PNG" alt="Identifying roles" style="height:100%; width:100%"> 
+
+2.      Service administrator
+<img src="assets/service administrator.PNG" alt="Identifying roles" style="height:100%; width:100%"> 
+
+3.      IAM administrator
+    If you are an IAM administrator, you might want to learn details about how you can write policies to manage access to Amazon RDS.
+
+####    Basic SQL commands - CRUD
++   Structured Query Language = SQL
++   SQL is a programming language that communicated with databases.
++   Uses sets of keywords to retrieve data from databases, these keywords are called statements.
++   Create, read, update, delete are the four basic operations for creating and managing persistent data elements.
++   CRUD refers to the major operations which are implemented by databases. Each letter in the acronym can be mapped to a standard SQL statement.
+
+####    Adding data in the database
+<img src="assets/data in database.PNG" alt="data in database" style="height:100%; width:100%"> 
+
+####    Quering data
+<img src="assets/quering data.PNG" alt="quering data" style="height:100%; width:100%"> 
+
+####    Removing data
+<img src="assets/removing data.PNG" alt="removing data" style="height:100%; width:100%"> 
+
+####    Monitoring Amazon RDS
+<img src="assets/monitoring.PNG" alt="monitor
+" style="height:100%; width:100%">
+
+####    Monitoring Amazon in console
+<img src="assets/monitoring console.PNG" alt="monitor
+" style="height:100%; width:100%">
+
+####    Monitoring tab metrics
+<img src="assets/monitoring tab metrics.PNG" alt="monitor
+" style="height:100%; width:100%">
+
+####    Types of metrics
+1.      High CPU or RAM
+    A baseline helps you to interpret the results of this metric. There is no clear value at which you need to worry. It all depends on the database design.    
+2.      Disk space
+    You should be connected if this metric returns values at or above 85 percent of the total disk space. Consider deleting data or archiving data to a different system to free up space.
+
+3.      Network traffic
+    A baseline helps you to interpret the results of his metric. Work with your network architect to understand what expected throughput is. Investigate network traffic if throughput is consistently lower than expected.
+
+4.      Database connections
+    The optimal number of user connections for your database instance will vary based on your instance class and the complexity of the operations being performed. You can determine the number of database connections by associating your database instance with a parameter group where the User Connections parameter is set to a value other than 0 (unlimited). You can either use an existing parameter group or create a new one.
+
+5.      IOPS metrics
+    A baseline helps you to interpret the results of their metric. You should be concerned if values are consistently different than your baseline. For best IOPS performance, make sure your typical working set fits into memory to minimize read and write operations.
+
+6.      Amazon CloudWatch alarms
+    You can watch a single metric over a specific period of time and perform one or more actions based on the value of the metric relative to a threshold you set.
+
+7.      Amazon CloudWatch logs
+    Most database engines enable you to monitor, store, and access your database log files in CloudWatch logs.
