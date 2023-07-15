@@ -566,7 +566,7 @@ In the center pane, there should be a running instance that is named App Server.
 
 +   In the Details tab, copy the Public IPv4 address to your clipboard.
 
-Tip: You can choose copy   to copy the displayed value the displayed value.
+Tip: You can choose copy to copy the displayed value the displayed value.
 
 +   Open a new web browser tab, paste the IP address into the address bar, and then press Enter.
 
