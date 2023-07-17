@@ -1,0 +1,16 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,452.6825,5432.19,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US West (Oregon),Load Balancer,Application Load Balancer,0,39.79,477.48,USD,Number of Application Load Balancers (1)
+My Estimate,US West (Oregon),EC2,Amazon EC2 ,0,32.1925,386.31,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 1, Peak: 2, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t4g.small), Pricing strategy (On-Demand), EBS DT Inbound: Internet (50 GB per month), DT Outbound: Internet (200 GB per month), DT Intra-Region: (0 TB per month), Enable monitoring (disabled)"
+My Estimate,US West (Oregon),Database,Amazon RDS for MySQL,0,380.7,4568.40,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (1), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
