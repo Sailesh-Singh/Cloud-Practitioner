@@ -38,3 +38,6 @@ We begin our journey from AWS Educate course. Click [Getting Started with Cloud 
 
 ##  <a href="./Getting Started with Security/README.md">Getting Started with Security</a>
 We begin our journey from AWS Educate course. Click [Getting Started with Security](https://awseducate.instructure.com/courses/890) to begin learning. In this course we learn about how to write security policies, set up users, groups, and roles, apply permissions, and review credentials. Also learn about additional AWS security services.  <a href="./Getting Started with Cloud Operations/README.md"><i>learn more..</i></a>
+
+##  <a href="./Getting Started with Serverless/README.md">Getting Started with Serverless</a>
+We begin our journey from AWS Educate course. Click [Getting Started with Serverless](https://awseducate.instructure.com/courses/905) to begin learning. In this course, we learn about the key concepts and features of AWS Lambda including creating functions, configuring functions, monitoring and best practices. Also learn about additional AWS serverless services that are available to us.<a href="./Getting Started with Serverless/README.md"><i>learn more..</i></a>
